@@ -212,3 +212,49 @@ A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional 
 <div style="text-align: center;">
 <img src="assets/Competitors/Budget.png" width=200px >
 </div>
+
+#### 2.1.1. Análisis competitivo
+#### 2.1.2. Estrategias y tácticas frente a competidores.
+### 2.2. Entrevistas.
+#### 2.2.1. Diseño de entrevistas
+
+##### Segmento 1 (Dueño de vehiculo):
+###### Preguntas de Información General:
+1. ¿Cuál es tu nombre?
+2. ¿Cuántos años tienes?
+3. ¿En qué distrito vives?
+4. ¿A qué te dedicas actualmente?
+
+#### Preguntas sobre el alquiler de sus vehículos:
+5. ¿Que tipo de documento exiges para proceder con el alquiler?
+6. ¿Que tipo de vehiculo ofreces para el alquiler?
+7. ¿Cual es la cantidad minima y maxima de tiempo que permites alquilar tu vehiculo?
+8. ¿Como llevas la cuenta de todos tus vehiculos, tanto alquilados como sin alquilar?}
+
+#### Preguntas sobre la plataforma:
+9. ¿Que tipo de plataforma usas para ofrecer tu vehiculo?
+10. ¿En que dispositivos accedes a dichas plataformas?
+11. ¿Consideras que las aplicaciones te dan facilidades para identificar clientes confiables?
+13. ¿Estarias dispuesto a ofrecer tus vehiculos en una nueva plataforma que te permita consultar reseñas de un cliente previo al alquiler?
+14. ¿Estarias dispuesto a ofrecer tus vehiculos en una nueva plataforma que te ofrezca un panel donde registrar tus vehiculos y consultar su estado?
+15. ¿Estarias dispuesto a ofrecer tus vehiculos en una nueva plataforma que te permita reseñar a los clientes?
+##### Segmento 2 (Usuario que busca alquilar un vehiculo):
+###### Preguntas de Información General:
+1. ¿Cuál es tu nombre?
+2. ¿Cuántos años tienes?
+3. ¿En qué distrito vives?
+4. ¿A qué te dedicas actualmente?
+
+#### Preguntas sobre el alquiler de sus vehículos:
+5. ¿Que tipo de documento te exigen para proceder con el alquiler?
+6. ¿Que tipo de vehiculo buscas alquilar?
+7. ¿Que documentos te suelen pedir previo al alquiler del vehiculo?
+8. ¿Que restricciones se te imponen previo al alquiler del vehiculo?
+9. 
+#### Preguntas sobre la plataforma:
+9. ¿Que tipo de plataforma usas para buscar vehiculos?
+10. ¿En que dispositivos accedes a dichas plataformas?
+11. ¿Consideras que las aplicaciones te dan facilidades para identificar vehiculos o arrendadores confiables?
+12. ¿Estarias dispuesto a migrar a una nueva plataforma que te permita consultar reseñas de arrendadores antes de alquilar?
+13. ¿Estarias dispuesto a usar una nueva plataforma que te permita reservar un vehiculo en unas fechas concretas antes de alquilarlo?
+14. ¿Estarias dispuesto a usar una nueva plataforma que te permita reseñar a los arrendadores?

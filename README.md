@@ -25,9 +25,9 @@
 |---------|-------|-------|-----------------------------|
 | 0.1     |       |       |                             |
 
-| URL de la organización del proyecto | URL del repositorio del reporte |
-|:-----------------------------------:|:-------------------------------:|
-|                                     |                                 |
+| URL de la organización del proyecto |                      URL del repositorio del reporte                       |
+|:-----------------------------------:|:--------------------------------------------------------------------------:|
+|             https://github.com/Grupo-4-Open-Source                        |               https://github.com/Grupo-4-Open-Source/Report                |
 
 - [Student Outcome](#student-outcome)
 

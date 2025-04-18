@@ -43,7 +43,7 @@
             - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
             - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
             - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivos](#13-segmentos-objetivo)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 - [Capítulo II: Requirements Elicitation & Analysis](#cap2)
     - [2.1. Competidores](#21-competidores)
@@ -54,7 +54,7 @@
         - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
         - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
     - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User persona](#231-user-personas)
+        - [2.3.1. User Personas](#231-user-personas)
         - [2.3.2. User Task Matrix](#232-user-task-matrix)
         - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
         - [2.3.4. Empathy Mapping](#234-empathy-mapping)
@@ -192,92 +192,32 @@ del ABET – EAC - Student Outcome 3.
 </table>
 
 ## Capítulo I: Introducción <a id="cap1"></a>
+
+(tabla del team profile)
+
 ## Capítulo II: Requirements Elicitation & Analysis <a id="cap2"></a>
 
 ### 2.1. Competidores
-Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones que ya existen en el mercado, para ver que es lo que ofrecen y como podemos diferenciarnos de ellos.
+Previo al desarrollo de la aplicacion, hicimos una busqueda de las opciones que ya existen en el mercado, para ver que es lo que ofrecen y como podemos diferenciarnos de ellos.
 - **Kayak:**
 Kayak es una de las plataformas de búsqueda de viajes más grandes del mundo. Permite a los usuarios buscar y comparar precios de vuelos, hoteles y alquiler de coches en una sola plataforma. Kayak también ofrece herramientas para planificar viajes, como alertas de precios y recomendaciones personalizadas.
 <div style="text-align: center;">
-<img src="assets/Competitors/Kayak.png" width=310  alt="">
+<img src="assets/Competitors/Kayak.png" width=200px >
 </div>
 
 - **Peru Rent A Car:**
 Esta plataforma se especializa en el alquiler de coches en Perú. Ofrece una amplia gama de vehículos y opciones de alquiler, así como información sobre destinos turísticos en Perú. La plataforma también permite a los usuarios comparar precios y reservar coches en línea.
 <div style="text-align: center;">
-<img src="assets/Competitors/PeruRentACar.png" width=200px  alt="">
+<img src="assets/Competitors/PeruRentACar.png" width=200px >
 </div>
 
 - **Budget Car Rental Peru:**
 A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional que ofrece servicios de alquiler de coches en Perú. La plataforma permite a los usuarios buscar y comparar precios de coches de alquiler en diferentes ubicaciones y reservar en línea. Budget Car Rental también ofrece opciones de alquiler a largo plazo y programas de fidelización.
 <div style="text-align: center;">
-<img src="assets/Competitors/Budget.png" width=225  alt="">
+<img src="assets/Competitors/Budget.png" width=200px >
 </div>
 
 #### 2.1.1. Análisis competitivo
-<table border="1" style="text-align: center;">
-	<tbody>
-		<tr><td colspan="6">Análisis de competidores</td></tr>
-		<tr><td colspan="2"></td><td>EasyRent</td><td>Kayak</td><td>Peru Rent A Car</td><td>Budget Car Rental Peru</td></tr>
-		<tr><td rowspan="2">Perfil</td><td>Resumen</td>
-			<td>Una aplicación que busca ofrecer una plataforma rápida y ágil para el alquiler de autos, con un fuerte enfoque en la seguridad de ambas partes.</td>
-			<td>Kayak es una plataforma líder de búsqueda tanto de vuelos, como cuartos de hotel, alquiler de vehículos, etc.</td>
-			<td>Esta plataforma web presenta parte de un catálogo establecido de vehículos para alquilar, con una atención mediante WhatsApp y dirigido solo a clientes.</td>
-			<td>Plataforma de similar funcionamiento que Rent A Car Peru, orientado a clientes con un énfasis en cuidar el presupuesto de los mismos.</td></tr>
-		<tr><td>Ventaja competitiva</td>
-			<td>Ofrecer una plataforma tanto para dueños de vehículos como a clientes interesados en alquilar.</td>
-			<td>Es la aplicación líder en la búsqueda de servicios por su variedad y robusta plataforma web.</td>
-			<td>Líder local del servicio de alquiler de autos, con una amplia flota y rápida atención al usuario</td>
-			<td>Ofrece una alternativa de alquiler económica velando por el bolsillo de sus clientes. </td></tr>
-		<tr><td rowspan="2">Perfil de Marketing</td><td>Mercado objetivo</td>
-			<td>Jóvenes y adultos desde los 20 a los 50 años.</td>
-			<td>Turistas o viajeros que necesiten cualquier tipo de servicio de comodidad.</td>
-			<td>Adultos peruanos que busquen alquilar un vehiculo.</td>
-			<td>Adultos peruanos que busquen alquilar un vehiculo económico.</td></tr>
-		<tr><td>Estrategias de marketing</td>
-			<td>Marketing digital en redes sociales y colaboraciones con influencers.</td>
-			<td>Alianza con Google Ads, tanto en Youtube como Chrome.</td>
-			<td>Patrocinio mediante búsquedas de Chrome.</td>
-			<td>Patrocinio mediante búsquedas de Chrome.</td></tr>
-		<tr><td rowspan="3">Perfil de Producto</td>
-			<td>Productos y Servicios</td>
-			<td>Aplicación destinada a la oferta de vehículos en alquiler, como la demanda de los mismos.</td>
-			<td>Aplicación móvil y web que cuenta con una enorme variedad de servicios esenciales para viajeros y turistas</td>
-			<td>Aplicación web rápida e intuitiva que permite consultar parte del catálogo de vehículos disponibles para alquiler.</td>
-			<td>Aplicación web ágil y amigable que permite consultar una limitada oferta de vehículos económicos en alquiler</td></tr>
-		<tr><td>Precios y Costos</td>
-			<td>Costos por publicación de vehículos mediante una suscripción.</td>
-			<td>Modelo gratuito, con cobro de comisión a las empresas referidas.</td>
-			<td>Ingreso directo mediante el alquiler.</td>
-			<td>Ingreso directo mediante el alquiler.</td></tr>
-		<tr><td>Canales de distribución</td>
-			<td>Disponible en línea a través de la aplicación web.</td>
-			<td>Descargable en Google Play y App Store y la plataforma web.</td>
-			<td>Disponible en línea a través de la aplicación web.</td>
-			<td>Disponible en línea a través de la aplicación web.</td></tr>
-		<tr><td rowspan="4">Análisis SWOT</td><td>Fortalezas</td><td><ul>
-                    <li>Orientado a jóvenes y adultos peruanos</li><li>Facilidades para alquilar, como ofrecer alquiler</li><li>Énfasis en la seguridad y garantía</li></ul></td>
-			<td><ul>
-                    <li>Gran cantidad de usuarios</li><li>Referente del sector</li><li>Plataformas ágiles e intuitivas</li></ul></td>
-			<td><ul><li>Plataforma local</li><li>Excelente atención al cliente</li></ul></td>
-			<td><ul><li>Plataforma web amigable</li><li>Todo el catálogo está disponible para cualquier usuario</li></ul></td></tr>
-		<tr><td>Debilidades</td>
-            <td><ul><li>Nuevo competidor</li><li>Sector con competidores fuertes ya establecidos</li></ul></td>
-			<td><ul><li>Pobre atención al cliente</li></ul></td>
-			<td><ul><li>Solo se puede consultar parte del catálogo de vehículos</li></ul></td>
-			<td><ul><li>Opta por un nicho muy concreto</li><li>No cuenta con tanta relevancia como su competencia</li></ul></td></tr>
-		<tr><td>Oportunidades</td>
-            <td><ul><li>Sin competidores a nivel nacional</li><li>Ofrece servicio para ambas partes involucradas en el alquiler</li></ul></td>
-			<td><ul><li>Fuerte presencia internacional</li><li>Referente del sector</li></ul></td>
-			<td><ul><li>Flota amplia y en crecimiento</li><li>Atención personalizada</li></ul></td>
-			<td><ul><li>Excelente interfaz</li></ul></td></tr>
-		<tr><td>Amenazas</td>
-            <td><ul><li>Competencia ya establecida</li><li>Sector muy competitivo</li></ul></td>
-			<td><ul><li>Oferta demasiado ámplia</li><li>Sin control de calidad</li></ul></td>
-			<td><ul><li>Oferta fija y poco variada</li><li>Sin opciones para dueños interesados en alquilar</li></ul></td>
-<td><ul><li>Se ve opacado por la competencia</li><li>Oferta aún más limitada que la competencia</li></ul></td>
-</tr></tbody></table>
-
 #### 2.1.2. Estrategias y tácticas frente a competidores.
 ### 2.2. Entrevistas.
 #### 2.2.1. Diseño de entrevistas
@@ -291,17 +231,17 @@ A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional 
 
 #### Preguntas sobre el alquiler de sus vehículos:
 5. ¿Que tipo de documento exiges para proceder con el alquiler?
-6. ¿Qué tipo de vehículo ofreces para el alquiler?
+6. ¿Que tipo de vehiculo ofreces para el alquiler?
 7. ¿Cual es la cantidad minima y maxima de tiempo que permites alquilar tu vehiculo?
-8. ¿Cómo llevas la cuenta de todos tus vehículos, tanto alquilados como sin alquilar?
+8. ¿Como llevas la cuenta de todos tus vehiculos, tanto alquilados como sin alquilar?}
 
 #### Preguntas sobre la plataforma:
 9. ¿Que tipo de plataforma usas para ofrecer tu vehiculo?
-10. ¿En qué dispositivos accedes a dichas plataformas?
+10. ¿En que dispositivos accedes a dichas plataformas?
 11. ¿Consideras que las aplicaciones te dan facilidades para identificar clientes confiables?
-13. ¿Estarías dispuesto a ofrecer tus vehículos en una nueva plataforma que te permita consultar reseñas de un cliente previo al alquiler?
-14. ¿Estarías dispuesto a ofrecer tus vehículos en una nueva plataforma que te ofrezca un panel donde registrar tus vehículos y consultar su estado?
-15. ¿Estarías dispuesto a ofrecer tus vehículos en una nueva plataforma que te permita reseñar a los clientes?
+13. ¿Estarias dispuesto a ofrecer tus vehiculos en una nueva plataforma que te permita consultar reseñas de un cliente previo al alquiler?
+14. ¿Estarias dispuesto a ofrecer tus vehiculos en una nueva plataforma que te ofrezca un panel donde registrar tus vehiculos y consultar su estado?
+15. ¿Estarias dispuesto a ofrecer tus vehiculos en una nueva plataforma que te permita reseñar a los clientes?
 ##### Segmento 2 (Usuario que busca alquilar un vehiculo):
 ###### Preguntas de Información General:
 1. ¿Cuál es tu nombre?
@@ -310,14 +250,15 @@ A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional 
 4. ¿A qué te dedicas actualmente?
 
 #### Preguntas sobre el alquiler de sus vehículos:
-5. ¿Qué tipo de documento te exigen para proceder con el alquiler?
+5. ¿Que tipo de documento te exigen para proceder con el alquiler?
 6. ¿Que tipo de vehiculo buscas alquilar?
 7. ¿Que documentos te suelen pedir previo al alquiler del vehiculo?
 8. ¿Que restricciones se te imponen previo al alquiler del vehiculo?
+9. 
 #### Preguntas sobre la plataforma:
-9. ¿Qué tipo de plataforma usas para buscar vehículos?
-10. ¿En qué dispositivos accedes a dichas plataformas?
-11. ¿Consideras que las aplicaciones te dan facilidades para identificar vehículos o arrendadores confiables?
-12. ¿Estarías dispuesto a migrar a una nueva plataforma que te permita consultar reseñas de arrendadores antes de alquilar?
-13. ¿Estarías dispuesto a usar una nueva plataforma que te permita reservar un vehículo en unas fechas concretas antes de alquilarlo?
-14. ¿Estarías dispuesto a usar una nueva plataforma que te permita reseñar a los arrendadores?
+9. ¿Que tipo de plataforma usas para buscar vehiculos?
+10. ¿En que dispositivos accedes a dichas plataformas?
+11. ¿Consideras que las aplicaciones te dan facilidades para identificar vehiculos o arrendadores confiables?
+12. ¿Estarias dispuesto a migrar a una nueva plataforma que te permita consultar reseñas de arrendadores antes de alquilar?
+13. ¿Estarias dispuesto a usar una nueva plataforma que te permita reservar un vehiculo en unas fechas concretas antes de alquilarlo?
+14. ¿Estarias dispuesto a usar una nueva plataforma que te permita reseñar a los arrendadores?

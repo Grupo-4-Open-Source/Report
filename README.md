@@ -331,7 +331,7 @@ Debe ser intuitivo, confiable y rápido, para que así se vea visualmente limpio
 
 ##### 1.2.2.4. Lean UX Canvas
 
-<img src="assets/lean-ux-canva/UX%20canva.png" width=400 >
+<img src="assets/lean-ux-canva/UX%20canva.png" width=800 >
 
 ## Capítulo II: Requirements Elicitation & Analysis <a id="cap2"></a>
 

@@ -207,6 +207,132 @@ Nuestro servicio permite que los propietarios de vehículos registrar y gestiona
 **Visión**: Ser la plataforma líder de alquiler de vehículos en Lima, reconocido por su confiabilidad y compromiso con una experiencia de usuarios de calidad.
 
 #### 1.1.2. Perfiles de integrantes del equipo
+
+### 1.2. Solution Profile
+#### 1.2.1 Antecedentes y problemática
+
+
+###### What
+
+- ¿Cuál es el problema?
+
+Existe una falta de acceso eficiente y confiable al alquiler de vehículos en Lima. Los usuarios tienen dificultades para encontrar opciones adecuadas a sus necesidades, mientras que los propietarios carecen de canales accesibles y seguros para ofrecer sus vehículos en alquiler.
+
+###### When
+
+- ¿Cuándo sucede el problema?
+
+El problema se da cuando una persona desea alquilar o la otra persona no tiene un contacto para poder alquilar su vehículo por un lugar seguro y así evitar alguna estafa.
+
+###### Where
+
+- ¿Dónde se presenta el problema de negocio?
+
+El problema se manifiesta en Lima Metropolitana, donde el tráfico y la demanda de transporte alternativo se complica, aún más el acceso rápido a servicios de alquiler confiables.
+
+##### Who
+
+- ¿Quiénes están involucrados?
+
+Estarían involucrados los usuarios que necesitan alquilar un vehículo y no encuentran un lugar confiable, y los propietarios de vehículos que desean generar ingresos adicionales alquilando sus autos, pero no tienen una plataforma efectiva para hacerlo.
+
+##### Why
+
+- ¿Por qué se origina el problema?
+
+El problema se da por la falta de una plataforma digitalizada que conecten eficientemente la oferta y demanda de vehículos en alquilar, así como por la desconfianza en los procesos actuales, que suelen ser informales, inseguros o pocos transparentes.
+
+##### How
+
+- ¿Cómo afecta este problema a las personas involucradas?
+
+Esto genera frustración en los usuarios al no encontrar vehículos adecuados, aumenta el riesgo de fraudes o malas experiencias, y limita las oportunidades económicas para propietarios que podrían aprovechar sus vehículos sin uso para generar ingresos.
+
+##### How much
+
+- ¿Cuánto impacto genera el problema en la sociedad?
+
+Aunque no hay un número exacto de problemas afectados por las estafas al momento de la alquilación de vehículos o que los arrendadores de vehículos regresando el choche en pésimas condiciones, estos casos son comunes en Lima debido a la informalidad del sector.
+
+#### 1.2.2 Lean UX Process
+##### 1.2.2.1. Lean UX Problem Statements
+
+Los usuarios en Lima que necesitan alquilar vehículos tienen dificultades para encontrar opciones confiables, seguras y acordes a sus necesidades, debido a la informalidad del mercado, la falta de filtros personalizados, y procesos poco transparentes. Esto genera desconfianza y experiencia negativas tanto en arrendadores como en propietarios.
+
+##### 1.2.2.2. Lean UX Assumptions
+###### **Supuestos del Negocio:**
+
+**Creo que mis usuarios necesitan** una aplicación web que funcionaria como una interfaz para los arrendadores y los propietarios de vehículos más confiable.
+
+**Esas necesidades se pueden resolver** mediante una plataforma digital que ofrezca filtros personalizados, pagos seguros y un panel de reseñas para generar confianza.
+
+**Mis clientes iniciales** serán personas entre 25 y 45 años que residan en Lima Metropolitana, que no cuentan con vehículo propio, pero necesitan uno de forma temporal; y también propietarios con 1 o más vehículos en desuso que deseen generar ingresos extra.
+
+**El valor #1 que el cliente requiere de mi servicio** es la confianza y seguridad en el proceso de alquiler.
+
+**El cliente también puede obtener estos servicios adicionales** como el historial de reservas, clasificaciones y reseñas, soporte ate incidentes, opciones de seguro y promociones en temporadas específicas.
+
+**Voy a adquirir a mis clientes a través de** publicidad en redes sociales como Instagram, Facebook y TikTok. Además, se podría publicitar en talleres, grifos o negocios locales.
+
+**Mi competencia en el mercado** serán empresas tradicionales de alquiler de autos y también alquileres informales por vía Facebook Marketplace o grupos de WhatsApp.
+
+**Los venceremos debido a** una experiencia digital centrada en el usuarios, precios más accesibles y mayor variedad de vehículos.
+
+**Mis mayores riesgos de producto** son la baja confianza inicial entre usuarios y propietarios.
+
+**Resolveremos esto** mediante una verificación de identidad y contratos digitales.
+
+###### **Supuestos del Cliente:**
+
+**¿Quién es el cliente?**
+
+Personas entre 25 y 45 años residentes en Lima Metropolitana.
+
+**¿Dónde encaja nuestro producto en su vida?**
+
+Cuando necesiten independencia y comodidad para desplazarse y también para generar un ingreso adicional mediante un vehículo que normalmente estaría en desuso.
+
+**¿Qué problemas soluciona nuestro producto?**
+
+Para los usuarios solucionaría la dificultad para encontrar vehículos adecuados al precio y falta de confianza en alquileres informales.
+
+Para los propietarios tendrían una plataforma que les permita alquilar con seguridad, y ya no habría riesgos de fraudes o daños al vehículo.
+
+**¿Cuándo y cómo se utiliza nuestro producto?**
+
+Se utilizaría cuando el cliente necesita alquilar un vehículo por días o fines de semana, también cuando un propietario quiera utilizar la app para registrar su vehículo
+
+**¿Qué características son importantes?**
+
+Filtros avanzados en la búsqueda de vehículos, reservas con fechas y horas específicas, pago seguro dentro de la plataforma y un sistema de calificaciones.
+
+**¿Cómo debería verse y comportarse nuestro producto?**
+
+Debe ser intuitivo, confiable y rápido, para que así se vea visualmente limpio, fácil de navegar y accesible desde cualquier dispositivo móvil.
+
+##### 1.2.2.3. Lean UX Hypothesis Statements
+###### **Hipótesis 1:**
+
+**Creemos que** los usuarios que buscan alquilar un vehículo necesitan una plataforma confiable y con filtros personalizados para lograr encontrar opciones adecuadas de forma rápida y segura.
+
+**Sabremos que esto es cierto cuando veamos** al menos un 60% de los usuarios completan una reserva después de su primera búsqueda.
+
+###### **Hipótesis 2:**
+
+**Creemos que** los propietarios de vehículos necesitan una herramienta para gestionar sus autos en alquiler, ver su historial y calificaciones para lograr mayor confianza y control sobre transacciones.
+
+**Sabremos que esto es cierto cuando veamos** al menos más del 50% de los propietarios registrados publican más de un vehículo o lo mantienen activo al menos por 3 meses.
+
+###### **Hipótesis 3:**
+
+**Creemos que** ambos grupos necesitan una sección de reseñas y calificaciones para lograr una relación de confianza mutua.
+
+**Sabremos que esto sea cierto cuando veamos** al menos más del 70% de los usuarios y propietarios dejan una reseña después de cada alquiler.
+
+##### 1.2.2.4. Lean UX Canvas
+
+<img src="assets/lean-ux-canva/UX%20canva.png" width=400 >
+
 ## Capítulo II: Requirements Elicitation & Analysis <a id="cap2"></a>
 
 ### 2.1. Competidores

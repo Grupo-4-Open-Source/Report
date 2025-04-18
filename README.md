@@ -8,12 +8,15 @@
   <h2 >Sección: 4341</h2>
   <br>
   <h2 >Informe del TB1</h2>
-  <h2 >Startup: </h2>
-  <h2 >Producto: </h2>
+  <h2 >Startup: NovaCode </h2>
+  <h2 >Producto: Automovil-Unite </h2>
   <br>
   <h2 >Integrantes:</h2>
   <ul style="list-style: none; padding: 0;">
       <li><h3>Josue Gonzalo Paiva Quispe</h3></li>
+      <li><h3>Alejandro Torres Alva</h3></li>
+
+
   </ul>
   <br>
   <h4>Abril del 2025</h4>
@@ -191,6 +194,19 @@ del ABET – EAC - Student Outcome 3.
 </table>
 
 ## Capítulo I: Introducción <a id="cap1"></a>
+
+
+### 1.1. Startup Profile
+#### 1.1.1. Descripción de la Startup
+Automovil-Unite es una plataforma creada por estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas del Perú. Esta estaría facilitando el alquiler de vehículos tanto para propietarios como para usuarios.
+
+Nuestro servicio permite que los propietarios de vehículos registrar y gestionar fácilmente sus flotas, mediante un intuitivo panel de control, los propietarios pueden monitorear el estado de sus vehículos y recibir puntuaciones y comentarios de los usuarios. Además, para los usuarios que desean alquilar podrán buscar vehículos de manera simplificada según sus características. Una vez seleccionado su vehículo ideal, los usuarios pueden reservarlo con fechas de inicio y finalización, realizando pagos de manera seguro y acceder a un historial detallado de reservas donde también podrás compartir tus experiencias a través de reseñas.
+
+**Misión**: Facilitar el acceso al alquiler de vehículos de forma seguro, conectando a propietarios y usuarios mediante una plataforma digital intuitiva.
+
+**Visión**: Ser la plataforma líder de alquiler de vehículos en Lima, reconocido por su confiabilidad y compromiso con una experiencia de usuarios de calidad.
+
+#### 1.1.2. Perfiles de integrantes del equipo
 ## Capítulo II: Requirements Elicitation & Analysis <a id="cap2"></a>
 
 ### 2.1. Competidores

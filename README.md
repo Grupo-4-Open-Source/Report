@@ -274,3 +274,184 @@ A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional 
 12. ¿Estarias dispuesto a migrar a una nueva plataforma que te permita consultar reseñas de arrendadores antes de alquilar?
 13. ¿Estarias dispuesto a usar una nueva plataforma que te permita reservar un vehiculo en unas fechas concretas antes de alquilarlo?
 14. ¿Estarias dispuesto a usar una nueva plataforma que te permita reseñar a los arrendadores?
+
+## Capítulo IV: Product Design
+### 4.1. Style Guidelines.
+En esta sección, presentaremos nuestro plan para el diseño, estilo y apariencia de nuestra página web y las páginas de nuestra aplicación. Nuestro objetivo es garantizar que los usuarios disfruten de una interfaz intuitiva y amigable. Para lograrlo, hemos optado por utilizar elementos visuales que sean claros y estéticamente agradables, y hemos establecido restricciones para evitar la inclusión de gráficos poco atractivos.
+#### 4.1.1. General Style Guidelines.
+**Branding:** Creamos un logotipo distintivo y memorable que representa la identidad de nuestra plataforma de alquiler de autos entre particulares. Incorporamos elementos visuales relacionados con el mundo automotriz, como coches, colores asociados con la confianza y la movilidad, para reflejar el tema del alquiler de vehículos.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/logo.jpeg" alt="logo" width="200" height="150"></div>
+
+#### 4.1.2. Web Style Guidelines.
+**Tipografía**
+La tipografía seleccionada es Open Sans, que será utilizada en todos los textos de la aplicación. Este estilo tipográfico ofrece una excelente legibilidad y una apariencia moderna. El tamaño de fuente debe ajustarse automáticamente según el dispositivo, para asegurar que tanto en dispositivos móviles como en escritorio, la lectura sea óptima.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/tipografía.jpeg" alt="logo" width="500" height="500"></div>
+
+**Colores**
+El esquema de colores de la aplicación está basado en tres tonos principales, cuidadosamente seleccionados para dar una apariencia limpia y profesional.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/colores.jpeg" alt="logo" width="600" height="500"></div>
+
+-**Color Primario:**
+Azul Brillante (#3083FF)
+Este color será el más predominante en el diseño. Ideal para encabezados, enlaces principales, botones destacados y navegación. Aporta una sensación de tecnología, confianza y dinamismo.
+
+-**Colores Secundarios:**
+Azul Claro (#E0ECFF)
+Utilizado para fondos suaves, tarjetas informativas o secciones secundarias del diseño. Este tono sirve para equilibrar visualmente el diseño sin competir con el color primario.
+
+Azul Oscuro (#112E59)
+Ideal para textos destacados, encabezados o fondos secundarios que requieren mayor contraste. También puede reforzar el color primario en componentes más formales o elegantes.
+
+-**Colores Neutros (Complementarios):**
+Gris Claro (#EBECF1)
+Se empleará en fondos, bordes, líneas divisorias o componentes secundarios que no deben destacar. Perfecto para mantener una jerarquía visual limpia.
+
+Gris Muy Claro (#E1E2E9)
+Útil para fondos de formularios, tarjetas o contenedores. Ayuda a mantener el diseño minimalista y ordenado.
+
+**Texto**
+Todos los textos de la aplicación serán de color negro, para asegurar un alto contraste y mejorar la legibilidad en cualquier tipo de fondo.
+
+
+
+**Tarjetas de Carros**
+Las tarjetas están diseñadas para mostrar de forma clara y visual la información más relevante de cada vehículo disponible para alquiler. Incluyen:
+
+- Imagen del auto como elemento principal.
+
+- Nombre del modelo y precio por día destacados.
+
+- Distribución limpia y espaciada para facilitar la lectura.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/tarjetas.jpeg" alt="logo" width="200" height="300"></div>
+
+**Botones**
+Los botones siguen una línea visual coherente con el diseño general:
+
+- Botón primario en azul brillante (#3083FF) para llamadas a la acción como “Reservar” o “Ver más”.
+
+- Se destacan visualmente con buen contraste sobre fondos claros.
+
+- Estado hover sugerido con efectos de sombra o cambio de tonalidad para mejorar la interactividad.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/botones.jpeg" alt="logo" width="450" height="300"></div>
+
+**Iconografía**
+La iconografía acompaña la experiencia del usuario reforzando el significado visual de acciones o datos:
+
+- Estilo lineal y moderno.
+
+- Colores: azul oscuro (#112E59) para elementos pasivos y azul brillante para acciones activas.
+
+- Uso propuesto en: ubicación del vehículo, tipo de transmisión, combustible, fecha de alquiler, etc.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/iconografia.jpeg" alt="logo" width="700" height="300"></div>
+
+### 4.2. Information Architecture.
+El objetivo principal de la arquitectura de la información es crear una estructura lógica y amigable para el usuario que les permita encontrar, comprender y navegar el contenido de manera eficiente
+
+#### 4.2.1. Organization Systems.
+
+Como grupo, hemos llegado a la conclusión de adoptar un formato jerárquico estándar, similar al enfoque organizativo que se encuentra en la mayoría de las páginas. Este enfoque de formato puede ser descrito como:
+
+**Home/Header:** En esta sección se encuentra el nombre "Automovil Unite", el logo y la navegación principal del sitio. Incluye también una imagen destacada de un automóvil y un mensaje introductorio junto con un botón de llamada a la acción.
+
+**Cómo funciona:** Esta sección explica el proceso de uso de la plataforma Automovil Unite, detallando los pasos que siguen los usuarios desde que ingresan hasta que completan una transacción o servicio.
+
+**¿Por qué elegirnos?:** Aquí se presentan las ventajas competitivas y beneficios principales de utilizar Automovil Unite frente a otras alternativas del mercado automotriz.
+
+**Carros populares:** Esta sección muestra una selección de vehículos destacados o más buscados en la plataforma, probablemente con imágenes, características básicas y posiblemente precios.
+
+**Testimonios:** Contiene comentarios y valoraciones de clientes satisfechos que han utilizado la plataforma, aportando credibilidad y confianza a potenciales nuevos usuarios.
+
+**Contacto/Footer:** Incluye información para comunicarse con Automovil Unite, enlaces a redes sociales y posiblemente un formulario de contacto o suscripción.
+
+#### 4.2.2. Labeling Systems.
+Los "Labeling Systems" (Sistemas de Etiquetado) son un conjunto de prácticas y estrategias utilizadas para asignar nombres, etiquetas o títulos descriptivos a elementos y secciones dentro de una interfaz digital, como un sitio web, una aplicación móvil o una plataforma en línea.
+
+<div align="center" style="{}" >
+  <strong>Landing page</strong>
+</div>
+Resulta vital que las etiquetas presentes en la landing page no difieran de las que se describen en la estructura que previamente hemos mencionado. Este enfoque se deriva de la facilidad de navegación que nuestra landing page ofrece, gracias a su diseño de simple. Además, no se tiene la intención de incorporar múltiples opciones que requerirían.
+
+#### 4.2.3. SEO Tags and Meta Tags
+Las SEO tags y meta tags son elementos HTML utilizados en el código de una página web para proporcionar información adicional sobre el contenido de la página a los motores de búsqueda y a los usuarios.
+
+<div align="center" style="{}" >
+  <strong>Landing page</strong>
+</div>
+
+**SEO Tags:**
+
+* Title Tag:
+~~~
+<title>Automovil-Unit</title>
+~~~
+
+* Meta Description Tag:
+~~~
+<meta name="description" content="Encuentra, reserva y alquila un coche fácilmente. Consigue un coche donde y cuando lo necesites con tu dispositivo iOS y Android.">
+~~~
+
+**Meta Tags:**
+
+* Charset Meta Tag:
+~~~
+<meta charset="UTF-8">
+~~~
+
+* Viewport Meta Tag:
+~~~
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+~~~
+
+* Author Meta Tag:
+~~~
+<meta name="author" content="Automovil-Unite">
+~~~
+
+* Keywords Meta Tag (opcional):
+~~~
+<meta name="keywords" content="Alquiler de autos,
+Rentar vehículos,
+Arriendo de coches,
+Autos de alquiler,
+Alquiler de carros,
+Vehículos en alquiler,
+Rent a car Lima">
+~~~
+
+#### 4.2.4. Searching Systems
+La landing page actual no incluye un sistema de búsqueda interna (dado que es una página estática enfocada en conversión), por otro lado la aplicación web si dispone de iteraciones: una barra de búsqueda para que los usuarios puedan acceder rápidamente a información específica, como el tipo de vehículos disponibles o servicios adicionales. Para garantizar que los usuarios encuentren lo que necesitan de manera rápida y eficiente, las secciones están diseñadas para ser escaneables con títulos y subtítulos claros. La navegación es sencilla, lo que reduce la necesidad de una barra de búsqueda avanzada en esta primera etapa.
+
+#### 4.2.5. Navigation Systems
+Los "Navigation Systems" (Sistemas de Navegación) se refieren a las estrategias y elementos utilizados en un diseño web o interfaz para guiar a los usuarios a través de la estructura y el contenido de un sitio web, aplicación u otra plataforma digital. Estos sistemas están diseñados para hacer que la navegación sea más intuitiva, eficiente y agradable para los usuarios, permitiéndoles encontrar la información que buscan y moverse entre diferentes secciones con facilidad.
+
+<div align="center" style="{}" >
+  <strong>Landing page</strong>
+</div>
+
+**1. Barra de Menú Superior:** En la parte superior de la página, encontrarás una barra de menú que te permite navegar directamente a las diferentes secciones clave. Los enlaces en el menú te llevarán a: **Home**, **How it works**, **Why Choose Us**, **Popular Cars**, **Testimonials**
+
+**2. Navegación a través de Botones:** En la sección de **"Home"**, un botón **"Regístrate"** te llevará directamente a la web application. Esto garantiza una navegación rápida hacia la acción principal que deseamos que los usuarios tomen.
+
+**3. Footer - Navegación Rápida:** En la parte inferior de la página, el footer incluye una sección de navegación rápida. Aquí encontrarás botones que te llevarán a las secciones clave, como "Home", "How it works", "Why Choose Us", "Popular Cars" y "Testimonials".
+
+**4. Scroll Suave:** Implementa un scroll suave para que, al hacer clic en un enlace del menú o un botón en el footer, los usuarios sean llevados suavemente a la sección correspondiente en lugar de un salto abrupto.
+
+**5. Navegación a Través de Carrusel:** En la sección de "Popular Cars" y "Testimonials" se usa un carrusel para resaltar diferentes ventajas y para que los usuarios puedan explorar de manera ordenada.

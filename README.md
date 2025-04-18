@@ -414,6 +414,59 @@ A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional 
 13. ¿Estarías dispuesto a usar una nueva plataforma que te permita reservar un vehículo en unas fechas concretas antes de alquilarlo?
 14. ¿Estarías dispuesto a usar una nueva plataforma que te permita reseñar a los arrendadores?
 
+#### 2.2.2. Registro de entrevistas
+##### Entrevista #1
+
+Nombre: Renzo Juan de Dios Meza Garay
+
+Edad: 26
+
+Distrito: Ate
+
+<img src="assets/interview/Segmento1.png" width=650px >
+
+URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202022018_upc_edu_pe/EWu5fLUXceZGhrvD8hx7KuwBFx7mNwm1-kLnqm1efW4Ujg?e=LHdNEj
+
+##### Entrevista #2
+
+Nombre: Jonathan Cesar Arevalo Alva
+
+Edad: 34
+
+Distrito: San Martin de Porres
+
+<img src="assets/interview/Segmento2.png" width=650px >
+
+URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202022018_upc_edu_pe/EfRk8-zuCyJBvGIwO-q4tfgBT_v6_FeWtZFEBdE_isoI_A?e=iGfb38
+
+#### 2.2.3. Análisis de entrevistas
+##### Entrevista 1: Renzo Juan de Dios Meza Garay
+
+Análisis de la entrevista:
+
+La entrevista fue realizada a Renzo Juan de Dios Meza Garay, quien nos comenta que, para el alquiler de vehículos, solo solicita el DNI del cliente. Él se dedica al alquiler de camionetas pick-up para trabajos de carga dentro de la ciudad de Lima. La duración mínima del alquiler es de un día, y la máxima, de dos semanas.
+
+Además, nos indica que gestiona sus registros de vehículos alquilados mediante una hoja de Excel. Para promocionar sus servicios, utiliza principalmente el Marketplace, aunque en su mayoría recibe solicitudes por recomendación de personas conocidas. Nos comenta que el dispositivo que más utiliza para gestionar estos contactos es su celular, ya que le permite estar conectado en todo momento.
+
+También considera útil que una aplicación permita calificar a los clientes, ya que esto facilita la identificación de personas confiables y reduce el riesgo de inconvenientes. Le agrada la idea de contar con un panel dentro de una aplicación que le ayude a optimizar y centralizar sus registros de forma más práctica.
+
+Finalmente, opina que tener una página con una red de reseñas podría contribuir a fortalecer su red de contactos y ayudar a identificar posibles clientes que podrían representar un riesgo para los vehículos.
+
+##### Entrevista 2: Jonathan Cesar Arevalo Alva
+
+Análisis de la entrevista:
+
+La entrevista fue realizada a Jonathan Cesar Arevalo Alva, quien nos menciona que, para alquilar un vehículo, le exigen presentar su DNI, un recibo de agua o luz, los antecedentes penales y dejar una garantía notarial de entre 500 y 1000 soles por un periodo de seis meses. Además, señala que el tipo de vehículo que suele buscar es un sedán full equipo, que cuente con todos los permisos requeridos por el Ministerio de Transporte para operar.
+
+Cabe resaltar que una de las principales restricciones en estos alquileres es que el vehículo no puede salir de Lima Metropolitana ni del Callao.
+
+En cuanto a los canales de búsqueda, indica que utiliza las plataformas **NeoAuto** y **Marketplace**, a las cuales accede tanto desde su computadora como desde su celular. Afirma que estas aplicaciones le han facilitado mucho la búsqueda de vehículos, ya que antes solía acudir a mercados comerciales donde se ofrecía publicidad, lo cual hacía el proceso más complicado y lento.
+
+Por otro lado, expresa que estaría dispuesto a migrar a una nueva plataforma, siempre que esta le facilite encontrar vehículos que cuenten con todos los documentos en regla. También le parece útil la opción de concretar fechas directamente desde la aplicación, ya que esto le permitiría planificar mejor sus actividades.
+
+Finalmente, considera muy positiva la posibilidad de contar con una plataforma en la que ambas partes (el arrendador y el arrendatario) se vean beneficiadas y protegidas, reduciendo así la preocupación por posibles estafas.
+
+
 ## Capítulo III: Requirements Specification <a id="cap3"></a>
 ### 3.2. User Stories
 | **Epic / Story ID** | **Título**                               | **Descripción**                                                                                                                    | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                                                                 | **Relacionado con (Epic ID)** |

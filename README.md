@@ -193,7 +193,43 @@ del ABET – EAC - Student Outcome 3.
 
 ## Capítulo I: Introducción <a id="cap1"></a>
 
-(tabla del team profile)
+### 1.1. Startup Profile
+#### 1.1.1. Descripción de la Startup
+
+
+#### 1.1.2. Perfiles de integrantes del equipo
+
+
+| **Integrante**            | ****                                                                        |
+|---------------------------|-----------------------------------------------------------------------------| 
+| **Descripción**           |                                                                             |
+| Foto                      |                                                                             |
+
+| **Integrante**            | ****                                                                        |
+|---------------------------|-----------------------------------------------------------------------------| 
+| **Descripción**           |                                                                             |
+| Foto                      |                                                                             |
+
+
+
+| **Integrante**            | **Kenyi Efrain Ramirez Cabrera**                                                                                                                                                                                                                                                                                                           |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descripción**           | Soy Kenyi Ramirez, estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Mi código de alumno es u202220138. Soy una persona comprometida y trabajadora. Poseo un nivel intermedio en los lenguajes C++, Python, Java y HTML, los cuales aplico para garantizar resultados efectivos en mis tareas. |
+| Foto                      |  ![Kenyi-Ramírez.jpg](assets/team-profile/Kenyi-Ram%C3%ADrez.jpg)                                                                                                                                                                                                                                                               
+
+
+| **Integrante**            | ****                                                                        |
+|---------------------------|-----------------------------------------------------------------------------| 
+| **Descripción**           |                                                                             |
+| Foto                      |                                                                             |
+
+| **Integrante**            | ****                                                                        |
+|---------------------------|-----------------------------------------------------------------------------| 
+| **Descripción**           |                                                                             |
+| Foto                      |                                                                             |
+
+
+
 
 ## Capítulo II: Requirements Elicitation & Analysis <a id="cap2"></a>
 

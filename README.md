@@ -333,6 +333,19 @@ Debe ser intuitivo, confiable y rápido, para que así se vea visualmente limpio
 
 <img src="assets/lean-ux-canva/UX%20canva.png" width=800 >
 
+### 1.3. Segmentos objetivo
+
+Nuestros segmentos objetivos serían dos tipos de usuarios:
+
+**Segmento 1 (Dueño de vehículo):**
+
+Dueños de autos que no usan su vehículo con frecuencia y desean generar ingresos extras, estos serían personas de edad entre 25 a 45 años que residen en Lima Metropolitana.
+
+**Segmento 2 (Usuario que busca alquilar un vehículo):**
+
+Personas que necesitan un vehículo de manera temporal que tengan edad entre 25 a 45 años con residencia en Lima Metropolitana y estos no tendrían un auto propio o profieran no usarlo todo el tiempo, así buscando una alternativa más económica y flexible frente a taxis o apps de transporte.
+
+
 ## Capítulo II: Requirements Elicitation & Analysis <a id="cap2"></a>
 
 ### 2.1. Competidores

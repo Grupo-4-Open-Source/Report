@@ -320,3 +320,94 @@ A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional 
 12. ¿Estarías dispuesto a migrar a una nueva plataforma que te permita consultar reseñas de arrendadores antes de alquilar?
 13. ¿Estarías dispuesto a usar una nueva plataforma que te permita reservar un vehículo en unas fechas concretas antes de alquilarlo?
 14. ¿Estarías dispuesto a usar una nueva plataforma que te permita reseñar a los arrendadores?
+
+
+
+## Capítulo IV: Product Design
+### 4.1. Style Guidelines.
+En esta sección, presentaremos nuestro plan para el diseño, estilo y apariencia de nuestra página web y las páginas de nuestra aplicación. Nuestro objetivo es garantizar que los usuarios disfruten de una interfaz intuitiva y amigable. Para lograrlo, hemos optado por utilizar elementos visuales que sean claros y estéticamente agradables, y hemos establecido restricciones para evitar la inclusión de gráficos poco atractivos.
+#### 4.1.1. General Style Guidelines.
+**Branding:** Creamos un logotipo distintivo y memorable que representa la identidad de nuestra plataforma de alquiler de autos entre particulares. Incorporamos elementos visuales relacionados con el mundo automotriz, como coches, colores asociados con la confianza y la movilidad, para reflejar el tema del alquiler de vehículos.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/logo.jpeg" alt="logo" width="200" height="150"></div>
+
+#### 4.1.2. Web Style Guidelines.
+**Tipografía**
+La tipografía seleccionada es Open Sans, que será utilizada en todos los textos de la aplicación. Este estilo tipográfico ofrece una excelente legibilidad y una apariencia moderna. El tamaño de fuente debe ajustarse automáticamente según el dispositivo, para asegurar que tanto en dispositivos móviles como en escritorio, la lectura sea óptima.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/tipografía.jpeg" alt="logo" width="500" height="500"></div>
+
+**Colores**
+El esquema de colores de la aplicación está basado en tres tonos principales, cuidadosamente seleccionados para dar una apariencia limpia y profesional.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/colores.jpeg" alt="logo" width="600" height="500"></div>
+
+-**Color Primario:**
+Azul Brillante (#3083FF)
+Este color será el más predominante en el diseño. Ideal para encabezados, enlaces principales, botones destacados y navegación. Aporta una sensación de tecnología, confianza y dinamismo.
+
+-**Colores Secundarios:**
+Azul Claro (#E0ECFF)
+Utilizado para fondos suaves, tarjetas informativas o secciones secundarias del diseño. Este tono sirve para equilibrar visualmente el diseño sin competir con el color primario.
+
+Azul Oscuro (#112E59)
+Ideal para textos destacados, encabezados o fondos secundarios que requieren mayor contraste. También puede reforzar el color primario en componentes más formales o elegantes.
+
+-**Colores Neutros (Complementarios):**
+Gris Claro (#EBECF1)
+Se empleará en fondos, bordes, líneas divisorias o componentes secundarios que no deben destacar. Perfecto para mantener una jerarquía visual limpia.
+
+Gris Muy Claro (#E1E2E9)
+Útil para fondos de formularios, tarjetas o contenedores. Ayuda a mantener el diseño minimalista y ordenado.
+
+**Texto**
+Todos los textos de la aplicación serán de color negro, para asegurar un alto contraste y mejorar la legibilidad en cualquier tipo de fondo.
+
+
+
+**Tarjetas de Carros**
+Las tarjetas están diseñadas para mostrar de forma clara y visual la información más relevante de cada vehículo disponible para alquiler. Incluyen:
+
+- Imagen del auto como elemento principal.
+
+- Nombre del modelo y precio por día destacados.
+
+- Distribución limpia y espaciada para facilitar la lectura.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/tarjetas.jpeg" alt="logo" width="200" height="300"></div>
+
+**Botones**
+Los botones siguen una línea visual coherente con el diseño general:
+
+- Botón primario en azul brillante (#3083FF) para llamadas a la acción como “Reservar” o “Ver más”.
+
+- Se destacan visualmente con buen contraste sobre fondos claros.
+
+- Estado hover sugerido con efectos de sombra o cambio de tonalidad para mejorar la interactividad.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/botones.jpeg" alt="logo" width="450" height="300"></div>
+
+**Iconografía**
+La iconografía acompaña la experiencia del usuario reforzando el significado visual de acciones o datos:
+
+- Estilo lineal y moderno.
+
+- Colores: azul oscuro (#112E59) para elementos pasivos y azul brillante para acciones activas.
+
+- Uso propuesto en: ubicación del vehículo, tipo de transmisión, combustible, fecha de alquiler, etc.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/general-style/iconografia.jpeg" alt="logo" width="700" height="300"></div>
+
+

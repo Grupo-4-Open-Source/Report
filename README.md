@@ -581,3 +581,55 @@ Los "Navigation Systems" (Sistemas de Navegación) se refieren a las estrategias
 **4. Scroll Suave:** Implementa un scroll suave para que, al hacer clic en un enlace del menú o un botón en el footer, los usuarios sean llevados suavemente a la sección correspondiente en lugar de un salto abrupto.
 
 **5. Navegación a Través de Carrusel:** En la sección de "Popular Cars" y "Testimonials" se usa un carrusel para resaltar diferentes ventajas y para que los usuarios puedan explorar de manera ordenada.
+
+### 4.3. Landing Page UI Design
+#### 4.3.1. Landing Page Wireframes
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-wireframes/home.jpeg" alt="logo" width="700" height="300"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-wireframes/how-it-work.jpeg" alt="logo" width="700" height="300"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-wireframes/why-choose-us.jpeg" alt="logo" width="700" height="300"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-wireframes/popular-cars.jpeg" alt="logo" width="700" height="300"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-wireframes/testimonials.jpeg" alt="logo" width="700" height="300"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-wireframes/footer.jpeg" alt="logo" width="700" height="300"></div>
+
+#### 4.3.2. Landing Page Mock-up
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-mock-up/home.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-mock-up/how-it-works.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-mock-up/why-choose-us.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-mock-up/popular-cars.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-mock-up/testimonials.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/landing-page-mock-up/footer.jpeg" alt="logo" width="900" height="500"></div>

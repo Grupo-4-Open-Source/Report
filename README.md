@@ -200,7 +200,7 @@ del ABET – EAC - Student Outcome 3.
 #### 1.1.1. Descripción de la Startup
 Automovil-Unite es una plataforma creada por estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas del Perú. Esta estaría facilitando el alquiler de vehículos tanto para propietarios como para usuarios.
 
-Nuestro servicio permite que los propietarios de vehículos registrar y gestionar fácilmente sus flotas, mediante un intuitivo panel de control, los propietarios pueden monitorear el estado de sus vehículos y recibir puntuaciones y comentarios de los usuarios. Además, para los usuarios que desean alquilar podrán buscar vehículos de manera simplificada según sus características. Una vez seleccionado su vehículo ideal, los usuarios pueden reservarlo con fechas de inicio y finalización, realizando pagos de manera seguro y acceder a un historial detallado de reservas donde también podrás compartir tus experiencias a través de reseñas.
+Nuestro servicio permite a los propietarios de vehículos registrar y gestionar fácilmente sus flotas, mediante un intuitivo panel de control, los propietarios pueden monitorear el estado de sus vehículos y recibir puntuaciones y comentarios de los usuarios. Además, para los usuarios que desean alquilar podrán buscar vehículos de manera simplificada según sus características. Una vez seleccionado su vehículo ideal, los usuarios pueden reservarlo con fechas de inicio y finalización, realizando pagos de manera seguro y acceder a un historial detallado de reservas donde también podrás compartir tus experiencias a través de reseñas.
 
 **Misión**: Facilitar el acceso al alquiler de vehículos de forma seguro, conectando a propietarios y usuarios mediante una plataforma digital intuitiva.
 
@@ -372,7 +372,6 @@ A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional 
 #### 2.1.2. Estrategias y tácticas frente a competidores.
 ### 2.2. Entrevistas.
 #### 2.2.1. Diseño de entrevistas
-
 ##### Segmento 1 (Dueño de vehiculo):
 ###### Preguntas de Información General:
 1. ¿Cuál es tu nombre?
@@ -466,6 +465,69 @@ Por otro lado, expresa que estaría dispuesto a migrar a una nueva plataforma, s
 
 Finalmente, considera muy positiva la posibilidad de contar con una plataforma en la que ambas partes (el arrendador y el arrendatario) se vean beneficiadas y protegidas, reduciendo así la preocupación por posibles estafas.
 
+### 2.3. Needfinding.
+#### 2.3.1. User Personas
+A continuación presentamos los user personas identificadas basándonos en las entrevistas realizadas para ambos segmentos objetivos. Estos user personas nos ayudarán a entender mejor las necesidades y expectativas de nuestros futuros usuarios.
+###### Segmento Objetivo 1 (Arrendador de vehículos)
+<img src="assets/Needfinding/Renzo%20meza.png" width=600px>
+
+###### Segmento Objetivo 2 (Arrendatario de vehículos)
+<img src="assets/Needfinding/Jonathan%20Arévalo.png" width=600px>
+
+#### 2.3.2. User Task Matrix
+<table><tr><th rowspan="2" valign="top"><b><i>User Task Matrix</i></b></th>
+    <th colspan="2" valign="top"><b><i>Renzo Meza</i></b></th>
+    <th colspan="2" valign="top"><b><i>Jonathan Arevalo</i></b></th></tr>
+  <tr><td valign="top"><b><i>Frecuencia</i></b></td>
+    <td valign="top"><b><i>Importancia</i></b></td>
+    <td valign="top"><b><i>Frecuencia</i></b></td>
+    <td valign="top"><b><i>Importancia</i></b></td></tr>
+  <tr><td>Comunicación directa con el dueño o cliente</td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>A menudo</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Valoración del dueño o cliente</td>
+    <td><b><i>Baja</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Baja</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Historial de alquileres realizados</td>
+    <td><b><i>Nunca</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>A menudo</i></b></td>
+    <td><b><i>Media</i></b></td></tr>
+  <tr><td>Acceso a los documentos de garantía del cliente o dueño</td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Panel de navegación de vehículos</td>
+    <td><b><i>Nunca</i></b></td>
+    <td><b><i>Baja</i></b></td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Panel de publicación de vehículos</td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Nunca</i></b></td>
+    <td><b><i>Baja</i></b></td></tr></table>
+
+### Explicación de la User Task Matrix
+- **Comunicación directa con el dueño o cliente**: Renzo y Jonathan consideran que es muy importante mantener una comunicación directa con el dueño o cliente, ya que esto les permite resolver dudas y coordinar detalles del alquiler de manera más eficiente.
+- **Valoración del dueño o cliente**: Ambos usuarios consideran que la valoración del dueño o cliente es importante, sin embargo, Jonathan lo valora más debido a la cantidad de dueños con los que trabaja
+- **Historial de alquileres realizados**: Renzo no considera importante tener un historial de alquileres realizados, ya que no lo utiliza para gestionar sus vehículos. Por otro lado, Jonathan considera que es relevante tener un historial de alquileres realizados para poder tener a mano la información de los arrendatarios.
+- **Acceso a los documentos de garantía del cliente o dueño**: Ambos usuarios consideran que es importante tener acceso a los documentos de garantía del cliente o dueño, ya que esto les permite verificar la fidelidad del otro.
+- **Panel de navegación de vehículos**: Renzo no considera importante tener un panel de navegación de vehículos porque no lo utiliza. Por otro lado, Jonathan considera fundamental un panel de navegación de vehículos para buscar opciones rápidamente.
+- **Panel de publicación de vehículos**: Renzo considera importante tener un panel de publicación de vehículos para ofrecer en alquiler sus vehículos, mientras que Jonathan no lo considera relevante porque no publica vehículos.
+
+#### 2.3.3. User Journey Mapping
+###### Segmento Objetivo 1 (Arrendador de vehículos)
+
+###### Segmento Objetivo 2 (Arrendatario de vehículos)
+<img src="assets/Needfinding/jonathanJourneyMapping.png" width=800px>
+
+En cuanto al arrendatario podemos observar frustración y resignación al optar por plataformas gratuitas, pero poco confiables, basándose luego de un plazo determinado en su experiencia personal y juicio crítico a la hora de alquilar un vehículo. Esto se traduce en una experiencia negativa,  que lo termina alejando de las plataformas de alquiler.
 
 ## Capítulo III: Requirements Specification <a id="cap3"></a>
 ### 3.2. User Stories

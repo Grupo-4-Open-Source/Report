@@ -766,3 +766,19 @@ Los "Navigation Systems" (Sistemas de Navegación) se refieren a las estrategias
 <div align="center">
 <td colspan="1" rowspan="6">
 <img src="assets/landing-page-mock-up/footer.jpeg" alt="logo" width="900" height="500"></div>
+
+
+### 4.6. Domain-Driven Software Architecture
+
+#### 4.6.1. Software Architecture Context Diagram
+
+![ContextDiagram.png](assets/software-architecture/ContextDiagram.png)
+
+
+#### 4.6.2. Software Architecture Container Diagrams
+
+![ContainerDiagram.png](assets/software-architecture/ContainerDiagram.png)
+
+#### 4.6.3. Software Architecture Components Diagrams
+
+![ComponentDiagram.png](assets/software-architecture/ComponentDiagram.png)

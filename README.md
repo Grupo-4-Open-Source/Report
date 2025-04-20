@@ -782,3 +782,16 @@ Los "Navigation Systems" (Sistemas de Navegación) se refieren a las estrategias
 #### 4.6.3. Software Architecture Components Diagrams
 
 ![ComponentDiagram.png](assets/software-architecture/ComponentDiagram.png)
+
+
+### 4.7. Software Object-Oriented Design.
+
+#### 4.7.1. Class Diagrams.
+
+![ClassDiagramAutomovilUnite.png](assets/Class%20Diagram/ClassDiagramAutomovilUnite.png)
+
+
+#### 4.7.2. Class Dictionary.
+
+
+

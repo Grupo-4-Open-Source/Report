@@ -772,7 +772,9 @@ Los "Navigation Systems" (Sistemas de Navegación) se refieren a las estrategias
 
 
 #### 4.6.2. Software Architecture Container Diagrams
+
 ![ContainerDiagram.png](assets/software-architecture/ContainerDiagram.png)
 
 #### 4.6.3. Software Architecture Components Diagrams
 
+![ComponentDiagram.png](assets/software-architecture/ComponentDiagram.png)

@@ -174,6 +174,8 @@ del ABET – EAC - Student Outcome 3.
   <tr>
     <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
     <td>
+        <strong>Alejandro Torres</strong><br>
+        <strong>TB1:</strong> En el proyecto, participe en las tareas asignadas, realice una encuesta a cada segmento lo cual me llevo a entender mas el producto a desarrollar, mantuve una comunicacion lo mas activo posible para generar confianza.<br>
 <br>
 <br>
 <br>
@@ -184,6 +186,8 @@ del ABET – EAC - Student Outcome 3.
   <tr>
     <td>Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
     <td>
+        <strong>Alejandro Torres</strong><br>
+        <strong>TB1:</strong> Realice el Lean UX Process lo cual me ayudo a comprender mas en el desarrollo y funcionalidades del aplicativo.<br>
 <br>
 <br>
 <br>

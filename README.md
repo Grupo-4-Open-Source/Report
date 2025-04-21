@@ -600,6 +600,9 @@ En cuanto al arrendatario podemos observar frustración y resignación al optar 
 | TS-18        | Cambiar el Idioma de la Landing Page |
 | TS-19        | Contactar al Equipo de Soporte       |
 | TS-20        | Solucionar Errores Reportados        |
+
+### 3.3. Impact Mapping
+<img src="assets/maps/IMPACT%20MAPPING.png" width=800px>
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines.
 En esta sección, presentaremos nuestro plan para el diseño, estilo y apariencia de nuestra página web y las páginas de nuestra aplicación. Nuestro objetivo es garantizar que los usuarios disfruten de una interfaz intuitiva y amigable. Para lograrlo, hemos optado por utilizar elementos visuales que sean claros y estéticamente agradables, y hemos establecido restricciones para evitar la inclusión de gráficos poco atractivos.

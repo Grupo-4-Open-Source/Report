@@ -829,6 +829,7 @@ Los "Navigation Systems" (Sistemas de Navegación) se refieren a las estrategias
 <td colspan="1" rowspan="6">
 <img src="assets/landing-page-mock-up/footer.jpeg" alt="logo" width="900" height="500"></div>
 
+
 ### 4.4. Web Applications UX/UI Design
 #### 4.4.1. Web Applications Wireframes
 
@@ -1657,3 +1658,115 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc
 <img src="assets/web-applications-prototyping/arrendador-mac.jpeg" alt="logo" width="900" height="500"></div>
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EZllpA64QhlBog_6b0aJhtUBG9RWpvh5bBlBtR0K2YT53w?e=jEgAbJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
+### 4.6. Domain-Driven Software Architecture
+
+#### 4.6.1. Software Architecture Context Diagram
+
+![ContextDiagram.png](assets/software-architecture/ContextDiagram.png)
+
+
+#### 4.6.2. Software Architecture Container Diagrams
+
+![ContainerDiagram.png](assets/software-architecture/ContainerDiagram.png)
+
+#### 4.6.3. Software Architecture Components Diagrams
+
+![ComponentDiagram.png](assets/software-architecture/ComponentDiagram.png)
+
+
+### 4.7. Software Object-Oriented Design.
+
+#### 4.7.1. Class Diagrams.
+
+![ClassDiagramAutomovilUnite.png](assets/Class%20Diagram/ClassDiagramAutomovilUnite.png)
+
+
+#### 4.7.2. Class Dictionary.
+
+**User:** Representa a una persona registrada en la plataforma que puede ser dueña de vehículos, hacer reservas, recibir notificaciones, subir documentos y escribir reseñas.
+- id: Identificador único del usuario.
+- name: Nombre completo del usuario.
+- email: Correo electrónico del usuario.
+- password: Contraseña del usuario.
+- phoneNumber: Número de teléfono del usuario.
+- profileImageUrl: URL de su imagen de perfil.
+
+
+**Vehicle:** Representa un vehículo disponible para alquiler, propiedad de un usuario. Contiene información técnica y comercial.
+- id: Identificador único del vehículo.
+- owner: Usuario que posee el vehículo.
+- model: Modelo del vehículo.
+- brand: Marca del vehículo.
+- seatCount: Número de asientos.
+- imageUrl: URL de la imagen del vehículo.
+- rating: Calificación promedio del vehículo.
+- maxSpeed: Velocidad máxima alcanzable.
+- fuelConsumption: Consumo de combustible.
+- length: Largo del vehículo.
+- width: Ancho del vehículo.
+- height: Alto del vehículo.
+- weight: Peso del vehículo.
+- vehicleClass: Categoría o clase del vehículo.
+- transmission: Tipo de transmisión (manual o automática).
+- pricePerMonth: Precio de alquiler mensual.
+- pickupLocation: Lugar donde se recoge el vehículo.
+
+
+**Reservation:** Representa una solicitud de alquiler de un vehículo por parte de un usuario durante un período específico.
+- id: Identificador único de la reserva.
+- vehicle: Vehículo reservado.
+- renter: Usuario que realiza la reserva.
+- startDate: Fecha de inicio del alquiler.
+- endDate: Fecha de finalización del alquiler.
+- state: Estado actual de la reserva (pendiente, confirmada, cancelada).
+- notificationService: Servicio que gestiona las notificaciones relacionadas.
+
+**Review:** Representa una reseña hecha por un usuario sobre un vehículo, incluye calificación y comentario.
+- id: Identificador único de la reseña.
+- author: Usuario que escribe la reseña.
+- vehicle: Vehículo evaluado.
+- rating: Puntuación dada al vehículo.
+- comment: Comentario textual del usuario.
+
+**Document:** Archivo subido por un usuario (por ejemplo, licencia de conducir).
+- id: Identificador único del documento.
+- user: Usuario al que pertenece el documento.
+- fileUrl: Enlace al archivo subido.
+
+**Payment:** Representa un pago realizado por una reserva de vehículo.
+- id: Identificador único del pago.
+- user: Usuario que realiza el pago.
+- reservation: Reserva asociada al pago.
+- amount: Monto pagado.
+- paymentDate: Fecha y hora del pago.
+- paymentMethod: Método utilizado (ej: tarjeta, transferencia).
+- status: Estado actual del pago.
+
+
+**ReservationState:** Interfaz que representa el estado actual de una reserva (pendiente, confirmada o cancelada).
+
+
+**Notification:** Mensaje enviado a un usuario para informarle sobre eventos relacionados con reservas o vehículos.
+- id: Identificador único de la notificación.
+- user: Usuario que recibe la notificación.
+- message: Texto del mensaje.
+- relatedVehicle: Vehículo relacionado con la notificación.
+- sender: Usuario que envió la notificación.
+
+**NotificationService:**
+observers: Lista de objetos que serán notificados cuando ocurra un evento.
+
+
+**VehicleBuilder:** Builder que facilita la creación paso a paso de objetos Vehicle.
+
+
+**ReservationBuilder:** Builder que permite construir reservas asegurando que se cumplan los pasos y atributos requeridos.
+
+
+### 4.8 Database Design
+
+#### 4.8.1 Database Diagram
+
+![DatabaseDiagramAutomovilUnite.png](assets/DatabaseDiagram/DatabaseDiagramAutomovilUnite.png)

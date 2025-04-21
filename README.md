@@ -793,5 +793,81 @@ Los "Navigation Systems" (Sistemas de Navegación) se refieren a las estrategias
 
 #### 4.7.2. Class Dictionary.
 
+**User:** Representa a una persona registrada en la plataforma que puede ser dueña de vehículos, hacer reservas, recibir notificaciones, subir documentos y escribir reseñas.
+- id: Identificador único del usuario.
+- name: Nombre completo del usuario.
+- email: Correo electrónico del usuario.
+- password: Contraseña del usuario.
+- phoneNumber: Número de teléfono del usuario.
+- profileImageUrl: URL de su imagen de perfil.
 
 
+**Vehicle:** Representa un vehículo disponible para alquiler, propiedad de un usuario. Contiene información técnica y comercial.
+- id: Identificador único del vehículo.
+- owner: Usuario que posee el vehículo.
+- model: Modelo del vehículo.
+- brand: Marca del vehículo.
+- seatCount: Número de asientos.
+- imageUrl: URL de la imagen del vehículo.
+- rating: Calificación promedio del vehículo.
+- maxSpeed: Velocidad máxima alcanzable.
+- fuelConsumption: Consumo de combustible.
+- length: Largo del vehículo.
+- width: Ancho del vehículo.
+- height: Alto del vehículo.
+- weight: Peso del vehículo.
+- vehicleClass: Categoría o clase del vehículo.
+- transmission: Tipo de transmisión (manual o automática).
+- pricePerMonth: Precio de alquiler mensual.
+- pickupLocation: Lugar donde se recoge el vehículo.
+
+
+**Reservation:** Representa una solicitud de alquiler de un vehículo por parte de un usuario durante un período específico.
+- id: Identificador único de la reserva.
+- vehicle: Vehículo reservado.
+- renter: Usuario que realiza la reserva.
+- startDate: Fecha de inicio del alquiler.
+- endDate: Fecha de finalización del alquiler.
+- state: Estado actual de la reserva (pendiente, confirmada, cancelada).
+- notificationService: Servicio que gestiona las notificaciones relacionadas.
+
+**Review:** Representa una reseña hecha por un usuario sobre un vehículo, incluye calificación y comentario.
+- id: Identificador único de la reseña.
+- author: Usuario que escribe la reseña.
+- vehicle: Vehículo evaluado.
+- rating: Puntuación dada al vehículo.
+- comment: Comentario textual del usuario.
+
+**Document:** Archivo subido por un usuario (por ejemplo, licencia de conducir).
+- id: Identificador único del documento.
+- user: Usuario al que pertenece el documento.
+- fileUrl: Enlace al archivo subido.
+
+**Payment:** Representa un pago realizado por una reserva de vehículo.
+- id: Identificador único del pago.
+- user: Usuario que realiza el pago.
+- reservation: Reserva asociada al pago.
+- amount: Monto pagado.
+- paymentDate: Fecha y hora del pago.
+- paymentMethod: Método utilizado (ej: tarjeta, transferencia).
+- status: Estado actual del pago.
+
+
+**ReservationState:** Interfaz que representa el estado actual de una reserva (pendiente, confirmada o cancelada).
+
+
+**Notification:** Mensaje enviado a un usuario para informarle sobre eventos relacionados con reservas o vehículos.
+- id: Identificador único de la notificación.
+- user: Usuario que recibe la notificación.
+- message: Texto del mensaje.
+- relatedVehicle: Vehículo relacionado con la notificación.
+- sender: Usuario que envió la notificación.
+
+**NotificationService:**
+observers: Lista de objetos que serán notificados cuando ocurra un evento.
+
+
+**VehicleBuilder:** Builder que facilita la creación paso a paso de objetos Vehicle.
+
+
+**ReservationBuilder:** Builder que permite construir reservas asegurando que se cumplan los pasos y atributos requeridos.

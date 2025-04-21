@@ -439,6 +439,19 @@ Distrito: San Martin de Porres
 
 URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202022018_upc_edu_pe/EfRk8-zuCyJBvGIwO-q4tfgBT_v6_FeWtZFEBdE_isoI_A?e=iGfb38
 
+
+##### Entrevista #3
+
+Nombre: Renso Julca Cruz
+
+Edad: 20 años
+
+Distrito: Carabayllo
+
+<img src="assets/interview/Segmento2-entrevista.jpeg" width=650px >
+
+URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EVgOvuuCQthCg-yPL_Jex3wBI9q4v51aXWjPX09Zh_2LiQ?e=UIPUiD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
 #### 2.2.3. Análisis de entrevistas
 ##### Entrevista 1: Renzo Juan de Dios Meza Garay
 
@@ -466,6 +479,19 @@ Por otro lado, expresa que estaría dispuesto a migrar a una nueva plataforma, s
 
 Finalmente, considera muy positiva la posibilidad de contar con una plataforma en la que ambas partes (el arrendador y el arrendatario) se vean beneficiadas y protegidas, reduciendo así la preocupación por posibles estafas.
 
+##### Entrevista 3: Renso Julca Cruz
+
+Análisis de entrevista:
+
+La entrevista realizada a Renso nos permite entender mejor las necesidades y comportamientos de un usuario joven con experiencia en el alquiler de vehículos. Él suele alquilar autos sedán o hatchback para movilizarse dentro de Lima, priorizando la comodidad y la economía. En el caso de viajes fuera de la ciudad, consideraría alquilar una SUV, lo cual demuestra que sus preferencias varían según el contexto de uso. Este perfil nos indica que busca soluciones prácticas y adaptables, dependiendo de sus desplazamientos.
+
+En cuanto a los requisitos previos al alquiler, Renso menciona que generalmente se le solicita su DNI, la licencia de conducir vigente y, en algunos casos, una tarjeta de crédito como garantía. También ha enfrentado ciertas restricciones, como limitaciones por edad (menos de 25 años) o por años de experiencia conduciendo, aunque ya cumple con los dos años mínimos requeridos por algunas empresas. Otro punto que señala es que en ocasiones se imponen límites de kilometraje o zonas restringidas para el uso del vehículo. Estas condiciones pueden representar barreras para ciertos usuarios, especialmente los más jóvenes.
+
+Respecto al uso de plataformas digitales, Renso busca vehículos principalmente a través de páginas web de empresas locales o grupos de Facebook, accediendo desde su celular por comodidad, aunque usa su laptop cuando desea revisar los términos con mayor detalle. Esta conducta muestra que el usuario valora tanto la accesibilidad como el análisis antes de tomar una decisión. Sin embargo, una de sus principales observaciones es la falta de transparencia en muchas de estas plataformas, ya que pocas ofrecen reseñas u opiniones de otros usuarios. Ante esta carencia, Renso se guía por su intuición o consulta con amigos de confianza.
+
+Al ser consultado sobre nuevas funcionalidades en una plataforma, Renso se muestra totalmente dispuesto a migrar a una que le ofrezca más seguridad y confianza, sobre todo si puede consultar reseñas de arrendadores. También valora la posibilidad de realizar reservas anticipadas, lo cual le permite planificar mejor sus actividades y asegurar la disponibilidad del vehículo. Además, le gustaría tener la opción de dejar sus propias reseñas, lo que contribuiría a mejorar la experiencia de otros usuarios y a generar una comunidad basada en la responsabilidad y la transparencia.
+
+En conclusión, Renso representa a un usuario con experiencia moderada, que prioriza la planificación, la confianza y la facilidad de uso en el proceso de alquiler de vehículos. Su testimonio evidencia varias oportunidades para el desarrollo de una plataforma más completa y confiable. Entre ellas, destacan la integración de un sistema de reseñas, filtros por tipo de vehículo y condiciones del alquiler, compatibilidad multidispositivo, y un enfoque más amigable hacia conductores jóvenes que cumplan con los requisitos legales mínimos.
 
 ## Capítulo III: Requirements Specification <a id="cap3"></a>
 ### 3.2. User Stories

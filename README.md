@@ -1615,3 +1615,45 @@ alt="logo" width="900" height="500"></div>
 **Objetivo del usuario:** Como usuario, quiero ver y actualizar mis datos de manera sencilla.  
 **Caminos felices:** El usuario puede actualizar sus datos y cambiar su foto de perfil.  
 **Caminos no felices:** El usuario puede cerrar sesión presionando el botón *Cerrar Sesión*.
+
+### 4.5. Web Applications Prototyping
+
+**Mobile Web Browser Prototyping**
+
+Se diseñó un prototipo para aplicaciones móviles, tomando en cuenta los Diagramas de Wireflow y los Diagramas de User Flow. El prototipo refleja de manera precisa el sistema de navegación propuesto en la arquitectura de información, incorporando las mejoras necesarias.
+
+**ARRENDATARIO**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-prototyping/arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EdzE6EDKORxCgXkRrt9dPtoBODnV8U1-_RqCUxsMe_aTPQ?e=oP6J6Y
+
+**ARRENDADOR**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-prototyping/propietario-arrendador.jpeg" alt="logo" width="900" height="500"></div>
+
+Link del video:https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/ETXJVvc6DnxPrwNExMGXbvQBMuBi7oA3YT7QyQ9mRrX26w?e=kGcUm6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**Desktop Prototyping**
+
+Se diseñó un prototipo para escritorio tomando como base los diagramas de Wireflow y User Flow. Este refleja la estructura de navegación planteada en la arquitectura de información, adaptándose a las características propias del entorno de escritorio y mejorando la experiencia del usuario.
+
+**ARRENDATARIO**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-prototyping/arrendatario-mac.jpeg" alt="logo" width="900" height="500"></div>
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EZllpA64QhlBog_6b0aJhtUBG9RWpvh5bBlBtR0K2YT53w?e=jEgAbJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**ARRENDADOR**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-prototyping/arrendador-mac.jpeg" alt="logo" width="900" height="500"></div>
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EZllpA64QhlBog_6b0aJhtUBG9RWpvh5bBlBtR0K2YT53w?e=jEgAbJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D

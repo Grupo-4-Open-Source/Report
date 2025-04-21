@@ -200,7 +200,7 @@ del ABET – EAC - Student Outcome 3.
 #### 1.1.1. Descripción de la Startup
 Automovil-Unite es una plataforma creada por estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas del Perú. Esta estaría facilitando el alquiler de vehículos tanto para propietarios como para usuarios.
 
-Nuestro servicio permite que los propietarios de vehículos registrar y gestionar fácilmente sus flotas, mediante un intuitivo panel de control, los propietarios pueden monitorear el estado de sus vehículos y recibir puntuaciones y comentarios de los usuarios. Además, para los usuarios que desean alquilar podrán buscar vehículos de manera simplificada según sus características. Una vez seleccionado su vehículo ideal, los usuarios pueden reservarlo con fechas de inicio y finalización, realizando pagos de manera seguro y acceder a un historial detallado de reservas donde también podrás compartir tus experiencias a través de reseñas.
+Nuestro servicio permite a los propietarios de vehículos registrar y gestionar fácilmente sus flotas, mediante un intuitivo panel de control, los propietarios pueden monitorear el estado de sus vehículos y recibir puntuaciones y comentarios de los usuarios. Además, para los usuarios que desean alquilar podrán buscar vehículos de manera simplificada según sus características. Una vez seleccionado su vehículo ideal, los usuarios pueden reservarlo con fechas de inicio y finalización, realizando pagos de manera seguro y acceder a un historial detallado de reservas donde también podrás compartir tus experiencias a través de reseñas.
 
 **Misión**: Facilitar el acceso al alquiler de vehículos de forma seguro, conectando a propietarios y usuarios mediante una plataforma digital intuitiva.
 
@@ -372,7 +372,6 @@ A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional 
 #### 2.1.2. Estrategias y tácticas frente a competidores.
 ### 2.2. Entrevistas.
 #### 2.2.1. Diseño de entrevistas
-
 ##### Segmento 1 (Dueño de vehiculo):
 ###### Preguntas de Información General:
 1. ¿Cuál es tu nombre?
@@ -466,6 +465,69 @@ Por otro lado, expresa que estaría dispuesto a migrar a una nueva plataforma, s
 
 Finalmente, considera muy positiva la posibilidad de contar con una plataforma en la que ambas partes (el arrendador y el arrendatario) se vean beneficiadas y protegidas, reduciendo así la preocupación por posibles estafas.
 
+### 2.3. Needfinding.
+#### 2.3.1. User Personas
+A continuación presentamos los user personas identificadas basándonos en las entrevistas realizadas para ambos segmentos objetivos. Estos user personas nos ayudarán a entender mejor las necesidades y expectativas de nuestros futuros usuarios.
+###### Segmento Objetivo 1 (Arrendador de vehículos)
+<img src="assets/Needfinding/Renzo%20meza.png" width=600px>
+
+###### Segmento Objetivo 2 (Arrendatario de vehículos)
+<img src="assets/Needfinding/Jonathan%20Arévalo.png" width=600px>
+
+#### 2.3.2. User Task Matrix
+<table><tr><th rowspan="2" valign="top"><b><i>User Task Matrix</i></b></th>
+    <th colspan="2" valign="top"><b><i>Renzo Meza</i></b></th>
+    <th colspan="2" valign="top"><b><i>Jonathan Arevalo</i></b></th></tr>
+  <tr><td valign="top"><b><i>Frecuencia</i></b></td>
+    <td valign="top"><b><i>Importancia</i></b></td>
+    <td valign="top"><b><i>Frecuencia</i></b></td>
+    <td valign="top"><b><i>Importancia</i></b></td></tr>
+  <tr><td>Comunicación directa con el dueño o cliente</td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>A menudo</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Valoración del dueño o cliente</td>
+    <td><b><i>Baja</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Baja</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Historial de alquileres realizados</td>
+    <td><b><i>Nunca</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>A menudo</i></b></td>
+    <td><b><i>Media</i></b></td></tr>
+  <tr><td>Acceso a los documentos de garantía del cliente o dueño</td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Panel de navegación de vehículos</td>
+    <td><b><i>Nunca</i></b></td>
+    <td><b><i>Baja</i></b></td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td></tr>
+  <tr><td>Panel de publicación de vehículos</td>
+    <td><b><i>Siempre</i></b></td>
+    <td><b><i>Alta</i></b></td>
+    <td><b><i>Nunca</i></b></td>
+    <td><b><i>Baja</i></b></td></tr></table>
+
+### Explicación de la User Task Matrix
+- **Comunicación directa con el dueño o cliente**: Renzo y Jonathan consideran que es muy importante mantener una comunicación directa con el dueño o cliente, ya que esto les permite resolver dudas y coordinar detalles del alquiler de manera más eficiente.
+- **Valoración del dueño o cliente**: Ambos usuarios consideran que la valoración del dueño o cliente es importante, sin embargo, Jonathan lo valora más debido a la cantidad de dueños con los que trabaja
+- **Historial de alquileres realizados**: Renzo no considera importante tener un historial de alquileres realizados, ya que no lo utiliza para gestionar sus vehículos. Por otro lado, Jonathan considera que es relevante tener un historial de alquileres realizados para poder tener a mano la información de los arrendatarios.
+- **Acceso a los documentos de garantía del cliente o dueño**: Ambos usuarios consideran que es importante tener acceso a los documentos de garantía del cliente o dueño, ya que esto les permite verificar la fidelidad del otro.
+- **Panel de navegación de vehículos**: Renzo no considera importante tener un panel de navegación de vehículos porque no lo utiliza. Por otro lado, Jonathan considera fundamental un panel de navegación de vehículos para buscar opciones rápidamente.
+- **Panel de publicación de vehículos**: Renzo considera importante tener un panel de publicación de vehículos para ofrecer en alquiler sus vehículos, mientras que Jonathan no lo considera relevante porque no publica vehículos.
+
+#### 2.3.3. User Journey Mapping
+###### Segmento Objetivo 1 (Arrendador de vehículos)
+
+###### Segmento Objetivo 2 (Arrendatario de vehículos)
+<img src="assets/Needfinding/jonathanJourneyMapping.png" width=800px>
+
+En cuanto al arrendatario podemos observar frustración y resignación al optar por plataformas gratuitas, pero poco confiables, basándose luego de un plazo determinado en su experiencia personal y juicio crítico a la hora de alquilar un vehículo. Esto se traduce en una experiencia negativa,  que lo termina alejando de las plataformas de alquiler.
 
 ## Capítulo III: Requirements Specification <a id="cap3"></a>
 ### 3.1. To Be Scenario Mapping
@@ -766,6 +828,836 @@ Los "Navigation Systems" (Sistemas de Navegación) se refieren a las estrategias
 <div align="center">
 <td colspan="1" rowspan="6">
 <img src="assets/landing-page-mock-up/footer.jpeg" alt="logo" width="900" height="500"></div>
+
+
+### 4.4. Web Applications UX/UI Design
+#### 4.4.1. Web Applications Wireframes
+
+**NOTA:** El usuario tiene la opción de elegir su tipo de registro, pudiendo ser Arrendatario o Propietario.
+
+**ARRENDATARIO (Persona que alquilará un vehículo):**
+
+**PERFIL DE USUARIO:** En esta sección, el usuario podrá visualizar su información personal como nombre, apellido, número de celular, correo electrónico y la cantidad de autos que ha alquilado. También tendrá la posibilidad de cambiar su foto de perfil mediante el botón Cambiar foto de perfil, actualizar sus datos con el botón Actualizar Datos y cerrar sesión en su cuenta presionando el botón Cerrar Sesión.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/perfil-arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/llenado-perfil.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/cambiar-foto-arrendatario.jpeg"alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/cargando-foto-arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+El botón más relevante en esta sección es el de *Subir documentos de Antecedentes Penales*. Al hacer clic en este botón, el usuario podrá cargar desde su computadora los archivos requeridos para validar su información. Una vez completada la carga, el botón cambiará su nombre a *Actualizar documentos de Antecedentes Penales*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/subir-antecedentes-arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/seleccionar-documento-arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+**LOGIN:** En esta sección, el usuario deberá iniciar sesión haciendo clic en el botón *Acceder*. En caso de no estar registrado, deberá seleccionar el botón *Inscríbete* para crear una cuenta.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/login-arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+**REGISTRO:** En esta sección, los usuarios que aún no se han registrado deberán completar sus datos y hacer clic en el botón *Registrarse como arrendatario* para crear su cuenta.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/registro-arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+**INICIO:** En esta sección, el usuario encontrará todas las opciones disponibles dentro de la plataforma, así como herramientas adicionales que puedan serle útiles, como la visualización de notificaciones recientes. También estará disponible la opción *Compartir tu auto*, que redirige a una ventana dedicada a la búsqueda de vehículos para alquilar. Las funcionalidades accesibles desde aquí incluyen *Registro vehicular*, *Notificaciones* y *Alquiler*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/inicio-arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+**BUSCAR AUTOS:** En esta sección, el usuario podrá aplicar filtros según sus preferencias para encontrar el tipo de auto que desea alquilar. Los criterios a ingresar incluyen ubicación, precio, duración del alquiler, marca, modelo, clase y tipo de transmisión. Una vez completados los campos, deberá hacer clic en el botón *Buscar* para iniciar la búsqueda. Los resultados mostrarán la información del vehículo, los datos del propietario y el estado del anuncio (Disponible o No Disponible). Además, dentro de los resultados estará disponible el botón *Ver contrato de alquiler*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/buscar-carro-arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+El usuario deberá revisar el contrato de alquiler que ha sido publicado por el propietario del vehículo. Si, tras verificarlo, decide continuar con el proceso, deberá generar su firma digital haciendo clic en el botón *Generar firma digital* y luego presionar el botón *Solicitar Alquiler* para enviar la solicitud correspondiente al propietario con el fin de concretar el alquiler.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/contrato-uso-arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/contrato-uso-arrendatario-1.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/contrato-uso-arrendatario-2.jpeg" alt="logo" width="900" height="500"></div>
+
+**MANTENIMIENTO:** En esta sección, el usuario podrá comunicarse directamente con el propietario del vehículo a través de un mensaje enviado a su correo electrónico, con el fin de reportar algún problema o hacer una sugerencia. Para ello, primero deberá buscar al titular usando el botón *Buscar*. También tiene la opción de adjuntar imágenes haciendo clic en *Agregar fotos*. Luego de completar los datos solicitados, deberá presionar el botón *Enviar*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/mantenimiento-arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/mantenimiento-arrendatario.-1.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/mantenimiento-arrendatario.-2.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/mantenimiento-arrendatario-3.jpeg" alt="logo" width="900" height="500"></div>
+
+**SOLICITUDES:** En esta sección, el usuario podrá consultar el estado de sus solicitudes de alquiler, ya sea si están en espera, han sido aceptadas o rechazadas por el propietario del vehículo. En caso de que la solicitud haya sido aceptada, el usuario tendrá la opción de hacer clic en el botón *Pagar*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/solicitudes.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/solicitudes-1.jpeg" alt="logo" width="900" height="500"></div>
+
+**ALQUILER:** En esta sección, el usuario tendrá acceso a toda la información relacionada con los procesos de alquiler que ha realizado. Podrá visualizar cada vehículo que haya solicitado y, si la solicitud fue aceptada, tendrá la opción de presionar el botón *Pagar*. Además, si desea añadir otro vehículo al proceso, podrá hacerlo haciendo clic en el botón *Agregar otro vehículo*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/alquiler-1.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/alquiler-2.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/alquiler-3.jpeg" alt="logo" width="900" height="500"></div>
+
+Al hacer clic en el botón *Pagar*, se abrirá una nueva ventana para realizar el pago. En esta sección, se ofrecerá la opción de pago en efectivo. También se mostrará información detallada sobre el precio del alquiler, la duración del alquiler, la fecha de inicio y fin del contrato, así como el lugar de recogida del vehículo.
+
+Una vez que el usuario presione el botón *Confirmar hora de alquiler*, aparecerá una ventana de *Confirmación de Pago*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/pago-alquiler.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/pago-alquiler-1.jpeg" alt="logo" width="900" height="500"></div>
+
+**ARRENDADOR (Persona que comparte su auto para alquiler)**
+
+**PERFIL DE USUARIO:** En esta sección, el usuario podrá visualizar su información personal, como nombre, apellido, número de celular, correo electrónico y la cantidad de vehículos compartidos. También tendrá la opción de cambiar su foto de perfil haciendo clic en el botón *Cambiar foto de perfil*, actualizar sus datos presionando el botón *Actualizar Datos* y cerrar sesión en su cuenta mediante el botón *Cerrar Sesión*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/perfil-arrendador.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/perfil-arrendador-1.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/perfil-arrendador-2.jpeg" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/perfil-arrendador-3.jpeg" alt="logo" width="900" height="500"></div>
+
+**LOGIN:** Aquí el usuario debera iniciar sesión presionando el boton Acceder , si no esta registrado, debera presionar el botón Inscríbete.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/login-arrendador.jpeg" alt="logo" width="900" height="500"></div>
+
+**REGISTRO:** En esta sección, el usuario que aún no se haya registrado deberá completar sus datos y hacer clic en el botón *Registrarse como arrendatario* para crear su cuenta.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/registro-arrendador.jpeg" 
+alt="logo" width="900" height="500"></div>
+
+**INICIO:** En esta sección, el usuario encontrará todas las opciones disponibles en la plataforma, además de herramientas adicionales que podrían ser útiles, como la visualización de notificaciones recientes. Dentro de esta ventana, también estará la opción *Compartir tu auto*, que redirige a otra sección destinada a la búsqueda de vehículos para alquilar. Las opciones accesibles incluyen *Registro vehicular*, *Notificaciones* y *Alquiler*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/inicio-arrendador.jpeg" 
+alt="logo" width="900" height="500"></div>
+
+**REGISTRO DE VEHÍCULO:** En esta sección, el usuario podrá registrar el vehículo que desea compartir. Los datos a ingresar incluyen marca, modelo, velocidad máxima, consumo, dimensiones (largo, ancho, alto), peso, clase, transmisión, tiempo de alquiler, costo de alquiler mensual y lugar de recogida del vehículo. Una vez completados los campos, el usuario deberá presionar el botón *Crear contrato de alquiler* para activar la opción de *Registrar*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/registro-vehiculo.jpeg" 
+alt="logo" width="900" height="500"></div>
+
+Al hacer clic en el botón *Crear contrato de alquiler*, se abrirá una nueva ventana en la cual el usuario podrá elegir entre presionar el botón *Generar contrato predeterminado* o *Subir contrato manual en PDF*. Al seleccionar *Generar contrato predeterminado*, se creará automáticamente un contrato con condiciones generales. Después de generarlo, el usuario deberá hacer clic en el botón *Subir contrato* para completar el proceso.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/contrato-alquiler.jpeg" 
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/contrato-alquiler-1.jpeg" 
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/contrato-alquiler-2.jpeg" 
+alt="logo" width="900" height="500"></div>
+
+Al hacer clic en *Subir contrato manual en PDF*, se abrirá una ventana donde el usuario podrá cargar los documentos en formato PDF. Además, se generará automáticamente un contrato predeterminado con condiciones generales. Una vez generado el contrato, el usuario deberá presionar el botón *Subir contrato* para finalizar el proceso.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/contrato-alquiler-3.jpeg" 
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/contrato-alquiler-4.jpeg" 
+alt="logo" width="900" height="500"></div>
+
+Después de seleccionar cualquiera de las dos opciones, aparecerá una ventana con un botón *Regresar al registro*, que servirá como redireccionamiento a la ventana principal del *Registro de Vehículo*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/contrato-alquiler-5.jpeg" 
+alt="logo" width="900" height="500"></div>
+
+**NOTIFICACIONES:** En esta sección, el usuario podrá ver las notificaciones de las solicitudes que los arrendatarios hayan generado. Al hacer clic en una notificación, se mostrarán los detalles de la solicitud correspondiente.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/notificaciones.jpeg" 
+alt="logo" width="900" height="500"></div>
+
+**ALQUILER:** En esta sección se mostrarán todos los autos que se hayan compartido. También se podrá consultar el estado del alquiler, un botón para eliminar la publicación y, si el alquiler ya está marcado como *Pagado*, el usuario podrá ver la hora de recogida del vehículo indicada por el arrendatario. Además, estará disponible el botón *Afiliar cuenta Banco con MODO*, que permitirá al usuario vincular una cuenta bancaria, facilitando así el proceso de verificación de pagos.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/alquiler-arrendador.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/alquiler-arrendador-1.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/alquiler-arrendador-2.jpeg"
+alt="logo" width="900" height="500"></div>
+
+Al hacer clic en el cuadro del auto compartido, se mostrarán todas las solicitudes que se hayan revisado para ese vehículo. El usuario podrá revisar cada solicitud. Al seleccionar una solicitud, aparecerán los datos de la persona que desea alquilar el auto. Dentro de esta ventana, el propietario del vehículo podrá consultar los antecedentes penales del arrendatario presionando el botón *Verificar Antecedentes Penales*. Una vez verificado, se indicará al lado del botón si el documento fue *Aceptado* o *Rechazado*.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/ver-solicitud.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/verificar-arrendador.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/aceptar-rechazar.jpeg"
+alt="logo" width="900" height="500"></div>
+
+En esta ventana también estarán disponibles los botones *Aceptar Alquiler* y *Rechazar Alquiler*, donde el propietario del vehículo podrá seleccionar, según la verificación realizada, si desea o no alquilar el vehículo a esa persona. Si el alquiler es aceptado, al presionar el botón *Aceptar Alquiler* aparecerá el mensaje *Estado de Pago pendiente*, lo que indica que el arrendatario aún no ha realizado el pago. Si el mensaje muestra *Estado de Pago Pagado*, significa que el arrendatario ya ha completado el pago del alquiler.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/aceptar-rechazar.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/estado-pago.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-wireframes/estado-pago-1.jpeg"
+alt="logo" width="900" height="500"></div>
+
+#### 4.4.2. Web Applications Wireflow Diagrams
+A continuación se muestra una imagen:
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/Web-Applications-Wireflow-Diagrams/evidencia-figma.jpeg"
+alt="logo" width="800" height="900"></div>
+
+- **Login**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/Web-Applications-Wireflow-Diagrams/iniciar-sesion.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Registro**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/Web-Applications-Wireflow-Diagrams/iniciar-sesion.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Buscar autos**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/Web-Applications-Wireflow-Diagrams/buscar-carro.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Alquiler**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/Web-Applications-Wireflow-Diagrams/alquiler.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Mantenimiento**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/Web-Applications-Wireflow-Diagrams/mantenimiento.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Solictudes**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/Web-Applications-Wireflow-Diagrams/solicitud.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Perfil de usuario**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/Web-Applications-Wireflow-Diagrams/perfil de usuario.jpeg"
+alt="logo" width="900" height="500"></div>
+
+#### 4.4.3. Web Applications Mock-ups
+
+**ARRENDATARIO (Persona que va a alquilar un auto)**
+
+- **Login**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/login-arrendatario.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Registro**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-arrendatario.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Buscar autos**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/busqueda-1.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/busqueda-2.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/busqueda-3.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/busqueda-4.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/busqueda-5.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/busqueda-6.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Alquiler**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/alquiler-1.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/alquiler-2.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/alquiler-3.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Solicitudes**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/solicitud-1.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/solicitud-2.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Mantenimiento**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/mantenimiento-1.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/mantenimiento-2.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/mantenimiento-3.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/mantenimiento-4.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/mantenimiento-5.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/mantenimiento-6.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Perfil de usuario**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-1.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-2.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-3.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-4.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-5.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-6.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-7.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**ARRENDADOR (Persona que comparte su auto para alquiler)**
+
+- **Login**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/login-arrendador.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Registro**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-arrendador.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Inicio**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/inicio-arrendador.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Registro del vehículo**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-vehiculo-1.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-vehiculo-2.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-vehiculo-3.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-vehiculo-4.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-vehiculo-5.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-vehiculo-6.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-vehiculo-7.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-vehiculo-8.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-vehiculo-9.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/registro-vehiculo-10.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Alquiler**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/alquiler-arrendador-1.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/alquiler-arrendador-2.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/alquiler-arrendador-3.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/alquiler-arrendador-4.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/alquiler-arrendador-5.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/alquiler-arrendador-6.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/alquiler-arrendador-7.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Notificaciones**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/notificaciones-arrendador.jpeg"
+alt="logo" width="900" height="500"></div>
+
+- **Perfil de usuario**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-arrendador.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-arrendador-1.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-arrendador-2.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-arrendador-3.jpeg"
+alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-mock-ups/perfil-arrendador-4.jpeg"
+alt="logo" width="900" height="500"></div>
+
+#### 4.4.4. Web Applications User Flow Diagrams
+
+**ARRENDATARIO (Persona que va a alquilar un auto)**
+
+**Inicio de sesión**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/login.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero poder iniciar sesión de forma fácil y rápida.  
+**Caminos felices:** El usuario inicia sesión ingresando su correo y contraseña.  
+**Caminos no felices:** El usuario intenta iniciar sesión sin completar los campos obligatorios.
+
+**Registro**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/login.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero registrarme y poder acceder a la plataforma.  
+**Caminos felices:** El usuario se registra ingresando su correo, nombre, apellido, número de teléfono, país y contraseña.  
+**Caminos no felices:** El usuario intenta registrarse sin llenar los campos necesarios.
+
+**Inicio Principal**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/inicio.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero acceder fácilmente a las opciones para utilizar todas las funciones que ofrece la plataforma.  
+**Caminos felices:** El usuario, al iniciar la plataforma, ve en la parte superior las diferentes opciones disponibles.  
+**Caminos no felices:** El usuario hace clic en una herramienta externa de la plataforma, como un anuncio de accesorios para conducir.
+
+**Buscar autos**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/busqueda.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero poder buscar cualquier vehículo de mi interés.  
+**Caminos felices:** El usuario puede filtrar la búsqueda para obtener mejores resultados.  
+**Caminos no felices:** El usuario consulta el contrato publicado por el propietario.
+
+**Mantenimiento**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/login.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero poder enviar mensajes al propietario del vehículo para reportar problemas o sugerencias.  
+**Caminos felices:** El usuario también puede adjuntar fotos para proporcionar detalles adicionales.  
+**Caminos no felices:** El mensaje llega tanto al correo del propietario como a su sección de notificaciones. Para una mejor comunicación, el usuario debería llamarlo por teléfono.
+
+**Alquiler**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/solicitud.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero poder ver las solicitudes de alquiler y realizar el pago del alquiler.  
+**Caminos felices:** El usuario puede pagar el alquiler tras la aceptación, ya sea en efectivo o en línea.  
+**Caminos no felices:** El usuario necesita registrar sus datos bancarios para realizar el pago correspondiente.
+
+**Solicitudes**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/pagar-solicitud.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero poder ver el estado de las solicitudes que he enviado.  
+**Caminos felices:** El usuario puede ver el estatus de su solicitud y realizar el pago al presionar el botón *Pagar*.  
+**Caminos no felices:** El usuario puede volver a la página anterior presionando la flecha superior izquierda.
+
+**Perfil del usuario**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/perfil.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero ver mis datos, actualizarlos y cargar mis documentos de antecedentes penales fácilmente.  
+**Caminos felices:** El usuario puede actualizar sus datos o cambiar su foto de perfil.  
+**Caminos no felices:** El usuario necesita subir sus documentos de antecedentes penales.
+
+**ARRENDADOR**
+
+**Inicio de sesión**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/login-arrendador.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero poder iniciar sesión de forma fácil y rápida.  
+**Caminos felices:** El usuario inicia sesión ingresando su correo y contraseña.  
+**Caminos no felices:** El usuario intenta iniciar sesión sin completar los campos obligatorios.
+
+**Registro**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/registro-arrendador.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero registrarme y luego acceder a la plataforma.  
+**Caminos felices:** El usuario se registra ingresando su correo, nombre, apellido, número de teléfono, país y contraseña.  
+**Caminos no felices:** El usuario intenta registrarse sin llenar los campos necesarios.
+
+**Inicio Principal**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/inicio-arrendador.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero acceder de forma sencilla a todas las opciones disponibles para usar las facilidades de la plataforma.  
+**Caminos felices:** El usuario ve en la parte superior las diversas opciones disponibles al ingresar a la plataforma.  
+**Caminos no felices:** El usuario hace clic en una herramienta externa de la plataforma, como un anuncio de accesorios para conducir.
+
+**Registrar vehículos**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/registro-vehiculo-arrendador.jpeg"
+alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero registrar mi vehículo de manera sencilla.  
+**Caminos felices:** El usuario ingresa todos los datos necesarios para registrar el vehículo.  
+**Caminos no felices:** El usuario sigue los pasos para crear el contrato, pero no lo completa correctamente.
+
+**Notificaciones**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/notificaciones.jpeg" alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero ver todas las notificaciones de forma fácil.  
+**Caminos felices:** Al hacer clic en *Ver solicitud*, el usuario es redirigido a la ventana de *Alquiler* para revisar las solicitudes.  
+**Caminos no felices:** El usuario ve notificaciones con contenido limitado.
+
+**Alquiler**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/alquiler.jpeg" alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero ver los autos que he puesto en alquiler, las solicitudes que han recibido y también poder verificar los antecedentes penales de los arrendatarios.  
+**Caminos felices:** El usuario puede verificar los antecedentes penales del arrendatario.  
+**Caminos no felices:** El usuario acepta o rechaza la solicitud del arrendatario sin realizar la verificación adecuada.
+
+**Perfil de usuario**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-user-flow-diagrams/perfil-arrendador.jpeg" alt="logo" width="900" height="500"></div>
+
+**Objetivo del usuario:** Como usuario, quiero ver y actualizar mis datos de manera sencilla.  
+**Caminos felices:** El usuario puede actualizar sus datos y cambiar su foto de perfil.  
+**Caminos no felices:** El usuario puede cerrar sesión presionando el botón *Cerrar Sesión*.
+
+### 4.5. Web Applications Prototyping
+
+**Mobile Web Browser Prototyping**
+
+Se diseñó un prototipo para aplicaciones móviles, tomando en cuenta los Diagramas de Wireflow y los Diagramas de User Flow. El prototipo refleja de manera precisa el sistema de navegación propuesto en la arquitectura de información, incorporando las mejoras necesarias.
+
+**ARRENDATARIO**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-prototyping/arrendatario.jpeg" alt="logo" width="900" height="500"></div>
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EdzE6EDKORxCgXkRrt9dPtoBODnV8U1-_RqCUxsMe_aTPQ?e=oP6J6Y
+
+**ARRENDADOR**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-prototyping/propietario-arrendador.jpeg" alt="logo" width="900" height="500"></div>
+
+Link del video:https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/ETXJVvc6DnxPrwNExMGXbvQBMuBi7oA3YT7QyQ9mRrX26w?e=kGcUm6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**Desktop Prototyping**
+
+Se diseñó un prototipo para escritorio tomando como base los diagramas de Wireflow y User Flow. Este refleja la estructura de navegación planteada en la arquitectura de información, adaptándose a las características propias del entorno de escritorio y mejorando la experiencia del usuario.
+
+**ARRENDATARIO**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-prototyping/arrendatario-mac.jpeg" alt="logo" width="900" height="500"></div>
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EZllpA64QhlBog_6b0aJhtUBG9RWpvh5bBlBtR0K2YT53w?e=jEgAbJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**ARRENDADOR**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/web-applications-prototyping/arrendador-mac.jpeg" alt="logo" width="900" height="500"></div>
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EZllpA64QhlBog_6b0aJhtUBG9RWpvh5bBlBtR0K2YT53w?e=jEgAbJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
 ### 4.6. Domain-Driven Software Architecture

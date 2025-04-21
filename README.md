@@ -603,6 +603,31 @@ En cuanto al arrendatario podemos observar frustración y resignación al optar 
 
 ### 3.3. Impact Mapping
 <img src="assets/maps/IMPACT%20MAPPING.png" width=800px>
+
+### 3.4. Product Backlog
+| **#Orden** | **User Story ID** | **Título**                               | **Descripción**                                                                                                                    | **Story Points** |
+|------------|-------------------|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| 1          | US-01             | Registro de Usuario                      | Como visitante, quiero registrarme en la aplicación para poder publicar mis vehículos o consultar opciones de alquiler.            | 3                |
+| 2          | US-02             | Inicio de Sesión                         | Como usuario, quiero iniciar sesión en la aplicación para acceder a mi cuenta y publicar o reservar vehículos.                     | 2                |
+| 3          | US-03             | Recuperación de Contraseña               | Como usuario, quiero recuperar mi contraseña en caso de olvidarla para poder acceder nuevamente a mi cuenta.                       | 3                |
+| 4          | US-04             | Personalizar interfaz                    | Como usuario, quiero personalizar la interfaz ineterfaz según mis preferencias.                                                    | 5                |
+| 5          | US-05             | Cambiar el Idioma de la Aplicación       | Como usuario, quiero cambiar el idioma de la aplicación para poder utilizarla en mi idioma preferido.                              | 3                |
+| 6          | US-06             | Dashboard del usuario                    | Como usuario, quiero contar con un dashboard donde consultar mis vehículos publicados.                                             | 3                | 
+| 7          | US-07             | Creación de publicaciones                | Como usuario, quiero crear publicaciones para ofrecer mis vehículos en alquiler.                                                   | 5                | 
+| 8          | US-08             | Visualizar una publicación               | Como usuario, quiero ver el estado e información de una publicación ya creada.                                                     | 3                | 
+| 9          | US-09             | Eliminar una publicación                 | Como usuario, quiero eliminar una publicación ya creada.                                                                           | 3                |
+| 10         | US-10             | Visualizar las publicaciones de alquiler | Como usuario, quiero navegar en las publicaciones ya existentes de alquiler.                                                       | 3                |
+| 11         | US-11             | Ordenar el precio de los alquileres      | Como usuario, quiero poder ordenar los alquileres disponibles en base a su precio.                                                 | 2                |
+| 12         | US-12             | Reseñar publicaciones de alquiler        | Como usuario, quiero poder dejar reseñas sobre las publicaciones realizadas por los dueños                                         | 4                |
+| 13         | US-13             | Cargar documentos de garantía            | Como usuario, quiero poder cargar mis documentos personales en mi perfil para poder optar a alquilar o publicar.                   | 5                | 
+| 14         | US-14             | Reserva de vehículo                      | Como usuario, quiero tener la opción de reservar un vehículo para alquilar.                                                        | 5                |
+| 15         | US-15             | Cancelar reserva de vehículo             | Como usuario, quiero tener la opción de cancelar una reserva de un vehículo para alquilar.                                         | 4                |
+| 16         | US-16             | Navegación por el Landing Page           | Como visitante, quiero navegar por la landing page del software para obtener la información que deseo del producto.                | 2                | 
+| 17         | US-17             | Ver Información del Startup              | Como visitante, quiero ver la información del equipo de desarrollo para conocer a las personas detrás del software.                | 2                | 
+| 18         | TS-18             | Cambiar el Idioma de la Landing Page     | Como visitante, quiero cambiar el idioma de la landing page para poder entender mejor la información presentada.                   | 3                | 
+| 19         | TS-19             | Contactar al Equipo de Soporte           | Como visitante, quiero contactar al equipo de soporte para obtener ayuda o resolver dudas sobre la plataforma.                     | 3                | 
+| 20         | TS-20             | Solucionar Errores Reportados            | Como desarrollador, quiero corregir los errores del software notificados por el equipo de QA para mejorar la calidad del producto. | 5                | 
+
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines.
 En esta sección, presentaremos nuestro plan para el diseño, estilo y apariencia de nuestra página web y las páginas de nuestra aplicación. Nuestro objetivo es garantizar que los usuarios disfruten de una interfaz intuitiva y amigable. Para lograrlo, hemos optado por utilizar elementos visuales que sean claros y estéticamente agradables, y hemos establecido restricciones para evitar la inclusión de gráficos poco atractivos.

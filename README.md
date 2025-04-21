@@ -871,3 +871,10 @@ observers: Lista de objetos que serán notificados cuando ocurra un evento.
 
 
 **ReservationBuilder:** Builder que permite construir reservas asegurando que se cumplan los pasos y atributos requeridos.
+
+
+### 4.8 Database Design
+
+#### 4.8.1 Database Diagram
+
+![DatabaseDiagramAutomovilUnite.png](assets/DatabaseDiagram/DatabaseDiagramAutomovilUnite.png)

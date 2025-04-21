@@ -225,8 +225,8 @@ del ABET – EAC - Student Outcome 3.
 
 | **Integrante**            | ****                                                                        |
 |---------------------------|-----------------------------------------------------------------------------| 
-| **Descripción**           |                                                                             |
-| Foto                      |                                                                             |
+| **Descripción**           |Mi nombre es Fiorella Angela Vilca Valverde, tengo 23 años y actualmente estoy cursando 5to ciclo de la carrera Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (U.P.C). Elegí esta carrera porque siempre quería saber de las funcionalidades de la computadora y aprender cada día más sobre los lenguajes de programación. Me considero una persona muy sociable, perseverante, responsable, trabajar en equipo y sobre todo leal. Tengo conocimientos en lenguaje de programación C++, Python y Matlab Básico.  |
+| Foto                      |<div style="text-align: center;"> <img src="assets/team-profile/Fiorella-Vilca.jpeg" width=300px>  |
 
 
 

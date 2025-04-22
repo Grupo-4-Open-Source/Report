@@ -226,10 +226,10 @@ Nuestro servicio permite a los propietarios de vehículos registrar y gestionar 
 | **Descripción** | Soy Josue Paiva, tengo 22 años y soy de la carrera de Ingeniería de Software, tengo conocimiento de C++, Python y SQL, me gusta mantener buena comunicación con mis commpañeros de equipo, cumplir con mis tareas y apoyar al resto cuando se requiera. |
 | Foto            | <div style="text-align: center;"> <img src="assets/team-profile/JosuePaiva.jpg" width=400px>                                                                                                                                                            |
 
-| **Integrante**            | ****                                                                        |
-|---------------------------|-----------------------------------------------------------------------------| 
-| **Descripción**           |                                                                             |
-| Foto                      |                                                                             |
+| **Integrante**            | **Javier Oswaldo Tello Murga**                                                                                                                                                                                                                                                                                    |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| **Descripción**           | Soy Javier Telo, estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Soy una persona capaz, con muchas ganas de adquirir conocimientos, sobre todo con los temas que tenga que ver con mi carrera. Tengo conocimiento en wordprees básico, html y css intermedio y C++. |
+| Foto                      | <div style="text-align: center;"> <img src="assets/team-profile/Javier-Tello.jpg" width=400px>                                                                                                                                                                                                                    |
 
 
 

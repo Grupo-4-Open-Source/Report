@@ -200,10 +200,10 @@ del ABET – EAC - Student Outcome 3.
 #### 1.1.2. Perfiles de integrantes del equipo
 
 
-| **Integrante**            | ****                                                                        |
-|---------------------------|-----------------------------------------------------------------------------| 
-| **Descripción**           |                                                                             |
-| Foto                      |                                                                             |
+| **Integrante**  | **Josue Gonzalo Paiva Quispe**                                                                                                                                                                                                                          |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| **Descripción** | Soy Josue Paiva, tengo 22 años y soy de la carrera de Ingeniería de Software, tengo conocimiento de C++, Python y SQL, me gusta mantener buena comunicación con mis commpañeros de equipo, cumplir con mis tareas y apoyar al resto cuando se requiera. |
+| Foto            | <div style="text-align: center;"> <img src="assets/team-profile/JosuePaiva.jpg" width=400px>                                                                                                                                                            |
 
 | **Integrante**            | ****                                                                        |
 |---------------------------|-----------------------------------------------------------------------------| 

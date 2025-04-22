@@ -466,6 +466,18 @@ Disrito: San Miguel
 
 URL:https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218387_upc_edu_pe/EQm7Q8XZu15Lj3PscCr9CikBtEQtkpyiN4OvTcw2-vGNWw?e=UgAWr4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
+##### Entrevisra #5
+
+Nombre: Renso Julca Cruz
+
+Edad: 20 
+
+Distrito: Carabayllo
+
+<img src="assets/interview/entrevista-segmento2.jpeg" width=650px>
+
+URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EVgOvuuCQthCg-yPL_Jex3wB0gJV4LiCinXOSD4q3MuUiQ?e=OofBDX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
 #### 2.2.3. Análisis de entrevistas
 ##### Entrevista 1: Renzo Juan de Dios Meza Garay
 
@@ -520,6 +532,19 @@ Pese a esta experiencia, Joaquín se muestra abierto a nuevas alternativas. Afir
 
 En resumen, Joaquín representa a un usuario que busca practicidad, pero que también demanda mayor transparencia y seguridad en las plataformas de alquiler. Su interés en nuevas funcionalidades como las reseñas, la reserva anticipada y la calificación de arrendadores sugiere que una plataforma confiable, bien diseñada y orientada al usuario podría captar fácilmente su interés y mejorar su experiencia de alquiler.
 
+##### Entrevista 5: Renso Julca Cruz
+
+Análisis de la entrevista:
+
+La entrevista realizada a Renso nos permite entender mejor las necesidades y comportamientos de un usuario joven con experiencia en el alquiler de vehículos. Él suele alquilar autos sedán o hatchback para movilizarse dentro de Lima, priorizando la comodidad y la economía. En el caso de viajes fuera de la ciudad, consideraría alquilar una SUV, lo cual demuestra que sus preferencias varían según el contexto de uso. Este perfil nos indica que busca soluciones prácticas y adaptables, dependiendo de sus desplazamientos.
+
+En cuanto a los requisitos previos al alquiler, Renso menciona que generalmente se le solicita su DNI, la licencia de conducir vigente y, en algunos casos, una tarjeta de crédito como garantía. También ha enfrentado ciertas restricciones, como limitaciones por edad (menos de 25 años) o por años de experiencia conduciendo, aunque ya cumple con los dos años mínimos requeridos por algunas empresas. Otro punto que señala es que en ocasiones se imponen límites de kilometraje o zonas restringidas para el uso del vehículo. Estas condiciones pueden representar barreras para ciertos usuarios, especialmente los más jóvenes.
+
+Respecto al uso de plataformas digitales, Renso busca vehículos principalmente a través de páginas web de empresas locales o grupos de Facebook, accediendo desde su celular por comodidad, aunque usa su laptop cuando desea revisar los términos con mayor detalle. Esta conducta muestra que el usuario valora tanto la accesibilidad como el análisis antes de tomar una decisión. Sin embargo, una de sus principales observaciones es la falta de transparencia en muchas de estas plataformas, ya que pocas ofrecen reseñas u opiniones de otros usuarios. Ante esta carencia, Renso se guía por su intuición o consulta con amigos de confianza.
+
+Al ser consultado sobre nuevas funcionalidades en una plataforma, Renso se muestra totalmente dispuesto a migrar a una que le ofrezca más seguridad y confianza, sobre todo si puede consultar reseñas de arrendadores. También valora la posibilidad de realizar reservas anticipadas, lo cual le permite planificar mejor sus actividades y asegurar la disponibilidad del vehículo. Además, le gustaría tener la opción de dejar sus propias reseñas, lo que contribuiría a mejorar la experiencia de otros usuarios y a generar una comunidad basada en la responsabilidad y la transparencia.
+
+En conclusión, Renso representa a un usuario con experiencia moderada, que prioriza la planificación, la confianza y la facilidad de uso en el proceso de alquiler de vehículos. Su testimonio evidencia varias oportunidades para el desarrollo de una plataforma más completa y confiable. Entre ellas, destacan la integración de un sistema de reseñas, filtros por tipo de vehículo y condiciones del alquiler, compatibilidad multidispositivo, y un enfoque más amigable hacia conductores jóvenes que cumplan con los requisitos legales mínimos.
 
 ### 2.3. Needfinding.
 #### 2.3.1. User Personas

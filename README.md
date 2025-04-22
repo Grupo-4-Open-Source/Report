@@ -529,9 +529,14 @@ A continuación presentamos los user personas identificadas basándonos en las e
 
 #### 2.3.5. As Is Scenario Mapping
 ###### Segmento Objetivo 1 (Arrendador de vehículos)
-
+<img src="assets/Needfinding/RenzoAsIs.png" width=800px>
 
 En cuanto al arrendatario podemos observar frustración y resignación al optar por plataformas gratuitas, pero poco confiables, basándose luego de un plazo determinado en su experiencia personal y juicio crítico a la hora de alquilar un vehículo. Esto se traduce en una experiencia negativa,  que lo termina alejando de las plataformas de alquiler.
+
+###### Segmento Objetivo 2 (Arrendatario de vehículos)
+<img src="assets/Needfinding/JonathanAsIs.png" width=800px>
+
+El arrendador por su parte termina con frustración y sentimiento de perdida de tiempo, al tener que aprender a filtrar las publicaciones fiables con base en su experiencia
 
 ## Capítulo III: Requirements Specification <a id="cap3"></a>
 ### 3.2. User Stories

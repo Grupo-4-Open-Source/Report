@@ -1798,13 +1798,11 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc
 
 ![ComponentDiagram.png](assets/software-architecture/ComponentDiagram.png)
 
-
 ### 4.7. Software Object-Oriented Design.
 
 #### 4.7.1. Class Diagrams.
 
 ![ClassDiagramAutomovilUnite.png](assets/Class%20Diagram/ClassDiagramAutomovilUnite.png)
-
 
 #### 4.7.2. Class Dictionary.
 

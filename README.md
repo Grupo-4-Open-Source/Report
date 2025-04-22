@@ -218,10 +218,10 @@ del ABET – EAC - Student Outcome 3.
 | Foto                      |  ![Kenyi-Ramírez.jpg](assets/team-profile/Kenyi-Ram%C3%ADrez.jpg)                                                                                                                                                                                                                                                               
 
 
-| **Integrante**            | ****                                                                        |
-|---------------------------|-----------------------------------------------------------------------------| 
-| **Descripción**           |                                                                             |
-| Foto                      |                                                                             |
+| **Integrante**            | Alejandro Torres Alva                                                                                                                                                                                                                                                                  |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| **Descripción**           | Mi nombre es Alejandro Torres Alva, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona que apoya en todo lo que pueda al trabajo. Tengo conocimientos intermedios en los lenguajes de C++, Python y PHP. |
+| Foto                      | <div style="text-align: center;"> <img src="assets/team-profile/Alejandro-Torres.jpg" width=400px>                                                                                                                                                                                     |
 
 | **Integrante**            | Fiorella Angela Vilca Valverde                                              |
 |---------------------------|-----------------------------------------------------------------------------| 

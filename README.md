@@ -175,9 +175,11 @@ del ABET – EAC - Student Outcome 3.
     <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
     <td>
         <strong>Alejandro Torres</strong><br>
-        <strong>TB1:</strong> En el proyecto, participe en las tareas asignadas, realice una encuesta a cada segmento lo cual me llevo a entender mas el producto a desarrollar, mantuve una comunicacion lo mas activo posible para generar confianza.<br>
+        <strong>TB1:</strong> En el proyecto, participe en las tareas asignadas, realice una encuesta a cada segmento lo cual me llevo a entender mas el producto a desarrollar, mantuve una comunicación lo más activo posible para generar confianza.<br>
         <strong>Fiorella Vilca</strong><br>
         <strong>TB1:</strong>En el proyecto, participé activamente en el diseño de la landing page y la aplicación web, desarrollando wireframes, mockups y prototipos funcionales. Realicé una presentación oral sobre el proceso de diseño, destacando la arquitectura de la información, los sistemas de navegación, y los lineamientos de estilo, adaptando el contenido según el nivel de conocimiento de la audiencia.<br>
+        <strong>Josue Paiva</strong><br>
+        <strong>TB1:</strong>Me involucre de manera integral en el desarrollo del primer entregable, pues asumí el rol de team leader, me encargue de organizar las reuniones, definir fechas de entrega de avance y la logística respectiva para concluir a tiempo el entregable.<br>
 <br>
 <br>
 <br>
@@ -189,9 +191,11 @@ del ABET – EAC - Student Outcome 3.
     <td>Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
     <td>
         <strong>Alejandro Torres</strong><br>
-        <strong>TB1:</strong> Realice el Lean UX Process lo cual me ayudo a comprender mas en el desarrollo y funcionalidades del aplicativo.<br>
+        <strong>TB1:</strong> Realice el Lean UX Process lo cual me ayudo a comprender más en el desarrollo y funcionalidades del aplicativo.<br>
         <strong>Fiorella Vilca</strong><br>
         <strong>TB1:</strong>Expliqué de manera clara los lineamientos de estilo, la arquitectura de información y el diseño UI/UX de la landing page y la aplicación web. Utilicé recursos visuales como wireframes, mockups y diagramas de flujos.<br>
+        <strong>Josue Paiva</strong><br>
+        <strong>TB1:</strong> Me encargué del desarrollo del capítulo II en su totalidad, ademas de desarrollar las historias de usuario con sus respectivas épicas, finalmente contribuí con el despliegue de la landing page <br>
 <br>
 <br>
 <br>

@@ -176,6 +176,8 @@ del ABET – EAC - Student Outcome 3.
     <td>
         <strong>Alejandro Torres</strong><br>
         <strong>TB1:</strong> En el proyecto, participe en las tareas asignadas, realice una encuesta a cada segmento lo cual me llevo a entender mas el producto a desarrollar, mantuve una comunicacion lo mas activo posible para generar confianza.<br>
+        <strong>Fiorella Vilca</strong><br>
+        <strong>TB1:</strong>En el proyecto, participé activamente en el diseño de la landing page y la aplicación web, desarrollando wireframes, mockups y prototipos funcionales. Realicé una presentación oral sobre el proceso de diseño, destacando la arquitectura de la información, los sistemas de navegación, y los lineamientos de estilo, adaptando el contenido según el nivel de conocimiento de la audiencia.<br>
 <br>
 <br>
 <br>
@@ -188,6 +190,8 @@ del ABET – EAC - Student Outcome 3.
     <td>
         <strong>Alejandro Torres</strong><br>
         <strong>TB1:</strong> Realice el Lean UX Process lo cual me ayudo a comprender mas en el desarrollo y funcionalidades del aplicativo.<br>
+        <strong>Fiorella Vilca</strong><br>
+        <strong>TB1:</strong>Expliqué de manera clara los lineamientos de estilo, la arquitectura de información y el diseño UI/UX de la landing page y la aplicación web. Utilicé recursos visuales como wireframes, mockups y diagramas de flujos.<br>
 <br>
 <br>
 <br>
@@ -442,6 +446,42 @@ Distrito: San Martin de Porres
 
 URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202022018_upc_edu_pe/EfRk8-zuCyJBvGIwO-q4tfgBT_v6_FeWtZFEBdE_isoI_A?e=iGfb38
 
+##### Entrevista #3
+
+Nombre: Marycruz Murga
+
+Edad: 26
+
+Disrito: Comas
+
+<img src="assets/maps/Entrevista3.jpg" width=650px >
+
+URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218387_upc_edu_pe/ERDAt9_BJXdDixy8u_OQpjEBIoyhwQ4gBxmNNx_RsO4g0Q?e=1c12Uz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+##### Entrevista #4
+
+Nombre: Joaquin Pedraza Maldonado
+
+Edad: 20
+
+Disrito: San Miguel
+
+<img src="assets/maps/Entrevista4.jpg" width=650px >
+
+URL:https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218387_upc_edu_pe/EQm7Q8XZu15Lj3PscCr9CikBtEQtkpyiN4OvTcw2-vGNWw?e=UgAWr4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+##### Entrevisra #5
+
+Nombre: Renso Julca Cruz
+
+Edad: 20 
+
+Distrito: Carabayllo
+
+<img src="assets/interview/entrevista-segmento2.jpeg" width=650px>
+
+URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EVgOvuuCQthCg-yPL_Jex3wB0gJV4LiCinXOSD4q3MuUiQ?e=OofBDX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
 #### 2.2.3. Análisis de entrevistas
 ##### Entrevista 1: Renzo Juan de Dios Meza Garay
 
@@ -468,6 +508,47 @@ En cuanto a los canales de búsqueda, indica que utiliza las plataformas **NeoAu
 Por otro lado, expresa que estaría dispuesto a migrar a una nueva plataforma, siempre que esta le facilite encontrar vehículos que cuenten con todos los documentos en regla. También le parece útil la opción de concretar fechas directamente desde la aplicación, ya que esto le permitiría planificar mejor sus actividades.
 
 Finalmente, considera muy positiva la posibilidad de contar con una plataforma en la que ambas partes (el arrendador y el arrendatario) se vean beneficiadas y protegidas, reduciendo así la preocupación por posibles estafas.
+
+##### Entrevista 3: Marycruz Murga
+
+Análisis de la entrevista:
+
+La entrevista fue realizada a Marycruz Murga, quien indica que desea alquilar su vehículo personal, una miniván, para generar ingresos adicionales. Comenta que, hasta ahora, ha considerado plataformas como el Marketplace de Facebook para ofrecer su vehículo, ya que este medio es accesible y le permite contactar directamente con posibles arrendatarios. Sin embargo, también reconoce que no siempre ofrece la seguridad ni el control deseado.
+
+Marycruz señala que, para alquilar su miniván, solicitaría a los interesados documentos como el DNI, un recibo de servicio (agua o luz) y una garantía económica. Considera estos requisitos razonables, pero le gustaría que existiera una plataforma que centralice y formalice este proceso, brindando mayor confianza tanto para ella como para quien alquile el vehículo.
+
+Además, destaca que le sería útil una aplicación que le permita gestionar la disponibilidad de su vehículo, establecer filtros según tipo de clientes, fechas y condiciones, así como visualizar comentarios y calificaciones de los arrendatarios. Esto último lo considera crucial para evitar experiencias negativas y proteger su vehículo.
+
+Finalmente, menciona que valora mucho la transparencia y que una plataforma con reseñas, puntuaciones y verificación de identidad de los usuarios la haría sentir más segura. También le gustaría poder concretar el alquiler directamente desde la app, sin depender de conversaciones en otras redes sociales o medios informales.
+
+
+##### Entrevista 4: Joaquin Pedraza Maldonado
+
+Análisis de la entrevista:
+
+La entrevista fue realizada a Joaquín Pedraza, un usuario que ha alquilado vehículos anteriormente y que actualmente busca autos amplios y familiares, con maletera espaciosa, lo cual sugiere que prioriza la comodidad y capacidad al momento de elegir un vehículo.
+
+Joaquín menciona que para poder alquilar un vehículo, normalmente le solicitan el DNI para verificar su identidad y el brevete (licencia de conducir) como prueba de que está autorizado para manejar. También señala que se le han impuesto ciertas restricciones, como tener un brevete vigente y el compromiso de mantener el vehículo en buen estado una vez finalizado el alquiler.
+
+En cuanto a su experiencia con plataformas de alquiler, indica que utiliza su celular como medio principal, ya que lo considera más rápido y práctico. Sin embargo, muestra desconfianza hacia las aplicaciones existentes, ya que afirma que no brindan suficiente información sobre el vehículo ni generan seguridad en el proceso. Señala que, si bien se puede conocer algunos datos del arrendador, la información sobre el estado o características del vehículo es limitada, lo cual afecta su percepción de confiabilidad.
+
+Pese a esta experiencia, Joaquín se muestra abierto a nuevas alternativas. Afirma que estaría dispuesto a probar una plataforma que incluya reseñas de arrendadores, lo cual considera valioso para tomar decisiones más informadas. También estaría dispuesto a usar una aplicación que le permita reservar vehículos en fechas específicas y que ofrezca la posibilidad de calificar a los arrendadores, para ayudar a otros usuarios como él.
+
+En resumen, Joaquín representa a un usuario que busca practicidad, pero que también demanda mayor transparencia y seguridad en las plataformas de alquiler. Su interés en nuevas funcionalidades como las reseñas, la reserva anticipada y la calificación de arrendadores sugiere que una plataforma confiable, bien diseñada y orientada al usuario podría captar fácilmente su interés y mejorar su experiencia de alquiler.
+
+##### Entrevista 5: Renso Julca Cruz
+
+Análisis de la entrevista:
+
+La entrevista realizada a Renso nos permite entender mejor las necesidades y comportamientos de un usuario joven con experiencia en el alquiler de vehículos. Él suele alquilar autos sedán o hatchback para movilizarse dentro de Lima, priorizando la comodidad y la economía. En el caso de viajes fuera de la ciudad, consideraría alquilar una SUV, lo cual demuestra que sus preferencias varían según el contexto de uso. Este perfil nos indica que busca soluciones prácticas y adaptables, dependiendo de sus desplazamientos.
+
+En cuanto a los requisitos previos al alquiler, Renso menciona que generalmente se le solicita su DNI, la licencia de conducir vigente y, en algunos casos, una tarjeta de crédito como garantía. También ha enfrentado ciertas restricciones, como limitaciones por edad (menos de 25 años) o por años de experiencia conduciendo, aunque ya cumple con los dos años mínimos requeridos por algunas empresas. Otro punto que señala es que en ocasiones se imponen límites de kilometraje o zonas restringidas para el uso del vehículo. Estas condiciones pueden representar barreras para ciertos usuarios, especialmente los más jóvenes.
+
+Respecto al uso de plataformas digitales, Renso busca vehículos principalmente a través de páginas web de empresas locales o grupos de Facebook, accediendo desde su celular por comodidad, aunque usa su laptop cuando desea revisar los términos con mayor detalle. Esta conducta muestra que el usuario valora tanto la accesibilidad como el análisis antes de tomar una decisión. Sin embargo, una de sus principales observaciones es la falta de transparencia en muchas de estas plataformas, ya que pocas ofrecen reseñas u opiniones de otros usuarios. Ante esta carencia, Renso se guía por su intuición o consulta con amigos de confianza.
+
+Al ser consultado sobre nuevas funcionalidades en una plataforma, Renso se muestra totalmente dispuesto a migrar a una que le ofrezca más seguridad y confianza, sobre todo si puede consultar reseñas de arrendadores. También valora la posibilidad de realizar reservas anticipadas, lo cual le permite planificar mejor sus actividades y asegurar la disponibilidad del vehículo. Además, le gustaría tener la opción de dejar sus propias reseñas, lo que contribuiría a mejorar la experiencia de otros usuarios y a generar una comunidad basada en la responsabilidad y la transparencia.
+
+En conclusión, Renso representa a un usuario con experiencia moderada, que prioriza la planificación, la confianza y la facilidad de uso en el proceso de alquiler de vehículos. Su testimonio evidencia varias oportunidades para el desarrollo de una plataforma más completa y confiable. Entre ellas, destacan la integración de un sistema de reseñas, filtros por tipo de vehículo y condiciones del alquiler, compatibilidad multidispositivo, y un enfoque más amigable hacia conductores jóvenes que cumplan con los requisitos legales mínimos.
 
 ### 2.3. Needfinding.
 #### 2.3.1. User Personas
@@ -531,11 +612,23 @@ A continuación presentamos los user personas identificadas basándonos en las e
 ###### Segmento Objetivo 2 (Arrendatario de vehículos)
 <img src="assets/Needfinding/jonathanJourneyMapping.png" width=800px>
 
+#### 2.3.5. As Is Scenario Mapping
+###### Segmento Objetivo 1 (Arrendador de vehículos)
+<img src="assets/Needfinding/RenzoAsIs.png" width=800px>
+
 En cuanto al arrendatario podemos observar frustración y resignación al optar por plataformas gratuitas, pero poco confiables, basándose luego de un plazo determinado en su experiencia personal y juicio crítico a la hora de alquilar un vehículo. Esto se traduce en una experiencia negativa,  que lo termina alejando de las plataformas de alquiler.
+
+###### Segmento Objetivo 2 (Arrendatario de vehículos)
+<img src="assets/Needfinding/JonathanAsIs.png" width=800px>
+
+El arrendador por su parte termina con frustración y sentimiento de perdida de tiempo, al tener que aprender a filtrar las publicaciones fiables con base en su experiencia
 
 ## Capítulo III: Requirements Specification <a id="cap3"></a>
 ### 3.1. To Be Scenario Mapping
+Segmento Objetivo 1 (Arrendador de vehículos)
 <img src="assets/maps/TO-BE%20SCENARIO%20MAPPING%20SEG%201.png" width=800px>
+
+Segmento Objetivo 2 (Arrendatario de vehículos)
 <img src="assets/maps/TO-BE%20SCENARIO%20MAPPING%20SEG%202.png" width=800px>
 
 ### 3.2. User Stories

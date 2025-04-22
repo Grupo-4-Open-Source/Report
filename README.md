@@ -216,6 +216,33 @@ Nuestro servicio permite a los propietarios de vehículos registrar y gestionar 
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
+
+| **Integrante**  | **Josue Gonzalo Paiva Quispe**                                                                                                                                                                                                                          |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| **Descripción** | Soy Josue Paiva, tengo 22 años y soy de la carrera de Ingeniería de Software, tengo conocimiento de C++, Python y SQL, me gusta mantener buena comunicación con mis commpañeros de equipo, cumplir con mis tareas y apoyar al resto cuando se requiera. |
+| Foto            | <div style="text-align: center;"> <img src="assets/team-profile/JosuePaiva.jpg" width=400px>                                                                                                                                                            |
+
+| **Integrante**            | ****                                                                        |
+|---------------------------|-----------------------------------------------------------------------------| 
+| **Descripción**           |                                                                             |
+| Foto                      |                                                                             |
+
+
+
+| **Integrante**  | **Kenyi Efrain Ramirez Cabrera**                                                                                                                                                                                                                                                                                                           |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descripción** | Soy Kenyi Ramirez, estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Mi código de alumno es u202220138. Soy una persona comprometida y trabajadora. Poseo un nivel intermedio en los lenguajes C++, Python, Java y HTML, los cuales aplico para garantizar resultados efectivos en mis tareas. |
+| Foto            | <div style="text-align: center;"> <img src="assets/team-profile/Kenyi-Ramírez.jpg" width=300px>                                                                                                                                                                                                                                            |
+
+| **Integrante**            | Alejandro Torres Alva                                                                                                                                                                                                                                                                  |
+|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| **Descripción**           | Mi nombre es Alejandro Torres Alva, soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona que apoya en todo lo que pueda al trabajo. Tengo conocimientos intermedios en los lenguajes de C++, Python y PHP. |
+| Foto                      | <div style="text-align: center;"> <img src="assets/team-profile/Alejandro-Torres.jpg" width=400px>                                                                                                                                                                                     |
+
+| **Integrante**  | Fiorella Angela Vilca Valverde                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| **Descripción** | Mi nombre es Fiorella Angela Vilca Valverde, tengo 23 años y actualmente estoy cursando 5to ciclo de la carrera Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (U.P.C). Elegí esta carrera porque siempre quería saber de las funcionalidades de la computadora y aprender cada día más sobre los lenguajes de programación. Me considero una persona muy sociable, perseverante, responsable, trabajar en equipo y sobre todo leal. Tengo conocimientos en lenguaje de programación C++, Python y Matlab Básico. |
+| Foto            | <div style="text-align: center;"> <img src="assets/team-profile/Fiorella-Vilca.jpeg" width=300px>                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 ### 1.2. Solution Profile
 #### 1.2.1 Antecedentes y problemática
 

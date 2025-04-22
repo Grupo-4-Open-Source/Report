@@ -597,8 +597,8 @@ En cuanto al arrendatario podemos observar frustración y resignación al optar 
 | US-15        | Ver Información del Producto          |
 | TS-16        | Consultar los modelos disponibles     |
 | TS-17        | Leer Testimonios de Clientes y Dueños |
-| TS-17        | Traducción de la Landing Page         |
-| TS-17        | Call To Action                        |
+| TS-18        | Traducción de la Landing Page         |
+| TS-19        | Call To Action                        |
 
 ### 3.3. Impact Mapping
 <img src="assets/maps/IMPACT%20MAPPING.png" width=800px>

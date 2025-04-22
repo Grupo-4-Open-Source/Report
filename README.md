@@ -469,7 +469,10 @@ Finalmente, considera muy positiva la posibilidad de contar con una plataforma e
 
 ## Capítulo III: Requirements Specification <a id="cap3"></a>
 ### 3.1. To Be Scenario Mapping
+Segmento Objetivo 1 (Arrendador de vehículos)
 <img src="assets/maps/TO-BE%20SCENARIO%20MAPPING%20SEG%201.png" width=800px>
+
+Segmento Objetivo 2 (Arrendatario de vehículos)
 <img src="assets/maps/TO-BE%20SCENARIO%20MAPPING%20SEG%202.png" width=800px>
 
 ### 3.2. User Stories

@@ -2011,3 +2011,131 @@ observers: Lista de objetos que serán notificados cuando ocurra un evento.
 
 ![DatabaseDiagramAutomovilUnite.png](assets/DatabaseDiagram/DatabaseDiagramAutomovilUnite.png)
 
+## Capítulo V: Product Implementation, Validation & Deployment <a id="cap5"></a>
+### 5.1. Software Configuration Management
+#### 5.1.1. Software Development Environment Configuration
+### Project Management
+Desarrollo del reporte: Github
+Planificacion y reunion: Discord
+Comunicacion: Whatsapp
+
+### Requirement Management
+Utilizamos UXPressia para poder desarrollar los mapas, los user personas y lean UX canvas
+
+<img src="assets/sprint1/uxpressia.png" width=300 >
+
+### Product UX/UI Design
+Utilizamos Figma para el desarrollo de mock ups tanto del landing page como de la web app
+
+<img src="assets/sprint1/figma.jpeg" width=300 >
+
+### Software Deployment
+Trabajamos con Netlify para el despliegue de la landing page
+#### 5.1.2. Source Code Management
+
+| Producto     | URL                                                 |
+|--------------|-----------------------------------------------------|
+| Landing Page | https://github.com/Grupo-4-Open-Source/landing-page |
+| Report       | https://github.com/Grupo-4-Open-Source/Report       |
+
+#### 5.1.4. Software Deployment Configuration
+**Pasos realizados para desplegar la Landing Page:**
+1) Crear un nuevo repositorio en la organizacion para la landing page
+2) Cargar el proyecto en el repositorio
+3) Enlazar netlify con la cuenta de github
+4) Seleccionar el repositorio de la landing page
+5) Configurar el branch a desplegar (main)
+6) Configurar el directorio de salida (build)
+8) Configurar el dominio (automovilunite.com)
+
+#### 5.2.1. Sprint 1
+| Sprint #                               | Sprint 1                                       |
+|----------------------------------------|------------------------------------------------|
+| **Date**                               | 2025-04-18                                     |
+| **Time**                               | 10:00 PM                                       |
+| **Location**                           | Discord                                        |
+| **Prepared By**                        | Josue Paiva                                    |
+| **Attendees (to planning meeting)**    | Todos los integrantes                          |
+| **Sprint n - 1 Review Summary**        | -                                              |
+| **Sprint n - 1 Retrospective Summary** | -                                              |
+| **Sprint 1 Goal**                      | Completar el reporte y desplegar landing page. |
+| **Sprint 1 Velocity**                  | 21 story points                                |
+| **Sum of Story Points**                | 21 story points                                |
+
+##### 5.2.1.2. Sprint Backlog 1
+| **#Orden** | **User Story ID** | **Título**                               | **Descripción**                                                                                                         | **Story Points** |
+|------------|-------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|------------------|
+| 1          | US-01             | Registro de Usuario                      | Como visitante, quiero registrarme en la aplicación para poder publicar mis vehículos o consultar opciones de alquiler. | 3                |
+| 2          | US-02             | Log In                                   | Como usuario, quiero loguearme con mis credenciales y publicar o reservar vehículos.                                    | 2                |
+| 14         | US-14             | Acceso a la Landing Page                 | Como visitante, quiero acceder a la landing page del producto para recibir información.                                 | 5                | 
+| 15         | US-15             | Ver Información del Producto             | Como visitante, quiero ver de manera clara y precisa de que trata el producto.                                          | 5                | 
+| 16         | US-16             | Consultar los modelos disponibles        | Como visitante, quiero revisar parte del catálogo de opciones para alquilar.                                            | 3                | 
+| 17         | US-17             | Leer Testimonios de Clientes y Dueños    | Como visitante, quiero consultar testimonios y reseñas de clientes y dueños.                                            | 3                | 
+
+##### 5.2.1.3. Development Evidence for Sprint Review
+
+| Repository         | Branch | Commit ID                           | Commit Message                         | Commit Message Body | Committed on Date   |
+|--------------------|--------|------------------------------------|----------------------------------------|---------------------|--------------------|
+| AutoMovile-Unite    | main   | a5646ec77c80c10d970d3ef04321c6f6399cc0c4 | Implementación inicial de landing page | -                   | 19-04-2025|
+
+##### 5.2.1.5. Execution Evidence for Sprint Review.
+
+Para esta primera entrega, nuestro equipo ha logrado desarrollar la Landing Page del proyecto **AutoMovil Unite**. De esta manera, se podrá visualizar la información esencial sobre los servicios que ofrece nuestra iniciativa.
+
+**Sección de Inicio(Home):**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/execution-evidence-for-sprint-review/inicio.png" alt="logo" width="900" height="500"></div>
+
+**Sección de Cómo funciona(How it works):**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/execution-evidence-for-sprint-review/como-funciona.png" alt="logo" width="900" height="500"></div>
+
+**Sección de Por qué elegirnos(Why Choose Us):**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/execution-evidence-for-sprint-review/por-que-elegrinos.png" alt="logo" width="900" height="500"></div>
+
+**Sección de Carros populares(Populars Cars):**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/execution-evidence-for-sprint-review/carros-populares.png" alt="logo" width="900" height="500"></div>
+
+**Sección de Testimonios(Testimonials):**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/execution-evidence-for-sprint-review/testimonios.png" alt="logo" width="900" height="500"></div>
+
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Para la creación de nuestra plataforma AutoMovil Unite, decidimos utilizar Angular, un framework de desarrollo web basado en TypeScript que nos permitió construir una aplicación moderna, escalable y de alto rendimiento. Angular nos facilitó la organización del proyecto mediante componentes reutilizables, así como una arquitectura robusta para gestionar la lógica de negocio y las vistas de manera eficiente.
+
+Una vez completado el desarrollo, procedimos con el despliegue de la aplicación utilizando Netlify, una plataforma que permite alojar sitios web estáticos y aplicaciones modernas con facilidad. Netlify se encargó de compilar nuestro proyecto de Angular y lo publicó automáticamente en línea tras conectar nuestro repositorio. Esta integración continua nos permitió realizar despliegues rápidos, eficientes y seguros.
+
+Gracias a esta configuración, logramos que nuestra página web esté disponible para los usuarios en tiempo real, con una experiencia fluida tanto en el desarrollo como en la entrega del producto.
+
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de la landing page, utilizamos Netlify. Esta plataforma nos permitió publicar la página web directamente desde el repositorio de código, integrándose de manera eficiente con nuestro flujo de trabajo. Al conectar nuestro proyecto desarrollado en Angular con Netlify, la herramienta se encargó automáticamente de compilar y desplegar la aplicación, facilitando un proceso continuo y sin complicaciones.
+
+El enlace de acceso a la landing page es el siguiente: https://automovil-unite.netlify.app/ 
+
+##### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/team-collaboration/commit.png" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/team-collaboration/git-clone.png" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/team-collaboration/grafico.png" alt="logo" width="900" height="500"></div>

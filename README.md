@@ -655,6 +655,13 @@ A continuación presentamos los user personas identificadas basándonos en las e
 ###### Segmento Objetivo 2 (Arrendatario de vehículos)
 <img src="assets/Needfinding/jonathanJourneyMapping.png" width=800px>
 
+#### 2.3.4. Empathy Mapping
+###### Segmento Objetivo 1 (Arrendador de vehículos)
+<img src="assets/empathy-mapping/Empathy-map-arrendador.png" width=800px>
+
+###### Segmento Objetivo 2 (Arrendatario de vehículos)
+<img src="assets/empathy-mapping/Empathy%20map%20arrendatario.png" width=800px>
+
 #### 2.3.5. As Is Scenario Mapping
 ###### Segmento Objetivo 1 (Arrendador de vehículos)
 <img src="assets/Needfinding/RenzoAsIs.png" width=800px>

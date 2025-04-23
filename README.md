@@ -2010,3 +2010,66 @@ observers: Lista de objetos que serán notificados cuando ocurra un evento.
 #### 4.8.1 Database Diagram
 
 ![DatabaseDiagramAutomovilUnite.png](assets/DatabaseDiagram/DatabaseDiagramAutomovilUnite.png)
+
+## Capítulo V: Product Implementation, Validation & Deployment <a id="cap5"></a>
+### 5.1. Software Configuration Management
+#### 5.1.1. Software Development Environment Configuration
+### Project Management
+Desarrollo del reporte: Github
+Planificacion y reunion: Discord
+Comunicacion: Whatsapp
+
+### Requirement Management
+Utilizamos UXPressia para poder desarrollar los mapas, los user personas y lean UX canvas
+
+<img src="assets/sprint1/uxpressia.png" width=300 >
+
+### Product UX/UI Design
+Utilizamos Figma para el desarrollo de mock ups tanto del landing page como de la web app
+
+<img src="assets/sprint1/figma.jpeg" width=300 >
+
+### Software Deployment
+Trabajamos con Netlify para el despliegue de la landing page
+#### 5.1.2. Source Code Management
+
+| Producto     | URL                                                 |
+|--------------|-----------------------------------------------------|
+| Landing Page | https://github.com/Grupo-4-Open-Source/landing-page |
+| Report       | https://github.com/Grupo-4-Open-Source/Report       |
+
+#### 5.1.4. Software Deployment Configuration
+**Pasos realizados para desplegar la Landing Page:**
+1) Crear un nuevo repositorio en la organizacion para la landing page
+2) Cargar el proyecto en el repositorio
+3) Enlazar netlify con la cuenta de github
+4) Seleccionar el repositorio de la landing page
+5) Configurar el branch a desplegar (main)
+6) Configurar el directorio de salida (build)
+8) Configurar el dominio (automovilunite.com)
+
+#### 5.2.1. Sprint 1
+| Sprint #                               | Sprint 1                                       |
+|----------------------------------------|------------------------------------------------|
+| **Date**                               | 2025-04-18                                     |
+| **Time**                               | 10:00 PM                                       |
+| **Location**                           | Discord                                        |
+| **Prepared By**                        | Josue Paiva                                    |
+| **Attendees (to planning meeting)**    | Todos los integrantes                          |
+| **Sprint n - 1 Review Summary**        | -                                              |
+| **Sprint n - 1 Retrospective Summary** | -                                              |
+| **Sprint 1 Goal**                      | Completar el reporte y desplegar landing page. |
+| **Sprint 1 Velocity**                  | 21 story points                                |
+| **Sum of Story Points**                | 21 story points                                |
+
+##### 5.2.1.2. Sprint Backlog 1
+| **#Orden** | **User Story ID** | **Título**                               | **Descripción**                                                                                                         | **Story Points** |
+|------------|-------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|------------------|
+| 1          | US-01             | Registro de Usuario                      | Como visitante, quiero registrarme en la aplicación para poder publicar mis vehículos o consultar opciones de alquiler. | 3                |
+| 2          | US-02             | Log In                                   | Como usuario, quiero loguearme con mis credenciales y publicar o reservar vehículos.                                    | 2                |
+| 14         | US-14             | Acceso a la Landing Page                 | Como visitante, quiero acceder a la landing page del producto para recibir información.                                 | 5                | 
+| 15         | US-15             | Ver Información del Producto             | Como visitante, quiero ver de manera clara y precisa de que trata el producto.                                          | 5                | 
+| 16         | US-16             | Consultar los modelos disponibles        | Como visitante, quiero revisar parte del catálogo de opciones para alquilar.                                            | 3                | 
+| 17         | US-17             | Leer Testimonios de Clientes y Dueños    | Como visitante, quiero consultar testimonios y reseñas de clientes y dueños.                                            | 3                | 
+
+##### 5.2.1.3. Development Evidence for Sprint Review

@@ -719,6 +719,7 @@ A continuación presentamos los user personas identificadas basándonos en las e
 
 #### 2.3.3. User Journey Mapping
 ###### Segmento Objetivo 1 (Arrendador de vehículos)
+<img src="assets/Needfinding/RenzoJourneyMapping.png" width=800px>
 
 ###### Segmento Objetivo 2 (Arrendatario de vehículos)
 <img src="assets/Needfinding/jonathanJourneyMapping.png" width=800px>

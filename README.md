@@ -2226,7 +2226,8 @@ Este primer avance representa una base sólida sobre la cual se puede seguir con
 - Link de Web Applications Wireflow Diagrams: https://www.figma.com/design/dMPbJmbpMqy4N1yWuMaRPp/Web-Applications-Wireflow-Diagrams?node-id=0-1&t=molesIHFjiHe55pb-1 
 - Link del web application: https://www.figma.com/design/H0lrOkiWmXCNlLaRUbHzXj/web-application---Open-Source?node-id=0-1&t=4GfgGr3JzT0rYb3R-1
 - Link del Web Applications Prototyping: https://www.figma.com/design/WhozRt9Aq2rVJwXMXadh2h/Web-Applications-Prototyping?node-id=0-1&t=N0zAgK53okXLroEN-1 
-
+-Link de repositorio de GitHub: https://github.com/Grupo-4-Open-Source/Report
+- Link de la landing page desplegada: https://automovil-unite.netlify.app/
 ## Bibliografías
 
 - HTML: HyperText Markup Language | MDN. (2023, July 17). Mozilla.org. https://developer.mozilla.org/en-US/docs/Web/HTML

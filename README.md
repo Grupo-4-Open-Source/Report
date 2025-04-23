@@ -2207,3 +2207,28 @@ El enlace de acceso a la landing page es el siguiente: https://automovil-unite.n
 <div align="center">
 <td colspan="1" rowspan="6">
 <img src="assets/team-collaboration/grafico.png" alt="logo" width="900" height="500"></div>
+
+## Conclusiones:
+
+El desarrollo de la landing page con Angular nos permitió estructurar y organizar el contenido de forma modular, facilitando la escalabilidad y el mantenimiento del proyecto a futuro.
+
+Implementar estilos y componentes visuales mejoró la experiencia del usuario, permitiendo una navegación clara y atractiva que comunica efectivamente los objetivos de la plataforma AutoMovil Unite.
+
+El uso de Netlify como herramienta de despliegue resultó ser una solución eficaz, ya que simplificó el proceso de publicación en línea, permitiendo actualizaciones rápidas y automatizadas cada vez que se realizaban cambios en el repositorio.
+
+La integración de herramientas modernas como Git, GitHub y Netlify favoreció una metodología de trabajo colaborativa y eficiente, manteniendo el control de versiones y facilitando el trabajo en equipo.
+
+Este primer avance representa una base sólida sobre la cual se puede seguir construyendo funcionalidades futuras, como el registro de usuarios, la búsqueda de vehículos y el sistema de reservas.
+
+## Anexos
+
+- Link de Landing Page en Figma: https://www.figma.com/design/KQZVfQlFF1EJRZbvBsT8kQ/Automovile-Unit-Grupo4-Open-Source?node-id=0-1&t=kCxtkI0IitGNpgQP-1 
+- Link de Web Applications Wireflow Diagrams: https://www.figma.com/design/dMPbJmbpMqy4N1yWuMaRPp/Web-Applications-Wireflow-Diagrams?node-id=0-1&t=molesIHFjiHe55pb-1 
+- Link del web application: https://www.figma.com/design/H0lrOkiWmXCNlLaRUbHzXj/web-application---Open-Source?node-id=0-1&t=4GfgGr3JzT0rYb3R-1
+- Link del Web Applications Prototyping: https://www.figma.com/design/WhozRt9Aq2rVJwXMXadh2h/Web-Applications-Prototyping?node-id=0-1&t=N0zAgK53okXLroEN-1 
+
+## Bibliografías
+
+- HTML: HyperText Markup Language | MDN. (2023, July 17). Mozilla.org. https://developer.mozilla.org/en-US/docs/Web/HTML
+- JavaScript | MDN. (2023, July 8). Mozilla.org. https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- CSS: Cascading Style Sheets | MDN. (2023, July 22). Mozilla.org. https://developer.mozilla.org/en-US/docs/Web/CSS

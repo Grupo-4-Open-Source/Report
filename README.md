@@ -15,6 +15,8 @@
   <ul style="list-style: none; padding: 0;">
       <li><h3>Josue Gonzalo Paiva Quispe</h3></li>
       <li><h3>Alejandro Torres Alva</h3></li>
+        <li><h3>Javier Oswaldo Tello Murga</h3></li>
+       <li><h3>Kenyi Efraín Ramírez Cabrera</h3></li>
 
 
   </ul>
@@ -180,6 +182,11 @@ del ABET – EAC - Student Outcome 3.
         <strong>TB1:</strong>En el proyecto, participé activamente en el diseño de la landing page y la aplicación web, desarrollando wireframes, mockups y prototipos funcionales. Realicé una presentación oral sobre el proceso de diseño, destacando la arquitectura de la información, los sistemas de navegación, y los lineamientos de estilo, adaptando el contenido según el nivel de conocimiento de la audiencia.<br>
         <strong>Josue Paiva</strong><br>
         <strong>TB1:</strong>Me involucre de manera integral en el desarrollo del primer entregable, pues asumí el rol de team leader, me encargue de organizar las reuniones, definir fechas de entrega de avance y la logística respectiva para concluir a tiempo el entregable.<br>
+        <strong>Javier Tello</strong><br> 
+        <strong>TB1:</strong>En el proyecto, participé activamente con el grupo, con las tareas asignadas, también pude hacer entrevistas a cada segmento y así pude lograr entender realmente bien sus necesidades para poder realizar el trabajo correctamente.<br>
+        <strong>Kenyi Ramírez</strong><br>
+        <strong>TB1:</strong>Colaboré de manera activa con mi equipo en la elaboración de este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a desarrollar. Diseñé y expliqué la estructura de los diagramas de Domain-Driven Design (contexto, contenedor y componente), así como el diseño de clases y base de datos.<br>
+
 <br>
 <br>
 <br>
@@ -196,6 +203,11 @@ del ABET – EAC - Student Outcome 3.
         <strong>TB1:</strong>Expliqué de manera clara los lineamientos de estilo, la arquitectura de información y el diseño UI/UX de la landing page y la aplicación web. Utilicé recursos visuales como wireframes, mockups y diagramas de flujos.<br>
         <strong>Josue Paiva</strong><br>
         <strong>TB1:</strong> Me encargué del desarrollo del capítulo II en su totalidad, ademas de desarrollar las historias de usuario con sus respectivas épicas, finalmente contribuí con el despliegue de la landing page <br>
+        <strong>Javier Tello</strong><br>
+        <strong>TB1:</strong> Realicé el To-Be Scenario mapping lo cual entendí los pasos que se pueden hacer cuando la plataforma ya esté hecha, tambien el Impact Mapping para saber los impactos de nuestros segmentos, finalmente contribuí con el Product Backlog y entendi que funcionalidades tenemos que priorizar y tomarlo en cuenta.<br>
+        <strong>Kenyi Ramírez</strong><br>
+        <strong>TB1:</strong> Me encargué del desarrollo de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. Estos diagramas son fundamentales para visualizar y comprender la arquitectura del sistema, proporcionando una representación clara de los diferentes niveles de la plataforma que desarrollaremos a lo largo del curso.<br>
+
 <br>
 <br>
 <br>

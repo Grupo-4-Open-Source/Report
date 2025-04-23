@@ -2073,3 +2073,69 @@ Trabajamos con Netlify para el despliegue de la landing page
 | 17         | US-17             | Leer Testimonios de Clientes y Dueños    | Como visitante, quiero consultar testimonios y reseñas de clientes y dueños.                                            | 3                | 
 
 ##### 5.2.1.3. Development Evidence for Sprint Review
+
+| Repository         | Branch | Commit ID                           | Commit Message                         | Commit Message Body | Committed on Date   |
+|--------------------|--------|------------------------------------|----------------------------------------|---------------------|--------------------|
+| AutoMovile-Unite    | main   | a5646ec77c80c10d970d3ef04321c6f6399cc0c4 | Implementación inicial de landing page | -                   | 19-04-2025|
+
+##### 5.2.1.5. Execution Evidence for Sprint Review.
+
+Para esta primera entrega, nuestro equipo ha logrado desarrollar la Landing Page del proyecto **AutoMovil Unite**. De esta manera, se podrá visualizar la información esencial sobre los servicios que ofrece nuestra iniciativa.
+
+**Sección de Inicio(Home):**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/execution-evidence-for-sprint-review/inicio.png" alt="logo" width="900" height="500"></div>
+
+**Sección de Cómo funciona(How it works):**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/execution-evidence-for-sprint-review/como-funciona.png" alt="logo" width="900" height="500"></div>
+
+**Sección de Por qué elegirnos(Why Choose Us):**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/execution-evidence-for-sprint-review/por-que-elegrinos.png" alt="logo" width="900" height="500"></div>
+
+**Sección de Carros populares(Populars Cars):**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/execution-evidence-for-sprint-review/carros-populares.png" alt="logo" width="900" height="500"></div>
+
+**Sección de Testimonios(Testimonials):**
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/execution-evidence-for-sprint-review/testimonios.png" alt="logo" width="900" height="500"></div>
+
+##### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Para la creación de nuestra plataforma AutoMovil Unite, decidimos utilizar Angular, un framework de desarrollo web basado en TypeScript que nos permitió construir una aplicación moderna, escalable y de alto rendimiento. Angular nos facilitó la organización del proyecto mediante componentes reutilizables, así como una arquitectura robusta para gestionar la lógica de negocio y las vistas de manera eficiente.
+
+Una vez completado el desarrollo, procedimos con el despliegue de la aplicación utilizando Netlify, una plataforma que permite alojar sitios web estáticos y aplicaciones modernas con facilidad. Netlify se encargó de compilar nuestro proyecto de Angular y lo publicó automáticamente en línea tras conectar nuestro repositorio. Esta integración continua nos permitió realizar despliegues rápidos, eficientes y seguros.
+
+Gracias a esta configuración, logramos que nuestra página web esté disponible para los usuarios en tiempo real, con una experiencia fluida tanto en el desarrollo como en la entrega del producto.
+
+##### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de la landing page, utilizamos Netlify. Esta plataforma nos permitió publicar la página web directamente desde el repositorio de código, integrándose de manera eficiente con nuestro flujo de trabajo. Al conectar nuestro proyecto desarrollado en Angular con Netlify, la herramienta se encargó automáticamente de compilar y desplegar la aplicación, facilitando un proceso continuo y sin complicaciones.
+
+El enlace de acceso a la landing page es el siguiente: https://automovil-unite.netlify.app/ 
+
+##### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/team-collaboration/commit.png" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/team-collaboration/git-clone.png" alt="logo" width="900" height="500"></div>
+
+<div align="center">
+<td colspan="1" rowspan="6">
+<img src="assets/team-collaboration/grafico.png" alt="logo" width="900" height="500"></div>

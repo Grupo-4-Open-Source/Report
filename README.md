@@ -1893,3 +1893,139 @@ observers: Lista de objetos que serán notificados cuando ocurra un evento.
 #### 4.8.1 Database Diagram
 
 ![DatabaseDiagramAutomovilUnite.png](assets/DatabaseDiagram/DatabaseDiagramAutomovilUnite.png)
+
+## CapÍtulo V: Product Implementation, Validation & Deployment
+
+### 5.1. Software Configuration Management.
+
+#### 5.1.1. Software Development Environment Configuration.
+
+En esta sección, describiremos las plataformas y el software que empleamos como equipo para el desarrollo y gestión de nuestro startup. Estas herramientas nos facilitan la optimización de procesos, la colaboración efectiva y el impulso del crecimiento sostenible de nuestro proyecto.
+
+**Project Management**
+
+Para coordinar todas las tareas y los prototipos de nuevas ideas e implementaciones en nuestro proyecto, hemos decidido utilizar Google Drive y Visual Studio Code, los cuales nos brindarán el soporte necesario para seguir avanzando en la documentación del informe.
+
+**Requirement Management**
+
+Una vez que todos los miembros han completado la parte asignada a su cargo, se realiza una revisión general de cada sección del informe para identificar posibles errores o aspectos que puedan estar faltando.
+
+**Diseño UX/UI del Producto**
+
+Para el prototipo de nuestra Landing Page, hemos utilizado la herramienta de diseño **Figma**, la cual facilita tanto el diseño como la implementación de la página de destino y sus componentes. Enlace: https://www.figma.com/ 
+
+**Software Development**
+
+Para la parte visual y de formato del informe, hemos empleado Visual Studio Code junto con Markdown, un lenguaje de documentación similar a Microsoft Word. También se utilizó Visual Studio Code para la codificación de la Landing Page. Enlace: https://code.visualstudio.com/
+
+**Software Documentation**
+
+El proyecto, la documentación y el informe están alojados en la conocida plataforma **GitHub**, que facilita el trabajo colaborativo y mejora la productividad, permitiéndonos monitorear el progreso y la eficacia del proyecto. Enlace: https://github.com/
+
+#### 5.1.2. Source Code Management.
+
+
+Se ha establecido una organización en GitHub con los integrantes del grupo y se ha creado un repositorio para la Landing Page.
+
+|Segmento                          |        URL                        |
+|--------------------------------- | --------------------------------- |
+|Organización|https://github.com/Grupo-4-Open-Source|
+|Repositorio Landing Page|https://github.com/Grupo-4-Open-Source/landing-page|
+|Despliegue del Landing Page |https://automovil-unite.netlify.app/|
+
+**GitFlow Implementation**
+GitFlow es un modelo estructurado para gestionar el desarrollo y las ramas en Git. Las ramas principales en este flujo son develop y main. La rama develop actúa como la principal rama de trabajo donde se integran nuevas características, mientras que la rama main contiene la versión estable y lista para producción, que se despliega en GitHub Pages. Además, se crean ramas adicionales para cada tarea o funcionalidad específica que se esté desarrollando, garantizando un flujo organizado y controlado.
+
+**Feature Branches**
+Cada nueva característica o funcionalidad se desarrolla en una rama independiente, que se crea a partir de develop. Estas ramas permiten trabajar de forma aislada en nuevas funcionalidades sin afectar el desarrollo principal, facilitando su integración posterior.
+
+**Release Branches**
+Las ramas de lanzamiento se crean desde **develop** cuando se prepara una nueva versión para producción. Su objetivo es permitir los ajustes finales antes de fusionar la versión en **main** y lanzar el producto.
+
+**Hotfix Branches**
+Las ramas de hotfix se utilizan para corregir errores críticos en la versión de producción. Estas se crean a partir de main y, una vez resuelto el problema, se fusionan tanto en main como en develop, asegurando que los arreglos se incluyan en futuras versiones de desarrollo.
+
+**Semantic versioning**
+Las versiones se asignan siguiendo los principios del Versionado Semántico 2.0 (https://semver.org/), con el formato MAJOR.MINOR.PATCH:
+
+- **MAJOR:** se incrementa cuando se hacen cambios incompatibles en la API.
+- **MINOR:** se incrementa cuando se agregan nuevas características sin romper la compatibilidad.
+- **PATCH:** se incrementa para corregir errores o realizar mejoras menores.
+
+**Commits Convencionales**
+En GitHub, se sigue el sistema de Commits Convencionales versión 1.1.0 (Conventional Commits 1.1.0). Este estándar organiza los mensajes de commit de manera clara, permitiendo un seguimiento y comprensión más fácil de los cambios. El formato se estructura de la siguiente manera:
+
+- **Type:** Especifica el tipo de commit, como feature (feat), fix (fix) o docs (docs).
+- **Optional scope:** Representa el alcance del commit (opcional).
+- **Description:** Explica detalladamente las acciones realizadas en el commit.
+
+#### 5.1.3. Source Code Style Guide & Conventions.
+
+Como convención general , todo el codigo realizado por los miembros del equipo debe redactarse en completo inglés.
+<br><br>**HTML**<br>
+- **Use Lowercase Element Name**<br>
+Se recomienda usar lowercase para los nombres de los elementos HTML:<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/html.png" /></p><br>
+- **Close All HTML Elements**<br>
+Se recomienda cerrar todos los elementos HTML:<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/html-1.png" alt="Close all html" /></p><br>
+- **Use Lowercase Attribute Names**<br>
+Se recomienda usar lowercase para los nombres de los atributos HTML:<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/html-2.png" alt="attribute Names" /></p><br>
+- **Always Specify alt, width, and height for Images**<br>
+Se recomienda seguir estas convenciones en caso de que la imagen no se puede mostrar y ayudar con la accesibilidad del contenido:<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/html-3.png" alt="always images" /></p>
+<br>Para mas información sobre las convenciones de HTML: https://www.w3schools.com/html/html5_syntax.asp
+
+<br>**CSS**<br><br>
+- **ID and Class Naming**<br>
+Usar nombres de clases y ID significativos que expresen el propósito del elemento:<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/css-1.png" alt="class naming" /></p><br>
+- **Block Content Identation**<br>
+Sangrar todo el contenido del bloque, es decir, reglas dentro de reglas, así como declaraciones, para reflejar la jerarquía y Mejorar la comprensión<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/css-2.png" alt="content identation" /></p><br>
+- **Section Comments**<br>
+Agrupe las secciones de la hoja de estilo mediante comentarios. Separar secciones con nuevas líneas.<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/css-3.png" alt="Comments" /></p>
+<br>Para mas informacion sobre las convenciones de CSS: https://google.github.io/styleguide/htmlcssguide.html
+
+<br>**JavaScript**<br><br>
+- **Array initializers: can be "block-like"**<br>
+Cualquier inicializador de matriz puede ser formateado opcionalmente como si fuera un "tipo bloque" construir". Por ejemplo, los siguientes son todos válidos (no es un análisis exhaustivo lista):<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/java-1.png" alt="block like" /></p><br>
+- **Type-use annotations**<br>
+Las anotaciones de uso de tipo aparecen inmediatamente antes del tipo anotado. Una anotación es un uso de tipo anotación si está meta-anotado con . Ejemplo:@Target(ElementType.TYPE_USE)<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/java-2.png" alt="type-use annotations" /></p><br>
+- **Method and constructor annotations**<br>
+Las reglas para las anotaciones en las declaraciones de método y constructor son las mismas que en la sección anterior. Ejemplo:<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/java-3.png" alt="method" /></p>
+<br>Para mas informacion sobre las convenciones de JavaScript: https://google.github.io/styleguide/javaguide.html
+
+<br>**TypeScript**<br><br>
+- **Imports**<br>
+Hay cuatro variantes de instrucciones de importación en ES6 y TypeScript:<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/type-1.png" alt="imports" /></p><br>
+- **Class declarations**<br>
+Las declaraciones de clase no deben terminar con punto y coma:<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/type-2.png" alt="Class declarations" /></p><br>
+
+- **Constructors**<br>
+Las llamadas al constructor deben usar paréntesis, incluso cuando no se pasa ningún argumento:<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/type-3.png" alt="constructor" /></p>
+<br>Para mas informacion sobre las convenciones de TypeScript: https://google.github.io/styleguide/tsguide.html
+
+<br>**Gherkin**<br><br>
+- **Discernible Given-When-Then Blocks**<br>
+En teoría, sus escenarios pueden ser tan simples como un solo paso Given, When Then, cada uno. Sin embargo, en la vida real, tienden a crecer y tienen múltiples pasos para cada una de estas palabras clave. Para detectar rápidamente dónde termina un bloque y comienza otro, puede sangrar los pasos que comienzan con "Y". Entonces, el escenario sería algo así:<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/gerkin-1.png" alt="Discernible" /></p><br>
+Una alternativa es hacer que cada paso comience con la misma sangría y agregar una nueva línea adicional antes del siguiente bloque de palabras clave.<br><br>
+- **Steps with Tables**<br>
+A menudo usamos tablas en nuestros pasos. Para que sea inmediatamente reconocible que un paso necesita más información de una tabla, usamos dos puntos al final del paso. Esto ayuda cuando se usa IntelliSense, que no incluye vistas previas de tablas, pero mostrará los dos puntos:<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/gerkin-2.png" alt="tables" /></p><br>
+- **Reducing Noise**<br>
+Para reducir el ruido, se recomienda utilizar valores predeterminados para los campos que el sistema requiere, pero que no son relevantes para su escenario.<br>
+<br><p align="center"><img src="assets/source-code-style-guide-conventions/gerkin-3.png" alt="noise" /></p><br>
+Para mas informacion sobre las convenciones de Gherkin: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
+
+
+

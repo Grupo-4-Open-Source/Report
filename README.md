@@ -308,7 +308,17 @@ Aunque no hay un número exacto de problemas afectados por las estafas al moment
 #### 1.2.2 Lean UX Process
 ##### 1.2.2.1. Lean UX Problem Statements
 
-Los usuarios en Lima que necesitan alquilar vehículos tienen dificultades para encontrar opciones confiables, seguras y acordes a sus necesidades, debido a la informalidad del mercado, la falta de filtros personalizados, y procesos poco transparentes. Esto genera desconfianza y experiencia negativas tanto en arrendadores como en propietarios.
+Para los arrendadores de vehículos particulares en Lima, Perú, que desean generar ingresos alquilando sus autos, pero enfrentan riesgos significativos de estafas y daños, el problema es que no cuentan con una plataforma confiable que ofrezca seguridad, verificación de usuarios y respaldo legal. Esto les impide alquilar sus vehículos con confianza, limitando su capacidad de generar ingresos extras.
+
+Para los arrendatarios que buscan alquilar un vehículo de manera temporal, que necesitan una solución rápida y segura para movilizarse, el problema es que las opciones actuales, como grupos en redes sociales o empresas informales, carecen de transparencia y garantías, lo que genera desconfianza y temor a ser estafados.
+
+*Por ello aquí presento algunas evidencias del problema:*
+
+- Arrendadores estafados: Casos donde propietarios entregaron sus vehículos a empresas de alquiler que luego desaparecieron con los autos, generando deudas significativas para los dueños.
+
+- Arrendatarios engañados: Situaciones en las que personas alquilaron vehículos que resultaron ser robados o con documentos falsificados, enfrentando problemas legales y económicos.
+
+- Falta de regulación: El gobierno peruano ha anunciado medidas para sancionar el alquiler informal, evidenciando la necesidad de plataformas que cumplan con requisitos legales y ofrezcan seguridad tanto a arrendadores como a arrendatarios.
 
 ##### 1.2.2.2. Lean UX Assumptions
 ###### **Supuestos del Negocio:**
@@ -380,9 +390,21 @@ Debe ser intuitivo, confiable y rápido, para que así se vea visualmente limpio
 
 **Sabremos que esto sea cierto cuando veamos** al menos más del 70% de los usuarios y propietarios dejan una reseña después de cada alquiler.
 
+###### **Hipótesis 4:**
+
+**Creemos que** los usuarios que alquilan vehículos necesitan medios de pago seguros e integrados
+
+**Sabremos que esto es cierto cuando veamos** más del 65% de los usuarios completan el pago dentro de la app sin abandonar el proceso.
+
+###### **Hipótesis 5:**
+
+**Creemos que** los arrendadores necesitan que los usuarios pasen por un proceso de verificación de identidad (DNI, licencia de conducir, selfie, etc.)
+
+**Sabremos que esto es cierto cuando veamos** al menos el 80% de los arrendadores declaren sentirse más seguros alquilando a usuarios verificados, y la tasa de rechazo disminuya.
+
 ##### 1.2.2.4. Lean UX Canvas
 
-<img src="assets/lean-ux-canva/UX%20canva.png" width=800 >
+<img src="assets/lean-ux-canva/Ux%20Canvas.png" width=800 >
 
 ### 1.3. Segmentos objetivo
 

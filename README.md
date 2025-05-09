@@ -2149,14 +2149,19 @@ Para mas informacion sobre las convenciones de Gherkin: https://specflow.org/ghe
 | **Sum of Story Points**                | 21 story points                                |
 
 ##### 5.2.1.2. Sprint Backlog 1
-| **#Orden** | **User Story ID** | **Título**                               | **Descripción**                                                                                                         | **Story Points** |
-|------------|-------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|------------------|
-| 1          | US-01             | Registro de Usuario                      | Como visitante, quiero registrarme en la aplicación para poder publicar mis vehículos o consultar opciones de alquiler. | 3                |
-| 2          | US-02             | Log In                                   | Como usuario, quiero loguearme con mis credenciales y publicar o reservar vehículos.                                    | 2                |
-| 14         | US-14             | Acceso a la Landing Page                 | Como visitante, quiero acceder a la landing page del producto para recibir información.                                 | 5                | 
-| 15         | US-15             | Ver Información del Producto             | Como visitante, quiero ver de manera clara y precisa de que trata el producto.                                          | 5                | 
-| 16         | US-16             | Consultar los modelos disponibles        | Como visitante, quiero revisar parte del catálogo de opciones para alquilar.                                            | 3                | 
-| 17         | US-17             | Leer Testimonios de Clientes y Dueños    | Como visitante, quiero consultar testimonios y reseñas de clientes y dueños.                                            | 3                | 
+
+Para el primer sprint se desarrolla la estructura básica de la landing page, así como el diseño, información de los productos y la barra de navegación
+
+| **Sprint #**   | **Sprint 1**                          |                    |                                                                    |                                                                                                         |                     |                 |            |
+|----------------|---------------------------------------|--------------------|--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------------------|-----------------|------------|
+| **User Story** |                                       | **Work-Item/task** |                                                                    |                                                                                                         |                     |                 |            |
+| **ID**         | **Title**                             | **Id**             | **Title**                                                          | **Description**                                                                                         | **Estimation(Hrs)** | **Assigned To** | **Status** |
+| US-01          | Registro de Usuario                   | T01                | Crear un sistema que registre usuarios                             | La pagina web debe permitir a los usuarios registrarse donde podrán publicar los vehículos              | 0.5                 | Fiorella Vilca  | Done       |
+| US-02          | Log In                                | T02                | Crear un sistema de inicio de sesión para los usuarios registrados | La página web debe permitir loguearse con los credenciales y publicar o reservar vehículos              | 0.5                 | Fiorella Vilca  | Done       |
+| US-14          | Acceso a la Landing Page              | T03                | Creación de una página web                                         | Se debe crear un acceso a la landing page del producto para recibir información                         | 0.5                 | Fiorella Vilca  | Done       |
+| US-15          | Ver Información del Producto          | T04                | Creación de un apartado de la información del producto             | Se debe implementar una sección donde se pueda ver de manera clara y precisa de que trata el producto   | 1                   | Fiorella Vilca  | Done       |
+| US-16          | Consultar los modelos disponibles     | T05                | Creación de un apartado donde se pueda consultar los modelos       | Se debe implementar una sección donde se pueda revisar parte del catálogo de opciones para alquilar     | 1                   | Fiorella Vilca  | Done       |
+| US-17          | Leer Testimonios de Clientes y Dueños | T06                | Creación de un apartado de los testimonios                         | Se debe implementar una sección donde se pueda consultar los testimonios y reseñas de clientes y dueños | 1                   | Fiorella Vilca  | Done       |
 
 ##### 5.2.1.3. Development Evidence for Sprint Review
 

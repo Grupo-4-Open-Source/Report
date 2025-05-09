@@ -764,6 +764,75 @@ En cuanto al arrendatario podemos observar frustración y resignación al optar 
 
 El arrendador por su parte termina con frustración y sentimiento de perdida de tiempo, al tener que aprender a filtrar las publicaciones fiables con base en su experiencia
 
+### 2.4. Ubiquitous Language
+
+#### **Términos Generales**
+
+1. **Vehicle (Vehículo):**
+    - Unidad disponible para alquilar. Puede ser un auto, camioneta, SUV, etc.
+
+2. **Reservation (Reserva):**
+    - Solicitud formal para alquilar un vehículo por un período de tiempo.
+
+3. **Calendar (Calendario):**
+    - Herramienta para seleccionar fechas de inicio y fin de una reserva.
+
+4. **Review (Reseña):**
+    - Comentario y calificación escrita sobre la experiencia del alquiler.
+
+5. **Search Filter (Filtro de búsqueda):**
+    - Criterios que el usuario puede usar para encontrar vehículos (precio, tipo, transmisión, etc.).
+
+6. **Payment (Pago):**
+    - Transacción financiera realizada por el arrendatario para confirmar la reserva.
+
+7. **User Verification (Verificación de usuario):**
+    - Proceso de validación de identidad (DNI, licencia, foto, etc.).
+
+---
+
+#### **Perfil de usuario - Arrendatario**
+
+1. **User (Usuario):**
+    - Persona que utiliza la app para buscar y alquilar vehículos.
+
+2. **Verified Profile (Perfil verificado):**
+    - Usuario que ha pasado por un proceso de validación de identidad.
+
+3. **Booking History (Historial de reservas):**
+    - Registro de alquileres anteriores del usuario.
+
+4. **Payment Method (Método de pago):**
+    - Medio usado para pagar: tarjeta, Yape, Plin, etc.
+
+5. **Favorite (Favorito):**
+    - Vehículo guardado por el usuario para alquilar más adelante.
+
+6. **Cancellation (Cancelación):**
+    - Acción de anular una reserva antes de su inicio.
+
+---
+
+#### **Perfil de usuario - Arrendador**
+
+1. **Owner (Propietario):**
+    - Persona que registra y ofrece su vehículo en alquiler.
+
+2. **Vehicle Listing (Publicación de vehículo):**
+    - Ficha donde se detallan las características, fotos y condiciones del auto.
+
+3. **Dashboard (Dashboard):**
+    - Panel con el estado de sus vehículos, reservas y calificaciones.
+
+4. **Availability Calendar (Calendario de disponibilidad):**
+    - Fechas en que su vehículo está libre o reservado.
+
+5. **Vehicle History (Historial del vehículo):**
+    - Registro de alquileres pasados de un vehículo específico.
+
+6. **Earnings (Ganancias):**
+    - Dinero generado por los alquileres realizados.
+
 ## Capítulo III: Requirements Specification <a id="cap3"></a>
 ### 3.1. To Be Scenario Mapping
 Segmento Objetivo 1 (Arrendador de vehículos)

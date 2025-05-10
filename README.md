@@ -2142,14 +2142,28 @@ Utilizamos Figma para el desarrollo de mock ups tanto del landing page como de l
 Trabajamos con Netlify para el despliegue de la landing page
 #### 5.1.2. Source Code Management
 
-| Producto     | URL                                                 |
-|--------------|-----------------------------------------------------|
-| Landing Page | https://github.com/Grupo-4-Open-Source/landing-page |
-| Report       | https://github.com/Grupo-4-Open-Source/Report       |
+| Producto     | URL                                                      |
+|--------------|----------------------------------------------------------|
+| Landing Page | https://github.com/Grupo-4-Open-Source/landing-page      |
+| Report       | https://github.com/Grupo-4-Open-Source/Report            |
+| Frontend     | https://github.com/Grupo-4-Open-Source/OpenNova-Frontend |
+
+Para el desarrollo de todos los productos de OpenNova hemos empleado GitFlow con las siguientes restricciones:
+- **Main**: Rama principal del proyecto. Contiene la versión estable y lista para producción.
+- **Develop**: Rama de desarrollo. Aquí se integran las nuevas características y correcciones antes de ser fusionadas a la rama principal.
+- **Feature**: Rama para el desarrollo de nuevas características. Se crea a partir de la rama de desarrollo y se fusiona nuevamente en ella una vez se complete el mismo
+- **Fix**: Rama para correcciones de errores. Se crea a partir de la rama de desarrollo y se fusiona nuevamente en ella una vez completada la corrección.
+
+Además, para el registro de progreso y colaboración se emplearán los conventional commits con su respectivo formato:
+- feat: Nueva funcionalidad
+- fix: Corrección de errores
+- docs: Cambios en la documentación
+- style: Cambios de formato o estilo
+- refactor: Cambios en el código que no afectan la funcionalidad
 
 #### 5.1.3. Source Code Style Guide & Conventions.
 
-Como convención general , todo el codigo realizado por los miembros del equipo debe redactarse en completo inglés.
+Como convención general , todo el código realizado por los miembros del equipo debe redactarse en completo inglés.
 <br><br>*HTML*<br>
 - *Use Lowercase Element Name*<br>
 Se recomienda usar lowercase para los nombres de los elementos HTML:<br>
@@ -2226,6 +2240,10 @@ Para mas informacion sobre las convenciones de Gherkin: https://specflow.org/ghe
 8) Configurar el dominio (automovilunite.com)
 
 #### 5.2.1. Sprint 1
+
+##### 5.2.1.1. Sprint Planning 1
+La organización del primer sprint se realizó el 18 de abril de 2025, donde se definieron los objetivos a cumplir con respecto a los 4 primeros capítulos de documentación y la primera versión de la landing page.
+
 | Sprint #                               | Sprint 1                                       |
 |----------------------------------------|------------------------------------------------|
 | **Date**                               | 2025-04-18                                     |
@@ -2254,12 +2272,29 @@ Para el primer sprint se desarrolla la estructura básica de la landing page, as
 | US-16          | Consultar los modelos disponibles     | T05                | Creación de un apartado donde se pueda consultar los modelos       | Se debe implementar una sección donde se pueda revisar parte del catálogo de opciones para alquilar     | 1                   | Fiorella Vilca  | Done       |
 | US-17          | Leer Testimonios de Clientes y Dueños | T06                | Creación de un apartado de los testimonios                         | Se debe implementar una sección donde se pueda consultar los testimonios y reseñas de clientes y dueños | 1                   | Fiorella Vilca  | Done       |
 
+A continuación se encuentra el enlace de acceso al board de Trello, donde se puede observar el avance de cada uno de los User Stories y tareas asignadas a cada miembro del equipo.
+https://trello.com/b/OlPL01ZU/opennova-trello
+
+<img src="assets/sprint1/trelloSprint1.png" width=600 >
+
+Trello - Sprint 1:
+
+
 ##### 5.2.1.3. Development Evidence for Sprint Review
 
 | Repository       | Branch | Commit ID                                | Commit Message                         | Commit Message Body | Committed on Date |
 |------------------|--------|------------------------------------------|----------------------------------------|---------------------|-------------------|
 | AutoMovile-Unite | main   | a5646ec77c80c10d970d3ef04321c6f6399cc0c4 | Implementación inicial de landing page | -                   | 19-04-2025        |
 
+#### 5.2.1.4. Test Evidence for Sprint Review
+A continuación se listan los User Stories culminados en el Sprint 1
+
+| **Epic / Story ID** | **Título**                            | **Descripción**                                                                                                         |   | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                       | **Relacionado con (Epic ID)** |
+|---------------------|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------|:--|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| US-21               | Acceso a la Landing Page              | Como visitante, quiero acceder a la landing page del producto para recibir información.                                 |   | **Given** el visitante accede a la landing page, **when** accede a todas las pestañas disponibles, **then** se informara sobre los beneficios y características de nuestro producto.                                                                                                                                                                                                                              | EP-05                         |
+| US-22               | Ver Información del Producto          | Como visitante, quiero ver de manera clara y precisa de que trata el producto.                                          |   | **Given** el visitante está en la landing page,, **when** accede a la pestaña "Why Choose Us", **then** podrá informarse sobre las características de nuestro producto.                                                                                                                                                                                                                                           | EP-06                         |
+| US-23               | Consultar los modelos disponibles     | Como visitante, quiero revisar parte del catálogo de opciones para alquilar.                                            |   | **Given** el visitante está en la landing page,, **when** accede a la pestaña "Popular Cars", **then** se le presentaran las opciones mas destacadas.                                                                                                                                                                                                                                                             | EP-06                         |
+| US-24               | Leer Testimonios de Clientes y Dueños | Como visitante, quiero consultar testimonios y reseñas de clientes y dueños.                                            |   | **Given** el visitante está en la landing page,, **when** accede a la pestaña "Testimonials", **then** se le presentaran testimonios y reseñas de usuarios.                                                                                                                                                                                                                                                       | EP-06                         |
 ##### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Para esta primera entrega, nuestro equipo ha logrado desarrollar la Landing Page del proyecto **AutoMovil Unite**. De esta manera, se podrá visualizar la información esencial sobre los servicios que ofrece nuestra iniciativa.
@@ -2305,6 +2340,21 @@ Gracias a esta configuración, logramos que nuestra página web esté disponible
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 Para el despliegue de la landing page, utilizamos Netlify. Esta plataforma nos permitió publicar la página web directamente desde el repositorio de código, integrándose de manera eficiente con nuestro flujo de trabajo. Al conectar nuestro proyecto desarrollado en Angular con Netlify, la herramienta se encargó automáticamente de compilar y desplegar la aplicación, facilitando un proceso continuo y sin complicaciones.
+
+**Metodología:**
+1) Crear un nuevo repositorio en la organización para la landing page.
+2) Cargar el proyecto en el repositorio.
+3) Enlazar Netlify con la cuenta de GitHub.
+4) Seleccionar el repositorio de la landing page.
+5) Configurar el branch a desplegar (main).
+6) Configurar el directorio de salida (build).
+7) Configurar el dominio (automovil-unite.com).
+8) Acceder a la landing page a través del dominio configurado.
+
+Evidencia del proceso:
+
+<img src="assets/sprint1/landingEvidence.png" width=600 >
+
 
 El enlace de acceso a la landing page es el siguiente: https://automovil-unite.netlify.app/ 
 

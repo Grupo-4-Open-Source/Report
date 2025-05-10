@@ -507,10 +507,10 @@ A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional 
 
 #### 2.1.2. Estrategias y tácticas frente a competidores.
 **Énfasis en seguridad:** Ofreceremos un sistema de verificación de identidad y contratos digitales para aumentar la confianza entre usuarios y propietarios.
-
-**Interfaz intuitiva:** La plataforma será fácil de usar, con un diseño limpio y accesible desde cualquier navegador web, lo que facilitará la navegación y publicación de vehículos.
-
+**Trato Directo:** La plataforma se encargará de crear un canal de comunicación entre arrendadores y arrendatarios, evitando así la necesidad de intermediarios.
 **Sistema de reseñas:** Implementaremos un sistema de reseñas y calificaciones para que los usuarios puedan evaluar a los propietarios y viceversa, lo que generará confianza y transparencia en el proceso de alquiler.
+**Publicación de Vehículos:** La plataforma ofrecerá gratuitamente de manera limitada la publicación de vehículos, permitiendo a los propietarios gestionar su flota de manera eficiente y segura.
+ 
 ### 2.2. Entrevistas.
 #### 2.2.1. Diseño de entrevistas
 ##### Segmento 1 (Dueño de vehiculo):

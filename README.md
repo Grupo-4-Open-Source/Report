@@ -1910,7 +1910,7 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc
 
 #### 4.6.2. Software Architecture Container Diagrams
 
-![ContainerDiagram.png](assets/software-architecture/ContainerDiagram.png)
+![ContainerDiagram-c4.png](assets/software-architecture/ContainerDiagram-c4.png)
 
 #### 4.6.3. Software Architecture Components Diagrams
 

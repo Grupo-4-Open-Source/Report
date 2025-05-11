@@ -2015,16 +2015,49 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc
 
 #### 4.6.1. Software Architecture Context Diagram
 
-![ContextDiagram.png](assets/software-architecture/ContextDiagram.png)
-
+![ContextDiagram-c4.png](assets/software-architecture/ContextDiagram-c4.png)
 
 #### 4.6.2. Software Architecture Container Diagrams
 
-![ContainerDiagram.png](assets/software-architecture/ContainerDiagram.png)
+![ContainerDiagram-c4.png](assets/software-architecture/ContainerDiagram-c4.png)
 
 #### 4.6.3. Software Architecture Components Diagrams
 
-![ComponentDiagram.png](assets/software-architecture/ComponentDiagram.png)
+**Identity and Access Management Bounded Context**
+![IAM-BoundedContext.png](assets/software-architecture/IAM-BoundedContext.png)
+- Registro, autenticación y recuperación de cuenta.
+
+
+
+**Account and Identity Management Bounded Context**
+![AccountManagement-BoundedContext.png](assets/software-architecture/AccountManagement-BoundedContext.png)
+- Gestión de cuenta, perfil e identidad verificable.
+
+
+
+**Publishing Management Bounded Context**
+![Publishing-BoundedContext.png](assets/software-architecture/Publishing-BoundedContext.png)
+- Publicación y edición de vehículos.
+
+
+
+**Reservation and Dashboard Bounded Context**
+![Reservation&Dashboard-BoundedContext.png](assets/software-architecture/Reservation%26Dashboard-BoundedContext.png)
+- Reservas y vista general del usuario.
+
+
+
+**Browsing and Discovery Bounded Context**
+![Discovery&Reviews-BoundedContext.png](assets/software-architecture/Discovery%26Reviews-BoundedContext.png)
+- Búsqueda, filtrado, ordenación, reseñas.
+
+
+
+**Payments Bounded Context**
+![Payment-BoundedContext.png](assets/software-architecture/Payment-BoundedContext.png)
+- Procesamiento de pagos y confirmaciones.
+
+
 
 ### 4.7. Software Object-Oriented Design.
 

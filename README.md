@@ -182,6 +182,7 @@ del ABET – EAC - Student Outcome 3.
         <strong>TB1:</strong>En el proyecto, participé activamente en el diseño de la landing page y la aplicación web, desarrollando wireframes, mockups y prototipos funcionales. Realicé una presentación oral sobre el proceso de diseño, destacando la arquitectura de la información, los sistemas de navegación, y los lineamientos de estilo, adaptando el contenido según el nivel de conocimiento de la audiencia.<br>
         <strong>Josue Paiva</strong><br>
         <strong>TB1:</strong>Me involucre de manera integral en el desarrollo del primer entregable, pues asumí el rol de team leader, me encargue de organizar las reuniones, definir fechas de entrega de avance y la logística respectiva para concluir a tiempo el entregable.<br>
+        <strong>TP:</strong>En este entregable me concentré en el bounded context de la navegación de vehículos, asi como de la definición de endpoints para el resto de bounded context, el set up del repositorio y el despliegue de la app<br>
         <strong>Javier Tello</strong><br> 
         <strong>TB1:</strong>En el proyecto, participé activamente con el grupo, con las tareas asignadas, también pude hacer entrevistas a cada segmento y así pude lograr entender realmente bien sus necesidades para poder realizar el trabajo correctamente.<br>
         <strong>Kenyi Ramírez</strong><br>
@@ -203,6 +204,7 @@ del ABET – EAC - Student Outcome 3.
         <strong>TB1:</strong>Expliqué de manera clara los lineamientos de estilo, la arquitectura de información y el diseño UI/UX de la landing page y la aplicación web. Utilicé recursos visuales como wireframes, mockups y diagramas de flujos.<br>
         <strong>Josue Paiva</strong><br>
         <strong>TB1:</strong> Me encargué del desarrollo del capítulo II en su totalidad, ademas de desarrollar las historias de usuario con sus respectivas épicas, finalmente contribuí con el despliegue de la landing page <br>
+        <strong>TP:</strong>Fui el responsable del correcto despliegue de la landing page y su mock server, para asi poder realizar correctamente la presentacion de la app<br>
         <strong>Javier Tello</strong><br>
         <strong>TB1:</strong> Realicé el To-Be Scenario mapping lo cual entendí los pasos que se pueden hacer cuando la plataforma ya esté hecha, tambien el Impact Mapping para saber los impactos de nuestros segmentos, finalmente contribuí con el Product Backlog y entendi que funcionalidades tenemos que priorizar y tomarlo en cuenta.<br>
         <strong>Kenyi Ramírez</strong><br>
@@ -2305,6 +2307,8 @@ Para el primer sprint se desarrolla la estructura básica de la landing page, as
 | US-16          | Consultar los modelos disponibles     | T05                | Creación de un apartado donde se pueda consultar los modelos       | Se debe implementar una sección donde se pueda revisar parte del catálogo de opciones para alquilar     | 1                   | Fiorella Vilca  | Done       |
 | US-17          | Leer Testimonios de Clientes y Dueños | T06                | Creación de un apartado de los testimonios                         | Se debe implementar una sección donde se pueda consultar los testimonios y reseñas de clientes y dueños | 1                   | Fiorella Vilca  | Done       |
 
+
+
 A continuación se encuentra el enlace de acceso al board de Trello, donde se puede observar el avance de cada uno de los User Stories y tareas asignadas a cada miembro del equipo.
 https://trello.com/b/OlPL01ZU/opennova-trello
 
@@ -2405,18 +2409,114 @@ El enlace de acceso a la landing page es el siguiente: https://automovil-unite.n
 <td colspan="1" rowspan="6">
 <img src="assets/team-collaboration/grafico.png" alt="logo" width="900" height="500"></div>
 
+
+#### 5.2.1. Sprint 2
+En este sprint nos concentramos en desarrollar las user stories que hacen referencia a funcionalidades Frontend de la aplicación
+
+##### 5.2.2.1. Sprint Planning 2
+| Sprint #                               | Sprint 2                                                                                                                                                                          |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Date**                               | 2025-05-10                                                                                                                                                                        |
+| **Time**                               | 08:00 PM                                                                                                                                                                          |
+| **Location**                           | Discord                                                                                                                                                                           |
+| **Prepared By**                        | Josue Paiva                                                                                                                                                                       |
+| **Attendees (to planning meeting)**    | Todos los integrantes                                                                                                                                                             |
+| **Sprint n - 1 Review Summary**        | Se mejoro la documentación en base al feedback del sprint anterior, puntos como los user stories, diagramas y evidencias fueron ampliadas                                         |
+| **Sprint n - 1 Retrospective Summary** | Tuvimos contratiempos con el retiro imprevisto de dos compañeros, por lo que el grupo se redujo a 3, aun asi mantuvimos buena y constante comunicacion con los miembros restantes |
+| **Sprint 2 Goal**                      | Construcción del frontend en base a los user stories actualizados.                                                                                                                |
+| **Sprint 2 Velocity**                  | 21 story points                                                                                                                                                                   |
+| **Sum of Story Points**                | 21 story points                                                                                                                                                                   |
+
+
+##### 5.2.2.2. Sprint Backlog 2
+
+Para este entregable implementamos una nueva lista en trello donde incluimos los user stories y tareas a realizar para el sprint 2
+
+https://trello.com/b/OlPL01ZU/opennova-trello
+
+<img src="assets/sprint2/trello2.png" width=600 >
+
+##### 5.2.2.3. Development Evidence for Sprint Review
+
+Commits realizados en el repositorio de report:
+
+<img src="assets/sprint2/report.png" width=600 >
+
+Commits realizados en el repositorio de frontend:
+
+<img src="assets/sprint2/front1.png" width=600 >
+
+<img src="assets/sprint2/front2.png" width=600 >
+
+
+##### 5.2.2.4. Test Evidence for Sprint Review
+
+| **Epic / Story ID** | **Título**                          | **Descripción**                                                                                                        | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                         | **Relacionado con (Epic ID)** |
+|---------------------|-------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| US-04               | Dashboard del usuario               | Como usuario, quiero contar con un Dashboard donde consultar información relevante rápidamente.                        | Escenario 1: **Given** el usuario ingresa sus credenciales, **when** selecciona "Log-In", **then** se le cargará la pestaña "Dashboard" por defecto. Escenario 2: **Given** el usuario se encuentra en otra pestaña, **when** selecciona desde el toolbar el Button "Dashboard", **then** se le redirigirá a la pestaña de Dashboard.                                                                               | EP-02                         |
+| US-05               | Sección Destacados del Dashboard    | Como usuario, quiero contar con una sección Destacados en el Dashboard donde consultar vehículos publicados.           | Escenario 1: **Given** el usuario accede a la aplicación, **when** se sitúa en la pestaña Dashboard, **then** se le sugerirán vehículos en la zona de Destacados. Escenario 2: **Given** el usuario está en la sección de Destacados, **when** selecciona la opción "Ver Más", **then** se le redirigirá a la pestaña de navegación.                                                                                | EP-02                         |
+| US-06               | Sección Publicados del Dashboard    | Como usuario, quiero contar con una sección Publicados en el Dashboard donde consultar mis vehículos publicados.       | Escenario 1: **Given** el usuario accede a la aplicación, **when** se sitúa en la pestaña Dashboard, **then** se visualizarán sus publicaciones en la zona "Mis Publicaciones". Escenario 2: **Given** el usuario está en la sección de "Mis Publicaciones", **when** selecciona la opción "Nueva Publicación", **then** se le redirigirá a la pestaña de publicación.                                              | EP-02                         |
+| US-07               | Cancelar reserva de vehículo        | Como usuario, quiero tener la opción de cancelar una reserva de un vehículo para alquilar.                             | Escenario 1: **Given** el usuario se encuentra en su Dashboard, **when** selecciona en una reserva, **then** podrá elegir la opción "Eliminar". Escenario 2: **Given** el usuario está en su Dashboard, **when** selecciona la opción de eliminación múltiple, **then** podrá eliminar varias reservas al mismo tiempo.                                                                                             | EP-02                         |
+| US-08               | Pestaña de Publicación              | Como usuario, quiero contar con una pestaña que me permita publicar vehículos y consultar los que ya están publicados. | Escenario 1: **Given** el usuario desea crear una publicación o revisar las existentes, **when** accede a la pestaña "Publicación", **then** tendrá la opción "Nueva Publicación" y debajo la sección "Mis Publicaciones". Escenario 2: **Given** el usuario se encuentra en otra pestaña, **when** selecciona desde el toolbar el Button "Publicaciones", **then** se le redirigirá a la pestaña de Publicaciones. | EP-02                         |
+| US-09               | Creación de publicaciones           | Como usuario, quiero crear publicaciones para ofrecer mis vehículos en alquiler.                                       | Escenario 1: **Given** el usuario está en la sección de publicaciones, **when** selecciona la opción de crear una nueva publicación, **then** deberá ingresar la información de la nueva publicación. Escenario 2: **Given** el usuario está en la sección de publicaciones, **when** selecciona una publicación ya creada, **then** podrá modificar la información de dicha publicación.                           | EP-03                         |
+| US-10               | Visualizar una publicación          | Como usuario, quiero ver el estado e información de una publicación ya creada.                                         | Escenario 1: **Given** el usuario está en la sección de publicaciones, **when** selecciona una publicación, **then** deberá poder consultar la información registrada. Escenario 2: **Given** el usuario está consultando la información de una publicación, **when** selecciona en modificar, **then** podrá cambiar la información registrada.                                                                    | EP-03                         |
+| US-11               | Eliminar una publicación            | Como usuario, quiero eliminar una publicación ya creada.                                                               | Escenario 1: **Given** el usuario está en la sección de publicaciones, **when** selecciona una publicación, **then** podrá eliminar la publicación haciendo click en "Eliminar". Escenario 2: **Given** el usuario está en la sección de publicaciones, **when** hace click en "Eliminar varios", **then** podrá seleccionar múltiples publicaciones para eliminar.                                                 | EP-03                         |
+| US-12               | Pestaña de Navegación               | Como usuario, quiero navegar en las publicaciones ya existentes de alquiler.                                           | Escenario 1: **Given** el usuario desea navegar en las publicaciones ya creadas, **when** accede a la pestaña "Navegación", **then** se le mostrarán todos los alquileres ya publicados. Escenario 2: **Given** el usuario se encuentra en otra pestaña, **when** selecciona desde el toolbar el Button "Navegación", **then** se le redirigirá a la pestaña de Navegación.                                         | EP-03                         |
+| US-13               | Ordenar el precio de los alquileres | Como usuario, quiero poder ordenar los alquileres disponibles en base a su precio.                                     | Escenario 1: **Given** el usuario está en la sección de navegación, **when** hace click en el icono de flecha, **then** los precios se ordenarán de menor a mayor. Escenario 2: **Given** el usuario ya ordenó los precios de menor a mayor, **when** hace click en el icono de flecha nuevamente, **then** los precios se ordenarán de mayor a menor.                                                              | EP-04                         |
+| US-15               | Reseñar publicaciones de alquiler   | Como usuario, quiero poder dejar reseñas sobre las publicaciones realizadas por los dueños.                            | Escenario 1: **Given** el usuario está en la publicación de un alquiler, **when** elige la opción de dejar reseña, **then** podrá puntuar del 1 al 5 la publicación en cuestión. Escenario 2: **Given** el usuario está puntuando una publicación, **when** escribe un comentario, **then** podrá visualizarse en la publicación.                                                                                   | EP-04                         |
+| US-16               | Reserva de vehículo                 | Como usuario, quiero tener la opción de reservar un vehículo para alquilar.                                            | Escenario 1: **Given** el usuario se encuentra en una publicación, **when** selecciona la opción "Reservar", **then** podrá elegir las fechas en las que desea reservar.                                                                                                                                                                                                                                            | EP-04                         |
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este segundo sprint logramos desplegar la primera version del frontend de la aplicacion, donde se implementaron las funcionalidades de dashboard, publicaciones y navegacion. A continuacion se presentan las evidencias de cada una de estas secciones:
+
+Dashboard:
+
+<img src="assets/sprint2/dashboard.png" width=600 >
+
+Navigation:
+
+<img src="assets/sprint2/navigation.png" width=600 >
+
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Para la simulación del servicio, utilizamos MockApi debido a la facilidad que nos daba a la hora de trasladar la data de db.json a la aplicación.
+
+<img src="assets/sprint2/mock.png" width=600 >
+
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+Para el despliegue de la versión actual del frontend utilizamos Netlify. Esta plataforma nos permitió publicar la aplicación directamente desde el repositorio respectivo.
+
+<img src="assets/sprint2/netlifyfront.png" width=600 >
+
+<img src="assets/sprint2/frontDeploy.png" width=600 >
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+A continuación se presentan las evidencias de la colaboración del equipo durante el sprint 2.
+
+Report:
+
+<img src="assets/sprint2/reportSprint2.png" width=600 >
+
+Frontend:
+
+<img src="assets/sprint2/frontSprint2.png" width=600 >
+
+
 ## Conclusiones:
 
+**TB1:**
 El desarrollo de la landing page con Angular nos permitió estructurar y organizar el contenido de forma modular, facilitando la escalabilidad y el mantenimiento del proyecto a futuro.
-
 Implementar estilos y componentes visuales mejoró la experiencia del usuario, permitiendo una navegación clara y atractiva que comunica efectivamente los objetivos de la plataforma AutoMovil Unite.
-
 El uso de Netlify como herramienta de despliegue resultó ser una solución eficaz, ya que simplificó el proceso de publicación en línea, permitiendo actualizaciones rápidas y automatizadas cada vez que se realizaban cambios en el repositorio.
-
 La integración de herramientas modernas como Git, GitHub y Netlify favoreció una metodología de trabajo colaborativa y eficiente, manteniendo el control de versiones y facilitando el trabajo en equipo.
-
 Este primer avance representa una base sólida sobre la cual se puede seguir construyendo funcionalidades futuras, como el registro de usuarios, la búsqueda de vehículos y el sistema de reservas.
 
+**TP:**
+Concluir este entregable nos permitió trabajar de manera tangible en las user stories que planteamos y nos ayudó a entender la importancia de la planificación y la organización en el desarrollo de software,
+Construir los bounded contexts que planteamos en la documentación inicial nos deja ver el progreso que está adquiriendo la aplicación, concluimos satisfactoriamente con todas las user stories que consideramos para este entregable
+por ello considerado que esta entrega fue satisfactoria.
 ## Anexos
 
 - Link de Landing Page en Figma: https://www.figma.com/design/KQZVfQlFF1EJRZbvBsT8kQ/Automovile-Unit-Grupo4-Open-Source?node-id=0-1&t=kCxtkI0IitGNpgQP-1 

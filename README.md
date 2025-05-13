@@ -2524,6 +2524,8 @@ Para el despliegue de la versión actual del frontend utilizamos Netlify. Esta p
 
 <img src="assets/sprint2/frontDeploy.png" width=600 >
 
+Link del front desplegado: https://opennova-frontend.netlify.app/
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 A continuación se presentan las evidencias de la colaboración del equipo durante el sprint 2.
@@ -2558,6 +2560,8 @@ por ello considerado que esta entrega fue satisfactoria.
 - Link del Web Applications Prototyping: https://www.figma.com/design/WhozRt9Aq2rVJwXMXadh2h/Web-Applications-Prototyping?node-id=0-1&t=N0zAgK53okXLroEN-1 
 -Link de repositorio de GitHub: https://github.com/Grupo-4-Open-Source/Report
 - Link de la landing page desplegada: https://automovil-unite.netlify.app/
+- Link del front desplegado: https://opennova-frontend.netlify.app/
+- 
 ## Bibliografías
 
 - HTML: HyperText Markup Language | MDN. (2023, July 17). Mozilla.org. https://developer.mozilla.org/en-US/docs/Web/HTML

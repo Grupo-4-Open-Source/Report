@@ -187,6 +187,7 @@ del ABET – EAC - Student Outcome 3.
         <strong>TB1:</strong>En el proyecto, participé activamente con el grupo, con las tareas asignadas, también pude hacer entrevistas a cada segmento y así pude lograr entender realmente bien sus necesidades para poder realizar el trabajo correctamente.<br>
         <strong>Kenyi Ramírez</strong><br>
         <strong>TB1:</strong>Colaboré de manera activa con mi equipo en la elaboración de este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a desarrollar. Diseñé y expliqué la estructura de los diagramas de Domain-Driven Design (contexto, contenedor y componente), así como el diseño de clases y base de datos.<br>
+        <strong>TP:</strong>Colaboré de manera activa con mi equipo en corregir este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a editar. También participé activamente en el frontend en la elaboración del bounded context Dashboard, explicando y mostrando a mis compañeros cómo funciona. Lo he diseñado de acuerdo a las historias de usuario y diagrama de clases/base de datos <br>
 
 <br>
 <br>
@@ -209,6 +210,7 @@ del ABET – EAC - Student Outcome 3.
         <strong>TB1:</strong> Realicé el To-Be Scenario mapping lo cual entendí los pasos que se pueden hacer cuando la plataforma ya esté hecha, tambien el Impact Mapping para saber los impactos de nuestros segmentos, finalmente contribuí con el Product Backlog y entendi que funcionalidades tenemos que priorizar y tomarlo en cuenta.<br>
         <strong>Kenyi Ramírez</strong><br>
         <strong>TB1:</strong> Me encargué del desarrollo de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. Estos diagramas son fundamentales para visualizar y comprender la arquitectura del sistema, proporcionando una representación clara de los diferentes niveles de la plataforma que desarrollaremos a lo largo del curso.<br>
+        <strong>TP:</strong> Me encargué de la corrección de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. También corregí las User Stories junto con el Product Backlog. En cuanto al proyecto frontend, me encargué de crear e implementar la sección Dashboard y agregar algunos botones en el menú principal.<br>
 
 <br>
 <br>
@@ -2102,91 +2104,91 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc
 
 #### 4.7.2. Class Dictionary.
 
-**User:** Representa a una persona registrada en la plataforma que puede ser dueña de vehículos, hacer reservas, recibir notificaciones, subir documentos y escribir reseñas.
-- id: Identificador único del usuario.
-- name: Nombre completo del usuario.
-- email: Correo electrónico del usuario.
-- password: Contraseña del usuario.
-- phoneNumber: Número de teléfono del usuario.
-- profileImageUrl: URL de su imagen de perfil.
+**User**: Representa a una persona registrada en la plataforma que puede publicar vehículos, reservarlos, subir documentos personales y escribir reseñas.
 
+- **id**: Identificador único del usuario.
+- **fullName**: Nombre completo del usuario.
+- **email**: Correo electrónico del usuario.
+- **phone**: Número de teléfono del usuario.
+- **address**: Dirección del usuario.
+- **birthday**: Fecha de nacimiento del usuario.
+- **dniPic**: Imagen del documento de identidad.
+- **licensePic**: Imagen de la licencia de conducir.
 
-**Vehicle:** Representa un vehículo disponible para alquiler, propiedad de un usuario. Contiene información técnica y comercial.
-- id: Identificador único del vehículo.
-- owner: Usuario que posee el vehículo.
-- model: Modelo del vehículo.
-- brand: Marca del vehículo.
-- seatCount: Número de asientos.
-- imageUrl: URL de la imagen del vehículo.
-- rating: Calificación promedio del vehículo.
-- maxSpeed: Velocidad máxima alcanzable.
-- fuelConsumption: Consumo de combustible.
-- length: Largo del vehículo.
-- width: Ancho del vehículo.
-- height: Alto del vehículo.
-- weight: Peso del vehículo.
-- vehicleClass: Categoría o clase del vehículo.
-- transmission: Tipo de transmisión (manual o automática).
-- pricePerMonth: Precio de alquiler mensual.
-- pickupLocation: Lugar donde se recoge el vehículo.
+**PublishedVehicle**: Representa un vehículo disponible públicamente para alquiler. Incluye información general y comercial para ser visualizado por cualquier usuario.
 
+- **id**: Identificador único del vehículo.
+- **model**: Modelo del vehículo.
+- **brand**: Marca del vehículo.
+- **year**: Año de fabricación del vehículo.
+- **description**: Descripción del vehículo.
+- **image**: Imagen representativa del vehículo.
+- **price**: Precio por uso/alquiler.
+- **rating**: Calificación promedio del vehículo.
 
-**Reservation:** Representa una solicitud de alquiler de un vehículo por parte de un usuario durante un período específico.
-- id: Identificador único de la reserva.
-- vehicle: Vehículo reservado.
-- renter: Usuario que realiza la reserva.
-- startDate: Fecha de inicio del alquiler.
-- endDate: Fecha de finalización del alquiler.
-- state: Estado actual de la reserva (pendiente, confirmada, cancelada).
-- notificationService: Servicio que gestiona las notificaciones relacionadas.
+**MyPublishedVehicle**: Representa una publicación de vehículo gestionada por el usuario que lo publicó. Incluye datos adicionales sobre la publicación.
 
-**Review:** Representa una reseña hecha por un usuario sobre un vehículo, incluye calificación y comentario.
-- id: Identificador único de la reseña.
-- author: Usuario que escribe la reseña.
-- vehicle: Vehículo evaluado.
-- rating: Puntuación dada al vehículo.
-- comment: Comentario textual del usuario.
+- **id**: Identificador único de la publicación.
+- **model**: Modelo del vehículo.
+- **brand**: Marca del vehículo.
+- **year**: Año del vehículo.
+- **description**: Descripción breve.
+- **image**: Imagen cargada para la publicación.
+- **price**: Precio asignado por el usuario.
+- **publishedDate**: Fecha en la que fue publicado.
 
-**Document:** Archivo subido por un usuario (por ejemplo, licencia de conducir).
-- id: Identificador único del documento.
-- user: Usuario al que pertenece el documento.
-- fileUrl: Enlace al archivo subido.
+**BookedVehicle**: Representa un vehículo que ha sido reservado por un usuario. Contiene la información esencial del vehículo en el contexto de la reserva.
 
-**Payment:** Representa un pago realizado por una reserva de vehículo.
-- id: Identificador único del pago.
-- user: Usuario que realiza el pago.
-- reservation: Reserva asociada al pago.
-- amount: Monto pagado.
-- paymentDate: Fecha y hora del pago.
-- paymentMethod: Método utilizado (ej: tarjeta, transferencia).
-- status: Estado actual del pago.
+- **id**: Identificador único del vehículo reservado.
+- **model**: Modelo del vehículo.
+- **brand**: Marca del vehículo.
+- **year**: Año del vehículo.
+- **description**: Descripción del vehículo.
+- **image**: Imagen del vehículo.
+- **price**: Precio asociado a la reserva.
+- **rating**: Calificación general del vehículo.
 
+**Review**: Representa una reseña que un usuario escribe sobre un vehículo. Contiene tanto una puntuación como un comentario.
 
-**ReservationState:** Interfaz que representa el estado actual de una reserva (pendiente, confirmada o cancelada).
+- **id**: Identificador único de la reseña.
+- **userId**: Identificador del usuario que la escribió.
+- **vehicleId**: Identificador del vehículo evaluado.
+- **rating**: Calificación asignada.
+- **comment**: Comentario textual.
+- **date**: Fecha de publicación de la reseña.
 
+**Reservation**: Representa una reserva activa o pasada entre un usuario y un vehículo publicado.
 
-**Notification:** Mensaje enviado a un usuario para informarle sobre eventos relacionados con reservas o vehículos.
-- id: Identificador único de la notificación.
-- user: Usuario que recibe la notificación.
-- message: Texto del mensaje.
-- relatedVehicle: Vehículo relacionado con la notificación.
-- sender: Usuario que envió la notificación.
+- **id**: Identificador único de la reserva.
+- **status**: Estado actual de la reserva (por ejemplo, confirmada o cancelada).
 
-**NotificationService:**
-observers: Lista de objetos que serán notificados cuando ocurra un evento.
+**Payment**: Representa un pago efectuado por un usuario para confirmar una reserva.
 
+- **id**: Identificador único del pago.
+- **userId**: Identificador del usuario que realiza el pago.
+- **reservationId**: Identificador de la reserva asociada.
+- **amount**: Monto total pagado.
+- **paymentDate**: Fecha del pago.
+- **method**: Método utilizado para pagar (ej. tarjeta, transferencia).
+- **status**: Estado del pago (procesado, cancelado, reembolsado).
 
-**VehicleBuilder:** Builder que facilita la creación paso a paso de objetos Vehicle.
+**UserProfile**: Representa el perfil extendido de un usuario. Incluye información personal y documentos de identidad.
 
-
-**ReservationBuilder:** Builder que permite construir reservas asegurando que se cumplan los pasos y atributos requeridos.
+- **profilePic**: Imagen de perfil del usuario.
+- **fullName**: Nombre completo.
+- **email**: Correo electrónico.
+- **phone**: Número de contacto.
+- **address**: Dirección personal.
+- **birthday**: Fecha de nacimiento.
+- **dniPic**: Imagen del documento nacional de identidad.
+- **licensePic**: Imagen de la licencia de conducir.
 
 
 ### 4.8 Database Design
 
 #### 4.8.1 Database Diagram
 
-![DatabaseDiagramAutomovilUnite.png](assets/DatabaseDiagram/DatabaseDiagramAutomovilUnite.png)
+![DatabaseDiagram-AutomovilUnite.png](assets/DatabaseDiagram/DatabaseDiagram-AutomovilUnite.png)
 
 ## Capítulo V: Product Implementation, Validation & Deployment <a id="cap5"></a>
 ### 5.1. Software Configuration Management

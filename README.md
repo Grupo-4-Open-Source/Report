@@ -2084,17 +2084,14 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc
 - Reservas y vista general del usuario.
 
 
-
 **Browsing and Discovery Bounded Context**
 ![Discovery&Reviews-BoundedContext.png](assets/software-architecture/Discovery%26Reviews-BoundedContext.png)
 - Búsqueda, filtrado, ordenación, reseñas.
 
 
-
 **Payments Bounded Context**
 ![Payment-BoundedContext.png](assets/software-architecture/Payment-BoundedContext.png)
 - Procesamiento de pagos y confirmaciones.
-
 
 
 ### 4.7. Software Object-Oriented Design.

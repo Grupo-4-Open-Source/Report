@@ -7,7 +7,7 @@
   <h2 >Curso: Desarrollo de Aplicaciones Open Source </h2>
   <h2 >Sección: 4341</h2>
   <br>
-  <h2 >Informe del TB1</h2>
+  <h2 >Informe del TB2</h2>
   <h2 >Startup: NovaCode </h2>
   <h2 >Producto: Automovil-Unite </h2>
   <br>
@@ -104,7 +104,7 @@
         - [4.8.1. Database Diagram](#481-database-diagram)
 
 
-- [Capítulo V: Product Implementation, Validation & Deployment](#cap5)
+- [Capítulo V: Product Implementation, Validation & Deployment](#c5)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
         - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
         - [5.1.2. Source Code Management](#512-source-code-management)
@@ -113,36 +113,36 @@
     - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
         - [5.2.1. Sprint 1](#521-sprint-1)
             - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Sprint Backlog 1](#5212-sprint-backlog-1)
-            - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)
-            - [5.2.1.4.  Suite Evidence for Sprint Review](#5214-suite-evidence-for-sprint-review)
+            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
             - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
         - [5.2.2. Sprint 2](#522-sprint-2)
             - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-            - [5.2.2.2. Sprint Backlog 2](#5222-sprint-backlog-2)
-            - [5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
-            - [5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
+            - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+            - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+            - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
             - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
             - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
             - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
             - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
         - [5.2.3. Sprint 3](#523-sprint-3)
             - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-            - [5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-3)
-            - [5.2.3.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
-            - [5.2.3.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
+            - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+            - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+            - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
             - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
             - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-            - [5.2.4. Sprint 4](#524-sprint-4)
+        - [5.2.4. Sprint 4](#524-sprint-4)
             - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-            - [5.2.4.2. Sprint Backlog 4](#5242-sprint-backlog-4)
-            - [5.2.4.3. Development Evidence for Sprint Review](#5243-development-evidence-for-sprint-review)
-            - [5.2.4.4. Testing Suite Evidence for Sprint Review](#5244-testing-suite-evidence-for-sprint-review)
+            - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+            - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+            - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
             - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
             - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
             - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
@@ -2309,6 +2309,7 @@ Para mas informacion sobre las convenciones de Gherkin: https://specflow.org/ghe
 6) Configurar el directorio de salida (build)
 8) Configurar el dominio (automovilunite.com)
 
+### 5.2 Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
 
 ##### 5.2.1.1. Sprint Planning 1
@@ -2327,7 +2328,57 @@ La organización del primer sprint se realizó el 18 de abril de 2025, donde se 
 | **Sprint 1 Velocity**                  | 21 story points                                |
 | **Sum of Story Points**                | 21 story points                                |
 
-##### 5.2.1.2. Sprint Backlog 1
+
+##### 5.2.1.2. Aspect Leaders and Collaborators
+
+Durante este primer Sprint, el equipo se enfocó principalmente en el desarrollo, la mejora estructural y visual de la Landing Page de Automovil-Unite, asegurando su visualización en distintos dispositivos (diseño responsive), la integración armoniosa de imágenes y textos, y la implementación de un cambio de idioma dinámico mediante un botón.
+Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha elaborado la matriz de Liderazgo y Colaboración (LACX). Esta matriz asigna responsabilidades específicas a cada miembro del equipo en relación con los aspectos clave del Sprint.
+<table>
+  <tr>
+    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
+    <td><strong>GitHub Username</strong></td>
+    <td><strong>Diseño visual y maquetación web (Landing Page)<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación técnica del cambio de idioma<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Responsividad y pruebas en distintos dispositivos<br>Leader (L) / Collaborator (C)</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2">Paiva Quispe, Josue Gonzalo</td>
+    <td>JosuePaiva02</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td colspan="2">Tello Murga, Javier Osvaldo </td>
+    <td>JavierTello20</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td colspan="2">Ramírez Cabrera, Kenyi Efraín </td>
+    <td>Kenyi15upc</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+    <tr>
+    <td colspan="2">Vilca, Fiorella </td>
+    <td>FiorellaVilca</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+   <tr>
+    <td colspan="2">Torres Alva, Alejandro </td>
+    <td>Alemjas</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
+##### 5.2.1.3. Sprint Backlog 1
 
 Para el primer sprint se desarrolla la estructura básica de la landing page, así como el diseño, información de los productos y la barra de navegación
 
@@ -2352,21 +2403,13 @@ https://trello.com/b/OlPL01ZU/opennova-trello
 Trello - Sprint 1:
 
 
-##### 5.2.1.3. Development Evidence for Sprint Review
+##### 5.2.1.4. Development Evidence for Sprint Review
 
 | Repository       | Branch | Commit ID                                | Commit Message                         | Commit Message Body | Committed on Date |
 |------------------|--------|------------------------------------------|----------------------------------------|---------------------|-------------------|
 | AutoMovile-Unite | main   | a5646ec77c80c10d970d3ef04321c6f6399cc0c4 | Implementación inicial de landing page | -                   | 19-04-2025        |
 
-#### 5.2.1.4. Test Evidence for Sprint Review
-A continuación se listan los User Stories culminados en el Sprint 1
 
-| **Epic / Story ID** | **Título**                            | **Descripción**                                                                                                         |   | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                       | **Relacionado con (Epic ID)** |
-|---------------------|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------|:--|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| US-21               | Acceso a la Landing Page              | Como visitante, quiero acceder a la landing page del producto para recibir información.                                 |   | **Given** el visitante accede a la landing page, **when** accede a todas las pestañas disponibles, **then** se informara sobre los beneficios y características de nuestro producto.                                                                                                                                                                                                                              | EP-05                         |
-| US-22               | Ver Información del Producto          | Como visitante, quiero ver de manera clara y precisa de que trata el producto.                                          |   | **Given** el visitante está en la landing page,, **when** accede a la pestaña "Why Choose Us", **then** podrá informarse sobre las características de nuestro producto.                                                                                                                                                                                                                                           | EP-06                         |
-| US-23               | Consultar los modelos disponibles     | Como visitante, quiero revisar parte del catálogo de opciones para alquilar.                                            |   | **Given** el visitante está en la landing page,, **when** accede a la pestaña "Popular Cars", **then** se le presentaran las opciones mas destacadas.                                                                                                                                                                                                                                                             | EP-06                         |
-| US-24               | Leer Testimonios de Clientes y Dueños | Como visitante, quiero consultar testimonios y reseñas de clientes y dueños.                                            |   | **Given** el visitante está en la landing page,, **when** accede a la pestaña "Testimonials", **then** se le presentaran testimonios y reseñas de usuarios.                                                                                                                                                                                                                                                       | EP-06                         |
 ##### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Para esta primera entrega, nuestro equipo ha logrado desarrollar la Landing Page del proyecto **AutoMovil Unite**. De esta manera, se podrá visualizar la información esencial sobre los servicios que ofrece nuestra iniciativa.
@@ -2462,8 +2505,43 @@ En este sprint nos concentramos en desarrollar las user stories que hacen refere
 | **Sprint 2 Velocity**                  | 21 story points                                                                                                                                                                   |
 | **Sum of Story Points**                | 21 story points                                                                                                                                                                   |
 
+##### 5.2.2.2. Aspect Leaders and Collaborators
 
-##### 5.2.2.2. Sprint Backlog 2
+Durante este segundo Sprint, el equipo se enfocó principalmente en el desarrollo del frontend de Automovil-Unite.
+Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha elaborado la matriz de Liderazgo y Colaboración (LACX). Esta matriz asigna responsabilidades específicas a cada miembro del equipo en relación con los aspectos clave del Sprint. Cada aspecto es un bounded context determinado.
+<table>
+  <tr>
+    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
+    <td><strong>GitHub Username</strong></td>
+    <td><strong>Navigation<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Publication Management<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Dashboard and reservation<br>Leader (L) / Collaborator (C)</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2">Paiva Quispe, Josue Gonzalo</td>
+    <td>JosuePaiva02</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td colspan="2">Tello Murga, Javier Osvaldo </td>
+    <td>JavierTello20</td>
+    <td>C</td>
+    <td>L</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td colspan="2">Ramírez Cabrera, Kenyi Efraín </td>
+    <td>Kenyi15upc</td>
+    <td>C</td>
+    <td>C</td>
+    <td>L</td>
+  </tr>
+</table>
+
+
+##### 5.2.2.3. Sprint Backlog 2
 
 Para este entregable implementamos una nueva lista en trello donde incluimos los user stories y tareas a realizar para el sprint 2
 
@@ -2471,7 +2549,7 @@ https://trello.com/b/OlPL01ZU/opennova-trello
 
 <img src="assets/sprint2/trello2.png" width=600 >
 
-##### 5.2.2.3. Development Evidence for Sprint Review
+##### 5.2.2.4. Development Evidence for Sprint Review
 
 Commits realizados en el repositorio de report:
 
@@ -2483,23 +2561,6 @@ Commits realizados en el repositorio de frontend:
 
 <img src="assets/sprint2/front2.png" width=600 >
 
-
-##### 5.2.2.4. Test Evidence for Sprint Review
-
-| **Epic / Story ID** | **Título**                          | **Descripción**                                                                                                        | **Criterios de Aceptación**                                                                                                                                                                                                                                                                                                                                                                                         | **Relacionado con (Epic ID)** |
-|---------------------|-------------------------------------|------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| US-04               | Dashboard del usuario               | Como usuario, quiero contar con un Dashboard donde consultar información relevante rápidamente.                        | Escenario 1: **Given** el usuario ingresa sus credenciales, **when** selecciona "Log-In", **then** se le cargará la pestaña "Dashboard" por defecto. Escenario 2: **Given** el usuario se encuentra en otra pestaña, **when** selecciona desde el toolbar el Button "Dashboard", **then** se le redirigirá a la pestaña de Dashboard.                                                                               | EP-02                         |
-| US-05               | Sección Destacados del Dashboard    | Como usuario, quiero contar con una sección Destacados en el Dashboard donde consultar vehículos publicados.           | Escenario 1: **Given** el usuario accede a la aplicación, **when** se sitúa en la pestaña Dashboard, **then** se le sugerirán vehículos en la zona de Destacados. Escenario 2: **Given** el usuario está en la sección de Destacados, **when** selecciona la opción "Ver Más", **then** se le redirigirá a la pestaña de navegación.                                                                                | EP-02                         |
-| US-06               | Sección Publicados del Dashboard    | Como usuario, quiero contar con una sección Publicados en el Dashboard donde consultar mis vehículos publicados.       | Escenario 1: **Given** el usuario accede a la aplicación, **when** se sitúa en la pestaña Dashboard, **then** se visualizarán sus publicaciones en la zona "Mis Publicaciones". Escenario 2: **Given** el usuario está en la sección de "Mis Publicaciones", **when** selecciona la opción "Nueva Publicación", **then** se le redirigirá a la pestaña de publicación.                                              | EP-02                         |
-| US-07               | Cancelar reserva de vehículo        | Como usuario, quiero tener la opción de cancelar una reserva de un vehículo para alquilar.                             | Escenario 1: **Given** el usuario se encuentra en su Dashboard, **when** selecciona en una reserva, **then** podrá elegir la opción "Eliminar". Escenario 2: **Given** el usuario está en su Dashboard, **when** selecciona la opción de eliminación múltiple, **then** podrá eliminar varias reservas al mismo tiempo.                                                                                             | EP-02                         |
-| US-08               | Pestaña de Publicación              | Como usuario, quiero contar con una pestaña que me permita publicar vehículos y consultar los que ya están publicados. | Escenario 1: **Given** el usuario desea crear una publicación o revisar las existentes, **when** accede a la pestaña "Publicación", **then** tendrá la opción "Nueva Publicación" y debajo la sección "Mis Publicaciones". Escenario 2: **Given** el usuario se encuentra en otra pestaña, **when** selecciona desde el toolbar el Button "Publicaciones", **then** se le redirigirá a la pestaña de Publicaciones. | EP-02                         |
-| US-09               | Creación de publicaciones           | Como usuario, quiero crear publicaciones para ofrecer mis vehículos en alquiler.                                       | Escenario 1: **Given** el usuario está en la sección de publicaciones, **when** selecciona la opción de crear una nueva publicación, **then** deberá ingresar la información de la nueva publicación. Escenario 2: **Given** el usuario está en la sección de publicaciones, **when** selecciona una publicación ya creada, **then** podrá modificar la información de dicha publicación.                           | EP-03                         |
-| US-10               | Visualizar una publicación          | Como usuario, quiero ver el estado e información de una publicación ya creada.                                         | Escenario 1: **Given** el usuario está en la sección de publicaciones, **when** selecciona una publicación, **then** deberá poder consultar la información registrada. Escenario 2: **Given** el usuario está consultando la información de una publicación, **when** selecciona en modificar, **then** podrá cambiar la información registrada.                                                                    | EP-03                         |
-| US-11               | Eliminar una publicación            | Como usuario, quiero eliminar una publicación ya creada.                                                               | Escenario 1: **Given** el usuario está en la sección de publicaciones, **when** selecciona una publicación, **then** podrá eliminar la publicación haciendo click en "Eliminar". Escenario 2: **Given** el usuario está en la sección de publicaciones, **when** hace click en "Eliminar varios", **then** podrá seleccionar múltiples publicaciones para eliminar.                                                 | EP-03                         |
-| US-12               | Pestaña de Navegación               | Como usuario, quiero navegar en las publicaciones ya existentes de alquiler.                                           | Escenario 1: **Given** el usuario desea navegar en las publicaciones ya creadas, **when** accede a la pestaña "Navegación", **then** se le mostrarán todos los alquileres ya publicados. Escenario 2: **Given** el usuario se encuentra en otra pestaña, **when** selecciona desde el toolbar el Button "Navegación", **then** se le redirigirá a la pestaña de Navegación.                                         | EP-03                         |
-| US-13               | Ordenar el precio de los alquileres | Como usuario, quiero poder ordenar los alquileres disponibles en base a su precio.                                     | Escenario 1: **Given** el usuario está en la sección de navegación, **when** hace click en el icono de flecha, **then** los precios se ordenarán de menor a mayor. Escenario 2: **Given** el usuario ya ordenó los precios de menor a mayor, **when** hace click en el icono de flecha nuevamente, **then** los precios se ordenarán de mayor a menor.                                                              | EP-04                         |
-| US-15               | Reseñar publicaciones de alquiler   | Como usuario, quiero poder dejar reseñas sobre las publicaciones realizadas por los dueños.                            | Escenario 1: **Given** el usuario está en la publicación de un alquiler, **when** elige la opción de dejar reseña, **then** podrá puntuar del 1 al 5 la publicación en cuestión. Escenario 2: **Given** el usuario está puntuando una publicación, **when** escribe un comentario, **then** podrá visualizarse en la publicación.                                                                                   | EP-04                         |
-| US-16               | Reserva de vehículo                 | Como usuario, quiero tener la opción de reservar un vehículo para alquilar.                                            | Escenario 1: **Given** el usuario se encuentra en una publicación, **when** selecciona la opción "Reservar", **then** podrá elegir las fechas en las que desea reservar.                                                                                                                                                                                                                                            | EP-04                         |
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -2539,6 +2600,257 @@ Report:
 Frontend:
 
 <img src="assets/sprint2/frontSprint2.png" width=600 >
+
+
+#### 5.2.3. Sprint 3
+##### 5.2.3.1. Sprint Planning 3
+<table>
+<tr>
+    <th colspan="5">Sprint 3</th>
+    <th colspan="9">Sprint 3</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8"></td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8"></td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8"></td>
+</tr>
+<tr>
+    <td colspan="5">Sprint  2 Review Summary</td>
+    <td colspan="8"></td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 2 Retrospective Summary</td>
+    <td colspan="8"></td>
+</tr>
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 3 Goal</td>
+       <td colspan="8"></td>
+
+</tr>
+<tr>
+    <td colspan="5">Sprint 3 Velocity</td>
+    <td colspan="8"></td>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8"></td>
+</tr>
+</table>
+
+
+##### 5.2.3.2. Aspect Leaders and Collaborators
+
+Durante este tercer Sprint, el equipo se enfocó principalmente en el desarrollo del frontend de Automovil-Unite.
+Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha elaborado la matriz de Liderazgo y Colaboración (LACX). Esta matriz asigna responsabilidades específicas a cada miembro del equipo en relación con los aspectos clave del Sprint. Cada aspecto es un bounded context determinado.
+<table>
+  <tr>
+    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
+    <td><strong>GitHub Username</strong></td>
+    <td><strong><br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong><br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong><br>Leader (L) / Collaborator (C)</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2">Paiva Quispe, Josue Gonzalo</td>
+    <td>JosuePaiva02</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td colspan="2">Tello Murga, Javier Osvaldo </td>
+    <td>JavierTello20</td>
+    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td colspan="2">Ramírez Cabrera, Kenyi Efraín </td>
+    <td>Kenyi15upc</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
+
+##### 5.2.3.3. Sprint Backlog 3
+
+
+
+<table>
+<tr>
+    <th colspan="3">Sprint #</th>
+    <th colspan="10">Sprint 3</th>
+</tr>
+<tr>
+    <td colspan="3">User Story</td>
+    <td colspan="10">Work-Item/Task</td>
+</tr>
+<tr>
+    <td colspan="1">Id</td>
+    <td colspan="2">Title</td>
+    <td colspan="1">Id</td>
+    <td colspan="2">Title</td>
+    <td colspan="3">Description</td>
+    <td colspan="1">Estimation (Hours)</td>
+    <td colspan="2">Assigned To</td>
+    <td colspan="1">Status (To do/ In-Process/ To-Review/ Done)</td>
+</tr>
+<tr>
+    <td colspan="1">US-</td>
+    <td colspan="2"></td>
+    <td colspan="1">UT-01</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
+    <td colspan="1"></td>
+    <td colspan="2"></td>
+    <td colspan="1"></td>
+</tr>
+<tr>
+    <td colspan="1">US-</td>
+    <td colspan="2"></td>
+    <td colspan="1">UT-02</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
+    <td colspan="1"></td>
+    <td colspan="2"></td>
+    <td colspan="1">Done</td>
+</tr>
+<tr>
+    <td colspan="1">US-</td>
+    <td colspan="2"></td>
+    <td colspan="1">UT-03</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
+    <td colspan="1"></td>
+    <td colspan="2"></td>
+    <td colspan="1">Done</td>
+</tr>
+<tr>
+    <td colspan="1">US-</td>
+    <td colspan="2"></td>
+    <td colspan="1">UT-04</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
+    <td colspan="1"></td>
+    <td colspan="2"></td>
+    <td colspan="1">Done</td>
+</tr>
+<tr>
+    <td colspan="1">US-</td>
+    <td colspan="2"></td>
+    <td colspan="1">UT-05</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
+    <td colspan="1"></td>
+    <td colspan="2"></td>
+    <td colspan="1">Done</td>
+</tr>
+<tr>
+    <td colspan="1">US-</td>
+    <td colspan="2"></td>
+    <td colspan="1">UT-</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
+    <td colspan="1"></td>
+    <td colspan="2"></td>
+    <td colspan="1">Done</td>
+</tr>
+<tr>
+    <td colspan="1">US-</td>
+    <td colspan="2"></td>
+    <td colspan="1">UT-07</td>
+    <td colspan="2"></td>
+    <td colspan="3"></td>
+    <td colspan="1"></td>
+    <td colspan="2"></td>
+    <td colspan="1">Done</td>
+</tr>
+
+</table>
+
+##### 5.2.3.4. Development Evidence for Sprint Review
+
+
+<table>
+    <tr>
+        <th colspan="2">Repository</th>
+        <th colspan="2">Branch</th>
+        <th colspan="2">Commit Id</th>
+        <th colspan="2">Commit Message</th>
+        <th colspan="2">Commit Message Body</th>
+        <th colspan="2">Commited on (Date)</th>
+    </tr>
+        <tr>
+        <td colspan="2">Grupo-4-Open-Source/Report</td>
+        <td colspan="2">main</td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+    </tr>
+        <tr>
+        <td colspan="2">Grupo-4-Open-Source/Report</td>
+        <td colspan="2">main</td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+    </tr>
+     <tr>
+        <td colspan="2">Grupo-4-Open-Source/Report</td>
+        <td colspan="2">main</td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+        <td colspan="2"></td>
+    </tr>
+
+
+
+</table>
+
+##### 5.2.3.5. Execution Evidence for Sprint Review
+
+
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+
+##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+
+### 5.3 Validation Interviews
+
+#### 5.3.1 Diseño de entrevistas
+
+#### 5.3.2 Registro de entrevistas
+
+#### 5.3.3 Evaluaciones según heurísticas
+
+### 5.4 Video About-the-Product
 
 
 ## Conclusiones:

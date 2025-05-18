@@ -187,6 +187,7 @@ del ABET – EAC - Student Outcome 3.
         <strong>TB1:</strong>En el proyecto, participé activamente con el grupo, con las tareas asignadas, también pude hacer entrevistas a cada segmento y así pude lograr entender realmente bien sus necesidades para poder realizar el trabajo correctamente.<br>
         <strong>Kenyi Ramírez</strong><br>
         <strong>TB1:</strong>Colaboré de manera activa con mi equipo en la elaboración de este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a desarrollar. Diseñé y expliqué la estructura de los diagramas de Domain-Driven Design (contexto, contenedor y componente), así como el diseño de clases y base de datos.<br>
+        <strong>TP:</strong>Colaboré de manera activa con mi equipo en corregir este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a editar. También participé activamente en el frontend en la elaboración del bounded context Dashboard, explicando y mostrando a mis compañeros cómo funciona. Lo he diseñado de acuerdo a las historias de usuario y diagrama de clases/base de datos <br>
 
 <br>
 <br>
@@ -209,6 +210,7 @@ del ABET – EAC - Student Outcome 3.
         <strong>TB1:</strong> Realicé el To-Be Scenario mapping lo cual entendí los pasos que se pueden hacer cuando la plataforma ya esté hecha, tambien el Impact Mapping para saber los impactos de nuestros segmentos, finalmente contribuí con el Product Backlog y entendi que funcionalidades tenemos que priorizar y tomarlo en cuenta.<br>
         <strong>Kenyi Ramírez</strong><br>
         <strong>TB1:</strong> Me encargué del desarrollo de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. Estos diagramas son fundamentales para visualizar y comprender la arquitectura del sistema, proporcionando una representación clara de los diferentes niveles de la plataforma que desarrollaremos a lo largo del curso.<br>
+        <strong>TP:</strong> Me encargué de la corrección de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. También corregí las User Stories junto con el Product Backlog. En cuanto al proyecto frontend, me encargué de crear e implementar la sección Dashboard y agregar algunos botones en el menú principal.<br>
 
 <br>
 <br>
@@ -964,13 +966,13 @@ Segmento Objetivo 2 (Arrendatario de vehículos)
 | 14         | US-21             | Acceso a la Landing Page                      | Como visitante, quiero acceder a la landing page del producto para recibir información.                                  | 2                |
 | 15         | US-22             | Ver Información del Producto                  | Como visitante, quiero ver de manera clara y precisa de qué trata el producto para tomar una decisión.                   | 2                |
 | 16         | US-23             | Consultar los modelos disponibles             | Como visitante, quiero revisar parte del catálogo de opciones para decidir qué vehículo alquilar.                        | 3                |
-| 17         | US-24             | Leer Testimonios de Clientes y Dueños         | Como visitante, quiero consultar testimonios y reseñas de clientes y dueños para tener una impresión previa de la plataforma. | 3             |
-| 18         | US-25             | Traducción de la Landing Page                 | Como visitante, quiero cambiar el idioma de inglés a español en la Landing Page para visualizar y entender de qué va la plataforma. | 2       |
-| 19         | US-26             | Call To Action                                | Como visitante, quiero recibir información a mi correo electrónico llenando un formulario para tener un primer contacto con la plataforma. | 2     |
+| 17         | US-24             | Leer Testimonios de Clientes y Dueños         | Como visitante, quiero consultar testimonios y reseñas de clientes y dueños para tener una impresión previa de la plataforma. | 3                |
+| 18         | US-25             | Traducción de la Landing Page                 | Como visitante, quiero cambiar el idioma de inglés a español en la Landing Page para visualizar y entender de qué va la plataforma. | 2                |
+| 19         | US-26             | Call To Action                                | Como visitante, quiero recibir información a mi correo electrónico llenando un formulario para tener un primer contacto con la plataforma. | 2                |
 | 20         | TS-27             | Crear Publicación                             | Como desarrollador, quiero un endpoint para crear publicaciones, para registrar vehículos.                                | 5                |
-| 21         | TS-28             | Dashboard de Usuario                          | Como desarrollador, quiero un endpoint para obtener datos del dashboard, para mostrar publicaciones y reservas.          | 4                |
-| 22         | TS-29             | Cancelar Reserva                              | Como desarrollador, quiero permitir cancelar reservas vía API, para que el usuario las gestione.                         | 4                |
-| 23         | TS-30             | Navegación de Vehículos                       | Como desarrollador, quiero listar vehículos disponibles vía API, para permitir explorarlos.                              | 4                |
+| 21         | TS-28             | Dashboard de Usuario                          | Como desarrollador, quiero un endpoint para obtener datos del dashboard, para mostrar publicaciones y reservas.          | 5                |
+| 22         | TS-29             | Cancelar Reserva                              | Como desarrollador, quiero permitir cancelar reservas vía API, para que el usuario las gestione.                         | 5                |
+| 23         | TS-30             | Navegación de Vehículos                       | Como desarrollador, quiero listar vehículos disponibles vía API, para permitir explorarlos.                              | 5                |
 | 24         | TS-31             | Vista Detallada de Vehículo                   | Como desarrollador, quiero un endpoint para obtener los detalles de un vehículo, para mostrar más información.           | 3                |
 | 25         | TS-32             | Reservar Vehículo                             | Como desarrollador, quiero permitir reservar vehículos vía API, para registrar reservas.                                 | 5                |
 | 26         | TS-33             | Listar Reservas del Usuario                   | Como desarrollador, quiero obtener las reservas activas del usuario vía API, para mostrarlas.                            | 3                |
@@ -2102,91 +2104,91 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc
 
 #### 4.7.2. Class Dictionary.
 
-**User:** Representa a una persona registrada en la plataforma que puede ser dueña de vehículos, hacer reservas, recibir notificaciones, subir documentos y escribir reseñas.
-- id: Identificador único del usuario.
-- name: Nombre completo del usuario.
-- email: Correo electrónico del usuario.
-- password: Contraseña del usuario.
-- phoneNumber: Número de teléfono del usuario.
-- profileImageUrl: URL de su imagen de perfil.
+**User**: Representa a una persona registrada en la plataforma que puede publicar vehículos, reservarlos, subir documentos personales y escribir reseñas.
 
+- **id**: Identificador único del usuario.
+- **fullName**: Nombre completo del usuario.
+- **email**: Correo electrónico del usuario.
+- **phone**: Número de teléfono del usuario.
+- **address**: Dirección del usuario.
+- **birthday**: Fecha de nacimiento del usuario.
+- **dniPic**: Imagen del documento de identidad.
+- **licensePic**: Imagen de la licencia de conducir.
 
-**Vehicle:** Representa un vehículo disponible para alquiler, propiedad de un usuario. Contiene información técnica y comercial.
-- id: Identificador único del vehículo.
-- owner: Usuario que posee el vehículo.
-- model: Modelo del vehículo.
-- brand: Marca del vehículo.
-- seatCount: Número de asientos.
-- imageUrl: URL de la imagen del vehículo.
-- rating: Calificación promedio del vehículo.
-- maxSpeed: Velocidad máxima alcanzable.
-- fuelConsumption: Consumo de combustible.
-- length: Largo del vehículo.
-- width: Ancho del vehículo.
-- height: Alto del vehículo.
-- weight: Peso del vehículo.
-- vehicleClass: Categoría o clase del vehículo.
-- transmission: Tipo de transmisión (manual o automática).
-- pricePerMonth: Precio de alquiler mensual.
-- pickupLocation: Lugar donde se recoge el vehículo.
+**PublishedVehicle**: Representa un vehículo disponible públicamente para alquiler. Incluye información general y comercial para ser visualizado por cualquier usuario.
 
+- **id**: Identificador único del vehículo.
+- **model**: Modelo del vehículo.
+- **brand**: Marca del vehículo.
+- **year**: Año de fabricación del vehículo.
+- **description**: Descripción del vehículo.
+- **image**: Imagen representativa del vehículo.
+- **price**: Precio por uso/alquiler.
+- **rating**: Calificación promedio del vehículo.
 
-**Reservation:** Representa una solicitud de alquiler de un vehículo por parte de un usuario durante un período específico.
-- id: Identificador único de la reserva.
-- vehicle: Vehículo reservado.
-- renter: Usuario que realiza la reserva.
-- startDate: Fecha de inicio del alquiler.
-- endDate: Fecha de finalización del alquiler.
-- state: Estado actual de la reserva (pendiente, confirmada, cancelada).
-- notificationService: Servicio que gestiona las notificaciones relacionadas.
+**MyPublishedVehicle**: Representa una publicación de vehículo gestionada por el usuario que lo publicó. Incluye datos adicionales sobre la publicación.
 
-**Review:** Representa una reseña hecha por un usuario sobre un vehículo, incluye calificación y comentario.
-- id: Identificador único de la reseña.
-- author: Usuario que escribe la reseña.
-- vehicle: Vehículo evaluado.
-- rating: Puntuación dada al vehículo.
-- comment: Comentario textual del usuario.
+- **id**: Identificador único de la publicación.
+- **model**: Modelo del vehículo.
+- **brand**: Marca del vehículo.
+- **year**: Año del vehículo.
+- **description**: Descripción breve.
+- **image**: Imagen cargada para la publicación.
+- **price**: Precio asignado por el usuario.
+- **publishedDate**: Fecha en la que fue publicado.
 
-**Document:** Archivo subido por un usuario (por ejemplo, licencia de conducir).
-- id: Identificador único del documento.
-- user: Usuario al que pertenece el documento.
-- fileUrl: Enlace al archivo subido.
+**BookedVehicle**: Representa un vehículo que ha sido reservado por un usuario. Contiene la información esencial del vehículo en el contexto de la reserva.
 
-**Payment:** Representa un pago realizado por una reserva de vehículo.
-- id: Identificador único del pago.
-- user: Usuario que realiza el pago.
-- reservation: Reserva asociada al pago.
-- amount: Monto pagado.
-- paymentDate: Fecha y hora del pago.
-- paymentMethod: Método utilizado (ej: tarjeta, transferencia).
-- status: Estado actual del pago.
+- **id**: Identificador único del vehículo reservado.
+- **model**: Modelo del vehículo.
+- **brand**: Marca del vehículo.
+- **year**: Año del vehículo.
+- **description**: Descripción del vehículo.
+- **image**: Imagen del vehículo.
+- **price**: Precio asociado a la reserva.
+- **rating**: Calificación general del vehículo.
 
+**Review**: Representa una reseña que un usuario escribe sobre un vehículo. Contiene tanto una puntuación como un comentario.
 
-**ReservationState:** Interfaz que representa el estado actual de una reserva (pendiente, confirmada o cancelada).
+- **id**: Identificador único de la reseña.
+- **userId**: Identificador del usuario que la escribió.
+- **vehicleId**: Identificador del vehículo evaluado.
+- **rating**: Calificación asignada.
+- **comment**: Comentario textual.
+- **date**: Fecha de publicación de la reseña.
 
+**Reservation**: Representa una reserva activa o pasada entre un usuario y un vehículo publicado.
 
-**Notification:** Mensaje enviado a un usuario para informarle sobre eventos relacionados con reservas o vehículos.
-- id: Identificador único de la notificación.
-- user: Usuario que recibe la notificación.
-- message: Texto del mensaje.
-- relatedVehicle: Vehículo relacionado con la notificación.
-- sender: Usuario que envió la notificación.
+- **id**: Identificador único de la reserva.
+- **status**: Estado actual de la reserva (por ejemplo, confirmada o cancelada).
 
-**NotificationService:**
-observers: Lista de objetos que serán notificados cuando ocurra un evento.
+**Payment**: Representa un pago efectuado por un usuario para confirmar una reserva.
 
+- **id**: Identificador único del pago.
+- **userId**: Identificador del usuario que realiza el pago.
+- **reservationId**: Identificador de la reserva asociada.
+- **amount**: Monto total pagado.
+- **paymentDate**: Fecha del pago.
+- **method**: Método utilizado para pagar (ej. tarjeta, transferencia).
+- **status**: Estado del pago (procesado, cancelado, reembolsado).
 
-**VehicleBuilder:** Builder que facilita la creación paso a paso de objetos Vehicle.
+**UserProfile**: Representa el perfil extendido de un usuario. Incluye información personal y documentos de identidad.
 
-
-**ReservationBuilder:** Builder que permite construir reservas asegurando que se cumplan los pasos y atributos requeridos.
+- **profilePic**: Imagen de perfil del usuario.
+- **fullName**: Nombre completo.
+- **email**: Correo electrónico.
+- **phone**: Número de contacto.
+- **address**: Dirección personal.
+- **birthday**: Fecha de nacimiento.
+- **dniPic**: Imagen del documento nacional de identidad.
+- **licensePic**: Imagen de la licencia de conducir.
 
 
 ### 4.8 Database Design
 
 #### 4.8.1 Database Diagram
 
-![DatabaseDiagramAutomovilUnite.png](assets/DatabaseDiagram/DatabaseDiagramAutomovilUnite.png)
+![DatabaseDiagram-AutomovilUnite.png](assets/DatabaseDiagram/DatabaseDiagram-AutomovilUnite.png)
 
 ## Capítulo V: Product Implementation, Validation & Deployment <a id="cap5"></a>
 ### 5.1. Software Configuration Management
@@ -2524,6 +2526,8 @@ Para el despliegue de la versión actual del frontend utilizamos Netlify. Esta p
 
 <img src="assets/sprint2/frontDeploy.png" width=600 >
 
+Link del front desplegado: https://opennova-frontend.netlify.app/
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 A continuación se presentan las evidencias de la colaboración del equipo durante el sprint 2.
@@ -2558,6 +2562,8 @@ por ello considerado que esta entrega fue satisfactoria.
 - Link del Web Applications Prototyping: https://www.figma.com/design/WhozRt9Aq2rVJwXMXadh2h/Web-Applications-Prototyping?node-id=0-1&t=N0zAgK53okXLroEN-1 
 -Link de repositorio de GitHub: https://github.com/Grupo-4-Open-Source/Report
 - Link de la landing page desplegada: https://automovil-unite.netlify.app/
+- Link del front desplegado: https://opennova-frontend.netlify.app/
+- 
 ## Bibliografías
 
 - HTML: HyperText Markup Language | MDN. (2023, July 17). Mozilla.org. https://developer.mozilla.org/en-US/docs/Web/HTML

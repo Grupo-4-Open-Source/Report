@@ -2488,7 +2488,7 @@ El enlace de acceso a la landing page es el siguiente: https://automovil-unite.n
 <img src="assets/team-collaboration/grafico.png" alt="logo" width="900" height="500"></div>
 
 
-#### 5.2.1. Sprint 2
+#### 5.2.2. Sprint 2
 En este sprint nos concentramos en desarrollar las user stories que hacen referencia a funcionalidades Frontend de la aplicación
 
 ##### 5.2.2.1. Sprint Planning 2
@@ -2600,6 +2600,26 @@ Report:
 Frontend:
 
 <img src="assets/sprint2/frontSprint2.png" width=600 >
+
+#### 5.2.3. Sprint 3
+##### 5.2.3.1. Sprint Planning 3
+
+| Sprint #                               | Sprint 3              |
+|----------------------------------------|-----------------------|
+| **Date**                               |                       |
+| **Time**                               |                       |
+| **Location**                           | Discord               |
+| **Prepared By**                        | Josue Paiva           |
+| **Attendees (to planning meeting)**    | Todos los integrantes |
+| **Sprint n - 1 Review Summary**        |                       |
+| **Sprint n - 1 Retrospective Summary** |                       |
+| **Sprint 2 Goal**                      |                       |
+| **Sprint 2 Velocity**                  |                       |
+| **Sum of Story Points**                |                       |
+
+##### 5.2.3.2. Sprint Backlog 3
+A continuación se presenta el trello actualizado considerando los bounded context de Dashboard y Publicaciones, con sus respectivas technical stories y user storie tanto de backend como de frontend.
+
 
 
 #### 5.2.3. Sprint 3

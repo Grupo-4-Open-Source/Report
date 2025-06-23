@@ -3573,7 +3573,163 @@ DEPLOYMENT LINK ingresar desde web application (frontend):https://opennova-front
 
 #### 5.3.1 Diseño de entrevistas
 
+**Objetivo de la Entrevista**
+Validar la usabilidad y la efectividad de la plataforma AutomóvilUnite para ambos segmentos de usuarios: Interesado en alquilar (arrendatarios) y Propietarios (arrendador). El objetivo es asegurar que la navegación sea intuitiva, los flujos clave sean claros y eficientes, y la propuesta de valor de alquilar/compartir vehículos resuene con los usuarios, fomentando su interacción y confianza en la plataforma.
+
+**Elementos de Validación**
+- **Landing Page:** Se evaluará la claridad del mensaje, la facilidad de comprensión de la propuesta de valor y el atractivo de las llamadas a la acción (CTA) para motivar el registro y la exploración.
+- **Flujos de Usuario Clave:** Se guiará a los usuarios a través de las interacciones principales en la aplicación, como la búsqueda y reserva de vehículos, la gestión de publicaciones y solicitudes de alquiler, y la visualización de sus respectivos dashboards.
+
+## **User Flows a Validar**
+### **Para el Segmento "Arrendatario"**
+1. **Navegación General y Dashboard:**
+
+- Objetivo del usuario: Como usuario, quiero acceder fácilmente a las opciones para utilizar todas las funciones que ofrece la plataforma.
+- Caminos felices: El usuario, al iniciar la plataforma, ve en la parte superior las diferentes opciones disponibles (Dashboard, Buscar, Mis Reservas, etc.).
+- Caminos no felices: El usuario hace clic en una herramienta externa de la plataforma, como un anuncio de accesorios para conducir, distrayéndose de las funcionalidades core.
+- Elementos a validar:
+- Facilidad para identificar las secciones principales (Dashboard, Publicaciones, Reservas).
+- Claridad de la información en el dashboard (vehículos destacados, mis reservas).
+
+
+2. **Búsqueda y Reserva de Vehículos:**
+
+- Objetivo del usuario: Como usuario, quiero poder buscar cualquier vehículo de mi interés.
+- Caminos felices: El usuario puede filtrar la búsqueda (por marca, precio, ubicación, etc.) para obtener mejores resultados y completar el proceso de reserva con éxito.
+- Caminos no felices: El usuario intenta una acción no relacionada o se confunde con elementos irrelevantes durante el proceso de búsqueda/reserva.
+- Elementos a validar:
+- Intuitividad del proceso de búsqueda y aplicación de filtros.
+- Claridad de la información mostrada en el detalle del vehículo.
+- Facilidad para seleccionar fechas y confirmar la reserva.
+
+
+3. **Gestión de Alquileres Reservados y Cancelación:**
+
+- Objetivo del usuario: Como usuario, quiero poder ver el estado de mis solicitudes de alquiler y, si es necesario, cancelar un alquiler.
+- Caminos felices: El usuario puede consultar los detalles completos de sus reservas en "Mis Reservas" y cancelar una reserva exitosamente desde el dashboard, viendo el impacto en su disponibilidad.
+- Caminos no felices: El usuario no encuentra fácilmente sus reservas o no comprende cómo proceder con una cancelación.
+- Elementos a validar:
+- Accesibilidad a la sección "Mis Reservas".
+- Claridad del estado y detalles de cada alquiler.
+- Facilidad y retroalimentación del proceso de cancelación de una reserva.
+
+### **Para el Segmento "Arrendador"**
+1. **Navegación General y Dashboard:**
+
+- Objetivo del usuario: Como usuario, quiero acceder de forma sencilla a todas las opciones disponibles para usar las facilidades de la plataforma.
+- Caminos felices: El usuario ve en la parte superior las diversas opciones disponibles (Dashboard de Anfitrión, Mis Publicaciones, Solicitudes, etc.) al ingresar a la plataforma.
+- Caminos no felices: El usuario hace clic en una herramienta externa de la plataforma, como un anuncio de accesorios para conducir, distrayéndose de las funcionalidades core.
+- Elementos a validar:
+- Facilidad para identificar las secciones principales del dashboard de anfitrión.
+- Claridad de la información en el dashboard (solicitudes de alquiler, mis vehículos publicados).
+
+
+2. **Registro y Gestión de Publicaciones de Vehículos:**
+
+- Objetivo del usuario: Como usuario, quiero registrar mi vehículo de manera sencilla y gestionar mis publicaciones existentes.
+- Caminos felices: El usuario ingresa todos los datos necesarios para registrar el vehículo de manera fluida y puede ver y gestionar sus vehículos ya publicados.
+- Caminos no felices: El usuario se confunde con los campos del formulario de registro o no encuentra cómo editar/eliminar una publicación existente.
+- Elementos a validar:
+- Intuitividad y claridad del formulario para crear una nueva publicación.
+- Facilidad para ver el estado y los detalles de una publicación existente.
+- Funcionalidad para modificar y eliminar publicaciones.
+
+
+3. **Gestión de Solicitudes de Alquiler:**
+
+- Objetivo del usuario: Como usuario, quiero poder ver las solicitudes que mis vehículos han recibido y gestionarlas.
+- Caminos felices: El usuario puede revisar y gestionar las solicitudes de alquiler (aceptar/rechazar) de manera efectiva.
+- Caminos no felices: El usuario no comprende el flujo para aceptar o rechazar una solicitud, o la información para tomar la decisión no es clara.
+- Elementos a validar:
+- Claridad en la visualización de las solicitudes de alquiler recibidas.
+- Facilidad y retroalimentación de los procesos de aceptación y rechazo de solicitudes.
+
+
+## Formato de Registro de la Entrevista
+**Datos del Entrevistado:**
+- Nombre y apellidos
+- Edad
+- Ciudad de residencia
+- Rol principal en AutomóvilUnite (Explorador / Anfitrión / Ambos)
+- Dispositivo utilizado (smartphone, tablet, laptop)
+
+### Preguntas para el Segmento "Arrendatario":
+
+#### Dashboard del Usuario y Navegación
+- ¿Fue clara la información presentada en tu dashboard al iniciar sesión?
+- ¿Te sentiste perdido en algún momento al navegar por las diferentes secciones de la aplicación?
+- ¿Cómo describirías la facilidad para encontrar lo que buscas en la plataforma?
+
+#### Búsqueda y Visualización de Vehículos
+- ¿Qué tan intuitivo fue el proceso de buscar un vehículo?
+- ¿Los filtros de búsqueda te resultaron útiles y fáciles de usar?
+- ¿La información mostrada en el detalle de un vehículo te pareció completa y clara para tomar una decisión de alquiler?
+
+#### Proceso de Reserva de Vehículo
+- ¿Fue claro el flujo para reservar un vehículo?
+- ¿Hubo algún paso en el proceso de reserva que te causara confusión?
+- ¿El sistema brindó suficiente retroalimentación al confirmar tu reserva?
+
+#### Gestión de Mis Reservas y Cancelación
+- ¿Fue fácil acceder y entender la información de tus reservas en "Mis Reservas"?
+- ¿Qué mejorarías en la presentación del estado y los detalles de tus alquileres?
+- ¿Te pareció sencillo el proceso para cancelar una reserva? ¿Comprendiste lo que sucedía después de cancelar?
+
+
+### Preguntas para el Segmento "Arrendador"
+
+#### Dashboard del Anfitrión y Navegación
+- ¿Fue clara la información presentada en tu dashboard al iniciar sesión como Anfitrión?
+- ¿Qué tan fácil te resultó acceder a las opciones relacionadas con la gestión de tus vehículos y solicitudes?
+- ¿Cómo describirías la usabilidad general de tu panel de control como Anfitrión?
+
+#### Publicación de Vehículos
+- ¿Qué tan intuitivo fue el proceso de crear una nueva publicación para tu vehículo?
+- Describe el flujo para registrar tu vehículo. ¿Algún paso generó dudas o se sintió complicado?
+- ¿La información que te pedimos para publicar tu vehículo te pareció relevante y fácil de proporcionar?
+
+#### Visualización y Gestión de Publicaciones Existentes
+- ¿Fue fácil entender la información y el estado de los vehículos que ya tienes publicados?
+- ¿Qué mejorarías en la presentación de tus publicaciones activas o la forma de gestionarlas?
+- ¿La opción de visualizar los detalles de una publicación te ofreció la información que esperabas?
+
+#### Gestión de Solicitudes de Alquiler
+- ¿Fue claro el flujo para revisar y gestionar las solicitudes de alquiler que recibes?
+- ¿Hubo algún paso en el proceso de aceptar o rechazar una solicitud que causara confusión?
+- ¿Consideras útil esta funcionalidad para controlar quién alquila tu vehículo?
+
 #### 5.3.2 Registro de entrevistas
+
+| Entrevista 1: Arrendatario            |                                                                                                                                                                      |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                   |                                                                                                                                                                      |
+| Edad                                  |                                                                                                                                                                      |
+| Profesión                             |                                                                                                                                                                      |
+| Departamento                          |                                                                                                                                                                      |
+| Duración de la Entrevista             |                                                                                                                                                                      |
+| **Análisis de la Entrevista**         |                                                                                                                                                                      |
+| Visualización de Landing Page         |                                                                                                                                                                      |
+| Dashboard y navegación                |                                                                                                                                                                      |
+| Búsqueda y visualización de vehículos |                                                                                                                                                                      |
+| Proceso de Reserva de Vehículo        |                                                                                                                                                                      |
+| Gestión de Mis Reservas y cancelación |                                                                                                                                                                      |
+
+
+| Entrevista 2: Arrendador                            |                                                                                                                                                                      |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                                 |                                                                                                                                                                      |
+| Edad                                                |                                                                                                                                                                      |
+| Profesión                                           |                                                                                                                                                                      |
+| Departamento                                        |                                                                                                                                                                      |
+| Duración de la Entrevista                           |                                                                                                                                                                      |
+| **Análisis de la Entrevista**                       |                                                                                                                                                                      |
+| Visualización de Landing Page                       |                                                                                                                                                                      |
+| Dashboard y navegación                              |                                                                                                                                                                      |
+| Publicación de vehículos                            |                                                                                                                                                                      |
+| Visualización y Gestión de Publicaciones Existentes |                                                                                                                                                                      |
+| Gestión de Solicitudes de Alquiler                  |                                                                                                                                                                      |
+
+
 
 #### 5.3.3 Evaluaciones según heurísticas
 

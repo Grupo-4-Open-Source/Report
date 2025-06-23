@@ -2705,99 +2705,498 @@ Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha 
 
 ##### 5.2.3.3. Sprint Backlog 3
 
+Nuestro enfoque principal para este Sprint ha sido el desarrollo del frontend y backend de la plataforma AutomovilUnite. Hemos estructurado nuestras tareas siguiendo las User Stories y Technical Stories que hemos detallado, asegurando un progreso claro y alineado con los objetivos de negocio y la arquitectura técnica.
+
+Para la gestión y el control de estas tareas, estamos utilizando Trello.
+
+![Sprint-Backlog3.png](assets/execution-evidence-for-sprint-review/sprint3/Sprint-Backlog3.png)
+
+Enlace: https://trello.com/b/OlPL01ZU/opennova-trello
 
 
 <table>
-<tr>
-    <th colspan="3">Sprint #</th>
-    <th colspan="10">Sprint 3</th>
-</tr>
-<tr>
-    <td colspan="3">User Story</td>
-    <td colspan="10">Work-Item/Task</td>
-</tr>
-<tr>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="3">Description</td>
-    <td colspan="1">Estimation (Hours)</td>
-    <td colspan="2">Assigned To</td>
-    <td colspan="1">Status (To do/ In-Process/ To-Review/ Done)</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1"></td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-02</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-03</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-04</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-05</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-07</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-
+    <tbody>
+        <tr>
+            <th colspan="3"> Sprint # </th>
+            <th colspan="10"> Sprint 3 </th>
+        </tr>
+        <tr>
+            <td colspan="3"> User Story </td>
+            <td colspan="10"> Work-Item/Task </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Id </td>
+            <td colspan="2"> Title </td>
+            <td colspan="1"> Id </td>
+            <td colspan="2"> Title </td>
+            <td colspan="3"> Description </td>
+            <td colspan="1"> Estimation (Hours) </td>
+            <td colspan="2"> Assigned To </td>
+            <td colspan="1"> Status (To do/ In-Process/ To-Review/ Done) </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-04 </td>
+            <td colspan="2"> Dashboard del usuario </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Diseñar layout del dashboard </td>
+            <td colspan="3"> Crear la estructura visual principal del dashboard. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-04 </td>
+            <td colspan="2"> Dashboard del usuario </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Integrar datos de dashboard </td>
+            <td colspan="3"> Conectar componentes del dashboard con la API para mostrar información. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-05 </td>
+            <td colspan="2"> Sección Destacados del Dashboard </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Desarrollar componente destacados </td>
+            <td colspan="3"> Implementar la interfaz para la sección de vehículos destacados. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-05 </td>
+            <td colspan="2"> Sección Destacados del Dashboard </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Conectar datos destacados </td>
+            <td colspan="3"> Consumir API de publicaciones destacadas para mostrar vehículos. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-06 </td>
+            <td colspan="2"> Sección Publicados del Dashboard </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Crear componente publicaciones propias </td>
+            <td colspan="3"> Desarrollar la sección para listar los vehículos del usuario. </td>
+            <td colspan="1"> 7 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-06 </td>
+            <td colspan="2"> Sección Publicados del Dashboard </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Mostrar lista de publicaciones </td>
+            <td colspan="3"> Integrar con la API para obtener y presentar las publicaciones del usuario. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-07 </td>
+            <td colspan="2"> Cancelar reserva de vehículo </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Implementar botón cancelar en UI </td>
+            <td colspan="3"> Añadir la funcionalidad visual de cancelación en la interfaz. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-07 </td>
+            <td colspan="2"> Cancelar reserva de vehículo </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Confirmar acción cancelación </td>
+            <td colspan="3"> Mostrar diálogo de confirmación antes de cancelar la reserva. </td>
+            <td colspan="1"> 3 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-27 </td>
+            <td colspan="2"> Gestión de Solicitudes de Alquiler como Arrendador </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Diseñar vista de solicitudes pendientes </td>
+            <td colspan="3"> Crear la interfaz para que el propietario vea las solicitudes de alquiler. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-27 </td>
+            <td colspan="2"> Gestión de Solicitudes de Alquiler como Arrendador </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Implementar botones aceptar/rechazar </td>
+            <td colspan="3"> Añadir funcionalidades para que el propietario gestione las solicitudes. </td>
+            <td colspan="1"> 2 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-28 </td>
+            <td colspan="2"> Detalle y Estado de Alquileres Reservados </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Desarrollar vista detalle alquiler </td>
+            <td colspan="3"> Crear la interfaz que muestre la información completa de una reserva. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-28 </td>
+            <td colspan="2"> Detalle y Estado de Alquileres Reservados </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Mostrar estado y atributos </td>
+            <td colspan="3"> Asegurar que el estado y todos los detalles del alquiler sean visibles. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-29 </td>
+            <td colspan="2"> Cancelación de Alquiler con Impacto en Disponibilidad </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Actualizar UI tras cancelación </td>
+            <td colspan="3"> Reflejar en la interfaz la liberación de la publicación tras cancelar un alquiler. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-29 </td>
+            <td colspan="2"> Cancelación de Alquiler con Impacto en Disponibilidad </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Mostrar mensaje de liberación de vehículo </td>
+            <td colspan="3"> Notificar al usuario que el vehículo ahora está disponible para otros. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-08 </td>
+            <td colspan="2"> Pestaña de Publicación </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Crear navegación a pestaña publicación </td>
+            <td colspan="3"> Implementar el acceso y la interfaz principal de la sección de publicaciones. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-08 </td>
+            <td colspan="2"> Pestaña de Publicación </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Desarrollar interfaz gestión publicaciones </td>
+            <td colspan="3"> Crear la vista donde se listan y gestionan las publicaciones del usuario. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-09 </td>
+            <td colspan="2"> Creación de publicaciones </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Diseñar formulario de creación </td>
+            <td colspan="3"> Crear la interfaz para ingresar los datos de una nueva publicación. </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-09 </td>
+            <td colspan="2"> Creación de publicaciones </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Implementar validaciones frontend </td>
+            <td colspan="3"> Añadir validaciones en el formulario antes de enviar la información. </td>
+            <td colspan="1"> 2 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-09 </td>
+            <td colspan="2"> Creación de publicaciones </td>
+            <td colspan="1"> UT-03 </td>
+            <td colspan="2"> Conectar formulario con API </td>
+            <td colspan="3"> Integrar el formulario con el endpoint de creación de publicaciones. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-10 </td>
+            <td colspan="2"> Visualizar una publicación </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Desarrollar vista de detalle </td>
+            <td colspan="3"> Crear la interfaz para mostrar la información completa de una publicación. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-10 </td>
+            <td colspan="2"> Visualizar una publicación </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Mostrar estado e información </td>
+            <td colspan="3"> Asegurar que el estado y todos los detalles de la publicación sean visibles. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-16 </td>
+            <td colspan="2"> Reserva de vehículo </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Diseñar flujo de reserva </td>
+            <td colspan="3"> Crear la interfaz de usuario para el proceso de reserva de un vehículo. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-16 </td>
+            <td colspan="2"> Reserva de vehículo </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Implementar selección de fechas </td>
+            <td colspan="3"> Añadir un componente de calendario para seleccionar las fechas de alquiler. </td>
+            <td colspan="1"> 3 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-16 </td>
+            <td colspan="2"> Reserva de vehículo </td>
+            <td colspan="1"> UT-03 </td>
+            <td colspan="2"> Integrar con API de reserva </td>
+            <td colspan="3"> Conectar la interfaz de reserva con el endpoint para crear alquileres. </td>
+            <td colspan="1"> 7 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-26 </td>
+            <td colspan="2"> Call To Action </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Diseñar formulario de contacto </td>
+            <td colspan="3"> Crear la interfaz para el formulario de recolección de correos. </td>
+            <td colspan="1"> 3 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-26 </td>
+            <td colspan="2"> Call To Action </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Implementar envío de datos </td>
+            <td colspan="3"> Configurar la lógica para enviar la información del formulario. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-32 </td>
+            <td colspan="2"> Gestión de Reservas de Alquiler </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar lógica de alquileres GET/POST </td>
+            <td colspan="3"> Desarrollar la lógica de negocio para obtener y crear alquileres. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kneyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-32 </td>
+            <td colspan="2"> Gestión de Reservas de Alquiler </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Implementar lógica PUT/DELETE de alquileres </td>
+            <td colspan="3"> Desarrollar la lógica de negocio para actualizar y eliminar alquileres. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-32 </td>
+            <td colspan="2"> Gestión de Reservas de Alquiler </td>
+            <td colspan="1"> TT-03 </td>
+            <td colspan="2"> Integrar persistencia alquileres </td>
+            <td colspan="3"> Conectar la lógica de negocio con la base de datos para almacenar alquileres. </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-33 </td>
+            <td colspan="2"> Consulta y Filtrado de Vehículos Disponibles </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Desarrollar lógica de listado de publicaciones </td>
+            <td colspan="3"> Implementar la lógica para obtener todas las publicaciones de vehículos. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-33 </td>
+            <td colspan="2"> Consulta y Filtrado de Vehículos Disponibles </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Implementar filtros por atributos </td>
+            <td colspan="3"> Desarrollar la lógica de filtrado por marca, precio, etc. </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-33 </td>
+            <td colspan="2"> Consulta y Filtrado de Vehículos Disponibles </td>
+            <td colspan="1"> TT-03 </td>
+            <td colspan="2"> Implementar obtención de destacados </td>
+            <td colspan="3"> Desarrollar la lógica para recuperar publicaciones marcadas como destacadas. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-36 </td>
+            <td colspan="2"> Coherencia de Datos entre Contextos (Alquiler-Publicación) </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar validación de entidades </td>
+            <td colspan="3"> Asegurar que las operaciones de alquiler validen existencia de IDs externos. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-36 </td>
+            <td colspan="2"> Coherencia de Datos entre Contextos (Alquiler-Publicación) </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Desarrollar mecanismo de actualización de estado </td>
+            <td colspan="3"> Implementar la comunicación para actualizar el estado de publicaciones (disponible/no disponible). </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-27 </td>
+            <td colspan="2"> Gestión de Publicaciones </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Refactorizar controladores de publicaciones </td>
+            <td colspan="3"> Optimizar y consolidar el código de los controladores para publicaciones. </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-27 </td>
+            <td colspan="2"> Gestión de Publicaciones </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Asegurar consistencia de datos </td>
+            <td colspan="3"> Garantizar que los datos de publicaciones sean consistentes en la base de datos. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-37 </td>
+            <td colspan="2"> Gestión de Vehículos </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Desarrollar lógica para registrar vehículos </td>
+            <td colspan="3"> Implementar la funcionalidad de backend para el registro inicial de vehículos. </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> To Review </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-37 </td>
+            <td colspan="2"> Gestión de Vehículos </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Implementar obtención/actualización de vehículos </td>
+            <td colspan="3"> Desarrollar los servicios para consultar y modificar atributos de vehículos. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> To Review </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-38 </td>
+            <td colspan="2"> Implementación del servicio GET de vehículos publicados </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar endpoint GET /publications/{id} </td>
+            <td colspan="3"> Crear el endpoint específico para obtener una publicación por su ID. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> To Fix </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-38 </td>
+            <td colspan="2"> Implementación del servicio GET de vehículos publicados </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Desarrollar lógica de obtención por ID </td>
+            <td colspan="3"> Implementar la lógica de negocio para recuperar una publicación específica. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-39 </td>
+            <td colspan="2"> Implementación del servicio DELETE de vehículos publicados </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar endpoint DELETE /publications/{id} </td>
+            <td colspan="3"> Crear el endpoint específico para eliminar una publicación por su ID. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-39 </td>
+            <td colspan="2"> Implementación del servicio DELETE de vehículos publicados </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Desarrollar lógica de eliminación </td>
+            <td colspan="3"> Implementar la lógica de negocio para borrar una publicación. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-40 </td>
+            <td colspan="2"> Implementación del servicio POST de vehículos publicados </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar endpoint POST /publications </td>
+            <td colspan="3"> Crear el endpoint específico para registrar nuevas publicaciones. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-40 </td>
+            <td colspan="2"> Implementación del servicio POST de vehículos publicados </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Desarrollar lógica de creación </td>
+            <td colspan="3"> Implementar la lógica de negocio para la creación de una publicación. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-41 </td>
+            <td colspan="2"> Implementación del servicio PUT de vehículos publicados </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar endpoint PUT /publications/{id} </td>
+            <td colspan="3"> Crear el endpoint específico para actualizar publicaciones por su ID. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-41 </td>
+            <td colspan="2"> Implementación del servicio PUT de vehículos publicados </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Desarrollar lógica de actualización </td>
+            <td colspan="3"> Implementar la lógica de negocio para modificar una publicación existente. </td>
+            <td colspan="1"> 3 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+    </tbody>
 </table>
+
 
 ##### 5.2.3.4. Development Evidence for Sprint Review
 

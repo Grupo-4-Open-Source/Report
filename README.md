@@ -2834,6 +2834,74 @@ Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha 
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review
 
+En esta entrega, se realizaron pequeños cambios en la Landing Page. Además de eso, se ha realizado un avance con respecto al FrontEnd y BackEnd:
+
+- Landing Page:
+
+**Sección de Inicio(Home):**
+![lp-home.png](assets/execution-evidence-for-sprint-review/sprint3/lp-home.png)
+
+**Sección de Cómo funciona(How it works):**
+![how-it-works-3.png](assets/execution-evidence-for-sprint-review/sprint3/how-it-works-3.png)
+
+**Sección de Por qué elegirnos(Why Choose Us):**
+![why-choose-us.png](assets/execution-evidence-for-sprint-review/sprint3/why-choose-us.png)
+
+**Sección de Carros populares(Populars Cars):**
+![Popular-cars.png](assets/execution-evidence-for-sprint-review/sprint3/Popular-cars.png)
+
+**Sección de Testimonios(Testimonials):**
+![testimonial.png](assets/execution-evidence-for-sprint-review/sprint3/testimonial.png)
+
+**Sección de Llamada a la acción(Call to Action):**
+![try.png](assets/execution-evidence-for-sprint-review/sprint3/try.png)
+
+
+- FrontEnd:
+
+**Sección de elección de rol:**
+![f-select-role.png](assets/execution-evidence-for-sprint-review/sprint3/f-select-role.png)
+
+**Sección de Dashboard (Renter):**
+![f-rental-dashboard1.png](assets/execution-evidence-for-sprint-review/sprint3/f-rental-dashboard1.png)
+
+![f-rental-dashboard2.png](assets/execution-evidence-for-sprint-review/sprint3/f-rental-dashboard2.png)
+
+![f-rental-dashboard3.png](assets/execution-evidence-for-sprint-review/sprint3/f-rental-dashboard3.png)
+
+![f-rental-dashboard4.png](assets/execution-evidence-for-sprint-review/sprint3/f-rental-dashboard4.png)
+
+**Sección Mis reservas (Renter):**
+![f-my-bookings-renter.png](assets/execution-evidence-for-sprint-review/sprint3/f-my-bookings-renter.png)
+
+**Sección de detalles de alquiler (Renter):**
+![f-rent-details.png](assets/execution-evidence-for-sprint-review/sprint3/f-rent-details.png)
+
+**Sección de Alquilar Vehículo (Renter):**
+![f-rent-vehicle-renter.png](assets/execution-evidence-for-sprint-review/sprint3/f-rent-vehicle-renter.png)
+
+
+**Sección de Dashboard (Owner):**
+![f-owner-dashboard1.png](assets/execution-evidence-for-sprint-review/sprint3/f-owner-dashboard1.png)
+
+![f-owner-dashboard2.png](assets/execution-evidence-for-sprint-review/sprint3/f-owner-dashboard2.png)
+
+**Sección de Publicar Vehículo (Owner):**
+![f-publish-vehicle1.png](assets/execution-evidence-for-sprint-review/sprint3/f-publish-vehicle1.png)
+
+![f-publish-vehicle2.png](assets/execution-evidence-for-sprint-review/sprint3/f-publish-vehicle2.png)
+
+
+- Backend:
+
+![backend1.png](assets/execution-evidence-for-sprint-review/sprint3/backend1.png)
+
+![backend2.png](assets/execution-evidence-for-sprint-review/sprint3/backend2.png)
+
+![backend3.png](assets/execution-evidence-for-sprint-review/sprint3/backend3.png)
+
+![Backend4.png](assets/execution-evidence-for-sprint-review/sprint3/Backend4.png)
+
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 

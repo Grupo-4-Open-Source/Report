@@ -3202,43 +3202,500 @@ Enlace: https://trello.com/b/OlPL01ZU/opennova-trello
 
 ##### 5.2.3.4. Development Evidence for Sprint Review
 
+### **Landing Page**
 
 <table>
     <tr>
-        <th colspan="2">Repository</th>
-        <th colspan="2">Branch</th>
-        <th colspan="2">Commit Id</th>
-        <th colspan="2">Commit Message</th>
-        <th colspan="2">Commit Message Body</th>
-        <th colspan="2">Commited on (Date)</th>
+        <td colspan="1">Repository</td>
+        <td colspan="1">Branch</td>
+        <td colspan="1">Commit Id</td>
+        <td colspan="1">Commit Message</td>
+        <td colspan="1">Commit Message Body</td>
+        <td colspan="1">Commited on (Date)</td>
     </tr>
-        <tr>
-        <td colspan="2">Grupo-4-Open-Source/Report</td>
-        <td colspan="2">main</td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>4bb4686</td>
+        <td>feat: added frontend reference</td>
+        <td>feat: added frontend reference</td>
+        <td>10/06/2025</td>
     </tr>
-        <tr>
-        <td colspan="2">Grupo-4-Open-Source/Report</td>
-        <td colspan="2">main</td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
+</table>
+
+### **Frontend**
+
+<table>
+    <tr>
+        <td colspan="1">Repository</td>
+        <td colspan="1">Branch</td>
+        <td colspan="1">Commit Id</td>
+        <td colspan="1">Commit Message</td>
+        <td colspan="1">Commit Message Body</td>
+        <td colspan="1">Commited on (Date)</td>
     </tr>
-     <tr>
-        <td colspan="2">Grupo-4-Open-Source/Report</td>
-        <td colspan="2">main</td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>169e0e5</td>
+        <td>Merge pull request #18 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #18 from Grupo-4-Open-Source/develop</td>
+        <td>23/06/2025</td>
     </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>f49112b</td>
+        <td>fix: delete old files</td>
+        <td>fix: delete old files</td>
+        <td>23/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>393e0bb</td>
+        <td>Merge pull request #17 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #17 from Grupo-4-Open-Source/develop</td>
+        <td>23/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>7a3c95a</td>
+        <td>Merge pull request #16 from Grupo-4-Open-Source/feat/rental</td>
+        <td>Merge pull request #16 from Grupo-4-Open-Source/feat/rental</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>cfa2860</td>
+        <td>fix(rental): fix my-bookings-page structure and add styles</td>
+        <td>fix(rental): fix my-bookings-page structure and add styles</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>141e647</td>
+        <td>feat(rental): add bookings page and update routes</td>
+        <td>feat(rental): add bookings page and update routes</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>2ebcce1</td>
+        <td>Merge pull request #15 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #15 from Grupo-4-Open-Source/develop</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>45fb4f6</td>
+        <td>Merge pull request #14 from Grupo-4-Open-Source/feat/iam</td>
+        <td>Merge pull request #14 from Grupo-4-Open-Source/feat/iam</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>525a598</td>
+        <td>fix(app): update navbar</td>
+        <td>fix(app): update navbar</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>5434aa8</td>
+        <td>fix(dashboard): rename files</td>
+        <td>fix(dashboard): rename files</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>0c83975</td>
+        <td>feat(app): update app component</td>
+        <td>feat(app): update app component</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>62f04b5</td>
+        <td>feat(routes): update routes</td>
+        <td>feat(routes): update routes</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>622ab12</td>
+        <td>feat(iam): add role.service and role-selection page</td>
+        <td>feat(iam): add role.service and role-selection page</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>6474d57</td>
+        <td>Merge pull request #13 from Grupo-4-Open-Source/feat/dashboard</td>
+        <td>Merge pull request #13 from Grupo-4-Open-Source/feat/dashboard</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>87863e9</td>
+        <td>feat(dashboard): add owner-dashboard components and pages. Fix publicacion and rental services. Fix styles to renter-dashboard</td>
+        <td>feat(dashboard): add owner-dashboard components and pages. Fix publicacion and rental services. Fix styles to renter-dashboard</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>ec21fad</td>
+        <td>Merge pull request #11 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #11 from Grupo-4-Open-Source/develop</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>e77b4ab</td>
+        <td>Merge pull request #10 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #10 from Grupo-4-Open-Source/develop</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>456271a</td>
+        <td>Merge pull request #9 from Grupo-4-Open-Source/feat/rental</td>
+        <td>Merge pull request #9 from Grupo-4-Open-Source/feat/rental</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>432642e</td>
+        <td>feat: add booking detail route to app routes</td>
+        <td>feat: add booking detail route to app routes</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>be940fe</td>
+        <td>feat(rental): add booking detail css</td>
+        <td>feat(rental): add booking detail css</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>0b46319</td>
+        <td>feat(rental): add booking detail html</td>
+        <td>feat(rental): add booking detail html</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>3eade52</td>
+        <td>feat(rental): add booking cancellation functionality with confirmation dialog</td>
+        <td>feat(rental): add booking cancellation functionality with confirmation dialog</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>9aa70be</td>
+        <td>feat(rental): add Booking Detail component</td>
+        <td>feat(rental): add Booking Detail component</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>f97982c</td>
+        <td>Merge pull request #8 from Grupo-4-Open-Source/feat/dashboard</td>
+        <td>Merge pull request #8 from Grupo-4-Open-Source/feat/dashboard</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>566a529</td>
+        <td>fix: update ren-vehicle component and rental service. Correct variable name from publicacion to publication</td>
+        <td>fix: update ren-vehicle component and rental service. Correct variable name from publicacion to publication</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>1bf7f99</td>
+        <td>fix: update vehicle card component. Correct variable name from publicacion to publication</td>
+        <td>fix: update vehicle card component. Correct variable name from publicacion to publication</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>56e41ea</td>
+        <td>fix: update routes and environment.development</td>
+        <td>fix: update routes and environment.development</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>428b179</td>
+        <td>feat: add new routes (dashboard, publish-vehicle, rent-vehicle/publicationId)</td>
+        <td>feat: add new routes (dashboard, publish-vehicle, rent-vehicle/publicationId)</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>dde500a</td>
+        <td>feat(rental): add rental-vehicle component</td>
+        <td>feat(rental): add rental-vehicle component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>f830ed9</td>
+        <td>feat(publications): add publish-vehicle component</td>
+        <td>feat(publications): add publish-vehicle component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>4bb5e75</td>
+        <td>feat(dashboard): add renter-dashboard component</td>
+        <td>feat(dashboard): add renter-dashboard component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>21afa09</td>
+        <td>feat(dashboard): add booked-vehicles-section component</td>
+        <td>feat(dashboard): add booked-vehicles-section component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>b621bae</td>
+        <td>feat(renter): add rental and insurance services</td>
+        <td>feat(renter): add rental and insurance services</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>1aa8507</td>
+        <td>feat(dashboard): add available-vehicles-section component</td>
+        <td>feat(dashboard): add available-vehicles-section component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>89722a1</td>
+        <td>refactor: rename components: featured-cards to featured-vehicles-section, reserved-cards to booked-vehicles-section</td>
+        <td>refactor: rename components: featured-cards to featured-vehicles-section, reserved-cards to booked-vehicles-section</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>f5b2355</td>
+        <td>feat: create multiple services: User, Publication, Location</td>
+        <td>feat: create multiple services: User, Publication, Location</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>69b758d</td>
+        <td>feat(shared): add confirm-dialog component</td>
+        <td>feat(shared): add confirm-dialog component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>2346b7e</td>
+        <td>feat(vehicle): add vehicle-card component</td>
+        <td>feat(vehicle): add vehicle-card component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>052e588</td>
+        <td>feat: update db.json</td>
+        <td>feat: update db.json</td>
+        <td>07/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>b050619</td>
+        <td>feat: update environments</td>
+        <td>feat: update environments</td>
+        <td>07/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>b050619</td>
+        <td>feat: update base.service</td>
+        <td>feat: update base.service</td>
+        <td>07/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>b050619</td>
+        <td>feat: create multiple entities: User, Location, Availability-slot, Insurance, Publication, Rental and Vehicle</td>
+        <td>feat: create multiple entities: User, Location, Availability-slot, Insurance, Publication, Rental and Vehicle</td>
+        <td>07/06/2025</td>
+    </tr>
+</table>
 
 
+### **Backend** 
 
+<table>
+    <tr>
+        <td colspan="1">Repository</td>
+        <td colspan="1">Branch</td>
+        <td colspan="1">Commit Id</td>
+        <td colspan="1">Commit Message</td>
+        <td colspan="1">Commit Message Body</td>
+        <td colspan="1">Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>2e62724</td>
+        <td>Merge pull request #3 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #3 from Grupo-4-Open-Source/develop</td>
+        <td>23/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/publications</td>
+        <td>07c6a59</td>
+        <td>Merge pull request #2 from Grupo-4-Open-Source/feat/publications</td>
+        <td>Merge pull request #2 from Grupo-4-Open-Source/feat/publications</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rentals</td>
+        <td>b3891d4</td>
+        <td>Merge pull request #1 from Grupo-4-Open-Source/feat/rentals</td>
+        <td>Merge pull request #1 from Grupo-4-Open-Source/feat/rentals</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rentals</td>
+        <td>137d905</td>
+        <td>feat(rentals): add CreateRentalCommandFromResourceAssembler, UpdateRentalCommandFromResourceAssembler, RentalResourceFromEntityAssembler and Rental Controller</td>
+        <td>feat(rentals): add CreateRentalCommandFromResourceAssembler, UpdateRentalCommandFromResourceAssembler, RentalResourceFromEntityAssembler and Rental Controller</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rentals</td>
+        <td>82867e8</td>
+        <td>feat(rentals): add rental resource</td>
+        <td>feat(rentals): add rental resource</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rentals</td>
+        <td>4f89b94</td>
+        <td>feat(rentals): add rental value object, aggregate, commands, queries, services, and repository</td>
+        <td>feat(rentals): add rental value object, aggregate, commands, queries, services, and repository</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/publications</td>
+        <td>29c5c87</td>
+        <td>feat(publications): add publication resources and controller</td>
+        <td>feat(publications): add publication resources and controller</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/publications</td>
+        <td>f0b0af6</td>
+        <td>feat(publications): add publication aggregate, commands, queries, services, repository and resources</td>
+        <td>feat(publications): add publication aggregate, commands, queries, services, repository and resources</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/publications</td>
+        <td>dbef509</td>
+        <td>feat(publications): add publications value objects</td>
+        <td>feat(publications): add publications value objects</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>f0c8887</td>
+        <td>feat: finished publication backend endpoint operations</td>
+        <td>feat: finished publication backend endpoint operations</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>582d018</td>
+        <td>feat: finished publication backend endpoint operations</td>
+        <td>feat: finished publication backend endpoint operations</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>d386776</td>
+        <td>feat: fix Aggregate</td>
+        <td>feat: fix Aggregate</td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>d91c0b1</td>
+        <td>feat: development of publications bounded context</td>
+        <td>feat: development of publications bounded context</td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>7b352ea</td>
+        <td>chore: add Spring Boot project structure with JPA, snake_case, and OpenAPI configuration</td>
+        <td>chore: add Spring Boot project structure with JPA, snake_case, and OpenAPI configuration</td>
+        <td>10/06/2025</td>
+    </tr>
 </table>
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review

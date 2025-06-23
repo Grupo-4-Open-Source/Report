@@ -35,6 +35,10 @@
 | https://github.com/Grupo-4-Open-Source | https://github.com/Grupo-4-Open-Source/Report |
 
 
+|             URL del repositorio del frontend             |             URL del repositorio del backend             |
+|:--------------------------------------------------------:|:-------------------------------------------------------:|
+| https://github.com/Grupo-4-Open-Source/OpenNova-Frontend | https://github.com/Grupo-4-Open-Source/OpenNova-Backend |
+
 Se han realizado todas las tareas asignadas para la entrega del TB2, las cuales se encuentran registradas en el repositorio de Github de la organización del equipo.}
 
 ![insights-report-s3.png](assets/execution-evidence-for-sprint-review/sprint3/insights-report-s3.png)

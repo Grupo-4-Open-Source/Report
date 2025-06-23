@@ -2627,45 +2627,45 @@ Frontend:
   </tr>
   <tr>
     <td colspan="5">Date</td>
-    <td colspan="8"></td>
+    <td colspan="8">02-06-25</td>
 </tr>
   <tr>
     <td colspan="5">Time</td>
-    <td colspan="8"></td>
+    <td colspan="8">10:00 PM</td>
   </tr>
   <tr>
     <td colspan="5">Location</td>
     <td colspan="8">Via Discord</td>
 <tr>
     <td colspan="5">Prepared By</td>
-    <td colspan="8"></td>
+    <td colspan="8">Josue Paiva</td>
 </tr>
 <tr>
     <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8"></td>
+    <td colspan="8">Kenyi Ramirez</td>
 </tr>
 <tr>
     <td colspan="5">Sprint  2 Review Summary</td>
-    <td colspan="8"></td>
+    <td colspan="8">En el Sprint 2, logramos implementar una versión funcional del frontend y del landing page. Se ha desarrollado la estructura básica del frontend.</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 2 Retrospective Summary</td>
-    <td colspan="8"></td>
+    <td colspan="8">Se cumplieron los puntos requeridos tanto en el frontend como en la landing page gracias a una buena comunicación y colaboración entre los miembros del equipo.</td>
 </tr>
 <tr>
     <td colspan="13">Sprint Goal & User Stories</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 3 Goal</td>
-       <td colspan="8"></td>
+       <td colspan="8">Nuestro enfoque para este sprint es establecer la base central de la plataforma AutomovilUnite, desarrollando nuestra página de aterrizaje pública con una aplicación frontend funcional y completando más del 40% de los endpoint de servicios backend fundamentales del alcance de nuestro negocio. Creemos que esta futura integración proporcionará un punto de entrada fluido para los usuarios a nuestra aplicación y permitirá la gestión esencial de datos, mejorando significativamente la experiencia inicial del usuario y capacitando a nuestro equipo para construir sobre una base sólida. Esto se confirmará cuando los usuarios puedan acceder y navegar la aplicación web principal de forma directa y fluida desde la página; el backend soporte exitosamente operaciones para entidades clave, incluyendo vehículos, solicitudes de alquiler y publicaciones.</td>
 
 </tr>
 <tr>
     <td colspan="5">Sprint 3 Velocity</td>
-    <td colspan="8"></td>
+    <td colspan="8">65</td>
 <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8"></td>
+    <td colspan="8">63</td>
 </tr>
 </table>
 

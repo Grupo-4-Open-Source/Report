@@ -30,9 +30,16 @@
 |---------|-------|-----------------------|-----------------------------------|
 | 0.1     | 23/04 | Todos los integrantes | Primera entrega del informe (TB1) |
 
+## Project Report Collaboration Insights
+
 |  URL de la organización del proyecto   |        URL del repositorio del reporte        |
 |:--------------------------------------:|:---------------------------------------------:|
 | https://github.com/Grupo-4-Open-Source | https://github.com/Grupo-4-Open-Source/Report |
+
+
+Se han realizado todas las tareas asignadas para la entrega del TB2, las cuales se encuentran registradas en el repositorio de Github de la organización del equipo.}
+
+
 
 - [Student Outcome](#student-outcome)
 
@@ -2117,6 +2124,9 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc
 
 ![ClassDiagramAutomovilUnite.png](assets/Class%20Diagram/ClassDiagramAutomovilUnite.png)
 
+**Bounded Context Diagram**
+![bounded-context-diagram.png](assets/execution-evidence-for-sprint-review/sprint3/bounded-context-diagram.png)
+
 #### 4.7.2. Class Dictionary.
 
 **User**: Representa a una persona registrada en la plataforma que puede publicar vehículos, reservarlos, subir documentos personales y escribir reseñas.
@@ -4185,19 +4195,20 @@ Validar la usabilidad y la efectividad de la plataforma AutomóvilUnite para amb
 
 #### 5.3.2 Registro de entrevistas
 
-| Entrevista 1: Arrendatario            |                                                                                                                                                                      |
-|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nombre Entrevistado                   |                                                                                                                                                                      |
-| Edad                                  |                                                                                                                                                                      |
-| Profesión                             |                                                                                                                                                                      |
-| Departamento                          |                                                                                                                                                                      |
-| Duración de la Entrevista             |                                                                                                                                                                      |
-| **Análisis de la Entrevista**         |                                                                                                                                                                      |
-| Visualización de Landing Page         |                                                                                                                                                                      |
-| Dashboard y navegación                |                                                                                                                                                                      |
-| Búsqueda y visualización de vehículos |                                                                                                                                                                      |
-| Proceso de Reserva de Vehículo        |                                                                                                                                                                      |
-| Gestión de Mis Reservas y cancelación |                                                                                                                                                                      |
+| Entrevista 1: Arrendatario            |                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                   | Gabriela Flores                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Edad                                  | 32                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Profesión                             | Administradora                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Departamento                          | Lima                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Duración de la Entrevista             | 12 min                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Análisis de la Entrevista**         |                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Visualización de Landing Page         | La landing page fue clara en su mensaje principal, mostrando qué es AutomóvilUnite. Las imágenes de vehículos son atractivas.                                                                                                                                                                                                                                                                                         |
+| Dashboard y navegación                | El dashboard es funcional y muestra las secciones principales (Destacados, Mis Reservas), lo cual es positivo. No me sentí perdida, las opciones están donde las esperaría. Sin embargo, la interfaz se siente un poco rígida en diferentes tamaños de pantalla (no responsive), lo que dificulta la navegación si no estoy en un monitor grande. La información es clara, pero la organización visual podría mejorar |
+| Búsqueda y visualización de vehículos | El proceso de búsqueda es directo desde el dashboard, no tiene una página propia para ello.                                                                                                                                                                                                                                                                                                                           |
+| Proceso de Reserva de Vehículo        | El flujo para reservar un vehículo es comprensible y lineal. La selección de fechas funciona bien. Aunque hizo falta una sección exclusiva para eso.                                                                                                                                                                                                                                                                  |
+| Gestión de Mis Reservas y cancelación | La sección "Mis Reservas" es fácil de encontrar y consultar. Pude ver los detalles de una reserva sin dificultad. La funcionalidad para cancelar una reserva existe y es comprensible. La búsqueda y la paginación de "Mis reservas" está muy bien elaborada.                                                                                                                                                         |
+
 
 
 | Entrevista 2: Arrendador                            |                                                                                                                                                                      |

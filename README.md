@@ -885,6 +885,11 @@ Segmento Objetivo 2 (Arrendatario de vehículos)
 | TS-35               | Calificación de Publicaciones                              | Como desarrollador, quiero un endpoint para registrar calificaciones y comentarios sobre publicaciones de vehículos, para que los usuarios puedan compartir su experiencia.                                                                                                                | Escenario 1: Dado que el cliente envía POST /api/v1/rating (asumiendo este endpoint para calificaciones) con datos válidos y un token, cuando el servidor procesa, entonces retorna 201 Created. <br> Escenario 2: Dado que un usuario ya calificó esa publicación, cuando intenta calificar de nuevo, entonces retorna 409 Conflict.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP-04                         |
 | TS-36               | Coherencia de Datos entre Contextos (Alquiler-Publicación) | Como desarrollador, quiero que las operaciones de alquiler validen la existencia de entidades externas (publicaciones, usuarios, seguros, ubicaciones) y actualicen el estado de disponibilidad de las publicaciones, para asegurar la integridad y coherencia entre los bounded contexts. | Escenario 1: Dado que se intenta crear un alquiler (POST /api/v1/rentals) con IDs válidos para publicación, arrendatario, seguro y ubicación, cuando el servidor valida, entonces el alquiler se crea exitosamente. <br> Escenario 2: Dado que se intenta crear un alquiler (POST /api/v1/rentals) con un ID de publicación, usuario, seguro o ubicación inexistente, cuando el servidor valida, entonces la creación falla y retorna 400 Bad Request. <br> Escenario 3: Dado que un alquiler se crea exitosamente, cuando el servidor finaliza la operación, entonces el contexto de Publicaciones recibe una notificación (PATCH /api/v1/publications/{publicationId}/status) para marcar la publicación como no disponible. <br> Escenario 4: Dado que un alquiler se elimina (DELETE /api/v1/rentals/{rentalId}) o cancela, cuando el servidor finaliza la operación, entonces el contexto de Publicaciones recibe una notificación (PATCH /api/v1/publications/{publicationId}/status) para marcar la publicación como disponible. | EP-04                         |
 | TS-37               | Gestión de Vehículos                                       | Como desarrollador, quiero implementar endpoints para gestionar la información detallada de los vehículos, incluyendo su registro inicial y la consulta de sus atributos, para soportar la creación y el mantenimiento de publicaciones.                                                   | Escenario 1: Dado que el cliente envía POST /api/v1/vehicles (o un endpoint similar para registrar un nuevo vehículo en el sistema, antes de ser publicado), cuando el servidor procesa con datos válidos, entonces retorna 201 Created con los detalles del vehículo registrado. <br> Escenario 2: Dado que el cliente hace GET /api/v1/vehicles/{vehicleId} con un ID de vehículo existente, cuando el servidor procesa, entonces retorna 200 OK con los atributos detallados del vehículo. <br> Escenario 3: Dado que el cliente envía PUT /api/v1/vehicles/{vehicleId} con datos válidos para actualizar un vehículo, cuando el servidor procesa, entonces retorna 200 OK con los datos actualizados. <br> Escenario 4: Dado que el cliente envía datos incompletos o inválidos en cualquier operación, cuando el servidor valida, entonces retorna 400 Bad Request con un mensaje de error.                                                                                                                                        | EP-03                         |
+| TS-38               | Implementación del servicio GET de vehículos publicados    | Como desarrollador, quiero un endpoint para obtener los detalles de un vehículo publicado por su ID, para permitir la visualización individual.                                                                                                                                            | Escenario 1: Dado que el cliente hace GET /api/v1/publications/{publicationId}, cuando el ID existe y es válido, entonces retorna 200 OK con los detalles completos de la publicación del vehículo. <br> Escenario 2: Dado que el ID de publicación no existe o es inválido, cuando se hace la solicitud, entonces retorna 404 Not Found.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP-03                         |
+| TS-39               | Implementación del servicio DELETE de vehículos publicados | Como desarrollador, quiero un endpoint para eliminar un vehículo publicado por su ID, para permitir a los usuarios retirar sus ofertas.                                                                                                                                                    | Escenario 1: Dado que el cliente hace DELETE /api/v1/publications/{publicationId}, cuando el ID es válido y la publicación le pertenece al usuario solicitante, entonces retorna 204 No Content. <br> Escenario 2: Dado que el ID de publicación no existe, o no pertenece al usuario, cuando se hace la solicitud, entonces retorna 404 Not Found o 403 Forbidden.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP-03                         |
+| TS-40               | Implementación del servicio POST de vehículos publicados   | Como desarrollador, quiero un endpoint para crear un nuevo vehículo publicado, para permitir a los usuarios ofrecer sus vehículos en alquiler.                                                                                                                                             | Escenario 1: Dado que el cliente envía POST /api/v1/publications con datos válidos para una nueva publicación, cuando el servidor procesa, entonces retorna 201 Created con los detalles de la publicación creada. <br> Escenario 2: Dado que el cliente envía datos incompletos o inválidos, cuando se valida, entonces retorna 400 Bad Request con un mensaje de error.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP-03                         |
+| TS-41               | Implementación del servicio PUT de vehículos publicados    | Como desarrollador, quiero un endpoint para actualizar un vehículo publicado por su ID, para permitir a los usuarios modificar la información de sus ofertas.                                                                                                                              | Escenario 1: Dado que el cliente envía PUT /api/v1/publications/{publicationId} con datos válidos, cuando la publicación existe y le pertenece al usuario solicitante, entonces retorna 200 OK con los datos actualizados. <br> Escenario 2: Dado que el ID de publicación no existe o no pertenece al usuario, cuando se hace la solicitud, entonces retorna 404 Not Found o 403 Forbidden. <br> Escenario 3: Dado que el cliente envía datos inválidos para la actualización, cuando se valida, entonces retorna 400 Bad Request con un mensaje de error.                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP-03                         |
+
 
 ### **Epic 01: Creación y Gestión de Cuenta**
 | **Story ID** | **Título**                         |
@@ -986,8 +991,14 @@ Segmento Objetivo 2 (Arrendatario de vehículos)
 | 33         | TS-36             | Coherencia de Datos entre Contextos (Alquiler-Publicación) | Como desarrollador, quiero que las operaciones de alquiler validen la existencia de entidades externas (publicaciones, usuarios, seguros, ubicaciones) y actualicen el estado de disponibilidad de las publicaciones, para asegurar la integridad y coherencia entre los bounded contexts. | 5                |
 | 34         | TS-27             | Gestión de Publicaciones                                   | Como desarrollador, quiero implementar un conjunto de endpoints para la gestión completa de publicaciones, incluyendo creación, consulta, modificación y eliminación, para que los usuarios puedan ofrecer y administrar sus vehículos.                                                    | 5                |
 | 35         | TS-37             | Gestión de Vehículos                                       | Como desarrollador, quiero implementar endpoints para gestionar la información detallada de los vehículos, incluyendo su registro inicial y la consulta de sus atributos, para soportar la creación y el mantenimiento de publicaciones.                                                   | 5                |
-| 36         | TS-35             | Calificación de Publicaciones                              | Como desarrollador, quiero un endpoint para registrar calificaciones y comentarios sobre publicaciones de vehículos, para que los usuarios puedan compartir su experiencia.                                                                                                                | 3                |
-| 37         | TS-34             | Gestión de Perfil de Usuario                               | Como desarrollador, quiero implementar un conjunto de endpoints para la gestión completa del perfil del usuario, incluyendo creación, consulta y modificación de información personal, para que los usuarios puedan mantener sus datos actualizados.                                       | 3                |
+| 36         | TS-38             | Implementación del servicio GET de vehículos publicados    | Como desarrollador, quiero un endpoint para obtener los detalles de un vehículo publicado por su ID, para permitir la visualización individual.                                                                                                                                            | 3                |
+| 37         | TS-39             | Implementación del servicio DELETE de vehículos publicados | Como desarrollador, quiero un endpoint para eliminar un vehículo publicado por su ID, para permitir a los usuarios retirar sus ofertas.                                                                                                                                                    | 3                |
+| 38         | TS-40             | Implementación del servicio POST de vehículos publicados   | Como desarrollador, quiero un endpoint para crear un nuevo vehículo publicado, para permitir a los usuarios ofrecer sus vehículos en alquiler.                                                                                                                                             | 3                |
+| 39         | TS-41             | Implementación del servicio PUT de vehículos publicados    | Como desarrollador, quiero un endpoint para actualizar un vehículo publicado por su ID, para permitir a los usuarios modificar la información de sus ofertas.                                                                                                                              | 3                |
+| 40         | TS-35             | Calificación de Publicaciones                              | Como desarrollador, quiero un endpoint para registrar calificaciones y comentarios sobre publicaciones de vehículos, para que los usuarios puedan compartir su experiencia.                                                                                                                | 3                |
+| 41         | TS-34             | Gestión de Perfil de Usuario                               | Como desarrollador, quiero implementar un conjunto de endpoints para la gestión completa del perfil del usuario, incluyendo creación, consulta y modificación de información personal, para que los usuarios puedan mantener sus datos actualizados.                                       | 3                |
+
+
 
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines.
@@ -2904,6 +2915,241 @@ En esta entrega, se realizaron pequeños cambios en la Landing Page. Además de 
 
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint, hemos logrado un progreso significativo en la implementación y documentación de los servicios web fundamentales para la gestión de Alquileres (Rentals) y Publicaciones (Publications). Todos los endpoints clave han sido documentados utilizando las especificaciones de OpenAPI, lo que facilita la integración y el consumo de estos servicios por parte de los equipos de frontend y otros sistemas. Se ha priorizado la claridad en las acciones soportadas, los verbos HTTP, la sintaxis de las llamadas, los parámetros y la estructura de las respuestas para asegurar una comprensión unívoca de la API.
+
+A continuación, se detalla la relación de Endpoints documentados, incluyendo las acciones implementadas para cada uno:
+
+**Controladores y Endpoints Documentados**
+
+- **Rental Management Endpoints**
+Se encarga de la gestión integral de los alquileres de vehículos. Incluye la creación de nuevos registros de alquiler, la consulta de alquileres específicos o la lista completa, la actualización de sus datos y la eliminación cuando sea necesario.
+
+<table>
+    <tbody>
+        <tr>
+            <th colspan="1"> Tag </th>
+            <th colspan="1"> Verbo http</th>
+            <th colspan="1"> Endpoint </th>
+            <th colspan="1"> Summary </th>
+            <th colspan="1"> Description </th>
+            <th colspan="1"> OperationId </th>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/rentals/{rentalId} </td>
+            <td colspan="1"> Get a Rental by ID </td>
+            <td colspan="1"> Retrieves a Rental by its unique internal ID. </td>
+            <td colspan="1"> getRentalById </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> rentalId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> PUT </td>
+            <td colspan="1"> /api/v1/rentals/{rentalId} </td>
+            <td colspan="1"> Update a Rental </td>
+            <td colspan="1"> Updates an existing Rental identified by its ID. </td>
+            <td colspan="1"> updateRental </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> rentalId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> DELETE </td>
+            <td colspan="1"> /api/v1/rentals/{rentalId} </td>
+            <td colspan="1"> Delete a Rental </td>
+            <td colspan="1"> Deletes a Rental identified by its ID. </td>
+            <td colspan="1"> deleteRental </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> rentalId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/rentals </td>
+            <td colspan="1"> Get all Rentals </td>
+            <td colspan="1"> Retrieves a list of all existing Rentals. </td>
+            <td colspan="1"> getAllRentals </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> POST </td>
+            <td colspan="1"> /api/v1/rentals </td>
+            <td colspan="1"> Create a new Rental </td>
+            <td colspan="1"> Creates a new Rental with the provided data. </td>
+            <td colspan="1"> createRental </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+    </tbody>
+</table>
+
+![s-rental1.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental1.png)
+![s-rental2.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental2.png)
+![s-rental3.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental3.png)
+![s-rental4.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental4.png)
+![s-rental5.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental5.png)
+
+- **Publication Management Endpoints**
+Maneja la administración de las publicaciones de vehículos disponibles para alquiler. Permite crear nuevas publicaciones, consultarlas individualmente o en listados filtrados, actualizarlas y gestionarlas por propietario o estado.
+
+<table>
+    <tbody>
+        <tr>
+            <th colspan="1"> Tag </th>
+            <th colspan="1"> Verbo http</th>
+            <th colspan="1"> Endpoint </th>
+            <th colspan="1"> Summary </th>
+            <th colspan="1"> Description </th>
+            <th colspan="1"> OperationId </th>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications/{publicationId} </td>
+            <td colspan="1"> Get a Publication by its External ID </td>
+            <td colspan="1"> Retrieves a Publication by its unique external ID. </td>
+            <td colspan="1"> getPublicationById </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> PUT </td>
+            <td colspan="1"> /api/v1/publications/{publicationId} </td>
+            <td colspan="1"> Update a Publication </td>
+            <td colspan="1"> Updates an existing Publication identified by its external ID. </td>
+            <td colspan="1"> updatePublication </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> DELETE </td>
+            <td colspan="1"> /api/v1/publications/{publicationId} </td>
+            <td colspan="1"> Delete a Publication </td>
+            <td colspan="1"> Deletes a Publication identified by its external ID. </td>
+            <td colspan="1"> deletePublication </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications </td>
+            <td colspan="1"> Get all Publications </td>
+            <td colspan="1"> Retrieves a list of all existing Publications. </td>
+            <td colspan="1"> getAllPublications </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> POST </td>
+            <td colspan="1"> /api/v1/publications </td>
+            <td colspan="1"> Create a new Publication </td>
+            <td colspan="1"> Creates a new Publication with the provided data. </td>
+            <td colspan="1"> createPublication </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> PATCH </td>
+            <td colspan="1"> /api/v1/publications/{publicationId}/status </td>
+            <td colspan="1"> Update Publication Status </td>
+            <td colspan="1"> Updates the status of an existing Publication. </td>
+            <td colspan="1"> updatePublicationStatus </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications/owner/{ownerId} </td>
+            <td colspan="1"> Get Publications by Owner ID </td>
+            <td colspan="1"> Retrieves a list of Publications by a specific Owner ID. </td>
+            <td colspan="1"> getPublicationsByOwnerId </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> ownerId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications/featured </td>
+            <td colspan="1"> Get Featured Publications </td>
+            <td colspan="1"> Retrieves a list of Publications marked as featured. </td>
+            <td colspan="1"> getFeaturedPublications </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+    </tbody>
+</table>
+
+![s-publication1.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication1.png)
+![s-publication2.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication2.png)
+![s-publication3.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication3.png)
+![s-publication4.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication4.png)
+![s-publication5.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication5.png)
+![s-publication6.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication6.png)
+![s-publication7.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication7.png)
+![s-publication8.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication8.png)
 
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review

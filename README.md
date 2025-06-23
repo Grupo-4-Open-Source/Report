@@ -21,7 +21,7 @@
 
   </ul>
   <br>
-  <h4>Abril del 2025</h4>
+  <h4>Junio del 2025</h4>
 </div>
 
 ## Registro de Versiones del Informe
@@ -188,6 +188,7 @@ del ABET – EAC - Student Outcome 3.
         <strong>Kenyi Ramírez</strong><br>
         <strong>TB1:</strong>Colaboré de manera activa con mi equipo en la elaboración de este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a desarrollar. Diseñé y expliqué la estructura de los diagramas de Domain-Driven Design (contexto, contenedor y componente), así como el diseño de clases y base de datos.<br>
         <strong>TP:</strong>Colaboré de manera activa con mi equipo en corregir este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a editar. También participé activamente en el frontend en la elaboración del bounded context Dashboard, explicando y mostrando a mis compañeros cómo funciona. Lo he diseñado de acuerdo a las historias de usuario y diagrama de clases/base de datos <br>
+        <strong>TB2:</strong>Colaboré de manera activa con mi equipo en la elaboración de este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a desarrollar. Corregí la estructura de las User Stories y Product Backlog. Desarrollé las secciones de Sprint Backlog 3, Deployment, Execution Evidence, Video About the Product, Service Documentation y Validación de entrevistas.<br>
 
 <br>
 <br>
@@ -211,6 +212,7 @@ del ABET – EAC - Student Outcome 3.
         <strong>Kenyi Ramírez</strong><br>
         <strong>TB1:</strong> Me encargué del desarrollo de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. Estos diagramas son fundamentales para visualizar y comprender la arquitectura del sistema, proporcionando una representación clara de los diferentes niveles de la plataforma que desarrollaremos a lo largo del curso.<br>
         <strong>TP:</strong> Me encargué de la corrección de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. También corregí las User Stories junto con el Product Backlog. En cuanto al proyecto frontend, me encargué de crear e implementar la sección Dashboard y agregar algunos botones en el menú principal.<br>
+        <strong>TB2:</strong>Me encargué de corregír la estructura de las User Stories y Product Backlog. Desarrollé las secciones de Sprint Backlog 3, Deployment, Execution Evidence, Video About the Product, Service Documentation y Validación de entrevistas. En cuanto al desarrollo de la plataforma, me encargué de realizar los bounded context de Publication Management, Rental Management y Dashboard y Vehicles solo en el frontend.<br>
 
 <br>
 <br>
@@ -3568,6 +3570,32 @@ DEPLOYMENT LINK ingresar desde web application (frontend):https://opennova-front
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
+Para este sprint se desarrollaron la landing page, frontend y backend. La distribución de commits fue la siguiente:
+
+- **Landing Page:**
+
+![insight-lp.s3.png](assets/execution-evidence-for-sprint-review/sprint3/insight-lp.s3.png)
+
+![c-lp-s3.png](assets/execution-evidence-for-sprint-review/sprint3/c-lp-s3.png)
+
+- Josue Paiva: 1 commit
+
+- **Frontend:**
+
+![insight-f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/insight-f-s3.png)
+
+![c-f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/c-f-s3.png)
+
+- Kenyi Ramírez: 32 commits 
+
+- **Backend:** (Por alguna razón, el integrante Josue Paiva no aparece en contributors)
+
+![insight-b-s3.png](assets/execution-evidence-for-sprint-review/sprint3/insight-b-s3.png)
+
+![c-b-s3.png](assets/execution-evidence-for-sprint-review/sprint3/c-b-s3.png)
+
+- Kenyi Ramírez: 7 commits
+- Josue Paiva: 4 commits
 
 ### 5.3 Validation Interviews
 

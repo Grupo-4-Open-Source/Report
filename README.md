@@ -14,8 +14,6 @@
   <h2 >Integrantes:</h2>
   <ul style="list-style: none; padding: 0;">
       <li><h3>Josue Gonzalo Paiva Quispe</h3></li>
-      <li><h3>Alejandro Torres Alva</h3></li>
-        <li><h3>Javier Oswaldo Tello Murga</h3></li>
        <li><h3>Kenyi Efraín Ramírez Cabrera</h3></li>
 
 
@@ -39,6 +37,7 @@
 
 Se han realizado todas las tareas asignadas para la entrega del TB2, las cuales se encuentran registradas en el repositorio de Github de la organización del equipo.}
 
+![insights-report-s3.png](assets/execution-evidence-for-sprint-review/sprint3/insights-report-s3.png)
 
 
 - [Student Outcome](#student-outcome)

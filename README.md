@@ -2672,15 +2672,17 @@ Frontend:
 
 ##### 5.2.3.2. Aspect Leaders and Collaborators
 
-Durante este tercer Sprint, el equipo se enfocó principalmente en el desarrollo del frontend de Automovil-Unite.
+Durante este tercer Sprint, el equipo se enfocó principalmente en el desarrollo del frontend de Automovil-Unite y los servicios CRUD de su backend.
 Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha elaborado la matriz de Liderazgo y Colaboración (LACX). Esta matriz asigna responsabilidades específicas a cada miembro del equipo en relación con los aspectos clave del Sprint. Cada aspecto es un bounded context determinado.
 <table>
   <tr>
     <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
     <td><strong>GitHub Username</strong></td>
-    <td><strong><br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong><br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong><br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación de Vehicle Management<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación de Publication Management<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación de Rental Management<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación de Dashboard<br>Leader (L) / Collaborator (C)</strong></td>
+
   </tr>
   <tr>
     <td colspan="2">Paiva Quispe, Josue Gonzalo</td>
@@ -2688,20 +2690,15 @@ Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha 
     <td>L</td>
     <td>C</td>
     <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">Tello Murga, Javier Osvaldo </td>
-    <td>JavierTello20</td>
     <td>C</td>
-    <td>L</td>
-    <td>L</td>
   </tr>
   <tr>
     <td colspan="2">Ramírez Cabrera, Kenyi Efraín </td>
     <td>Kenyi15upc</td>
     <td>C</td>
-    <td>C</td>
-    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+    <td>L</td>
   </tr>
 </table>
 

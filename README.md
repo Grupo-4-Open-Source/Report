@@ -3154,6 +3154,21 @@ Maneja la administración de las publicaciones de vehículos disponibles para al
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+**Landing Page:** Para la Landing Page, se utilizó Netlify para el despliegue de la página.
+
+![deploy-landing.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-landing.png)
+
+- Se puede visualizar la seción Call To Action, donde al seleccionar "TRY NOW" te redirige a la página de inicio del FrontEnd.
+![deploy-landing2.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-landing2.png)
+
+DEPLOYMENT LINK ingresar desde landing:https://automovil-unite.netlify.app/
+
+**FrontEnd:** Para el FrontEnd, también se utilizó Netlify para el despliegue de la aplicación.
+
+![deploy-front.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-front.png)
+
+DEPLOYMENT LINK ingresar desde web application (frontend):https://opennova-frontend.netlify.app/
+
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 

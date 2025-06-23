@@ -21,7 +21,7 @@
 
   </ul>
   <br>
-  <h4>Abril del 2025</h4>
+  <h4>Junio del 2025</h4>
 </div>
 
 ## Registro de Versiones del Informe
@@ -30,9 +30,16 @@
 |---------|-------|-----------------------|-----------------------------------|
 | 0.1     | 23/04 | Todos los integrantes | Primera entrega del informe (TB1) |
 
+## Project Report Collaboration Insights
+
 |  URL de la organización del proyecto   |        URL del repositorio del reporte        |
 |:--------------------------------------:|:---------------------------------------------:|
 | https://github.com/Grupo-4-Open-Source | https://github.com/Grupo-4-Open-Source/Report |
+
+
+Se han realizado todas las tareas asignadas para la entrega del TB2, las cuales se encuentran registradas en el repositorio de Github de la organización del equipo.}
+
+
 
 - [Student Outcome](#student-outcome)
 
@@ -188,6 +195,7 @@ del ABET – EAC - Student Outcome 3.
         <strong>Kenyi Ramírez</strong><br>
         <strong>TB1:</strong>Colaboré de manera activa con mi equipo en la elaboración de este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a desarrollar. Diseñé y expliqué la estructura de los diagramas de Domain-Driven Design (contexto, contenedor y componente), así como el diseño de clases y base de datos.<br>
         <strong>TP:</strong>Colaboré de manera activa con mi equipo en corregir este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a editar. También participé activamente en el frontend en la elaboración del bounded context Dashboard, explicando y mostrando a mis compañeros cómo funciona. Lo he diseñado de acuerdo a las historias de usuario y diagrama de clases/base de datos <br>
+        <strong>TB2:</strong>Colaboré de manera activa con mi equipo en la elaboración de este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a desarrollar. Corregí la estructura de las User Stories y Product Backlog. Desarrollé las secciones de Sprint Backlog 3, Deployment, Execution Evidence, Video About the Product, Service Documentation y Validación de entrevistas.<br>
 
 <br>
 <br>
@@ -211,6 +219,7 @@ del ABET – EAC - Student Outcome 3.
         <strong>Kenyi Ramírez</strong><br>
         <strong>TB1:</strong> Me encargué del desarrollo de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. Estos diagramas son fundamentales para visualizar y comprender la arquitectura del sistema, proporcionando una representación clara de los diferentes niveles de la plataforma que desarrollaremos a lo largo del curso.<br>
         <strong>TP:</strong> Me encargué de la corrección de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. También corregí las User Stories junto con el Product Backlog. En cuanto al proyecto frontend, me encargué de crear e implementar la sección Dashboard y agregar algunos botones en el menú principal.<br>
+        <strong>TB2:</strong>Me encargué de corregír la estructura de las User Stories y Product Backlog. Desarrollé las secciones de Sprint Backlog 3, Deployment, Execution Evidence, Video About the Product, Service Documentation y Validación de entrevistas. En cuanto al desarrollo de la plataforma, me encargué de realizar los bounded context de Publication Management, Rental Management y Dashboard y Vehicles solo en el frontend.<br>
 
 <br>
 <br>
@@ -885,6 +894,11 @@ Segmento Objetivo 2 (Arrendatario de vehículos)
 | TS-35               | Calificación de Publicaciones                              | Como desarrollador, quiero un endpoint para registrar calificaciones y comentarios sobre publicaciones de vehículos, para que los usuarios puedan compartir su experiencia.                                                                                                                | Escenario 1: Dado que el cliente envía POST /api/v1/rating (asumiendo este endpoint para calificaciones) con datos válidos y un token, cuando el servidor procesa, entonces retorna 201 Created. <br> Escenario 2: Dado que un usuario ya calificó esa publicación, cuando intenta calificar de nuevo, entonces retorna 409 Conflict.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | EP-04                         |
 | TS-36               | Coherencia de Datos entre Contextos (Alquiler-Publicación) | Como desarrollador, quiero que las operaciones de alquiler validen la existencia de entidades externas (publicaciones, usuarios, seguros, ubicaciones) y actualicen el estado de disponibilidad de las publicaciones, para asegurar la integridad y coherencia entre los bounded contexts. | Escenario 1: Dado que se intenta crear un alquiler (POST /api/v1/rentals) con IDs válidos para publicación, arrendatario, seguro y ubicación, cuando el servidor valida, entonces el alquiler se crea exitosamente. <br> Escenario 2: Dado que se intenta crear un alquiler (POST /api/v1/rentals) con un ID de publicación, usuario, seguro o ubicación inexistente, cuando el servidor valida, entonces la creación falla y retorna 400 Bad Request. <br> Escenario 3: Dado que un alquiler se crea exitosamente, cuando el servidor finaliza la operación, entonces el contexto de Publicaciones recibe una notificación (PATCH /api/v1/publications/{publicationId}/status) para marcar la publicación como no disponible. <br> Escenario 4: Dado que un alquiler se elimina (DELETE /api/v1/rentals/{rentalId}) o cancela, cuando el servidor finaliza la operación, entonces el contexto de Publicaciones recibe una notificación (PATCH /api/v1/publications/{publicationId}/status) para marcar la publicación como disponible. | EP-04                         |
 | TS-37               | Gestión de Vehículos                                       | Como desarrollador, quiero implementar endpoints para gestionar la información detallada de los vehículos, incluyendo su registro inicial y la consulta de sus atributos, para soportar la creación y el mantenimiento de publicaciones.                                                   | Escenario 1: Dado que el cliente envía POST /api/v1/vehicles (o un endpoint similar para registrar un nuevo vehículo en el sistema, antes de ser publicado), cuando el servidor procesa con datos válidos, entonces retorna 201 Created con los detalles del vehículo registrado. <br> Escenario 2: Dado que el cliente hace GET /api/v1/vehicles/{vehicleId} con un ID de vehículo existente, cuando el servidor procesa, entonces retorna 200 OK con los atributos detallados del vehículo. <br> Escenario 3: Dado que el cliente envía PUT /api/v1/vehicles/{vehicleId} con datos válidos para actualizar un vehículo, cuando el servidor procesa, entonces retorna 200 OK con los datos actualizados. <br> Escenario 4: Dado que el cliente envía datos incompletos o inválidos en cualquier operación, cuando el servidor valida, entonces retorna 400 Bad Request con un mensaje de error.                                                                                                                                        | EP-03                         |
+| TS-38               | Implementación del servicio GET de vehículos publicados    | Como desarrollador, quiero un endpoint para obtener los detalles de un vehículo publicado por su ID, para permitir la visualización individual.                                                                                                                                            | Escenario 1: Dado que el cliente hace GET /api/v1/publications/{publicationId}, cuando el ID existe y es válido, entonces retorna 200 OK con los detalles completos de la publicación del vehículo. <br> Escenario 2: Dado que el ID de publicación no existe o es inválido, cuando se hace la solicitud, entonces retorna 404 Not Found.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP-03                         |
+| TS-39               | Implementación del servicio DELETE de vehículos publicados | Como desarrollador, quiero un endpoint para eliminar un vehículo publicado por su ID, para permitir a los usuarios retirar sus ofertas.                                                                                                                                                    | Escenario 1: Dado que el cliente hace DELETE /api/v1/publications/{publicationId}, cuando el ID es válido y la publicación le pertenece al usuario solicitante, entonces retorna 204 No Content. <br> Escenario 2: Dado que el ID de publicación no existe, o no pertenece al usuario, cuando se hace la solicitud, entonces retorna 404 Not Found o 403 Forbidden.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | EP-03                         |
+| TS-40               | Implementación del servicio POST de vehículos publicados   | Como desarrollador, quiero un endpoint para crear un nuevo vehículo publicado, para permitir a los usuarios ofrecer sus vehículos en alquiler.                                                                                                                                             | Escenario 1: Dado que el cliente envía POST /api/v1/publications con datos válidos para una nueva publicación, cuando el servidor procesa, entonces retorna 201 Created con los detalles de la publicación creada. <br> Escenario 2: Dado que el cliente envía datos incompletos o inválidos, cuando se valida, entonces retorna 400 Bad Request con un mensaje de error.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | EP-03                         |
+| TS-41               | Implementación del servicio PUT de vehículos publicados    | Como desarrollador, quiero un endpoint para actualizar un vehículo publicado por su ID, para permitir a los usuarios modificar la información de sus ofertas.                                                                                                                              | Escenario 1: Dado que el cliente envía PUT /api/v1/publications/{publicationId} con datos válidos, cuando la publicación existe y le pertenece al usuario solicitante, entonces retorna 200 OK con los datos actualizados. <br> Escenario 2: Dado que el ID de publicación no existe o no pertenece al usuario, cuando se hace la solicitud, entonces retorna 404 Not Found o 403 Forbidden. <br> Escenario 3: Dado que el cliente envía datos inválidos para la actualización, cuando se valida, entonces retorna 400 Bad Request con un mensaje de error.                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | EP-03                         |
+
 
 ### **Epic 01: Creación y Gestión de Cuenta**
 | **Story ID** | **Título**                         |
@@ -986,8 +1000,14 @@ Segmento Objetivo 2 (Arrendatario de vehículos)
 | 33         | TS-36             | Coherencia de Datos entre Contextos (Alquiler-Publicación) | Como desarrollador, quiero que las operaciones de alquiler validen la existencia de entidades externas (publicaciones, usuarios, seguros, ubicaciones) y actualicen el estado de disponibilidad de las publicaciones, para asegurar la integridad y coherencia entre los bounded contexts. | 5                |
 | 34         | TS-27             | Gestión de Publicaciones                                   | Como desarrollador, quiero implementar un conjunto de endpoints para la gestión completa de publicaciones, incluyendo creación, consulta, modificación y eliminación, para que los usuarios puedan ofrecer y administrar sus vehículos.                                                    | 5                |
 | 35         | TS-37             | Gestión de Vehículos                                       | Como desarrollador, quiero implementar endpoints para gestionar la información detallada de los vehículos, incluyendo su registro inicial y la consulta de sus atributos, para soportar la creación y el mantenimiento de publicaciones.                                                   | 5                |
-| 36         | TS-35             | Calificación de Publicaciones                              | Como desarrollador, quiero un endpoint para registrar calificaciones y comentarios sobre publicaciones de vehículos, para que los usuarios puedan compartir su experiencia.                                                                                                                | 3                |
-| 37         | TS-34             | Gestión de Perfil de Usuario                               | Como desarrollador, quiero implementar un conjunto de endpoints para la gestión completa del perfil del usuario, incluyendo creación, consulta y modificación de información personal, para que los usuarios puedan mantener sus datos actualizados.                                       | 3                |
+| 36         | TS-38             | Implementación del servicio GET de vehículos publicados    | Como desarrollador, quiero un endpoint para obtener los detalles de un vehículo publicado por su ID, para permitir la visualización individual.                                                                                                                                            | 3                |
+| 37         | TS-39             | Implementación del servicio DELETE de vehículos publicados | Como desarrollador, quiero un endpoint para eliminar un vehículo publicado por su ID, para permitir a los usuarios retirar sus ofertas.                                                                                                                                                    | 3                |
+| 38         | TS-40             | Implementación del servicio POST de vehículos publicados   | Como desarrollador, quiero un endpoint para crear un nuevo vehículo publicado, para permitir a los usuarios ofrecer sus vehículos en alquiler.                                                                                                                                             | 3                |
+| 39         | TS-41             | Implementación del servicio PUT de vehículos publicados    | Como desarrollador, quiero un endpoint para actualizar un vehículo publicado por su ID, para permitir a los usuarios modificar la información de sus ofertas.                                                                                                                              | 3                |
+| 40         | TS-35             | Calificación de Publicaciones                              | Como desarrollador, quiero un endpoint para registrar calificaciones y comentarios sobre publicaciones de vehículos, para que los usuarios puedan compartir su experiencia.                                                                                                                | 3                |
+| 41         | TS-34             | Gestión de Perfil de Usuario                               | Como desarrollador, quiero implementar un conjunto de endpoints para la gestión completa del perfil del usuario, incluyendo creación, consulta y modificación de información personal, para que los usuarios puedan mantener sus datos actualizados.                                       | 3                |
+
+
 
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines.
@@ -2104,6 +2124,9 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc
 
 ![ClassDiagramAutomovilUnite.png](assets/Class%20Diagram/ClassDiagramAutomovilUnite.png)
 
+**Bounded Context Diagram**
+![bounded-context-diagram.png](assets/execution-evidence-for-sprint-review/sprint3/bounded-context-diagram.png)
+
 #### 4.7.2. Class Dictionary.
 
 **User**: Representa a una persona registrada en la plataforma que puede publicar vehículos, reservarlos, subir documentos personales y escribir reseñas.
@@ -2616,60 +2639,62 @@ Frontend:
   </tr>
   <tr>
     <td colspan="5">Date</td>
-    <td colspan="8"></td>
+    <td colspan="8">02-06-25</td>
 </tr>
   <tr>
     <td colspan="5">Time</td>
-    <td colspan="8"></td>
+    <td colspan="8">10:00 PM</td>
   </tr>
   <tr>
     <td colspan="5">Location</td>
     <td colspan="8">Via Discord</td>
 <tr>
     <td colspan="5">Prepared By</td>
-    <td colspan="8"></td>
+    <td colspan="8">Josue Paiva</td>
 </tr>
 <tr>
     <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8"></td>
+    <td colspan="8">Kenyi Ramirez</td>
 </tr>
 <tr>
     <td colspan="5">Sprint  2 Review Summary</td>
-    <td colspan="8"></td>
+    <td colspan="8">En el Sprint 2, logramos implementar una versión funcional del frontend y del landing page. Se ha desarrollado la estructura básica del frontend.</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 2 Retrospective Summary</td>
-    <td colspan="8"></td>
+    <td colspan="8">Se cumplieron los puntos requeridos tanto en el frontend como en la landing page gracias a una buena comunicación y colaboración entre los miembros del equipo.</td>
 </tr>
 <tr>
     <td colspan="13">Sprint Goal & User Stories</td>
 </tr>
 <tr>
     <td colspan="5">Sprint 3 Goal</td>
-       <td colspan="8"></td>
+       <td colspan="8">Nuestro enfoque para este sprint es establecer la base central de la plataforma AutomovilUnite, desarrollando nuestra página de aterrizaje pública con una aplicación frontend funcional y completando más del 40% de los endpoint de servicios backend fundamentales del alcance de nuestro negocio. Creemos que esta futura integración proporcionará un punto de entrada fluido para los usuarios a nuestra aplicación y permitirá la gestión esencial de datos, mejorando significativamente la experiencia inicial del usuario y capacitando a nuestro equipo para construir sobre una base sólida. Esto se confirmará cuando los usuarios puedan acceder y navegar la aplicación web principal de forma directa y fluida desde la página; el backend soporte exitosamente operaciones para entidades clave, incluyendo vehículos, solicitudes de alquiler y publicaciones.</td>
 
 </tr>
 <tr>
     <td colspan="5">Sprint 3 Velocity</td>
-    <td colspan="8"></td>
+    <td colspan="8">65</td>
 <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8"></td>
+    <td colspan="8">63</td>
 </tr>
 </table>
 
 
 ##### 5.2.3.2. Aspect Leaders and Collaborators
 
-Durante este tercer Sprint, el equipo se enfocó principalmente en el desarrollo del frontend de Automovil-Unite.
+Durante este tercer Sprint, el equipo se enfocó principalmente en el desarrollo del frontend de Automovil-Unite y los servicios CRUD de su backend.
 Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha elaborado la matriz de Liderazgo y Colaboración (LACX). Esta matriz asigna responsabilidades específicas a cada miembro del equipo en relación con los aspectos clave del Sprint. Cada aspecto es un bounded context determinado.
 <table>
   <tr>
     <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
     <td><strong>GitHub Username</strong></td>
-    <td><strong><br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong><br>Leader (L) / Collaborator (C)</strong></td>
-    <td><strong><br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación de Vehicle Management<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación de Publication Management<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación de Rental Management<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación de Dashboard<br>Leader (L) / Collaborator (C)</strong></td>
+
   </tr>
   <tr>
     <td colspan="2">Paiva Quispe, Josue Gonzalo</td>
@@ -2677,159 +2702,1010 @@ Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha 
     <td>L</td>
     <td>C</td>
     <td>C</td>
-  </tr>
-  <tr>
-    <td colspan="2">Tello Murga, Javier Osvaldo </td>
-    <td>JavierTello20</td>
     <td>C</td>
-    <td>L</td>
-    <td>L</td>
   </tr>
   <tr>
     <td colspan="2">Ramírez Cabrera, Kenyi Efraín </td>
     <td>Kenyi15upc</td>
     <td>C</td>
-    <td>C</td>
-    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+    <td>L</td>
   </tr>
 </table>
 
 
 ##### 5.2.3.3. Sprint Backlog 3
 
+Nuestro enfoque principal para este Sprint ha sido el desarrollo del frontend y backend de la plataforma AutomovilUnite. Hemos estructurado nuestras tareas siguiendo las User Stories y Technical Stories que hemos detallado, asegurando un progreso claro y alineado con los objetivos de negocio y la arquitectura técnica.
+
+Para la gestión y el control de estas tareas, estamos utilizando Trello.
+
+![Sprint-Backlog3.png](assets/execution-evidence-for-sprint-review/sprint3/Sprint-Backlog3.png)
+
+Enlace: https://trello.com/b/OlPL01ZU/opennova-trello
 
 
 <table>
-<tr>
-    <th colspan="3">Sprint #</th>
-    <th colspan="10">Sprint 3</th>
-</tr>
-<tr>
-    <td colspan="3">User Story</td>
-    <td colspan="10">Work-Item/Task</td>
-</tr>
-<tr>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="1">Id</td>
-    <td colspan="2">Title</td>
-    <td colspan="3">Description</td>
-    <td colspan="1">Estimation (Hours)</td>
-    <td colspan="2">Assigned To</td>
-    <td colspan="1">Status (To do/ In-Process/ To-Review/ Done)</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-01</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1"></td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-02</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-03</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-04</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-05</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-<tr>
-    <td colspan="1">US-</td>
-    <td colspan="2"></td>
-    <td colspan="1">UT-07</td>
-    <td colspan="2"></td>
-    <td colspan="3"></td>
-    <td colspan="1"></td>
-    <td colspan="2"></td>
-    <td colspan="1">Done</td>
-</tr>
-
+    <tbody>
+        <tr>
+            <th colspan="3"> Sprint # </th>
+            <th colspan="10"> Sprint 3 </th>
+        </tr>
+        <tr>
+            <td colspan="3"> User Story </td>
+            <td colspan="10"> Work-Item/Task </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Id </td>
+            <td colspan="2"> Title </td>
+            <td colspan="1"> Id </td>
+            <td colspan="2"> Title </td>
+            <td colspan="3"> Description </td>
+            <td colspan="1"> Estimation (Hours) </td>
+            <td colspan="2"> Assigned To </td>
+            <td colspan="1"> Status (To do/ In-Process/ To-Review/ Done) </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-04 </td>
+            <td colspan="2"> Dashboard del usuario </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Diseñar layout del dashboard </td>
+            <td colspan="3"> Crear la estructura visual principal del dashboard. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-04 </td>
+            <td colspan="2"> Dashboard del usuario </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Integrar datos de dashboard </td>
+            <td colspan="3"> Conectar componentes del dashboard con la API para mostrar información. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-05 </td>
+            <td colspan="2"> Sección Destacados del Dashboard </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Desarrollar componente destacados </td>
+            <td colspan="3"> Implementar la interfaz para la sección de vehículos destacados. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-05 </td>
+            <td colspan="2"> Sección Destacados del Dashboard </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Conectar datos destacados </td>
+            <td colspan="3"> Consumir API de publicaciones destacadas para mostrar vehículos. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-06 </td>
+            <td colspan="2"> Sección Publicados del Dashboard </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Crear componente publicaciones propias </td>
+            <td colspan="3"> Desarrollar la sección para listar los vehículos del usuario. </td>
+            <td colspan="1"> 7 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-06 </td>
+            <td colspan="2"> Sección Publicados del Dashboard </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Mostrar lista de publicaciones </td>
+            <td colspan="3"> Integrar con la API para obtener y presentar las publicaciones del usuario. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-07 </td>
+            <td colspan="2"> Cancelar reserva de vehículo </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Implementar botón cancelar en UI </td>
+            <td colspan="3"> Añadir la funcionalidad visual de cancelación en la interfaz. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-07 </td>
+            <td colspan="2"> Cancelar reserva de vehículo </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Confirmar acción cancelación </td>
+            <td colspan="3"> Mostrar diálogo de confirmación antes de cancelar la reserva. </td>
+            <td colspan="1"> 3 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-27 </td>
+            <td colspan="2"> Gestión de Solicitudes de Alquiler como Arrendador </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Diseñar vista de solicitudes pendientes </td>
+            <td colspan="3"> Crear la interfaz para que el propietario vea las solicitudes de alquiler. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-27 </td>
+            <td colspan="2"> Gestión de Solicitudes de Alquiler como Arrendador </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Implementar botones aceptar/rechazar </td>
+            <td colspan="3"> Añadir funcionalidades para que el propietario gestione las solicitudes. </td>
+            <td colspan="1"> 2 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-28 </td>
+            <td colspan="2"> Detalle y Estado de Alquileres Reservados </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Desarrollar vista detalle alquiler </td>
+            <td colspan="3"> Crear la interfaz que muestre la información completa de una reserva. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-28 </td>
+            <td colspan="2"> Detalle y Estado de Alquileres Reservados </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Mostrar estado y atributos </td>
+            <td colspan="3"> Asegurar que el estado y todos los detalles del alquiler sean visibles. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-29 </td>
+            <td colspan="2"> Cancelación de Alquiler con Impacto en Disponibilidad </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Actualizar UI tras cancelación </td>
+            <td colspan="3"> Reflejar en la interfaz la liberación de la publicación tras cancelar un alquiler. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-29 </td>
+            <td colspan="2"> Cancelación de Alquiler con Impacto en Disponibilidad </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Mostrar mensaje de liberación de vehículo </td>
+            <td colspan="3"> Notificar al usuario que el vehículo ahora está disponible para otros. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-08 </td>
+            <td colspan="2"> Pestaña de Publicación </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Crear navegación a pestaña publicación </td>
+            <td colspan="3"> Implementar el acceso y la interfaz principal de la sección de publicaciones. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-08 </td>
+            <td colspan="2"> Pestaña de Publicación </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Desarrollar interfaz gestión publicaciones </td>
+            <td colspan="3"> Crear la vista donde se listan y gestionan las publicaciones del usuario. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-09 </td>
+            <td colspan="2"> Creación de publicaciones </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Diseñar formulario de creación </td>
+            <td colspan="3"> Crear la interfaz para ingresar los datos de una nueva publicación. </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-09 </td>
+            <td colspan="2"> Creación de publicaciones </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Implementar validaciones frontend </td>
+            <td colspan="3"> Añadir validaciones en el formulario antes de enviar la información. </td>
+            <td colspan="1"> 2 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-09 </td>
+            <td colspan="2"> Creación de publicaciones </td>
+            <td colspan="1"> UT-03 </td>
+            <td colspan="2"> Conectar formulario con API </td>
+            <td colspan="3"> Integrar el formulario con el endpoint de creación de publicaciones. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-10 </td>
+            <td colspan="2"> Visualizar una publicación </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Desarrollar vista de detalle </td>
+            <td colspan="3"> Crear la interfaz para mostrar la información completa de una publicación. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-10 </td>
+            <td colspan="2"> Visualizar una publicación </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Mostrar estado e información </td>
+            <td colspan="3"> Asegurar que el estado y todos los detalles de la publicación sean visibles. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-16 </td>
+            <td colspan="2"> Reserva de vehículo </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Diseñar flujo de reserva </td>
+            <td colspan="3"> Crear la interfaz de usuario para el proceso de reserva de un vehículo. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-16 </td>
+            <td colspan="2"> Reserva de vehículo </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Implementar selección de fechas </td>
+            <td colspan="3"> Añadir un componente de calendario para seleccionar las fechas de alquiler. </td>
+            <td colspan="1"> 3 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-16 </td>
+            <td colspan="2"> Reserva de vehículo </td>
+            <td colspan="1"> UT-03 </td>
+            <td colspan="2"> Integrar con API de reserva </td>
+            <td colspan="3"> Conectar la interfaz de reserva con el endpoint para crear alquileres. </td>
+            <td colspan="1"> 7 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-26 </td>
+            <td colspan="2"> Call To Action </td>
+            <td colspan="1"> UT-01 </td>
+            <td colspan="2"> Diseñar formulario de contacto </td>
+            <td colspan="3"> Crear la interfaz para el formulario de recolección de correos. </td>
+            <td colspan="1"> 3 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US-26 </td>
+            <td colspan="2"> Call To Action </td>
+            <td colspan="1"> UT-02 </td>
+            <td colspan="2"> Implementar envío de datos </td>
+            <td colspan="3"> Configurar la lógica para enviar la información del formulario. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-32 </td>
+            <td colspan="2"> Gestión de Reservas de Alquiler </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar lógica de alquileres GET/POST </td>
+            <td colspan="3"> Desarrollar la lógica de negocio para obtener y crear alquileres. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kneyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-32 </td>
+            <td colspan="2"> Gestión de Reservas de Alquiler </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Implementar lógica PUT/DELETE de alquileres </td>
+            <td colspan="3"> Desarrollar la lógica de negocio para actualizar y eliminar alquileres. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-32 </td>
+            <td colspan="2"> Gestión de Reservas de Alquiler </td>
+            <td colspan="1"> TT-03 </td>
+            <td colspan="2"> Integrar persistencia alquileres </td>
+            <td colspan="3"> Conectar la lógica de negocio con la base de datos para almacenar alquileres. </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-33 </td>
+            <td colspan="2"> Consulta y Filtrado de Vehículos Disponibles </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Desarrollar lógica de listado de publicaciones </td>
+            <td colspan="3"> Implementar la lógica para obtener todas las publicaciones de vehículos. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-33 </td>
+            <td colspan="2"> Consulta y Filtrado de Vehículos Disponibles </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Implementar filtros por atributos </td>
+            <td colspan="3"> Desarrollar la lógica de filtrado por marca, precio, etc. </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-33 </td>
+            <td colspan="2"> Consulta y Filtrado de Vehículos Disponibles </td>
+            <td colspan="1"> TT-03 </td>
+            <td colspan="2"> Implementar obtención de destacados </td>
+            <td colspan="3"> Desarrollar la lógica para recuperar publicaciones marcadas como destacadas. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-36 </td>
+            <td colspan="2"> Coherencia de Datos entre Contextos (Alquiler-Publicación) </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar validación de entidades </td>
+            <td colspan="3"> Asegurar que las operaciones de alquiler validen existencia de IDs externos. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-36 </td>
+            <td colspan="2"> Coherencia de Datos entre Contextos (Alquiler-Publicación) </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Desarrollar mecanismo de actualización de estado </td>
+            <td colspan="3"> Implementar la comunicación para actualizar el estado de publicaciones (disponible/no disponible). </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> To Do </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-27 </td>
+            <td colspan="2"> Gestión de Publicaciones </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Refactorizar controladores de publicaciones </td>
+            <td colspan="3"> Optimizar y consolidar el código de los controladores para publicaciones. </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-27 </td>
+            <td colspan="2"> Gestión de Publicaciones </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Asegurar consistencia de datos </td>
+            <td colspan="3"> Garantizar que los datos de publicaciones sean consistentes en la base de datos. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-37 </td>
+            <td colspan="2"> Gestión de Vehículos </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Desarrollar lógica para registrar vehículos </td>
+            <td colspan="3"> Implementar la funcionalidad de backend para el registro inicial de vehículos. </td>
+            <td colspan="1"> 8 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> To Review </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-37 </td>
+            <td colspan="2"> Gestión de Vehículos </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Implementar obtención/actualización de vehículos </td>
+            <td colspan="3"> Desarrollar los servicios para consultar y modificar atributos de vehículos. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> To Review </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-38 </td>
+            <td colspan="2"> Implementación del servicio GET de vehículos publicados </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar endpoint GET /publications/{id} </td>
+            <td colspan="3"> Crear el endpoint específico para obtener una publicación por su ID. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> To Fix </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-38 </td>
+            <td colspan="2"> Implementación del servicio GET de vehículos publicados </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Desarrollar lógica de obtención por ID </td>
+            <td colspan="3"> Implementar la lógica de negocio para recuperar una publicación específica. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-39 </td>
+            <td colspan="2"> Implementación del servicio DELETE de vehículos publicados </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar endpoint DELETE /publications/{id} </td>
+            <td colspan="3"> Crear el endpoint específico para eliminar una publicación por su ID. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-39 </td>
+            <td colspan="2"> Implementación del servicio DELETE de vehículos publicados </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Desarrollar lógica de eliminación </td>
+            <td colspan="3"> Implementar la lógica de negocio para borrar una publicación. </td>
+            <td colspan="1"> 4 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-40 </td>
+            <td colspan="2"> Implementación del servicio POST de vehículos publicados </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar endpoint POST /publications </td>
+            <td colspan="3"> Crear el endpoint específico para registrar nuevas publicaciones. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-40 </td>
+            <td colspan="2"> Implementación del servicio POST de vehículos publicados </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Desarrollar lógica de creación </td>
+            <td colspan="3"> Implementar la lógica de negocio para la creación de una publicación. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-41 </td>
+            <td colspan="2"> Implementación del servicio PUT de vehículos publicados </td>
+            <td colspan="1"> TT-01 </td>
+            <td colspan="2"> Implementar endpoint PUT /publications/{id} </td>
+            <td colspan="3"> Crear el endpoint específico para actualizar publicaciones por su ID. </td>
+            <td colspan="1"> 5 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS-41 </td>
+            <td colspan="2"> Implementación del servicio PUT de vehículos publicados </td>
+            <td colspan="1"> TT-02 </td>
+            <td colspan="2"> Desarrollar lógica de actualización </td>
+            <td colspan="3"> Implementar la lógica de negocio para modificar una publicación existente. </td>
+            <td colspan="1"> 3 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+    </tbody>
 </table>
+
 
 ##### 5.2.3.4. Development Evidence for Sprint Review
 
+### **Landing Page**
 
 <table>
     <tr>
-        <th colspan="2">Repository</th>
-        <th colspan="2">Branch</th>
-        <th colspan="2">Commit Id</th>
-        <th colspan="2">Commit Message</th>
-        <th colspan="2">Commit Message Body</th>
-        <th colspan="2">Commited on (Date)</th>
+        <td colspan="1">Repository</td>
+        <td colspan="1">Branch</td>
+        <td colspan="1">Commit Id</td>
+        <td colspan="1">Commit Message</td>
+        <td colspan="1">Commit Message Body</td>
+        <td colspan="1">Commited on (Date)</td>
     </tr>
-        <tr>
-        <td colspan="2">Grupo-4-Open-Source/Report</td>
-        <td colspan="2">main</td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>4bb4686</td>
+        <td>feat: added frontend reference</td>
+        <td>feat: added frontend reference</td>
+        <td>10/06/2025</td>
     </tr>
-        <tr>
-        <td colspan="2">Grupo-4-Open-Source/Report</td>
-        <td colspan="2">main</td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
+</table>
+
+### **Frontend**
+
+<table>
+    <tr>
+        <td colspan="1">Repository</td>
+        <td colspan="1">Branch</td>
+        <td colspan="1">Commit Id</td>
+        <td colspan="1">Commit Message</td>
+        <td colspan="1">Commit Message Body</td>
+        <td colspan="1">Commited on (Date)</td>
     </tr>
-     <tr>
-        <td colspan="2">Grupo-4-Open-Source/Report</td>
-        <td colspan="2">main</td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
-        <td colspan="2"></td>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>169e0e5</td>
+        <td>Merge pull request #18 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #18 from Grupo-4-Open-Source/develop</td>
+        <td>23/06/2025</td>
     </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>f49112b</td>
+        <td>fix: delete old files</td>
+        <td>fix: delete old files</td>
+        <td>23/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>393e0bb</td>
+        <td>Merge pull request #17 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #17 from Grupo-4-Open-Source/develop</td>
+        <td>23/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>7a3c95a</td>
+        <td>Merge pull request #16 from Grupo-4-Open-Source/feat/rental</td>
+        <td>Merge pull request #16 from Grupo-4-Open-Source/feat/rental</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>cfa2860</td>
+        <td>fix(rental): fix my-bookings-page structure and add styles</td>
+        <td>fix(rental): fix my-bookings-page structure and add styles</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>141e647</td>
+        <td>feat(rental): add bookings page and update routes</td>
+        <td>feat(rental): add bookings page and update routes</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>2ebcce1</td>
+        <td>Merge pull request #15 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #15 from Grupo-4-Open-Source/develop</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>45fb4f6</td>
+        <td>Merge pull request #14 from Grupo-4-Open-Source/feat/iam</td>
+        <td>Merge pull request #14 from Grupo-4-Open-Source/feat/iam</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>525a598</td>
+        <td>fix(app): update navbar</td>
+        <td>fix(app): update navbar</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>5434aa8</td>
+        <td>fix(dashboard): rename files</td>
+        <td>fix(dashboard): rename files</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>0c83975</td>
+        <td>feat(app): update app component</td>
+        <td>feat(app): update app component</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>62f04b5</td>
+        <td>feat(routes): update routes</td>
+        <td>feat(routes): update routes</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/iam</td>
+        <td>622ab12</td>
+        <td>feat(iam): add role.service and role-selection page</td>
+        <td>feat(iam): add role.service and role-selection page</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>6474d57</td>
+        <td>Merge pull request #13 from Grupo-4-Open-Source/feat/dashboard</td>
+        <td>Merge pull request #13 from Grupo-4-Open-Source/feat/dashboard</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>87863e9</td>
+        <td>feat(dashboard): add owner-dashboard components and pages. Fix publicacion and rental services. Fix styles to renter-dashboard</td>
+        <td>feat(dashboard): add owner-dashboard components and pages. Fix publicacion and rental services. Fix styles to renter-dashboard</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>ec21fad</td>
+        <td>Merge pull request #11 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #11 from Grupo-4-Open-Source/develop</td>
+        <td>20/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>e77b4ab</td>
+        <td>Merge pull request #10 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #10 from Grupo-4-Open-Source/develop</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>456271a</td>
+        <td>Merge pull request #9 from Grupo-4-Open-Source/feat/rental</td>
+        <td>Merge pull request #9 from Grupo-4-Open-Source/feat/rental</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>432642e</td>
+        <td>feat: add booking detail route to app routes</td>
+        <td>feat: add booking detail route to app routes</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>be940fe</td>
+        <td>feat(rental): add booking detail css</td>
+        <td>feat(rental): add booking detail css</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>0b46319</td>
+        <td>feat(rental): add booking detail html</td>
+        <td>feat(rental): add booking detail html</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>3eade52</td>
+        <td>feat(rental): add booking cancellation functionality with confirmation dialog</td>
+        <td>feat(rental): add booking cancellation functionality with confirmation dialog</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rental</td>
+        <td>9aa70be</td>
+        <td>feat(rental): add Booking Detail component</td>
+        <td>feat(rental): add Booking Detail component</td>
+        <td>09/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>f97982c</td>
+        <td>Merge pull request #8 from Grupo-4-Open-Source/feat/dashboard</td>
+        <td>Merge pull request #8 from Grupo-4-Open-Source/feat/dashboard</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>566a529</td>
+        <td>fix: update ren-vehicle component and rental service. Correct variable name from publicacion to publication</td>
+        <td>fix: update ren-vehicle component and rental service. Correct variable name from publicacion to publication</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>1bf7f99</td>
+        <td>fix: update vehicle card component. Correct variable name from publicacion to publication</td>
+        <td>fix: update vehicle card component. Correct variable name from publicacion to publication</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>56e41ea</td>
+        <td>fix: update routes and environment.development</td>
+        <td>fix: update routes and environment.development</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>428b179</td>
+        <td>feat: add new routes (dashboard, publish-vehicle, rent-vehicle/publicationId)</td>
+        <td>feat: add new routes (dashboard, publish-vehicle, rent-vehicle/publicationId)</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>dde500a</td>
+        <td>feat(rental): add rental-vehicle component</td>
+        <td>feat(rental): add rental-vehicle component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>f830ed9</td>
+        <td>feat(publications): add publish-vehicle component</td>
+        <td>feat(publications): add publish-vehicle component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>4bb5e75</td>
+        <td>feat(dashboard): add renter-dashboard component</td>
+        <td>feat(dashboard): add renter-dashboard component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>21afa09</td>
+        <td>feat(dashboard): add booked-vehicles-section component</td>
+        <td>feat(dashboard): add booked-vehicles-section component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>b621bae</td>
+        <td>feat(renter): add rental and insurance services</td>
+        <td>feat(renter): add rental and insurance services</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>1aa8507</td>
+        <td>feat(dashboard): add available-vehicles-section component</td>
+        <td>feat(dashboard): add available-vehicles-section component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/dashboard</td>
+        <td>89722a1</td>
+        <td>refactor: rename components: featured-cards to featured-vehicles-section, reserved-cards to booked-vehicles-section</td>
+        <td>refactor: rename components: featured-cards to featured-vehicles-section, reserved-cards to booked-vehicles-section</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>f5b2355</td>
+        <td>feat: create multiple services: User, Publication, Location</td>
+        <td>feat: create multiple services: User, Publication, Location</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>69b758d</td>
+        <td>feat(shared): add confirm-dialog component</td>
+        <td>feat(shared): add confirm-dialog component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>2346b7e</td>
+        <td>feat(vehicle): add vehicle-card component</td>
+        <td>feat(vehicle): add vehicle-card component</td>
+        <td>08/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>052e588</td>
+        <td>feat: update db.json</td>
+        <td>feat: update db.json</td>
+        <td>07/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>b050619</td>
+        <td>feat: update environments</td>
+        <td>feat: update environments</td>
+        <td>07/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>b050619</td>
+        <td>feat: update base.service</td>
+        <td>feat: update base.service</td>
+        <td>07/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>b050619</td>
+        <td>feat: create multiple entities: User, Location, Availability-slot, Insurance, Publication, Rental and Vehicle</td>
+        <td>feat: create multiple entities: User, Location, Availability-slot, Insurance, Publication, Rental and Vehicle</td>
+        <td>07/06/2025</td>
+    </tr>
+</table>
 
 
+### **Backend** 
 
+<table>
+    <tr>
+        <td colspan="1">Repository</td>
+        <td colspan="1">Branch</td>
+        <td colspan="1">Commit Id</td>
+        <td colspan="1">Commit Message</td>
+        <td colspan="1">Commit Message Body</td>
+        <td colspan="1">Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>2e62724</td>
+        <td>Merge pull request #3 from Grupo-4-Open-Source/develop</td>
+        <td>Merge pull request #3 from Grupo-4-Open-Source/develop</td>
+        <td>23/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/publications</td>
+        <td>07c6a59</td>
+        <td>Merge pull request #2 from Grupo-4-Open-Source/feat/publications</td>
+        <td>Merge pull request #2 from Grupo-4-Open-Source/feat/publications</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rentals</td>
+        <td>b3891d4</td>
+        <td>Merge pull request #1 from Grupo-4-Open-Source/feat/rentals</td>
+        <td>Merge pull request #1 from Grupo-4-Open-Source/feat/rentals</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rentals</td>
+        <td>137d905</td>
+        <td>feat(rentals): add CreateRentalCommandFromResourceAssembler, UpdateRentalCommandFromResourceAssembler, RentalResourceFromEntityAssembler and Rental Controller</td>
+        <td>feat(rentals): add CreateRentalCommandFromResourceAssembler, UpdateRentalCommandFromResourceAssembler, RentalResourceFromEntityAssembler and Rental Controller</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rentals</td>
+        <td>82867e8</td>
+        <td>feat(rentals): add rental resource</td>
+        <td>feat(rentals): add rental resource</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/rentals</td>
+        <td>4f89b94</td>
+        <td>feat(rentals): add rental value object, aggregate, commands, queries, services, and repository</td>
+        <td>feat(rentals): add rental value object, aggregate, commands, queries, services, and repository</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/publications</td>
+        <td>29c5c87</td>
+        <td>feat(publications): add publication resources and controller</td>
+        <td>feat(publications): add publication resources and controller</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/publications</td>
+        <td>f0b0af6</td>
+        <td>feat(publications): add publication aggregate, commands, queries, services, repository and resources</td>
+        <td>feat(publications): add publication aggregate, commands, queries, services, repository and resources</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/publications</td>
+        <td>dbef509</td>
+        <td>feat(publications): add publications value objects</td>
+        <td>feat(publications): add publications value objects</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>f0c8887</td>
+        <td>feat: finished publication backend endpoint operations</td>
+        <td>feat: finished publication backend endpoint operations</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>582d018</td>
+        <td>feat: finished publication backend endpoint operations</td>
+        <td>feat: finished publication backend endpoint operations</td>
+        <td>22/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>d386776</td>
+        <td>feat: fix Aggregate</td>
+        <td>feat: fix Aggregate</td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>d91c0b1</td>
+        <td>feat: development of publications bounded context</td>
+        <td>feat: development of publications bounded context</td>
+        <td>21/06/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>7b352ea</td>
+        <td>chore: add Spring Boot project structure with JPA, snake_case, and OpenAPI configuration</td>
+        <td>chore: add Spring Boot project structure with JPA, snake_case, and OpenAPI configuration</td>
+        <td>10/06/2025</td>
+    </tr>
 </table>
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review
@@ -2905,23 +3781,461 @@ En esta entrega, se realizaron pequeños cambios en la Landing Page. Además de 
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+En este Sprint, hemos logrado un progreso significativo en la implementación y documentación de los servicios web fundamentales para la gestión de Alquileres (Rentals) y Publicaciones (Publications). Todos los endpoints clave han sido documentados utilizando las especificaciones de OpenAPI, lo que facilita la integración y el consumo de estos servicios por parte de los equipos de frontend y otros sistemas. Se ha priorizado la claridad en las acciones soportadas, los verbos HTTP, la sintaxis de las llamadas, los parámetros y la estructura de las respuestas para asegurar una comprensión unívoca de la API.
+
+A continuación, se detalla la relación de Endpoints documentados, incluyendo las acciones implementadas para cada uno:
+
+**Controladores y Endpoints Documentados**
+
+- **Rental Management Endpoints**
+Se encarga de la gestión integral de los alquileres de vehículos. Incluye la creación de nuevos registros de alquiler, la consulta de alquileres específicos o la lista completa, la actualización de sus datos y la eliminación cuando sea necesario.
+
+<table>
+    <tbody>
+        <tr>
+            <th colspan="1"> Tag </th>
+            <th colspan="1"> Verbo http</th>
+            <th colspan="1"> Endpoint </th>
+            <th colspan="1"> Summary </th>
+            <th colspan="1"> Description </th>
+            <th colspan="1"> OperationId </th>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/rentals/{rentalId} </td>
+            <td colspan="1"> Get a Rental by ID </td>
+            <td colspan="1"> Retrieves a Rental by its unique internal ID. </td>
+            <td colspan="1"> getRentalById </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> rentalId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> PUT </td>
+            <td colspan="1"> /api/v1/rentals/{rentalId} </td>
+            <td colspan="1"> Update a Rental </td>
+            <td colspan="1"> Updates an existing Rental identified by its ID. </td>
+            <td colspan="1"> updateRental </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> rentalId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> DELETE </td>
+            <td colspan="1"> /api/v1/rentals/{rentalId} </td>
+            <td colspan="1"> Delete a Rental </td>
+            <td colspan="1"> Deletes a Rental identified by its ID. </td>
+            <td colspan="1"> deleteRental </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> rentalId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/rentals </td>
+            <td colspan="1"> Get all Rentals </td>
+            <td colspan="1"> Retrieves a list of all existing Rentals. </td>
+            <td colspan="1"> getAllRentals </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> POST </td>
+            <td colspan="1"> /api/v1/rentals </td>
+            <td colspan="1"> Create a new Rental </td>
+            <td colspan="1"> Creates a new Rental with the provided data. </td>
+            <td colspan="1"> createRental </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+    </tbody>
+</table>
+
+![s-rental1.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental1.png)
+![s-rental2.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental2.png)
+![s-rental3.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental3.png)
+![s-rental4.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental4.png)
+![s-rental5.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental5.png)
+
+- **Publication Management Endpoints**
+Maneja la administración de las publicaciones de vehículos disponibles para alquiler. Permite crear nuevas publicaciones, consultarlas individualmente o en listados filtrados, actualizarlas y gestionarlas por propietario o estado.
+
+<table>
+    <tbody>
+        <tr>
+            <th colspan="1"> Tag </th>
+            <th colspan="1"> Verbo http</th>
+            <th colspan="1"> Endpoint </th>
+            <th colspan="1"> Summary </th>
+            <th colspan="1"> Description </th>
+            <th colspan="1"> OperationId </th>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications/{publicationId} </td>
+            <td colspan="1"> Get a Publication by its External ID </td>
+            <td colspan="1"> Retrieves a Publication by its unique external ID. </td>
+            <td colspan="1"> getPublicationById </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> PUT </td>
+            <td colspan="1"> /api/v1/publications/{publicationId} </td>
+            <td colspan="1"> Update a Publication </td>
+            <td colspan="1"> Updates an existing Publication identified by its external ID. </td>
+            <td colspan="1"> updatePublication </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> DELETE </td>
+            <td colspan="1"> /api/v1/publications/{publicationId} </td>
+            <td colspan="1"> Delete a Publication </td>
+            <td colspan="1"> Deletes a Publication identified by its external ID. </td>
+            <td colspan="1"> deletePublication </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications </td>
+            <td colspan="1"> Get all Publications </td>
+            <td colspan="1"> Retrieves a list of all existing Publications. </td>
+            <td colspan="1"> getAllPublications </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> POST </td>
+            <td colspan="1"> /api/v1/publications </td>
+            <td colspan="1"> Create a new Publication </td>
+            <td colspan="1"> Creates a new Publication with the provided data. </td>
+            <td colspan="1"> createPublication </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> PATCH </td>
+            <td colspan="1"> /api/v1/publications/{publicationId}/status </td>
+            <td colspan="1"> Update Publication Status </td>
+            <td colspan="1"> Updates the status of an existing Publication. </td>
+            <td colspan="1"> updatePublicationStatus </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications/owner/{ownerId} </td>
+            <td colspan="1"> Get Publications by Owner ID </td>
+            <td colspan="1"> Retrieves a list of Publications by a specific Owner ID. </td>
+            <td colspan="1"> getPublicationsByOwnerId </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> ownerId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications/featured </td>
+            <td colspan="1"> Get Featured Publications </td>
+            <td colspan="1"> Retrieves a list of Publications marked as featured. </td>
+            <td colspan="1"> getFeaturedPublications </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+    </tbody>
+</table>
+
+![s-publication1.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication1.png)
+![s-publication2.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication2.png)
+![s-publication3.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication3.png)
+![s-publication4.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication4.png)
+![s-publication5.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication5.png)
+![s-publication6.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication6.png)
+![s-publication7.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication7.png)
+![s-publication8.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication8.png)
+
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+**Landing Page:** Para la Landing Page, se utilizó Netlify para el despliegue de la página.
+
+![deploy-landing.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-landing.png)
+
+- Se puede visualizar la seción Call To Action, donde al seleccionar "TRY NOW" te redirige a la página de inicio del FrontEnd.
+![deploy-landing2.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-landing2.png)
+
+DEPLOYMENT LINK ingresar desde landing:https://automovil-unite.netlify.app/
+
+**FrontEnd:** Para el FrontEnd, también se utilizó Netlify para el despliegue de la aplicación.
+
+![deploy-front.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-front.png)
+
+DEPLOYMENT LINK ingresar desde web application (frontend):https://opennova-frontend.netlify.app/
 
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
+Para este sprint se desarrollaron la landing page, frontend y backend. La distribución de commits fue la siguiente:
+
+- **Landing Page:**
+
+![insight-lp.s3.png](assets/execution-evidence-for-sprint-review/sprint3/insight-lp.s3.png)
+
+![c-lp-s3.png](assets/execution-evidence-for-sprint-review/sprint3/c-lp-s3.png)
+
+- Josue Paiva: 1 commit
+
+- **Frontend:**
+
+![insight-f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/insight-f-s3.png)
+
+![c-f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/c-f-s3.png)
+
+- Kenyi Ramírez: 32 commits 
+
+- **Backend:** (Por alguna razón, el integrante Josue Paiva no aparece en contributors)
+
+![insight-b-s3.png](assets/execution-evidence-for-sprint-review/sprint3/insight-b-s3.png)
+
+![c-b-s3.png](assets/execution-evidence-for-sprint-review/sprint3/c-b-s3.png)
+
+- Kenyi Ramírez: 7 commits
+- Josue Paiva: 4 commits
 
 ### 5.3 Validation Interviews
 
 #### 5.3.1 Diseño de entrevistas
 
+**Objetivo de la Entrevista**
+Validar la usabilidad y la efectividad de la plataforma AutomóvilUnite para ambos segmentos de usuarios: Interesado en alquilar (arrendatarios) y Propietarios (arrendador). El objetivo es asegurar que la navegación sea intuitiva, los flujos clave sean claros y eficientes, y la propuesta de valor de alquilar/compartir vehículos resuene con los usuarios, fomentando su interacción y confianza en la plataforma.
+
+**Elementos de Validación**
+- **Landing Page:** Se evaluará la claridad del mensaje, la facilidad de comprensión de la propuesta de valor y el atractivo de las llamadas a la acción (CTA) para motivar el registro y la exploración.
+- **Flujos de Usuario Clave:** Se guiará a los usuarios a través de las interacciones principales en la aplicación, como la búsqueda y reserva de vehículos, la gestión de publicaciones y solicitudes de alquiler, y la visualización de sus respectivos dashboards.
+
+## **User Flows a Validar**
+### **Para el Segmento "Arrendatario"**
+1. **Navegación General y Dashboard:**
+
+- Objetivo del usuario: Como usuario, quiero acceder fácilmente a las opciones para utilizar todas las funciones que ofrece la plataforma.
+- Caminos felices: El usuario, al iniciar la plataforma, ve en la parte superior las diferentes opciones disponibles (Dashboard, Buscar, Mis Reservas, etc.).
+- Caminos no felices: El usuario hace clic en una herramienta externa de la plataforma, como un anuncio de accesorios para conducir, distrayéndose de las funcionalidades core.
+- Elementos a validar:
+- Facilidad para identificar las secciones principales (Dashboard, Publicaciones, Reservas).
+- Claridad de la información en el dashboard (vehículos destacados, mis reservas).
+
+
+2. **Búsqueda y Reserva de Vehículos:**
+
+- Objetivo del usuario: Como usuario, quiero poder buscar cualquier vehículo de mi interés.
+- Caminos felices: El usuario puede filtrar la búsqueda (por marca, precio, ubicación, etc.) para obtener mejores resultados y completar el proceso de reserva con éxito.
+- Caminos no felices: El usuario intenta una acción no relacionada o se confunde con elementos irrelevantes durante el proceso de búsqueda/reserva.
+- Elementos a validar:
+- Intuitividad del proceso de búsqueda y aplicación de filtros.
+- Claridad de la información mostrada en el detalle del vehículo.
+- Facilidad para seleccionar fechas y confirmar la reserva.
+
+
+3. **Gestión de Alquileres Reservados y Cancelación:**
+
+- Objetivo del usuario: Como usuario, quiero poder ver el estado de mis solicitudes de alquiler y, si es necesario, cancelar un alquiler.
+- Caminos felices: El usuario puede consultar los detalles completos de sus reservas en "Mis Reservas" y cancelar una reserva exitosamente desde el dashboard, viendo el impacto en su disponibilidad.
+- Caminos no felices: El usuario no encuentra fácilmente sus reservas o no comprende cómo proceder con una cancelación.
+- Elementos a validar:
+- Accesibilidad a la sección "Mis Reservas".
+- Claridad del estado y detalles de cada alquiler.
+- Facilidad y retroalimentación del proceso de cancelación de una reserva.
+
+### **Para el Segmento "Arrendador"**
+1. **Navegación General y Dashboard:**
+
+- Objetivo del usuario: Como usuario, quiero acceder de forma sencilla a todas las opciones disponibles para usar las facilidades de la plataforma.
+- Caminos felices: El usuario ve en la parte superior las diversas opciones disponibles (Dashboard de Anfitrión, Mis Publicaciones, Solicitudes, etc.) al ingresar a la plataforma.
+- Caminos no felices: El usuario hace clic en una herramienta externa de la plataforma, como un anuncio de accesorios para conducir, distrayéndose de las funcionalidades core.
+- Elementos a validar:
+- Facilidad para identificar las secciones principales del dashboard de anfitrión.
+- Claridad de la información en el dashboard (solicitudes de alquiler, mis vehículos publicados).
+
+
+2. **Registro y Gestión de Publicaciones de Vehículos:**
+
+- Objetivo del usuario: Como usuario, quiero registrar mi vehículo de manera sencilla y gestionar mis publicaciones existentes.
+- Caminos felices: El usuario ingresa todos los datos necesarios para registrar el vehículo de manera fluida y puede ver y gestionar sus vehículos ya publicados.
+- Caminos no felices: El usuario se confunde con los campos del formulario de registro o no encuentra cómo editar/eliminar una publicación existente.
+- Elementos a validar:
+- Intuitividad y claridad del formulario para crear una nueva publicación.
+- Facilidad para ver el estado y los detalles de una publicación existente.
+- Funcionalidad para modificar y eliminar publicaciones.
+
+
+3. **Gestión de Solicitudes de Alquiler:**
+
+- Objetivo del usuario: Como usuario, quiero poder ver las solicitudes que mis vehículos han recibido y gestionarlas.
+- Caminos felices: El usuario puede revisar y gestionar las solicitudes de alquiler (aceptar/rechazar) de manera efectiva.
+- Caminos no felices: El usuario no comprende el flujo para aceptar o rechazar una solicitud, o la información para tomar la decisión no es clara.
+- Elementos a validar:
+- Claridad en la visualización de las solicitudes de alquiler recibidas.
+- Facilidad y retroalimentación de los procesos de aceptación y rechazo de solicitudes.
+
+
+## Formato de Registro de la Entrevista
+**Datos del Entrevistado:**
+- Nombre y apellidos
+- Edad
+- Ciudad de residencia
+- Rol principal en AutomóvilUnite (Explorador / Anfitrión / Ambos)
+- Dispositivo utilizado (smartphone, tablet, laptop)
+
+### Preguntas para el Segmento "Arrendatario":
+
+#### Dashboard del Usuario y Navegación
+- ¿Fue clara la información presentada en tu dashboard al iniciar sesión?
+- ¿Te sentiste perdido en algún momento al navegar por las diferentes secciones de la aplicación?
+- ¿Cómo describirías la facilidad para encontrar lo que buscas en la plataforma?
+
+#### Búsqueda y Visualización de Vehículos
+- ¿Qué tan intuitivo fue el proceso de buscar un vehículo?
+- ¿Los filtros de búsqueda te resultaron útiles y fáciles de usar?
+- ¿La información mostrada en el detalle de un vehículo te pareció completa y clara para tomar una decisión de alquiler?
+
+#### Proceso de Reserva de Vehículo
+- ¿Fue claro el flujo para reservar un vehículo?
+- ¿Hubo algún paso en el proceso de reserva que te causara confusión?
+- ¿El sistema brindó suficiente retroalimentación al confirmar tu reserva?
+
+#### Gestión de Mis Reservas y Cancelación
+- ¿Fue fácil acceder y entender la información de tus reservas en "Mis Reservas"?
+- ¿Qué mejorarías en la presentación del estado y los detalles de tus alquileres?
+- ¿Te pareció sencillo el proceso para cancelar una reserva? ¿Comprendiste lo que sucedía después de cancelar?
+
+
+### Preguntas para el Segmento "Arrendador"
+
+#### Dashboard del Anfitrión y Navegación
+- ¿Fue clara la información presentada en tu dashboard al iniciar sesión como Anfitrión?
+- ¿Qué tan fácil te resultó acceder a las opciones relacionadas con la gestión de tus vehículos y solicitudes?
+- ¿Cómo describirías la usabilidad general de tu panel de control como Anfitrión?
+
+#### Publicación de Vehículos
+- ¿Qué tan intuitivo fue el proceso de crear una nueva publicación para tu vehículo?
+- Describe el flujo para registrar tu vehículo. ¿Algún paso generó dudas o se sintió complicado?
+- ¿La información que te pedimos para publicar tu vehículo te pareció relevante y fácil de proporcionar?
+
+#### Visualización y Gestión de Publicaciones Existentes
+- ¿Fue fácil entender la información y el estado de los vehículos que ya tienes publicados?
+- ¿Qué mejorarías en la presentación de tus publicaciones activas o la forma de gestionarlas?
+- ¿La opción de visualizar los detalles de una publicación te ofreció la información que esperabas?
+
+#### Gestión de Solicitudes de Alquiler
+- ¿Fue claro el flujo para revisar y gestionar las solicitudes de alquiler que recibes?
+- ¿Hubo algún paso en el proceso de aceptar o rechazar una solicitud que causara confusión?
+- ¿Consideras útil esta funcionalidad para controlar quién alquila tu vehículo?
+
 #### 5.3.2 Registro de entrevistas
+
+| Entrevista 1: Arrendatario            |                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                   | Gabriela Flores                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Edad                                  | 32                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Profesión                             | Administradora                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Departamento                          | Lima                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Duración de la Entrevista             | 12 min                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Análisis de la Entrevista**         |                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Visualización de Landing Page         | La landing page fue clara en su mensaje principal, mostrando qué es AutomóvilUnite. Las imágenes de vehículos son atractivas.                                                                                                                                                                                                                                                                                         |
+| Dashboard y navegación                | El dashboard es funcional y muestra las secciones principales (Destacados, Mis Reservas), lo cual es positivo. No me sentí perdida, las opciones están donde las esperaría. Sin embargo, la interfaz se siente un poco rígida en diferentes tamaños de pantalla (no responsive), lo que dificulta la navegación si no estoy en un monitor grande. La información es clara, pero la organización visual podría mejorar |
+| Búsqueda y visualización de vehículos | El proceso de búsqueda es directo desde el dashboard, no tiene una página propia para ello.                                                                                                                                                                                                                                                                                                                           |
+| Proceso de Reserva de Vehículo        | El flujo para reservar un vehículo es comprensible y lineal. La selección de fechas funciona bien. Aunque hizo falta una sección exclusiva para eso.                                                                                                                                                                                                                                                                  |
+| Gestión de Mis Reservas y cancelación | La sección "Mis Reservas" es fácil de encontrar y consultar. Pude ver los detalles de una reserva sin dificultad. La funcionalidad para cancelar una reserva existe y es comprensible. La búsqueda y la paginación de "Mis reservas" está muy bien elaborada.                                                                                                                                                         |
+
+
+
+| Entrevista 2: Arrendador                            |                                                                                                                                                                      |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                                 |                                                                                                                                                                      |
+| Edad                                                |                                                                                                                                                                      |
+| Profesión                                           |                                                                                                                                                                      |
+| Departamento                                        |                                                                                                                                                                      |
+| Duración de la Entrevista                           |                                                                                                                                                                      |
+| **Análisis de la Entrevista**                       |                                                                                                                                                                      |
+| Visualización de Landing Page                       |                                                                                                                                                                      |
+| Dashboard y navegación                              |                                                                                                                                                                      |
+| Publicación de vehículos                            |                                                                                                                                                                      |
+| Visualización y Gestión de Publicaciones Existentes |                                                                                                                                                                      |
+| Gestión de Solicitudes de Alquiler                  |                                                                                                                                                                      |
+
+
 
 #### 5.3.3 Evaluaciones según heurísticas
 
 ### 5.4 Video About-the-Product
 
+| **Sección**                       | **Descripción**                                                                                                                                                                                                                                                                                                                                                |
+|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Resumen del Video**             | Se muestra la secuencia de nuestro video del proyecto cubriendo todas las funcionalidades core de AutomovilUnite                                                                                                                                                                                                                                               |
+| **Duración de contenido**         | 02:51                                                                                                                                                                                                                                                                                                                                                          |
+| **URL del Video**                 | **Microsoft Stream**: [Link de acceso]https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220138_upc_edu_pe/EVDmW9rEkPZEmPU2xqSG8vsBR_vh5Jr8KY7wym8byEsXBQ?e=mefje0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 ## Conclusiones:
 

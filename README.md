@@ -3180,6 +3180,11 @@ DEPLOYMENT LINK ingresar desde web application (frontend):https://opennova-front
 
 ### 5.4 Video About-the-Product
 
+| **Sección**                       | **Descripción**                                                                                                                                                                                                                                                                                                                                                |
+|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Resumen del Video**             | Se muestra la secuencia de nuestro video del proyecto cubriendo todas las funcionalidades core de AutomovilUnite                                                                                                                                                                                                                                               |
+| **Duración de contenido**         | 02:51                                                                                                                                                                                                                                                                                                                                                          |
+| **URL del Video**                 | **Microsoft Stream**: [Link de acceso]https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220138_upc_edu_pe/EVDmW9rEkPZEmPU2xqSG8vsBR_vh5Jr8KY7wym8byEsXBQ?e=mefje0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 
 ## Conclusiones:
 

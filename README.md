@@ -24,9 +24,14 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha | Autor                 | Descripción de modificación       |
-|---------|-------|-----------------------|-----------------------------------|
-| 0.1     | 23/04 | Todos los integrantes | Primera entrega del informe (TB1) |
+| Versión | Fecha | Autor                      | Descripción de modificación       |
+|---------|-------|----------------------------|-----------------------------------|
+| 0.1     | 23/04 | Todos los integrantes      | Primera entrega del informe (TB1) |
+| 1.0     | 23/04 | Todos los integrantes      | Primera entrega del informe (TP1) |
+| 2.0     | 23/06 | Josue Paiva, Kenyi Ramirez | Primera entrega del informe (TB2) |
+| 2.1     | 24/06 | Josue Paiva, Kenyi Ramirez | Segunda entrega del informe (TB2) |
+
+
 
 ## Project Report Collaboration Insights
 
@@ -3735,6 +3740,9 @@ En esta entrega, se realizaron pequeños cambios en la Landing Page. Además de 
 **Sección de Llamada a la acción(Call to Action):**
 ![try.png](assets/execution-evidence-for-sprint-review/sprint3/try.png)
 
+**Sección About The Product Video**
+![lp-atp.png](assets/execution-evidence-for-sprint-review/sprint3/lp-atp.png)
+
 
 - FrontEnd:
 
@@ -3784,7 +3792,7 @@ En esta entrega, se realizaron pequeños cambios en la Landing Page. Además de 
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-En este Sprint, hemos logrado un progreso significativo en la implementación y documentación de los servicios web fundamentales para la gestión de Alquileres (Rentals) y Publicaciones (Publications). Todos los endpoints clave han sido documentados utilizando las especificaciones de OpenAPI, lo que facilita la integración y el consumo de estos servicios por parte de los equipos de frontend y otros sistemas. Se ha priorizado la claridad en las acciones soportadas, los verbos HTTP, la sintaxis de las llamadas, los parámetros y la estructura de las respuestas para asegurar una comprensión unívoca de la API.
+En este Sprint, hemos logrado un progreso significativo en la implementación y documentación de los servicios web fundamentales para la gestión de Alquileres (Rentals), Publicaciones (Publications) y Vehiculos. Todos los endpoints clave han sido documentados utilizando las especificaciones de OpenAPI, lo que facilita la integración y el consumo de estos servicios por parte de los equipos de frontend y otros sistemas. Se ha priorizado la claridad en las acciones soportadas, los verbos HTTP, la sintaxis de las llamadas, los parámetros y la estructura de las respuestas para asegurar una comprensión unívoca de la API.
 
 A continuación, se detalla la relación de Endpoints documentados, incluyendo las acciones implementadas para cada uno:
 
@@ -4022,6 +4030,8 @@ Maneja la administración de las publicaciones de vehículos disponibles para al
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Ya que los pasos para desplegar tanto el landing page como el frontend son los mismos que en el sprint anterior, se ha decidido no repetirlos. Sin embargo, se han realizado los siguientes despliegues:
+
 **Landing Page:** Para la Landing Page, se utilizó Netlify para el despliegue de la página.
 
 ![deploy-landing.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-landing.png)
@@ -4029,11 +4039,17 @@ Maneja la administración de las publicaciones de vehículos disponibles para al
 - Se puede visualizar la seción Call To Action, donde al seleccionar "TRY NOW" te redirige a la página de inicio del FrontEnd.
 ![deploy-landing2.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-landing2.png)
 
+- Se puede visualizar la sección About the Product:
+![atp-lp-deploy-s3.png](assets/execution-evidence-for-sprint-review/sprint3/atp-lp-deploy-s3.png)
+
 DEPLOYMENT LINK ingresar desde landing:https://automovil-unite.netlify.app/
 
 **FrontEnd:** Para el FrontEnd, también se utilizó Netlify para el despliegue de la aplicación.
 
-![deploy-front.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-front.png)
+![dashboard-deploy-f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/dashboard-deploy-f-s3.png)
+![dashbaord-renter-deploy--f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/dashbaord-renter-deploy--f-s3.png)
+![publish-deploy-f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/publish-deploy-f-s3.png)
+![my-bookings-deploy-f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/my-bookings-deploy-f-s3.png)
 
 DEPLOYMENT LINK ingresar desde web application (frontend):https://opennova-frontend.netlify.app/
 
@@ -4043,12 +4059,13 @@ DEPLOYMENT LINK ingresar desde web application (frontend):https://opennova-front
 Para este sprint se desarrollaron la landing page, frontend y backend. La distribución de commits fue la siguiente:
 
 - **Landing Page:**
-
-![insight-lp.s3.png](assets/execution-evidence-for-sprint-review/sprint3/insight-lp.s3.png)
+- 
+![insight-lp-s3.png](assets/execution-evidence-for-sprint-review/sprint3/insight-lp-s3.png)
 
 ![c-lp-s3.png](assets/execution-evidence-for-sprint-review/sprint3/c-lp-s3.png)
 
 - Josue Paiva: 1 commit
+- Kenyi Ramirez : 1 commit
 
 - **Frontend:**
 
@@ -4204,7 +4221,8 @@ Validar la usabilidad y la efectividad de la plataforma AutomóvilUnite para amb
 | Edad                                  | 32                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Profesión                             | Administradora                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Departamento                          | Lima                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Duración de la Entrevista             | 12 min                                                                                                                                                                                                                                                                                                                                                                                                                |
+|Dispositivo utilizado                   | Laptop                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Duración de la Entrevista             | 8:09 min                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **Análisis de la Entrevista**         |                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Visualización de Landing Page         | La landing page fue clara en su mensaje principal, mostrando qué es AutomóvilUnite. Las imágenes de vehículos son atractivas.                                                                                                                                                                                                                                                                                         |
 | Dashboard y navegación                | El dashboard es funcional y muestra las secciones principales (Destacados, Mis Reservas), lo cual es positivo. No me sentí perdida, las opciones están donde las esperaría. Sin embargo, la interfaz se siente un poco rígida en diferentes tamaños de pantalla (no responsive), lo que dificulta la navegación si no estoy en un monitor grande. La información es clara, pero la organización visual podría mejorar |
@@ -4212,25 +4230,207 @@ Validar la usabilidad y la efectividad de la plataforma AutomóvilUnite para amb
 | Proceso de Reserva de Vehículo        | El flujo para reservar un vehículo es comprensible y lineal. La selección de fechas funciona bien. Aunque hizo falta una sección exclusiva para eso.                                                                                                                                                                                                                                                                  |
 | Gestión de Mis Reservas y cancelación | La sección "Mis Reservas" es fácil de encontrar y consultar. Pude ver los detalles de una reserva sin dificultad. La funcionalidad para cancelar una reserva existe y es comprensible. La búsqueda y la paginación de "Mis reservas" está muy bien elaborada.                                                                                                                                                         |
 
+Enlace entrevista 1:
 
+| Entrevista 2: Arrendatario            |                                                                                                                                                                                                                               |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                   | Jackeline Bravo                                                                                                                                                                                                               |
+| Edad                                  | 30                                                                                                                                                                                                                            |
+| Profesión                             | Administradora                                                                                                                                                                                                                |
+| Departamento                          | Lima                                                                                                                                                                                                                          |
+| Dispositivo utilizado                 | Móvil, PC                                                                                                                                                                                                                     |
+| Duración de la Entrevista             | 4:06 min                                                                                                                                                                                                                      |
+| **Análisis de la Entrevista**         |                                                                                                                                                                                                                               |
+| Visualización de Landing Page         | La landing page fue bastante nutrida y atractiva como para un potencial cliente.                                                                                                                                              |
+| Dashboard y navegación                | El dashboard es bastante claro y lo mismo con las secciones que contiene, pues es bastante simple y en ningún momento me sentí perdida en la navegación.Sin embargo, les falta aplicar bien el cambio de idioma de la página. |
+| Búsqueda y visualización de vehículos | El proceso de búsqueda de un vehículo destacado o disponible es sencillo, los detalles también son destacables.                                                                                                               |
+| Proceso de Reserva de Vehículo        | La reserva es sencilla pero hace falta aclarar los términos de su aprobación (condiciones, tiempo, pagos, contacto con el arrendador).                                                                                        |
+| Gestión de Mis Reservas y cancelación | La sección "Mis Reservas" es fácil de encontrar y entender.  La funcionalidad para cancelar es sencilla. En general, la plataforma es fácil de manipular sin necesidad de un tutorial.                                        |
 
-| Entrevista 2: Arrendador                            |                                                                                                                                                                      |
-|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nombre Entrevistado                                 |                                                                                                                                                                      |
-| Edad                                                |                                                                                                                                                                      |
-| Profesión                                           |                                                                                                                                                                      |
-| Departamento                                        |                                                                                                                                                                      |
-| Duración de la Entrevista                           |                                                                                                                                                                      |
-| **Análisis de la Entrevista**                       |                                                                                                                                                                      |
-| Visualización de Landing Page                       |                                                                                                                                                                      |
-| Dashboard y navegación                              |                                                                                                                                                                      |
-| Publicación de vehículos                            |                                                                                                                                                                      |
-| Visualización y Gestión de Publicaciones Existentes |                                                                                                                                                                      |
-| Gestión de Solicitudes de Alquiler                  |                                                                                                                                                                      |
+Enlace entrevista 2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220138_upc_edu_pe/EZ48CcKw8vJCmAIR4jnY2gkBj4zHqUbuiRR6_yxW0nh5WQ?e=7f5Gd6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+| Entrevista 2: Arrendador                            |                                                                                                                                                                  |
+|-----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre Entrevistado                                 | Miguel Vasquez                                                                                                                                                   |
+| Edad                                                | 42                                                                                                                                                               |
+| Profesión                                           | Gerente de ventas                                                                                                                                                |
+| Departamento                                        | Lima                                                                                                                                                             |
+| Dispositivo utilizado                               | Móvil, PC                                                                                                                                                        |
+| Duración de la Entrevista                           | 5:06                                                                                                                                                             |
+| **Análisis de la Entrevista**                       |                                                                                                                                                                  |
+| Visualización de Landing Page                       | Muy bien hecha, es bastante llamativa.                                                                                                                           |
+| Dashboard y navegación                              | Su sencillez es su punto fuerte al no estar cargada de información. Hace ce falta mejorar la visualización en PC en otras secciones pues en móvil si se ve bien. |
+| Publicación de vehículos                            | Sencillo y bastante intuitivo. Me gustó el hecho de poder ver una previsualización de la publicación que estoy por crear.                                        |
+| Visualización y Gestión de Publicaciones Existentes | Muy bien hecha aunque hace falta una sección exclusiva para ello para poder ver todas en una sección con paginación y filtros.                                   |
+| Gestión de Solicitudes de Alquiler                  | Muy bien implementada aunque hace falta consultar información de la persona que solicita el alquiler y dedicar una sección exclusiva para dichas solicitudes.    |
 
 
 
 #### 5.3.3 Evaluaciones según heurísticas
+
+<h1>UX Heuristics & Principles Evaluation</h1>
+<h2>Usability - Inclusive Design - Information Architecture</h2>
+
+<h5>Información del proyecto</h5>
+<ul>
+    <li>Carrera: Ingeniería de Software</li>
+    <li>Curso: Aplicaciones Open Source</li>
+    <li>Auditor: SmartFinance</li>
+    <li>Cliente: SmartFinance</li>
+    <li>Aplicación: AutomóvilUnite</li>
+</ul>
+
+<h5>Tareas a evaluar</h5>
+<p>En esta evaluación revisaremos la funcionalidad de las siguientes características, desglosadas por segmento de usuario:</p>
+<p>Para el segmento "Arrendatario":</p>
+<ul>
+    <li>Navegación General y Dashboard</li>
+    <li>Búsqueda y Reserva de Vehículos</li>
+    <li>Gestión de Alquileres Reservados y Cancelación</li>
+</ul>
+<p>Para el segmento "Arrendador":</p>
+<ul>
+    <li>Navegación General y Dashboard</li>
+    <li>Registro y Gestión de Publicaciones de Vehículos</li>
+    <li>Gestión de Solicitudes de Alquiler</li>
+</ul>
+
+<h4>Escala de Severidad</h4>
+<p>Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:</p>
+<table>
+    <thead>
+        <tr>
+            <th>Nivel</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Problema menor: puede ocurrir con más frecuencia o es más difícil de superar para el usuario. Debería tener una prioridad baja para resolverse en la próxima versión.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Debería tener alta prioridad para corregirse.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Problema muy grave: error que impide al usuario continuar utilizando la herramienta. Debe corregirse antes del lanzamiento.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h4>Tabla Resumen</h4>
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Problema</th>
+            <th>Escala de severidad</th>
+            <th>Heurística/Principio violado</th>
+            <th>Tarea evaluada</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Interfaz poco responsive, dificulta navegación en distintos tamaños de pantalla</td>
+            <td>3</td>
+            <td>Flexibilidad y eficiencia de uso</td>
+            <td>Navegación General y Dashboard (Arrendatario)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Proceso de búsqueda de vehículos directo desde dashboard, sin página exclusiva</td>
+            <td>2</td>
+            <td>Reconocimiento antes que recuerdo</td>
+            <td>Búsqueda y Reserva de Vehículos (Arrendatario)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Falta sección exclusiva para el proceso de reserva y términos de aprobación</td>
+            <td>2</td>
+            <td>Consistencia y estándares</td>
+            <td>Búsqueda y Reserva de Vehículos (Arrendatario)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Falta aplicar correctamente el cambio de idioma de la página</td>
+            <td>3</td>
+            <td>Flexibilidad y eficiencia de uso, Soporte al usuario</td>
+            <td>Navegación General y Dashboard (Arrendatario)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Visualización en PC de otras secciones aparte del dashboard es deficiente, en móvil es buena</td>
+            <td>3</td>
+            <td>Diseño estético y minimalista, Flexibilidad y eficiencia de uso</td>
+            <td>Navegación General y Dashboard (Arrendador)</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Falta una sección exclusiva con paginación y filtros para ver todas las publicaciones</td>
+            <td>2</td>
+            <td>Reconocimiento antes que recuerdo, Eficiencia y satisfacción del usuario</td>
+            <td>Registro y Gestión de Publicaciones de Vehículos (Arrendador)</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Falta consultar información de la persona que solicita el alquiler y dedicar sección exclusiva para solicitudes</td>
+            <td>3</td>
+            <td>Visibilidad del estado del sistema, Coincidencia entre el sistema y el mundo real</td>
+            <td>Gestión de Solicitudes de Alquiler (Arrendador)</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<h5>Problema #1: Interfaz poco responsive, dificulta navegación en distintos tamaños de pantalla</h5>
+<ul>
+    <li><strong>Tarea Evaluada:</strong> Navegación General y Dashboard (Arrendatario)</li>
+    <li><strong>Recomendación:</strong> Implementar un diseño responsive completo para la interfaz de usuario, asegurando que la plataforma se adapte fluidamente a diferentes tamaños de pantalla (móviles, tablets, laptops) sin perder funcionalidad ni legibilidad. Priorizar la adaptabilidad de los componentes principales y la organización visual de la información.</li>
+</ul>
+
+<h5>Problema #2: Proceso de búsqueda de vehículos directo desde dashboard, sin página exclusiva</h5>
+<ul>
+    <li><strong>Tarea Evaluada:</strong> Búsqueda y Reserva de Vehículos (Arrendatario)</li>
+    <li><strong>Recomendación:</strong> Crear una página o sección dedicada exclusivamente a la búsqueda de vehículos. Esto permitirá un espacio más amplio para los filtros y resultados, mejorando la experiencia del usuario y facilitando el descubrimiento de vehículos. El dashboard podría mantener un acceso rápido o una sección de "vehículos destacados" pero la búsqueda principal debería tener su propio entorno.</li>
+</ul>
+
+<h5>Problema #3: Falta sección exclusiva para el proceso de reserva y términos de aprobación</h5>
+<ul>
+    <li><strong>Tarea Evaluada:</strong> Búsqueda y Reserva de Vehículos (Arrendatario)</li>
+    <li><strong>Recomendación:</strong> Diseñar una sección o flujo de reserva más detallado que incluya pasos claros para la selección del vehículo, fechas, seguro, y un resumen explícito de los términos de aprobación (condiciones, tiempo de respuesta del arrendador, pagos) y la forma de contacto con el arrendador. Esto aumentará la transparencia y la confianza del usuario.</li>
+</ul>
+
+<h5>Problema #4: Falta aplicar correctamente el cambio de idioma de la página</h5>
+<ul>
+    <li><strong>Tarea Evaluada:</strong> Navegación General y Dashboard (Arrendatario)</li>
+    <li><strong>Recomendación:</strong> Revisar y asegurar la implementación completa y consistente de la funcionalidad de cambio de idioma en todas las secciones y elementos de la interfaz. Esto incluye textos, etiquetas, botones y mensajes del sistema para garantizar una experiencia uniforme para usuarios multilingües.</li>
+</ul>
+
+<h5>Problema #5: Visualización en PC de otras secciones aparte del dashboard es deficiente, en móvil es buena</h5>
+<ul>
+    <li><strong>Tarea Evaluada:</strong> Navegación General y Dashboard (Arrendador)</li>
+    <li><strong>Recomendación:</strong> Extender el enfoque del diseño responsive a todas las secciones de la plataforma, no solo al dashboard. Es fundamental que la experiencia de usuario sea óptima tanto en dispositivos móviles como en pantallas de escritorio, ajustando la disposición y el tamaño de los elementos para cada contexto.</li>
+</ul>
+
+<h5>Problema #6: Falta una sección exclusiva con paginación y filtros para ver todas las publicaciones</h5>
+<ul>
+    <li><strong>Tarea Evaluada:</strong> Registro y Gestión de Publicaciones de Vehículos (Arrendador)</li>
+    <li><strong>Recomendación:</strong> Implementar una sección dedicada a "Mis Publicaciones" que permita a los arrendadores ver una lista completa de sus vehículos publicados. Esta sección debería incluir opciones de paginación y filtros (por estado, tipo de vehículo, etc.) para facilitar la gestión de un gran número de publicaciones.</li>
+</ul>
+
+<h5>Problema #7: Falta consultar información de la persona que solicita el alquiler y dedicar sección exclusiva para solicitudes</h5>
+<ul>
+    <li><strong>Tarea Evaluada:</strong> Gestión de Solicitudes de Alquiler (Arrendador)</li>
+    <li><strong>Recomendación:</strong> Crear una sección exclusiva para "Solicitudes de Alquiler" donde los arrendadores puedan revisar todas las peticiones recibidas. Además de los detalles del alquiler, es crucial mostrar información relevante del arrendatario (como su nombre, perfil o reseñas previas si existen) para que el arrendador pueda tomar una decisión informada al aceptar o rechazar la solicitud. Esto mejora la confianza y el control del propietario.</li>
+</ul>
 
 ### 5.4 Video About-the-Product
 
@@ -4253,6 +4453,15 @@ Este primer avance representa una base sólida sobre la cual se puede seguir con
 Concluir este entregable nos permitió trabajar de manera tangible en las user stories que planteamos y nos ayudó a entender la importancia de la planificación y la organización en el desarrollo de software,
 Construir los bounded contexts que planteamos en la documentación inicial nos deja ver el progreso que está adquiriendo la aplicación, concluimos satisfactoriamente con todas las user stories que consideramos para este entregable
 por ello considerado que esta entrega fue satisfactoria.
+
+**TB2:**
+
+El desarrollo de AutomóvilUnite ha demostrado un progreso significativo y una sólida base arquitectónica, sentando las pautas para una aplicación escalable y mantenible.
+La implementación inicial de la landing page con Angular no solo proporcionó una estructura modular y organizada, sino que también estableció una experiencia de usuario clara y atractiva, comunicando eficazmente la propuesta de valor de la plataforma. La elección de Netlify para el despliegue, junto con el uso de Git y GitHub, ha optimizado el flujo de trabajo, garantizando actualizaciones rápidas y una colaboración eficiente entre los equipos. Este enfoque en herramientas modernas es crucial para el desarrollo ágil.
+A nivel de arquitectura de software, la definición y construcción de Bounded Contexts ha sido un hito fundamental. Esta estrategia ha permitido una clara separación de responsabilidades, fomentando la autonomía de los módulos (Identity & Access Management, Vehicle & Inventory Management, Publication Management, Search & Availability, Rental & Booking Management, Payment Processing, Review & Communication, y Dashboard & Analytics). La correcta aplicación de Value Objects para las referencias entre contextos minimiza el acoplamiento, lo que es esencial para la escalabilidad y la gestión de la complejidad en un sistema de microservicios.
+La incorporación de un Bounded Context de Publication Management y Rental Management han fortalecido las funcionalidades clave del negocio.
+Finalmente, la validación de usabilidad a través de entrevistas ha revelado áreas críticas de mejora en la interfaz de usuario, especialmente en la adaptabilidad (responsividad) y la claridad de los flujos. Estos hallazgos son invaluables para iterar y refinar la experiencia de usuario, asegurando que la robusta arquitectura de backend se traduzca en una aplicación intuitiva y satisfactoria para los usuarios finales.
+
 ## Anexos
 
 - Link de Landing Page en Figma: https://www.figma.com/design/KQZVfQlFF1EJRZbvBsT8kQ/Automovile-Unit-Grupo4-Open-Source?node-id=0-1&t=kCxtkI0IitGNpgQP-1 

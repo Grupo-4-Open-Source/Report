@@ -24,9 +24,14 @@
 
 ## Registro de Versiones del Informe
 
-| Versión | Fecha | Autor                 | Descripción de modificación       |
-|---------|-------|-----------------------|-----------------------------------|
-| 0.1     | 23/04 | Todos los integrantes | Primera entrega del informe (TB1) |
+| Versión | Fecha | Autor                      | Descripción de modificación       |
+|---------|-------|----------------------------|-----------------------------------|
+| 0.1     | 23/04 | Todos los integrantes      | Primera entrega del informe (TB1) |
+| 1.0     | 23/04 | Todos los integrantes      | Primera entrega del informe (TP1) |
+| 2.0     | 23/06 | Josue Paiva, Kenyi Ramirez | Primera entrega del informe (TB2) |
+| 2.1     | 24/06 | Josue Paiva, Kenyi Ramirez | Segunda entrega del informe (TB2) |
+
+
 
 ## Project Report Collaboration Insights
 
@@ -3731,6 +3736,9 @@ En esta entrega, se realizaron pequeños cambios en la Landing Page. Además de 
 **Sección de Llamada a la acción(Call to Action):**
 ![try.png](assets/execution-evidence-for-sprint-review/sprint3/try.png)
 
+**Sección About The Product Video**
+![lp-atp.png](assets/execution-evidence-for-sprint-review/sprint3/lp-atp.png)
+
 
 - FrontEnd:
 
@@ -4039,12 +4047,13 @@ DEPLOYMENT LINK ingresar desde web application (frontend):https://opennova-front
 Para este sprint se desarrollaron la landing page, frontend y backend. La distribución de commits fue la siguiente:
 
 - **Landing Page:**
-
-![insight-lp.s3.png](assets/execution-evidence-for-sprint-review/sprint3/insight-lp.s3.png)
+- 
+![insight-lp-s3.png](assets/execution-evidence-for-sprint-review/sprint3/insight-lp-s3.png)
 
 ![c-lp-s3.png](assets/execution-evidence-for-sprint-review/sprint3/c-lp-s3.png)
 
 - Josue Paiva: 1 commit
+- Kenyi Ramirez : 1 commit
 
 - **Frontend:**
 

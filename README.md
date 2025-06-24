@@ -4554,6 +4554,7 @@ Finalmente, la validación de usabilidad a través de entrevistas ha revelado á
 
 ## Anexos
 
+
 - Link de Landing Page en Figma: https://www.figma.com/design/KQZVfQlFF1EJRZbvBsT8kQ/Automovile-Unit-Grupo4-Open-Source?node-id=0-1&t=kCxtkI0IitGNpgQP-1 
 - Link de Web Applications Wireflow Diagrams: https://www.figma.com/design/dMPbJmbpMqy4N1yWuMaRPp/Web-Applications-Wireflow-Diagrams?node-id=0-1&t=molesIHFjiHe55pb-1 
 - Link del web application: https://www.figma.com/design/H0lrOkiWmXCNlLaRUbHzXj/web-application---Open-Source?node-id=0-1&t=4GfgGr3JzT0rYb3R-1
@@ -4561,7 +4562,7 @@ Finalmente, la validación de usabilidad a través de entrevistas ha revelado á
 -Link de repositorio de GitHub: https://github.com/Grupo-4-Open-Source/Report
 - Link de la landing page desplegada: https://automovil-unite.netlify.app/
 - Link del front desplegado: https://opennova-frontend.netlify.app/
-- 
+- Link about the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220138_upc_edu_pe/ETSIncc7XBdNj6DW1hCpTDcBl3EuVnW8A47xjmFdy_3L4A?e=lRh2ho&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 ## Bibliografías
 
 - HTML: HyperText Markup Language | MDN. (2023, July 17). Mozilla.org. https://developer.mozilla.org/en-US/docs/Web/HTML

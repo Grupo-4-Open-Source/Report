@@ -40,6 +40,10 @@
 | https://github.com/Grupo-4-Open-Source | https://github.com/Grupo-4-Open-Source/Report |
 
 
+|             URL del repositorio del frontend             |             URL del repositorio del backend             |
+|:--------------------------------------------------------:|:-------------------------------------------------------:|
+| https://github.com/Grupo-4-Open-Source/OpenNova-Frontend | https://github.com/Grupo-4-Open-Source/OpenNova-Backend |
+
 Se han realizado todas las tareas asignadas para la entrega del TB2, las cuales se encuentran registradas en el repositorio de Github de la organización del equipo.}
 
 ![insights-report-s3.png](assets/execution-evidence-for-sprint-review/sprint3/insights-report-s3.png)
@@ -3788,7 +3792,7 @@ En esta entrega, se realizaron pequeños cambios en la Landing Page. Además de 
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-En este Sprint, hemos logrado un progreso significativo en la implementación y documentación de los servicios web fundamentales para la gestión de Alquileres (Rentals) y Publicaciones (Publications). Todos los endpoints clave han sido documentados utilizando las especificaciones de OpenAPI, lo que facilita la integración y el consumo de estos servicios por parte de los equipos de frontend y otros sistemas. Se ha priorizado la claridad en las acciones soportadas, los verbos HTTP, la sintaxis de las llamadas, los parámetros y la estructura de las respuestas para asegurar una comprensión unívoca de la API.
+En este Sprint, hemos logrado un progreso significativo en la implementación y documentación de los servicios web fundamentales para la gestión de Alquileres (Rentals), Publicaciones (Publications) y Vehiculos. Todos los endpoints clave han sido documentados utilizando las especificaciones de OpenAPI, lo que facilita la integración y el consumo de estos servicios por parte de los equipos de frontend y otros sistemas. Se ha priorizado la claridad en las acciones soportadas, los verbos HTTP, la sintaxis de las llamadas, los parámetros y la estructura de las respuestas para asegurar una comprensión unívoca de la API.
 
 A continuación, se detalla la relación de Endpoints documentados, incluyendo las acciones implementadas para cada uno:
 
@@ -4026,6 +4030,8 @@ Maneja la administración de las publicaciones de vehículos disponibles para al
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Ya que los pasos para desplegar tanto el landing page como el frontend son los mismos que en el sprint anterior, se ha decidido no repetirlos. Sin embargo, se han realizado los siguientes despliegues:
+
 **Landing Page:** Para la Landing Page, se utilizó Netlify para el despliegue de la página.
 
 ![deploy-landing.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-landing.png)
@@ -4033,11 +4039,17 @@ Maneja la administración de las publicaciones de vehículos disponibles para al
 - Se puede visualizar la seción Call To Action, donde al seleccionar "TRY NOW" te redirige a la página de inicio del FrontEnd.
 ![deploy-landing2.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-landing2.png)
 
+- Se puede visualizar la sección About the Product:
+![atp-lp-deploy-s3.png](assets/execution-evidence-for-sprint-review/sprint3/atp-lp-deploy-s3.png)
+
 DEPLOYMENT LINK ingresar desde landing:https://automovil-unite.netlify.app/
 
 **FrontEnd:** Para el FrontEnd, también se utilizó Netlify para el despliegue de la aplicación.
 
-![deploy-front.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-front.png)
+![dashboard-deploy-f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/dashboard-deploy-f-s3.png)
+![dashbaord-renter-deploy--f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/dashbaord-renter-deploy--f-s3.png)
+![publish-deploy-f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/publish-deploy-f-s3.png)
+![my-bookings-deploy-f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/my-bookings-deploy-f-s3.png)
 
 DEPLOYMENT LINK ingresar desde web application (frontend):https://opennova-frontend.netlify.app/
 

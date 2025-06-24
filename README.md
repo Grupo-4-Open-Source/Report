@@ -4028,6 +4028,96 @@ Maneja la administración de las publicaciones de vehículos disponibles para al
 ![s-publication8.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication8.png)
 
 
+<p>Vehicle Management Endpoints</p>
+<p>Se encarga de la administración de los vehículos registrados en el sistema, independientemente de si están actualmente publicados o no para alquiler. Permite el registro de nuevos vehículos, la consulta de detalles específicos o listados completos, la actualización de sus atributos y su eliminación.</p>
+
+<table>
+    <tr>
+        <th colspan="1"> Tag </th>
+        <th colspan="1"> Verbo http</th>
+        <th colspan="1"> Endpoint </th>
+        <th colspan="1"> Summary </th>
+        <th colspan="1"> Description </th>
+        <th colspan="1"> OperationId </th>
+    </tr>
+    <tr>
+        <td colspan="1"> Vehicles </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/vehicle/{vehicleId} </td>
+        <td colspan="1"> Get a Vehicle by ID </td>
+        <td colspan="1"> Retrieves the detailed information of a Vehicle by its unique internal ID. </td>
+        <td colspan="1"> getVehicleById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> vehicleId (path) </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Vehicles </td>
+        <td colspan="1"> PUT </td>
+        <td colspan="1"> /api/v1/vehicle/{vehicleId} </td>
+        <td colspan="1"> Update a Vehicle </td>
+        <td colspan="1"> Updates an existing Vehicle's information identified by its ID. </td>
+        <td colspan="1"> updateVehicle </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> vehicleId (path) </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> yes </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Vehicles </td>
+        <td colspan="1"> DELETE </td>
+        <td colspan="1"> /api/v1/vehicle/{vehicleId} </td>
+        <td colspan="1"> Delete a Vehicle </td>
+        <td colspan="1"> Deletes a Vehicle record identified by its ID from the system. </td>
+        <td colspan="1"> deleteVehicle </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> vehicleId (path) </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Vehicles </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/vehicle </td>
+        <td colspan="1"> Get all Vehicles </td>
+        <td colspan="1"> Retrieves a list of all existing Vehicles registered in the system. </td>
+        <td colspan="1"> getAllVehicles </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> - </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Vehicles </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/vehicle </td>
+        <td colspan="1"> Create a new Vehicle </td>
+        <td colspan="1"> Registers a new Vehicle in the system with the provided data. </td>
+        <td colspan="1"> createVehicle </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> - </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> yes </td>
+    </tr>
+</table>
+
+![s-vehicle-s3-.png](assets/execution-evidence-for-sprint-review/sprint3/s-vehicle-s3-.png)
+![service-vehicle-s3.png](assets/execution-evidence-for-sprint-review/sprint3/service-vehicle-s3.png)
+![s-vehicle-s3-delete.png](assets/execution-evidence-for-sprint-review/sprint3/s-vehicle-s3-delete.png)
+![s-vehicle-s3-get.png](assets/execution-evidence-for-sprint-review/sprint3/s-vehicle-s3-get.png)
+![s-vehicle-s3-put.png](assets/execution-evidence-for-sprint-review/sprint3/s-vehicle-s3-put.png)
+
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Ya que los pasos para desplegar tanto el landing page como el frontend son los mismos que en el sprint anterior, se ha decidido no repetirlos. Sin embargo, se han realizado los siguientes despliegues:

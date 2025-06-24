@@ -4432,6 +4432,15 @@ Este primer avance representa una base sólida sobre la cual se puede seguir con
 Concluir este entregable nos permitió trabajar de manera tangible en las user stories que planteamos y nos ayudó a entender la importancia de la planificación y la organización en el desarrollo de software,
 Construir los bounded contexts que planteamos en la documentación inicial nos deja ver el progreso que está adquiriendo la aplicación, concluimos satisfactoriamente con todas las user stories que consideramos para este entregable
 por ello considerado que esta entrega fue satisfactoria.
+
+**TB2:**
+
+El desarrollo de AutomóvilUnite ha demostrado un progreso significativo y una sólida base arquitectónica, sentando las pautas para una aplicación escalable y mantenible.
+La implementación inicial de la landing page con Angular no solo proporcionó una estructura modular y organizada, sino que también estableció una experiencia de usuario clara y atractiva, comunicando eficazmente la propuesta de valor de la plataforma. La elección de Netlify para el despliegue, junto con el uso de Git y GitHub, ha optimizado el flujo de trabajo, garantizando actualizaciones rápidas y una colaboración eficiente entre los equipos. Este enfoque en herramientas modernas es crucial para el desarrollo ágil.
+A nivel de arquitectura de software, la definición y construcción de Bounded Contexts ha sido un hito fundamental. Esta estrategia ha permitido una clara separación de responsabilidades, fomentando la autonomía de los módulos (Identity & Access Management, Vehicle & Inventory Management, Publication Management, Search & Availability, Rental & Booking Management, Payment Processing, Review & Communication, y Dashboard & Analytics). La correcta aplicación de Value Objects para las referencias entre contextos minimiza el acoplamiento, lo que es esencial para la escalabilidad y la gestión de la complejidad en un sistema de microservicios.
+La incorporación de un Bounded Context de Publication Management y Rental Management han fortalecido las funcionalidades clave del negocio.
+Finalmente, la validación de usabilidad a través de entrevistas ha revelado áreas críticas de mejora en la interfaz de usuario, especialmente en la adaptabilidad (responsividad) y la claridad de los flujos. Estos hallazgos son invaluables para iterar y refinar la experiencia de usuario, asegurando que la robusta arquitectura de backend se traduzca en una aplicación intuitiva y satisfactoria para los usuarios finales.
+
 ## Anexos
 
 - Link de Landing Page en Figma: https://www.figma.com/design/KQZVfQlFF1EJRZbvBsT8kQ/Automovile-Unit-Grupo4-Open-Source?node-id=0-1&t=kCxtkI0IitGNpgQP-1 

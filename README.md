@@ -30,6 +30,7 @@
 | 1.0     | 23/04 | Todos los integrantes      | Primera entrega del informe (TP1) |
 | 2.0     | 23/06 | Josue Paiva, Kenyi Ramirez | Primera entrega del informe (TB2) |
 | 2.1     | 24/06 | Josue Paiva, Kenyi Ramirez | Segunda entrega del informe (TB2) |
+| 3       | 07/07 | Josue Paiva, Kenyi Ramirez   | Segunda entrega del informe (TF) |
 
 
 
@@ -438,19 +439,19 @@ Personas que necesitan un vehículo de manera temporal que tengan edad entre 25 
 ### 2.1. Competidores
 Previo al desarrollo de la aplicacion, hicimos una busqueda de las opciones que ya existen en el mercado, para ver que es lo que ofrecen y como podemos diferenciarnos de ellos.
 - **Kayak:**
-Kayak es una de las plataformas de búsqueda de viajes más grandes del mundo. Permite a los usuarios buscar y comparar precios de vuelos, hoteles y alquiler de coches en una sola plataforma. Kayak también ofrece herramientas para planificar viajes, como alertas de precios y recomendaciones personalizadas.
+  Kayak es una de las plataformas de búsqueda de viajes más grandes del mundo. Permite a los usuarios buscar y comparar precios de vuelos, hoteles y alquiler de coches en una sola plataforma. Kayak también ofrece herramientas para planificar viajes, como alertas de precios y recomendaciones personalizadas.
 <div style="text-align: center;">
 <img src="assets/Competitors/Kayak.png" width=200px >
 </div>
 
 - **Peru Rent A Car:**
-Esta plataforma se especializa en el alquiler de coches en Perú. Ofrece una amplia gama de vehículos y opciones de alquiler, así como información sobre destinos turísticos en Perú. La plataforma también permite a los usuarios comparar precios y reservar coches en línea.
+  Esta plataforma se especializa en el alquiler de coches en Perú. Ofrece una amplia gama de vehículos y opciones de alquiler, así como información sobre destinos turísticos en Perú. La plataforma también permite a los usuarios comparar precios y reservar coches en línea.
 <div style="text-align: center;">
 <img src="assets/Competitors/PeruRentACar.png" width=200px >
 </div>
 
 - **Budget Car Rental Peru:**
-A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional que ofrece servicios de alquiler de coches en Perú. La plataforma permite a los usuarios buscar y comparar precios de coches de alquiler en diferentes ubicaciones y reservar en línea. Budget Car Rental también ofrece opciones de alquiler a largo plazo y programas de fidelización.
+  A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional que ofrece servicios de alquiler de coches en Perú. La plataforma permite a los usuarios buscar y comparar precios de coches de alquiler en diferentes ubicaciones y reservar en línea. Budget Car Rental también ofrece opciones de alquiler a largo plazo y programas de fidelización.
 <div style="text-align: center;">
 <img src="assets/Competitors/Budget.png" width=200px >
 </div>
@@ -524,7 +525,7 @@ A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional 
 **Trato Directo:** La plataforma se encargará de crear un canal de comunicación entre arrendadores y arrendatarios, evitando así la necesidad de intermediarios.
 **Sistema de reseñas:** Implementaremos un sistema de reseñas y calificaciones para que los usuarios puedan evaluar a los propietarios y viceversa, lo que generará confianza y transparencia en el proceso de alquiler.
 **Publicación de Vehículos:** La plataforma ofrecerá gratuitamente de manera limitada la publicación de vehículos, permitiendo a los propietarios gestionar su flota de manera eficiente y segura.
- 
+
 ### 2.2. Entrevistas.
 #### 2.2.1. Diseño de entrevistas
 ##### Segmento 1 (Dueño de vehiculo):
@@ -559,7 +560,7 @@ A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional 
 6. ¿Que tipo de vehiculo buscas alquilar?
 7. ¿Que documentos te suelen pedir previo al alquiler del vehiculo?
 8. ¿Que restricciones se te imponen previo al alquiler del vehiculo?
-9. 
+9.
 #### Preguntas sobre la plataforma:
 9. ¿Que tipo de plataforma usas para buscar vehiculos?
 10. ¿En qué dispositivos accedes a dichas plataformas?
@@ -621,13 +622,13 @@ URL:https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218387_upc_edu_pe/EQm7
 
 Nombre: Renso Julca Cruz
 
-Edad: 20 
+Edad: 20
 
 Distrito: Carabayllo
 
 <img src="assets/interview/entrevista-segmento2.jpeg" width=650px>
 
-URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EVgOvuuCQthCg-yPL_Jex3wB0gJV4LiCinXOSD4q3MuUiQ?e=OofBDX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EVgOvuuCQthCg-yPL_Jex3wB0gJV4LiCinXOSD4q3MuUiQ?e=OofBDX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### 2.2.3. Análisis de entrevistas
 ##### Entrevista 1: Renzo Juan de Dios Meza Garay
@@ -2262,68 +2263,68 @@ Además, para el registro de progreso y colaboración se emplearán los conventi
 Como convención general , todo el código realizado por los miembros del equipo debe redactarse en completo inglés.
 <br><br>*HTML*<br>
 - *Use Lowercase Element Name*<br>
-Se recomienda usar lowercase para los nombres de los elementos HTML:<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/html.png" /></p><br>
+  Se recomienda usar lowercase para los nombres de los elementos HTML:<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/html.png" /></p><br>
 - *Close All HTML Elements*<br>
-Se recomienda cerrar todos los elementos HTML:<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/html-1.png" alt="Close all html" /></p><br>
+  Se recomienda cerrar todos los elementos HTML:<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/html-1.png" alt="Close all html" /></p><br>
 - *Use Lowercase Attribute Names*<br>
-Se recomienda usar lowercase para los nombres de los atributos HTML:<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/html-2.png" alt="attribute Names" /></p><br>
+  Se recomienda usar lowercase para los nombres de los atributos HTML:<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/html-2.png" alt="attribute Names" /></p><br>
 - *Always Specify alt, width, and height for Images*<br>
-Se recomienda seguir estas convenciones en caso de que la imagen no se puede mostrar y ayudar con la accesibilidad del contenido:<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/html-3.png" alt="always images" /></p>
-<br>Para mas información sobre las convenciones de HTML: https://www.w3schools.com/html/html5_syntax.asp
+  Se recomienda seguir estas convenciones en caso de que la imagen no se puede mostrar y ayudar con la accesibilidad del contenido:<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/html-3.png" alt="always images" /></p>
+  <br>Para mas información sobre las convenciones de HTML: https://www.w3schools.com/html/html5_syntax.asp
 
 <br>*CSS*<br><br>
 - *ID and Class Naming*<br>
-Usar nombres de clases y ID significativos que expresen el propósito del elemento:<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/css-1.png" alt="class naming" /></p><br>
+  Usar nombres de clases y ID significativos que expresen el propósito del elemento:<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/css-1.png" alt="class naming" /></p><br>
 - *Block Content Identation*<br>
-Sangrar todo el contenido del bloque, es decir, reglas dentro de reglas, así como declaraciones, para reflejar la jerarquía y Mejorar la comprensión<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/css-2.png" alt="content identation" /></p><br>
+  Sangrar todo el contenido del bloque, es decir, reglas dentro de reglas, así como declaraciones, para reflejar la jerarquía y Mejorar la comprensión<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/css-2.png" alt="content identation" /></p><br>
 - *Section Comments*<br>
-Agrupe las secciones de la hoja de estilo mediante comentarios. Separar secciones con nuevas líneas.<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/css-3.png" alt="Comments" /></p>
-<br>Para mas informacion sobre las convenciones de CSS: https://google.github.io/styleguide/htmlcssguide.html
+  Agrupe las secciones de la hoja de estilo mediante comentarios. Separar secciones con nuevas líneas.<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/css-3.png" alt="Comments" /></p>
+  <br>Para mas informacion sobre las convenciones de CSS: https://google.github.io/styleguide/htmlcssguide.html
 
 <br>*JavaScript*<br><br>
 - *Array initializers: can be "block-like"*<br>
-Cualquier inicializador de matriz puede ser formateado opcionalmente como si fuera un "tipo bloque" construir". Por ejemplo, los siguientes son todos válidos (no es un análisis exhaustivo lista):<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/java-1.png" alt="block like" /></p><br>
+  Cualquier inicializador de matriz puede ser formateado opcionalmente como si fuera un "tipo bloque" construir". Por ejemplo, los siguientes son todos válidos (no es un análisis exhaustivo lista):<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/java-1.png" alt="block like" /></p><br>
 - *Type-use annotations*<br>
-Las anotaciones de uso de tipo aparecen inmediatamente antes del tipo anotado. Una anotación es un uso de tipo anotación si está meta-anotado con . Ejemplo:@Target(ElementType.TYPE_USE)<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/java-2.png" alt="type-use annotations" /></p><br>
+  Las anotaciones de uso de tipo aparecen inmediatamente antes del tipo anotado. Una anotación es un uso de tipo anotación si está meta-anotado con . Ejemplo:@Target(ElementType.TYPE_USE)<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/java-2.png" alt="type-use annotations" /></p><br>
 - *Method and constructor annotations*<br>
-Las reglas para las anotaciones en las declaraciones de método y constructor son las mismas que en la sección anterior. Ejemplo:<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/java-3.png" alt="method" /></p>
-<br>Para mas informacion sobre las convenciones de JavaScript: https://google.github.io/styleguide/javaguide.html
+  Las reglas para las anotaciones en las declaraciones de método y constructor son las mismas que en la sección anterior. Ejemplo:<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/java-3.png" alt="method" /></p>
+  <br>Para mas informacion sobre las convenciones de JavaScript: https://google.github.io/styleguide/javaguide.html
 
 <br>*TypeScript*<br><br>
 - *Imports*<br>
-Hay cuatro variantes de instrucciones de importación en ES6 y TypeScript:<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/type-1.png" alt="imports" /></p><br>
+  Hay cuatro variantes de instrucciones de importación en ES6 y TypeScript:<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/type-1.png" alt="imports" /></p><br>
 - *Class declarations*<br>
-Las declaraciones de clase no deben terminar con punto y coma:<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/type-2.png" alt="Class declarations" /></p><br>
+  Las declaraciones de clase no deben terminar con punto y coma:<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/type-2.png" alt="Class declarations" /></p><br>
 
 - *Constructors*<br>
-Las llamadas al constructor deben usar paréntesis, incluso cuando no se pasa ningún argumento:<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/type-3.png" alt="constructor" /></p>
-<br>Para mas informacion sobre las convenciones de TypeScript: https://google.github.io/styleguide/tsguide.html
+  Las llamadas al constructor deben usar paréntesis, incluso cuando no se pasa ningún argumento:<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/type-3.png" alt="constructor" /></p>
+  <br>Para mas informacion sobre las convenciones de TypeScript: https://google.github.io/styleguide/tsguide.html
 
 <br>*Gherkin*<br><br>
 - *Discernible Given-When-Then Blocks*<br>
-En teoría, sus escenarios pueden ser tan simples como un solo paso Given, When Then, cada uno. Sin embargo, en la vida real, tienden a crecer y tienen múltiples pasos para cada una de estas palabras clave. Para detectar rápidamente dónde termina un bloque y comienza otro, puede sangrar los pasos que comienzan con "Y". Entonces, el escenario sería algo así:<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/gerkin-1.png" alt="Discernible" /></p><br>
-Una alternativa es hacer que cada paso comience con la misma sangría y agregar una nueva línea adicional antes del siguiente bloque de palabras clave.<br><br>
+  En teoría, sus escenarios pueden ser tan simples como un solo paso Given, When Then, cada uno. Sin embargo, en la vida real, tienden a crecer y tienen múltiples pasos para cada una de estas palabras clave. Para detectar rápidamente dónde termina un bloque y comienza otro, puede sangrar los pasos que comienzan con "Y". Entonces, el escenario sería algo así:<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/gerkin-1.png" alt="Discernible" /></p><br>
+  Una alternativa es hacer que cada paso comience con la misma sangría y agregar una nueva línea adicional antes del siguiente bloque de palabras clave.<br><br>
 - *Steps with Tables*<br>
-A menudo usamos tablas en nuestros pasos. Para que sea inmediatamente reconocible que un paso necesita más información de una tabla, usamos dos puntos al final del paso. Esto ayuda cuando se usa IntelliSense, que no incluye vistas previas de tablas, pero mostrará los dos puntos:<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/gerkin-2.png" alt="tables" /></p><br>
+  A menudo usamos tablas en nuestros pasos. Para que sea inmediatamente reconocible que un paso necesita más información de una tabla, usamos dos puntos al final del paso. Esto ayuda cuando se usa IntelliSense, que no incluye vistas previas de tablas, pero mostrará los dos puntos:<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/gerkin-2.png" alt="tables" /></p><br>
 - *Reducing Noise*<br>
-Para reducir el ruido, se recomienda utilizar valores predeterminados para los campos que el sistema requiere, pero que no son relevantes para su escenario.<br>
-<br><p align="center"><img src="assets/source-code-style-guide-conventions/gerkin-3.png" alt="noise" /></p><br>
-Para mas informacion sobre las convenciones de Gherkin: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
+  Para reducir el ruido, se recomienda utilizar valores predeterminados para los campos que el sistema requiere, pero que no son relevantes para su escenario.<br>
+  <br><p align="center"><img src="assets/source-code-style-guide-conventions/gerkin-3.png" alt="noise" /></p><br>
+  Para mas informacion sobre las convenciones de Gherkin: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
 
 #### 5.1.4. Software Deployment Configuration
 **Pasos realizados para desplegar la Landing Page:**
@@ -2497,7 +2498,7 @@ Evidencia del proceso:
 <img src="assets/sprint1/landingEvidence.png" width=600 >
 
 
-El enlace de acceso a la landing page es el siguiente: https://automovil-unite.netlify.app/ 
+El enlace de acceso a la landing page es el siguiente: https://automovil-unite.netlify.app/
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint.
 
@@ -3584,7 +3585,7 @@ Enlace: https://trello.com/b/OlPL01ZU/opennova-trello
 </table>
 
 
-### **Backend** 
+### **Backend**
 
 <table>
     <tr>
@@ -3792,7 +3793,7 @@ A continuación, se detalla la relación de Endpoints documentados, incluyendo l
 **Controladores y Endpoints Documentados**
 
 - **Rental Management Endpoints**
-Se encarga de la gestión integral de los alquileres de vehículos. Incluye la creación de nuevos registros de alquiler, la consulta de alquileres específicos o la lista completa, la actualización de sus datos y la eliminación cuando sea necesario.
+  Se encarga de la gestión integral de los alquileres de vehículos. Incluye la creación de nuevos registros de alquiler, la consulta de alquileres específicos o la lista completa, la actualización de sus datos y la eliminación cuando sea necesario.
 
 <table>
     <tbody>
@@ -3884,7 +3885,7 @@ Se encarga de la gestión integral de los alquileres de vehículos. Incluye la c
 ![s-rental5.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental5.png)
 
 - **Publication Management Endpoints**
-Maneja la administración de las publicaciones de vehículos disponibles para alquiler. Permite crear nuevas publicaciones, consultarlas individualmente o en listados filtrados, actualizarlas y gestionarlas por propietario o estado.
+  Maneja la administración de las publicaciones de vehículos disponibles para alquiler. Permite crear nuevas publicaciones, consultarlas individualmente o en listados filtrados, actualizarlas y gestionarlas por propietario o estado.
 
 <table>
     <tbody>
@@ -4120,10 +4121,10 @@ Ya que los pasos para desplegar tanto la landing page como el frontend son los m
 ![deploy-landing.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-landing.png)
 
 - Se puede visualizar la seción Call To Action, donde al seleccionar "TRY NOW" te redirige a la página de inicio del FrontEnd.
-![deploy-landing2.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-landing2.png)
+  ![deploy-landing2.png](assets/execution-evidence-for-sprint-review/sprint3/deploy-landing2.png)
 
 - Se puede visualizar la sección About the Product:
-![atp-lp-deploy-s3.png](assets/execution-evidence-for-sprint-review/sprint3/atp-lp-deploy-s3.png)
+  ![atp-lp-deploy-s3.png](assets/execution-evidence-for-sprint-review/sprint3/atp-lp-deploy-s3.png)
 
 DEPLOYMENT LINK ingresar desde landing:https://automovil-unite.netlify.app/
 
@@ -4142,7 +4143,7 @@ DEPLOYMENT LINK ingresar desde web application (frontend):https://opennova-front
 Para este sprint se desarrollaron la landing page, frontend y backend. La distribución de commits fue la siguiente:
 
 - **Landing Page:**
-- 
+-
 ![insight-lp-s3.png](assets/execution-evidence-for-sprint-review/sprint3/insight-lp-s3.png)
 
 ![c-lp-s3.png](assets/execution-evidence-for-sprint-review/sprint3/c-lp-s3.png)
@@ -4156,7 +4157,7 @@ Para este sprint se desarrollaron la landing page, frontend y backend. La distri
 
 ![c-f-s3.png](assets/execution-evidence-for-sprint-review/sprint3/c-f-s3.png)
 
-- Kenyi Ramírez: 32 commits 
+- Kenyi Ramírez: 32 commits
 
 - **Backend:** (Por alguna razón, el integrante Josue Paiva no aparece en contributors)
 
@@ -4496,7 +4497,7 @@ A continuación, se detalla la relación de Endpoints documentados, incluyendo l
 **Controladores y Endpoints Documentados**
 
 - **Rental Management Endpoints**
-Se encarga de la gestión integral de los alquileres de vehículos. Incluye la creación de nuevos registros de alquiler, la consulta de alquileres específicos o la lista completa, la actualización de sus datos y la eliminación cuando sea necesario.
+  Se encarga de la gestión integral de los alquileres de vehículos. Incluye la creación de nuevos registros de alquiler, la consulta de alquileres específicos o la lista completa, la actualización de sus datos y la eliminación cuando sea necesario.
 
 <table>
     <tbody>
@@ -4588,7 +4589,7 @@ Se encarga de la gestión integral de los alquileres de vehículos. Incluye la c
 ![s-rental5.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental5.png)
 
 - **Publication Management Endpoints**
-Maneja la administración de las publicaciones de vehículos disponibles para alquiler. Permite crear nuevas publicaciones, consultarlas individualmente o en listados filtrados, actualizarlas y gestionarlas por propietario o estado.
+  Maneja la administración de las publicaciones de vehículos disponibles para alquiler. Permite crear nuevas publicaciones, consultarlas individualmente o en listados filtrados, actualizarlas y gestionarlas por propietario o estado.
 
 <table>
     <tbody>
@@ -5223,17 +5224,24 @@ A nivel de arquitectura de software, la definición y construcción de Bounded C
 La incorporación de un Bounded Context de Publication Management y Rental Management han fortalecido las funcionalidades clave del negocio.
 Finalmente, la validación de usabilidad a través de entrevistas ha revelado áreas críticas de mejora en la interfaz de usuario, especialmente en la adaptabilidad (responsividad) y la claridad de los flujos. Estos hallazgos son invaluables para iterar y refinar la experiencia de usuario, asegurando que la robusta arquitectura de backend se traduzca en una aplicación intuitiva y satisfactoria para los usuarios finales.
 
+
+**TF:**
+
+Concluimos satisfactoriamente con los bounded contexts que son pertinentes al core de negocio, desplegamos los ultimos dos servicios en linea, los web services con azure y la base de datos con railway, lo cual fue muy conveniente, pues ya no se necesita configurar base de datos para realizar pruebas, ademas de registrar todas las operaciones realizadas por los 2 integrantes del equipo en todo momento. Finalmente el avance mas importante fue la interaccion entre frontend y backend la cual se concluyo en su gran mayoria, volviendo la aplicacion completamente funcional. Finalmente la implementacion de IAM nos permite mantener un control y registro de los usuarios del producto, asegurando seguridad y control de acceso de manera eficiente
 ## Anexos
 
 
-- Link de Landing Page en Figma: https://www.figma.com/design/KQZVfQlFF1EJRZbvBsT8kQ/Automovile-Unit-Grupo4-Open-Source?node-id=0-1&t=kCxtkI0IitGNpgQP-1 
-- Link de Web Applications Wireflow Diagrams: https://www.figma.com/design/dMPbJmbpMqy4N1yWuMaRPp/Web-Applications-Wireflow-Diagrams?node-id=0-1&t=molesIHFjiHe55pb-1 
+- Link de Landing Page en Figma: https://www.figma.com/design/KQZVfQlFF1EJRZbvBsT8kQ/Automovile-Unit-Grupo4-Open-Source?node-id=0-1&t=kCxtkI0IitGNpgQP-1
+- Link de Web Applications Wireflow Diagrams: https://www.figma.com/design/dMPbJmbpMqy4N1yWuMaRPp/Web-Applications-Wireflow-Diagrams?node-id=0-1&t=molesIHFjiHe55pb-1
 - Link del web application: https://www.figma.com/design/H0lrOkiWmXCNlLaRUbHzXj/web-application---Open-Source?node-id=0-1&t=4GfgGr3JzT0rYb3R-1
-- Link del Web Applications Prototyping: https://www.figma.com/design/WhozRt9Aq2rVJwXMXadh2h/Web-Applications-Prototyping?node-id=0-1&t=N0zAgK53okXLroEN-1 
--Link de repositorio de GitHub: https://github.com/Grupo-4-Open-Source/Report
+- Link del Web Applications Prototyping: https://www.figma.com/design/WhozRt9Aq2rVJwXMXadh2h/Web-Applications-Prototyping?node-id=0-1&t=N0zAgK53okXLroEN-1
+  -Link de repositorio de GitHub: https://github.com/Grupo-4-Open-Source/Report
 - Link de la landing page desplegada: https://automovil-unite.netlify.app/
 - Link del front desplegado: https://opennova-frontend.netlify.app/
-- Link about the team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220138_upc_edu_pe/ETSIncc7XBdNj6DW1hCpTDcBl3EuVnW8A47xjmFdy_3L4A?e=lRh2ho&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Link about the team(Kenyi): https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220138_upc_edu_pe/ETSIncc7XBdNj6DW1hCpTDcBl3EuVnW8A47xjmFdy_3L4A?e=lRh2ho&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+-Link about the team(Josue):https://upcedupe-my.sharepoint.com/:v:/g/personal/u202119095_upc_edu_pe/EbA2rRTMvVpJqpQt4yJcfswB5btIdb42WwvqgT7eKzP1hg?e=e2zp6R&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 ## Bibliografías
 
 - HTML: HyperText Markup Language | MDN. (2023, July 17). Mozilla.org. https://developer.mozilla.org/en-US/docs/Web/HTML

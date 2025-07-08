@@ -4219,10 +4219,10 @@ Para este sprint se desarrollaron la landing page, frontend y backend. La distri
 </tr>
 <tr>
     <td colspan="5">Sprint 4 Velocity</td>
-    <td colspan="8"></td>
+    <td colspan="8">35 Story Points</td>
 <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8"></td>
+    <td colspan="8">35 Story Points</td>
 </tr>
 </table>
 

@@ -207,6 +207,9 @@ del ABET – EAC - Student Outcome 3.
 <br>
 <br>
     <td>
+Como conclusion de la aplicación realizada, considero que logramos implementar una propuesta solida, con un core de negocio claro y definido
+y atacando una problematica real, donde el alquilado de vehiculos esta monopolizado por empresas grandes y que no tienen un servicio personalizado.
+En cuanto al desarrollo, este fue continuo y progresivo, la perdida de integrantes reforzo la necesidad de una buena comunicacion y trabajo en equipo, lo que nos permitio avanzar de manera satisfactoria en el desarrollo de la plataforma.
 </td>
   </tr>
   <tr>
@@ -228,6 +231,9 @@ del ABET – EAC - Student Outcome 3.
 <br>
     </td>
     <td>
+Culminar los dos servicios de la aplicación nos permitió realizar una presentación coherente y ordenada, pues presentar la propuesta es tan importante como implementarla,
+entre los 2 hemos progresado de manera constante, con buena comunicación y trabajo en equipo, lo que nos ha permitido avanzar en el desarrollo de la plataforma.
+Finalmente a modo de autocritica considero importante delimitar los bounded context de manera clara para no tener inconvenientes a la hora de juntar ambos servicios.
 </td>
   </tr>
 </table>
@@ -4810,28 +4816,51 @@ A continuación, se detalla la relación de Endpoints documentados, incluyendo l
     </tr>
 </table>
 
+![s-vehicle.png](assets/sprint4/vehicles.png)
+
+
+- **Insurance Management Endpoints**
+
+![s-insurance.png](assets/sprint4/insurance.png)
+
+
+- **Users Management Endpoints**
+
+![s-users.png](assets/sprint4/users.png)
+
+
+- **Roles Management Endpoints**
+
+![s-roles.png](assets/sprint4/roles.png)
+
+
+- **Authentication Management Endpoints**
+
+![s-authentication.png](assets/sprint4/authentication.png)
+
+
 
 ##### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 **Frontend**: La version final del frontend esta online y desplegada en Netlify:
 
-<img src="assets/sprint4/frontFinal.png" width=200px >
+<img src="assets/sprint4/frontFinal.png" width=500px >
 
-<img src="assets/sprint4/frontSingIn.png" width=200px >
+<img src="assets/sprint4/frontSingIn.png" width=500px >
 
 
 **Backend**: La version final del backend esta online y desplegada en Azure:
 
 
-<img src="assets/sprint4/azure.png" width=200px >
+<img src="assets/sprint4/azure.png" width=500px >
 
 
-<img src="assets/sprint4/backFinal.png" width=200px >
+<img src="assets/sprint4/backFinal.png" width=500px >
 
 
 **Base de datos**: La base de datos se encuentra online en Railway:
 
-<img src="assets/sprint4/railway.png" width=200px >
+<img src="assets/sprint4/railway.png" width=500px >
 
 
 
@@ -4839,11 +4868,11 @@ A continuación, se detalla la relación de Endpoints documentados, incluyendo l
 
 **Web Services Repository**
 
-<img src="assets/sprint4/backInsights.png" width=200px >
+<img src="assets/sprint4/backInsights.png" width=500px >
 
 **Frontend Repository**
 
-<img src="assets/sprint4/frontInsights.png" width=200px >
+<img src="assets/sprint4/frontInsights.png" width=500px >
 
 
 ### 5.3 Validation Interviews

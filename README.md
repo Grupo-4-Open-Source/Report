@@ -195,12 +195,12 @@ del ABET – EAC - Student Outcome 3.
         <strong>TB1:</strong>Me involucre de manera integral en el desarrollo del primer entregable, pues asumí el rol de team leader, me encargue de organizar las reuniones, definir fechas de entrega de avance y la logística respectiva para concluir a tiempo el entregable.<br>
         <strong>TP:</strong>En este entregable me concentré en el bounded context de la navegación de vehículos, asi como de la definición de endpoints para el resto de bounded context, el set up del repositorio y el despliegue de la app<br>
         <strong>TB2:</strong>En el TB2 me encargué de la elaboración del bounded context de vehicles en el backend con sus 4 operaciones POST, GET, DELETE y PUT<br>
-        <strong>TF:</strong>Para el ultimo entregable desarrolle el IAM del lado del backend y desplegue todos los servicios de nuestros repositorios<br>
+        <strong>TF:</strong>Para el último entregable desarrollé el IAM del lado del backend y desplegue todos los servicios de nuestros repositorios<br>
         <strong>Kenyi Ramírez</strong><br>
         <strong>TB1:</strong>Colaboré de manera activa con mi equipo en la elaboración de este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a desarrollar. Diseñé y expliqué la estructura de los diagramas de Domain-Driven Design (contexto, contenedor y componente), así como el diseño de clases y base de datos.<br>
         <strong>TP:</strong>Colaboré de manera activa con mi equipo en corregir este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a editar. También participé activamente en el frontend en la elaboración del bounded context Dashboard, explicando y mostrando a mis compañeros cómo funciona. Lo he diseñado de acuerdo a las historias de usuario y diagrama de clases/base de datos <br>
         <strong>TB2:</strong>Colaboré de manera activa con mi equipo en la elaboración de este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a desarrollar. Corregí la estructura de las User Stories y Product Backlog. Desarrollé las secciones de Sprint Backlog 3, Deployment, Execution Evidence, Video About the Product, Service Documentation y Validación de entrevistas.<br>
-
+        <strong>TF:</strong>En la etapa final del desarrollo del producto finalicé la elaboracion de servicios como Locations e Insurance, ademas de implementar el IAM en el frontend de la aplicacion<br>
 <br>
 <br>
 <br>
@@ -220,6 +220,7 @@ del ABET – EAC - Student Outcome 3.
         <strong>TB1:</strong> Me encargué del desarrollo de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. Estos diagramas son fundamentales para visualizar y comprender la arquitectura del sistema, proporcionando una representación clara de los diferentes niveles de la plataforma que desarrollaremos a lo largo del curso.<br>
         <strong>TP:</strong> Me encargué de la corrección de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. También corregí las User Stories junto con el Product Backlog. En cuanto al proyecto frontend, me encargué de crear e implementar la sección Dashboard y agregar algunos botones en el menú principal.<br>
         <strong>TB2:</strong>Me encargué de corregír la estructura de las User Stories y Product Backlog. Desarrollé las secciones de Sprint Backlog 3, Deployment, Execution Evidence, Video About the Product, Service Documentation y Validación de entrevistas. En cuanto al desarrollo de la plataforma, me encargué de realizar los bounded context de Publication Management, Rental Management y Dashboard y Vehicles solo en el frontend.<br>
+        <strong>TF:</strong>Me encargué de pulir los ultimos servicios Locations e Insurance, implementacion de registro y login, etc.<br>
 
 <br>
 <br>

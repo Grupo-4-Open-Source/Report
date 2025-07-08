@@ -4823,6 +4823,9 @@ A continuación, se detalla la relación de Endpoints documentados, incluyendo l
 
 ![s-insurance.png](assets/sprint4/insurance.png)
 
+- **Locations Management Endpoints**
+
+![s-locations.png](assets/sprint4/locations.png)
 
 - **Users Management Endpoints**
 

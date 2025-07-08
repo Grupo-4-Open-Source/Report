@@ -191,15 +191,11 @@ del ABET – EAC - Student Outcome 3.
   <tr>
     <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
     <td>
-        <strong>Alejandro Torres</strong><br>
-        <strong>TB1:</strong> En el proyecto, participe en las tareas asignadas, realice una encuesta a cada segmento lo cual me llevo a entender mas el producto a desarrollar, mantuve una comunicación lo más activo posible para generar confianza.<br>
-        <strong>Fiorella Vilca</strong><br>
-        <strong>TB1:</strong>En el proyecto, participé activamente en el diseño de la landing page y la aplicación web, desarrollando wireframes, mockups y prototipos funcionales. Realicé una presentación oral sobre el proceso de diseño, destacando la arquitectura de la información, los sistemas de navegación, y los lineamientos de estilo, adaptando el contenido según el nivel de conocimiento de la audiencia.<br>
         <strong>Josue Paiva</strong><br>
         <strong>TB1:</strong>Me involucre de manera integral en el desarrollo del primer entregable, pues asumí el rol de team leader, me encargue de organizar las reuniones, definir fechas de entrega de avance y la logística respectiva para concluir a tiempo el entregable.<br>
         <strong>TP:</strong>En este entregable me concentré en el bounded context de la navegación de vehículos, asi como de la definición de endpoints para el resto de bounded context, el set up del repositorio y el despliegue de la app<br>
-        <strong>Javier Tello</strong><br> 
-        <strong>TB1:</strong>En el proyecto, participé activamente con el grupo, con las tareas asignadas, también pude hacer entrevistas a cada segmento y así pude lograr entender realmente bien sus necesidades para poder realizar el trabajo correctamente.<br>
+        <strong>TB2:</strong>En el TB2 me encargué de la elaboración del bounded context de vehicles en el backend con sus 4 operaciones POST, GET, DELETE y PUT<br>
+        <strong>TF:</strong>Para el ultimo entregable desarrolle el IAM del lado del backend y desplegue todos los servicios de nuestros repositorios<br>
         <strong>Kenyi Ramírez</strong><br>
         <strong>TB1:</strong>Colaboré de manera activa con mi equipo en la elaboración de este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a desarrollar. Diseñé y expliqué la estructura de los diagramas de Domain-Driven Design (contexto, contenedor y componente), así como el diseño de clases y base de datos.<br>
         <strong>TP:</strong>Colaboré de manera activa con mi equipo en corregir este informe asistiendo en todas las reuniones de equipo, comunicando y entendiendo de forma efectiva los aspectos a editar. También participé activamente en el frontend en la elaboración del bounded context Dashboard, explicando y mostrando a mis compañeros cómo funciona. Lo he diseñado de acuerdo a las historias de usuario y diagrama de clases/base de datos <br>
@@ -215,15 +211,11 @@ del ABET – EAC - Student Outcome 3.
   <tr>
     <td>Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
     <td>
-        <strong>Alejandro Torres</strong><br>
-        <strong>TB1:</strong> Realice el Lean UX Process lo cual me ayudo a comprender más en el desarrollo y funcionalidades del aplicativo.<br>
-        <strong>Fiorella Vilca</strong><br>
-        <strong>TB1:</strong>Expliqué de manera clara los lineamientos de estilo, la arquitectura de información y el diseño UI/UX de la landing page y la aplicación web. Utilicé recursos visuales como wireframes, mockups y diagramas de flujos.<br>
         <strong>Josue Paiva</strong><br>
-        <strong>TB1:</strong> Me encargué del desarrollo del capítulo II en su totalidad, ademas de desarrollar las historias de usuario con sus respectivas épicas, finalmente contribuí con el despliegue de la landing page <br>
-        <strong>TP:</strong>Fui el responsable del correcto despliegue de la landing page y su mock server, para asi poder realizar correctamente la presentacion de la app<br>
-        <strong>Javier Tello</strong><br>
-        <strong>TB1:</strong> Realicé el To-Be Scenario mapping lo cual entendí los pasos que se pueden hacer cuando la plataforma ya esté hecha, tambien el Impact Mapping para saber los impactos de nuestros segmentos, finalmente contribuí con el Product Backlog y entendi que funcionalidades tenemos que priorizar y tomarlo en cuenta.<br>
+        <strong>TB1:</strong> Me encargué del desarrollo del capítulo II en su totalidad, además de desarrollar las historias de usuario con sus respectivas épicas, finalmente contribuí con el despliegue de la landing page <br>
+        <strong>TP:</strong>Fui el responsable del correcto despliegue de la landing page y su mock server, para asi poder realizar correctamente la presentación de la app<br>
+        <strong>TB2:</strong>Con la reestructuración del equipo reasigné las prioridades a los bounded context de publicación y reservas, pues son los core de negocio de nuestra aplicación<br>
+        <strong>TF:</strong>Para concluir la producción del producto considere pertinente desplegar todos los servicios e implementar comunicacion entre los mismos, asi como tener una base de datos online 24/7 para realiazr pruebas y registros<br>
         <strong>Kenyi Ramírez</strong><br>
         <strong>TB1:</strong> Me encargué del desarrollo de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. Estos diagramas son fundamentales para visualizar y comprender la arquitectura del sistema, proporcionando una representación clara de los diferentes niveles de la plataforma que desarrollaremos a lo largo del curso.<br>
         <strong>TP:</strong> Me encargué de la corrección de los diagramas de context, container y component en modelo C4. También de los diagramas de clases y base de datos. También corregí las User Stories junto con el Product Backlog. En cuanto al proyecto frontend, me encargué de crear e implementar la sección Dashboard y agregar algunos botones en el menú principal.<br>
@@ -4120,7 +4112,7 @@ Maneja la administración de las publicaciones de vehículos disponibles para al
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Ya que los pasos para desplegar tanto el landing page como el frontend son los mismos que en el sprint anterior, se ha decidido no repetirlos. Sin embargo, se han realizado los siguientes despliegues:
+Ya que los pasos para desplegar tanto la landing page como el frontend son los mismos que en el sprint anterior, se ha decidido no repetirlos. Sin embargo, se han realizado los siguientes despliegues:
 
 **Landing Page:** Para la Landing Page, se utilizó Netlify para el despliegue de la página.
 
@@ -4173,6 +4165,684 @@ Para este sprint se desarrollaron la landing page, frontend y backend. La distri
 
 - Kenyi Ramírez: 7 commits
 - Josue Paiva: 4 commits
+
+
+#### 5.2.4. Sprint 4
+##### 5.2.4.1. Sprint Planning 4
+<table>
+<tr>
+    <th colspan="5">Sprint 4</th>
+    <th colspan="9">Sprint 4</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">02-06-25</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">10:00 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Josue Paiva</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Kenyi Ramirez</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint  4 Review Summary</td>
+    <td colspan="8">En el Sprint 4 nos enfocamos en conectar el frontend con el backend, ademas de desplegar todos los servicios en linea, de tal modo que pueden consultarse en cualquier momento.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 4 Retrospective Summary</td>
+    <td colspan="8">Además de culminar con los servicios de los endpoints pendientes, implementamos el IAM para la seguridad, tanto en front como en back.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 4 Goal</td>
+       <td colspan="8">Conectar el frontend con el backend y comprobar que los servicios funcionan correctamente</td>
+
+</tr>
+<tr>
+    <td colspan="5">Sprint 4 Velocity</td>
+    <td colspan="8"></td>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8"></td>
+</tr>
+</table>
+
+
+##### 5.2.4.2. Aspect Leaders and Collaborators
+
+Durante este tercer Sprint, el equipo se enfocó principalmente en culminar el desarrollo del frontend de Automovil-Unite y los servicios CRUD de su backend.
+Con el fin de organizar de manera más eficiente el trabajo colaborativo, se ha elaborado la matriz de Liderazgo y Colaboración (LACX). Esta matriz asigna responsabilidades específicas a cada miembro del equipo en relación con los aspectos clave del Sprint. Cada aspecto es un bounded context determinado.
+<table>
+  <tr>
+    <td colspan="2"><strong>Team Member (Last Name, First Name)</strong></td>
+    <td><strong>GitHub Username</strong></td>
+    <td><strong>Implementación de Vehicle Management<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación de Publication Management<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación de Rental Management<br>Leader (L) / Collaborator (C)</strong></td>
+    <td><strong>Implementación de Dashboard<br>Leader (L) / Collaborator (C)</strong></td>
+
+  </tr>
+  <tr>
+    <td colspan="2">Paiva Quispe, Josue Gonzalo</td>
+    <td>JosuePaiva02</td>
+    <td>L</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td colspan="2">Ramírez Cabrera, Kenyi Efraín </td>
+    <td>Kenyi15upc</td>
+    <td>C</td>
+    <td>L</td>
+    <td>L</td>
+    <td>L</td>
+  </tr>
+</table>
+
+
+##### 5.2.4.3. Sprint Backlog 4
+
+Nuestro enfoque principal para este Sprint ha sido el desarrollo del frontend y backend de la plataforma AutomovilUnite. Hemos estructurado nuestras tareas siguiendo las User Stories y Technical Stories que hemos detallado, asegurando un progreso claro y alineado con los objetivos de negocio y la arquitectura técnica.
+
+Para la gestión y el control de estas tareas, estamos utilizando Trello.
+
+<img src="assets/sprint4/frontFinal.png" width=200px >
+
+Enlace: https://trello.com/b/OlPL01ZU/opennova-trello
+
+<table>
+    <tbody>
+        <tr>
+            <th colspan="3"> Sprint # </th>
+            <th colspan="10"> Sprint 3 </th>
+        </tr>
+        <tr>
+            <td colspan="3"> User Story </td>
+            <td colspan="10"> Work-Item/Task </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Id </td>
+            <td colspan="2"> Title </td>
+            <td colspan="1"> Id </td>
+            <td colspan="2"> Title </td>
+            <td colspan="3"> Description </td>
+            <td colspan="1"> Estimation (Hours) </td>
+            <td colspan="2"> Assigned To </td>
+            <td colspan="1"> Status (To do/ In-Process/ To-Review/ Done) </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS05 </td>
+            <td colspan="2"> Implementación de autenticación del usuario </td>
+            <td colspan="1"> Backend </td>
+            <td colspan="2"> Implementación del servicio de authorization </td>
+            <td colspan="3"> Autenticación para el acceso de endpoints. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS06 </td>
+            <td colspan="2"> Servicio de registro de nuevos usuarios </td>
+            <td colspan="1"> Backend </td>
+            <td colspan="2"> Sign Up de usuario </td>
+            <td colspan="3"> Creación de usuarios. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> TS07 </td>
+            <td colspan="2"> Servicio de login de usuarios existentes </td>
+            <td colspan="1"> Backend </td>
+            <td colspan="2"> Log In de usuario ya registrado </td>
+            <td colspan="3"> Generación del token para acceder a ka documentación. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Josue Paiva </td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US29 </td>
+            <td colspan="2"> Página de inicio de sesión usuario ya existente </td>
+            <td colspan="1"> Frontend </td>
+            <td colspan="2"> Página de login para usuarios </td>
+            <td colspan="3"> Permite el acceso a la aplicación. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez</td>
+            <td colspan="1"> Done </td>
+        </tr>
+        <tr>
+            <td colspan="1"> US30 </td>
+            <td colspan="2"> Pagina de registro de nuevo usuario </td>
+            <td colspan="1"> Frontend </td>
+            <td colspan="2"> Página de registro para usuarios nuevos </td>
+            <td colspan="3"> Permite registrar un usuario desde el frontend. </td>
+            <td colspan="1"> 6 </td>
+            <td colspan="2"> Kenyi Ramirez </td>
+            <td colspan="1"> Done </td>
+        </tr>
+    </tbody>
+</table>
+
+##### 5.2.4.4. Development Evidence for Sprint Review
+
+
+### **Backend**
+
+<table>
+    <tr>
+        <td colspan="1">Repository</td>
+        <td colspan="1">Branch</td>
+        <td colspan="1">Commit Id</td>
+        <td colspan="1">Commit Message</td>
+        <td colspan="1">Commit Message Body</td>
+        <td colspan="1">Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>a17abd8fafd710b3a248a70d6735d13bbdb9b582</td>
+        <td>Merge pull request #19 from Grupo-4-Open-Source/master</td>
+        <td>Merge pull request #19 from Grupo-4-Open-Source/master</td>
+        <td>07/07/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>main</td>
+        <td>fce4a9a3fd3e58afe66a23d80ed9fbc646517dfc</td>
+        <td>feat(iam): add authentication guard, service, interceptor, sign in, sign up and sign out</td>
+        <td>feat(iam): add authentication guard, service, interceptor, sign in, sign up and sign out</td>
+        <td>07/07/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>develop</td>
+        <td>69384f7f6f1ef745df37601437e4a4b843895434</td>
+        <td>fix(vehicles): update vehicle valueobjects, aggregate, commands and queries structure</td>
+        <td>fix(vehicles): update vehicle valueobjects, aggregate, commands and queries structure</td>
+        <td>07/07/2025</td>
+    </tr>
+<tr>
+    <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+    <td>develop</td>
+    <td>Merge pull request #8</td>
+    <td>Merge pull request #8 from Grupo-4-Open-Source/feat/vehicles</td>
+    <td>Merge pull request #8 from Grupo-4-Open-Source/feat/vehicles</td>
+    <td>06/07/2025</td>
+</tr>
+<tr>
+    <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+    <td>fix/IAM</td>
+    <td>f030712332ef137ed6cfcf8169660eb48260c970</td>
+    <td>fix(iam): add 'renter' and 'owner' roles to Roles value object</td>
+    <td>fix(iam): add 'renter' and 'owner' roles to Roles value object</td>
+    <td>06/07/2025</td>
+</tr>
+<tr>
+    <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+    <td>fix/vehicles</td>
+    <td>fcc1fc5d62ae35cd1b0ab1e8bc1f325323500c92</td>
+    <td>fix(vehicles): update vehicle resources, transform and controller</td>
+    <td>fix(vehicles): update vehicle resources, transform and controller</td>
+    <td>06/07/2025</td>
+</tr>
+<tr>
+    <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+    <td>fix/vehicles</td>
+    <td>3fa67ff3b0a11c65f2c5987029ee064bb4869ca3</td>
+    <td>fix(vehicles): update vehicle repository</td>
+    <td>fix(vehicles): update vehicle repository</td>
+    <td>06/07/2025</td>
+</tr>
+
+</table>
+
+
+### **Frontend**
+
+<table>
+    <tr>
+        <td colspan="1">Repository</td>
+        <td colspan="1">Branch</td>
+        <td colspan="1">Commit Id</td>
+        <td colspan="1">Commit Message</td>
+        <td colspan="1">Commit Message Body</td>
+        <td colspan="1">Commited on (Date)</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/IAM</td>
+        <td>380d48d311e22d18bca00eb1c4733e3187f8a69a</td>
+        <td>feat: added IAM</td>
+        <td>feat: added IAM</td>
+        <td>07/07/2025</td>
+    </tr>
+    <tr>
+        <td>https://github.com/Grupo-4-Open-Source/AutomovilUnite</td>
+        <td>feat/publications</td>
+        <td>d589a6e981446478337962b71434af2d0782ea50</td>
+        <td>feat(publications): add Model, Application, Infrastructure and Interfaces to Location entity</td>
+        <td>feat(publications): add Model, Application, Infrastructure and Interfaces to Location entity</td>
+        <td>07/07/2025</td>
+    </tr>
+</table>
+
+##### 5.2.4.5. Execution Evidence for Sprint Review
+
+- FrontEnd:
+
+**Sección de elección de rol:**
+![f-select-role.png](assets/execution-evidence-for-sprint-review/sprint3/f-select-role.png)
+
+**Sección de Dashboard (Renter):**
+![f-rental-dashboard1.png](assets/execution-evidence-for-sprint-review/sprint3/f-rental-dashboard1.png)
+
+![f-rental-dashboard2.png](assets/execution-evidence-for-sprint-review/sprint3/f-rental-dashboard2.png)
+
+![f-rental-dashboard3.png](assets/execution-evidence-for-sprint-review/sprint3/f-rental-dashboard3.png)
+
+![f-rental-dashboard4.png](assets/execution-evidence-for-sprint-review/sprint3/f-rental-dashboard4.png)
+
+**Sección Mis reservas (Renter):**
+![f-my-bookings-renter.png](assets/execution-evidence-for-sprint-review/sprint3/f-my-bookings-renter.png)
+
+**Sección de detalles de alquiler (Renter):**
+![f-rent-details.png](assets/execution-evidence-for-sprint-review/sprint3/f-rent-details.png)
+
+**Sección de Alquilar Vehículo (Renter):**
+![f-rent-vehicle-renter.png](assets/execution-evidence-for-sprint-review/sprint3/f-rent-vehicle-renter.png)
+
+
+**Sección de Dashboard (Owner):**
+![f-owner-dashboard1.png](assets/execution-evidence-for-sprint-review/sprint3/f-owner-dashboard1.png)
+
+![f-owner-dashboard2.png](assets/execution-evidence-for-sprint-review/sprint3/f-owner-dashboard2.png)
+
+**Sección de Publicar Vehículo (Owner):**
+![f-publish-vehicle1.png](assets/execution-evidence-for-sprint-review/sprint3/f-publish-vehicle1.png)
+
+![f-publish-vehicle2.png](assets/execution-evidence-for-sprint-review/sprint3/f-publish-vehicle2.png)
+
+
+- Backend:
+
+![backend1.png](assets/execution-evidence-for-sprint-review/sprint3/backend1.png)
+
+![backend2.png](assets/execution-evidence-for-sprint-review/sprint3/backend2.png)
+
+![backend3.png](assets/execution-evidence-for-sprint-review/sprint3/backend3.png)
+
+![Backend4.png](assets/execution-evidence-for-sprint-review/sprint3/Backend4.png)
+
+
+##### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint, hemos logrado un progreso significativo en la implementación y documentación de los servicios web fundamentales para la gestión de Alquileres (Rentals), Publicaciones (Publications) y Vehiculos. Todos los endpoints clave han sido documentados utilizando las especificaciones de OpenAPI, lo que facilita la integración y el consumo de estos servicios por parte de los equipos de frontend y otros sistemas. Se ha priorizado la claridad en las acciones soportadas, los verbos HTTP, la sintaxis de las llamadas, los parámetros y la estructura de las respuestas para asegurar una comprensión unívoca de la API.
+
+A continuación, se detalla la relación de Endpoints documentados, incluyendo las acciones implementadas para cada uno:
+
+**Controladores y Endpoints Documentados**
+
+- **Rental Management Endpoints**
+Se encarga de la gestión integral de los alquileres de vehículos. Incluye la creación de nuevos registros de alquiler, la consulta de alquileres específicos o la lista completa, la actualización de sus datos y la eliminación cuando sea necesario.
+
+<table>
+    <tbody>
+        <tr>
+            <th colspan="1"> Tag </th>
+            <th colspan="1"> Verbo http</th>
+            <th colspan="1"> Endpoint </th>
+            <th colspan="1"> Summary </th>
+            <th colspan="1"> Description </th>
+            <th colspan="1"> OperationId </th>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/rentals/{rentalId} </td>
+            <td colspan="1"> Get a Rental by ID </td>
+            <td colspan="1"> Retrieves a Rental by its unique internal ID. </td>
+            <td colspan="1"> getRentalById </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> rentalId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> PUT </td>
+            <td colspan="1"> /api/v1/rentals/{rentalId} </td>
+            <td colspan="1"> Update a Rental </td>
+            <td colspan="1"> Updates an existing Rental identified by its ID. </td>
+            <td colspan="1"> updateRental </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> rentalId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> DELETE </td>
+            <td colspan="1"> /api/v1/rentals/{rentalId} </td>
+            <td colspan="1"> Delete a Rental </td>
+            <td colspan="1"> Deletes a Rental identified by its ID. </td>
+            <td colspan="1"> deleteRental </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> rentalId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/rentals </td>
+            <td colspan="1"> Get all Rentals </td>
+            <td colspan="1"> Retrieves a list of all existing Rentals. </td>
+            <td colspan="1"> getAllRentals </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Rentals </td>
+            <td colspan="1"> POST </td>
+            <td colspan="1"> /api/v1/rentals </td>
+            <td colspan="1"> Create a new Rental </td>
+            <td colspan="1"> Creates a new Rental with the provided data. </td>
+            <td colspan="1"> createRental </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+    </tbody>
+</table>
+
+![s-rental1.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental1.png)
+![s-rental2.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental2.png)
+![s-rental3.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental3.png)
+![s-rental4.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental4.png)
+![s-rental5.png](assets/execution-evidence-for-sprint-review/sprint3/s-rental5.png)
+
+- **Publication Management Endpoints**
+Maneja la administración de las publicaciones de vehículos disponibles para alquiler. Permite crear nuevas publicaciones, consultarlas individualmente o en listados filtrados, actualizarlas y gestionarlas por propietario o estado.
+
+<table>
+    <tbody>
+        <tr>
+            <th colspan="1"> Tag </th>
+            <th colspan="1"> Verbo http</th>
+            <th colspan="1"> Endpoint </th>
+            <th colspan="1"> Summary </th>
+            <th colspan="1"> Description </th>
+            <th colspan="1"> OperationId </th>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications/{publicationId} </td>
+            <td colspan="1"> Get a Publication by its External ID </td>
+            <td colspan="1"> Retrieves a Publication by its unique external ID. </td>
+            <td colspan="1"> getPublicationById </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> PUT </td>
+            <td colspan="1"> /api/v1/publications/{publicationId} </td>
+            <td colspan="1"> Update a Publication </td>
+            <td colspan="1"> Updates an existing Publication identified by its external ID. </td>
+            <td colspan="1"> updatePublication </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> DELETE </td>
+            <td colspan="1"> /api/v1/publications/{publicationId} </td>
+            <td colspan="1"> Delete a Publication </td>
+            <td colspan="1"> Deletes a Publication identified by its external ID. </td>
+            <td colspan="1"> deletePublication </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications </td>
+            <td colspan="1"> Get all Publications </td>
+            <td colspan="1"> Retrieves a list of all existing Publications. </td>
+            <td colspan="1"> getAllPublications </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> POST </td>
+            <td colspan="1"> /api/v1/publications </td>
+            <td colspan="1"> Create a new Publication </td>
+            <td colspan="1"> Creates a new Publication with the provided data. </td>
+            <td colspan="1"> createPublication </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> PATCH </td>
+            <td colspan="1"> /api/v1/publications/{publicationId}/status </td>
+            <td colspan="1"> Update Publication Status </td>
+            <td colspan="1"> Updates the status of an existing Publication. </td>
+            <td colspan="1"> updatePublicationStatus </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> publicationId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> yes </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications/owner/{ownerId} </td>
+            <td colspan="1"> Get Publications by Owner ID </td>
+            <td colspan="1"> Retrieves a list of Publications by a specific Owner ID. </td>
+            <td colspan="1"> getPublicationsByOwnerId </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> ownerId (path) </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Publications </td>
+            <td colspan="1"> GET </td>
+            <td colspan="1"> /api/v1/publications/featured </td>
+            <td colspan="1"> Get Featured Publications </td>
+            <td colspan="1"> Retrieves a list of Publications marked as featured. </td>
+            <td colspan="1"> getFeaturedPublications </td>
+        </tr>
+        <tr>
+            <td colspan="1"> Parameters </td>
+            <td colspan="2"> - </td>
+            <td colspan="1"> Request body </td>
+            <td colspan="2"> no </td>
+        </tr>
+    </tbody>
+</table>
+
+![s-publication1.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication1.png)
+![s-publication2.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication2.png)
+![s-publication3.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication3.png)
+![s-publication4.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication4.png)
+![s-publication5.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication5.png)
+![s-publication6.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication6.png)
+![s-publication7.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication7.png)
+![s-publication8.png](assets/execution-evidence-for-sprint-review/sprint3/s-publication8.png)
+
+
+<p>Vehicle Management Endpoints</p>
+<p>Se encarga de la administración de los vehículos registrados en el sistema, independientemente de si están actualmente publicados o no para alquiler. Permite el registro de nuevos vehículos, la consulta de detalles específicos o listados completos, la actualización de sus atributos y su eliminación.</p>
+
+<table>
+    <tr>
+        <th colspan="1"> Tag </th>
+        <th colspan="1"> Verbo http</th>
+        <th colspan="1"> Endpoint </th>
+        <th colspan="1"> Summary </th>
+        <th colspan="1"> Description </th>
+        <th colspan="1"> OperationId </th>
+    </tr>
+    <tr>
+        <td colspan="1"> Vehicles </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/vehicle/{vehicleId} </td>
+        <td colspan="1"> Get a Vehicle by ID </td>
+        <td colspan="1"> Retrieves the detailed information of a Vehicle by its unique internal ID. </td>
+        <td colspan="1"> getVehicleById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> vehicleId (path) </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Vehicles </td>
+        <td colspan="1"> PUT </td>
+        <td colspan="1"> /api/v1/vehicle/{vehicleId} </td>
+        <td colspan="1"> Update a Vehicle </td>
+        <td colspan="1"> Updates an existing Vehicle's information identified by its ID. </td>
+        <td colspan="1"> updateVehicle </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> vehicleId (path) </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> yes </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Vehicles </td>
+        <td colspan="1"> DELETE </td>
+        <td colspan="1"> /api/v1/vehicle/{vehicleId} </td>
+        <td colspan="1"> Delete a Vehicle </td>
+        <td colspan="1"> Deletes a Vehicle record identified by its ID from the system. </td>
+        <td colspan="1"> deleteVehicle </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> vehicleId (path) </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Vehicles </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/vehicle </td>
+        <td colspan="1"> Get all Vehicles </td>
+        <td colspan="1"> Retrieves a list of all existing Vehicles registered in the system. </td>
+        <td colspan="1"> getAllVehicles </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> - </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Vehicles </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/vehicle </td>
+        <td colspan="1"> Create a new Vehicle </td>
+        <td colspan="1"> Registers a new Vehicle in the system with the provided data. </td>
+        <td colspan="1"> createVehicle </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> - </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> yes </td>
+    </tr>
+</table>
+
+
+##### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+**Frontend**: La version final del frontend esta online y desplegada en Netlify:
+
+<img src="assets/sprint4/frontFinal.png" width=200px >
+
+<img src="assets/sprint4/frontSingIn.png" width=200px >
+
+
+**Backend**: La version final del backend esta online y desplegada en Azure:
+
+
+<img src="assets/sprint4/azure.png" width=200px >
+
+
+<img src="assets/sprint4/backFinal.png" width=200px >
+
+
+**Base de datos**: La base de datos se encuentra online en Railway:
+
+<img src="assets/sprint4/railway.png" width=200px >
+
+
+
+##### 5.2.4.8. Team Collaboration Insights during Sprint
+
+**Web Services Repository**
+
+<img src="assets/sprint4/backInsights.png" width=200px >
+
+**Frontend Repository**
+
+<img src="assets/sprint4/frontInsights.png" width=200px >
+
 
 ### 5.3 Validation Interviews
 
